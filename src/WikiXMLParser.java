@@ -52,12 +52,17 @@ public class WikiXMLParser {
 				Node child = childNodes.item(j);
 				if(child.getNodeName().equals("title"))
 					wpage.setTitle(child.getFirstChild().getNodeValue());
-				else if(child.getNodeName().equals("text"))
-					wpage.setWikiText(child.getFirstChild().getNodeValue());
 				else if(child.getNodeName().equals("id"))
 					wpage.setID(child.getFirstChild().getNodeValue());
+				else if(child.getNodeName().equals("revision")) {
+					NodeList revchilds = child.getChildNodes();
+					for(int k = 0; k < revchilds.getLength(); k++) {
+						Node rchild = revchilds.item(k); 
+						if(rchild.getNodeName().equals("text")) 
+							wpage.setWikiText(rchild.getFirstChild().getNodeValue());
+					}
+				}
 			}
-			System.err.println("Adding page : " + wpage.getTitle());
 			pageList.add(wpage);
 		}
 	}
