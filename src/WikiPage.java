@@ -10,8 +10,6 @@ public class WikiPage {
 	private String title = null;
 	private WikiTextParser wikiText = null;
 	
-	//TODO: Add redirect methods
-	private boolean isRedirect = false;
 	private String redirect = null;
 	
 	public void setTitle(String title) {
@@ -26,8 +24,16 @@ public class WikiPage {
 		return title;
 	}
 	
+	public boolean isDisambiguationPage() {
+		return title.contains("(disambiguation)");
+	}
+	
 	public String getWikiText() {
 		return wikiText.getText();
+	}
+	
+	public boolean isRedirect() {
+		return wikiText.isRedirect();
 	}
 	
 	public String getText() {

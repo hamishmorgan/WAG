@@ -11,9 +11,15 @@ public class WikiTextParser {
 	private String wikiText = null;
 	private Vector<String> pageCats = null;
 	private Vector<String> pageLinks = null;
+	private boolean redirect = false;
 
 	public WikiTextParser(String wtext) {
 		wikiText = wtext;
+		if(wikiText.contains("#REDIRECT")) redirect = true;
+	}
+	
+	public boolean isRedirect() {
+		return redirect;
 	}
 
 	public String getText() {
