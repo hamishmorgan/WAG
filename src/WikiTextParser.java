@@ -10,7 +10,6 @@ public class WikiTextParser {
 	
 	private String wikiText = null;
 	private Vector<String> pageCats = null;
-	private Vector<String> pageLinks = null;
 	private boolean redirect = false;
 
 	public WikiTextParser(String wtext) {
@@ -23,8 +22,7 @@ public class WikiTextParser {
 	}
 
 	public String getText() {
-		// TODO Auto-generated method stub
-		return null;
+		return wikiText;
 	}
 
 	public Vector<String> getCategories() {

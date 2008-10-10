@@ -52,15 +52,17 @@ public class WikiXMLParser {
 				Node child = childNodes.item(j);
 				if(child.getNodeName().equals("title"))
 					wpage.setTitle(child.getFirstChild().getNodeValue());
-				if(child.getNodeName().equals("text"))
+				else if(child.getNodeName().equals("text"))
 					wpage.setWikiText(child.getFirstChild().getNodeValue());
+				else if(child.getNodeName().equals("id"))
+					wpage.setID(child.getFirstChild().getNodeValue());
 			}
 			System.err.println("Adding page : " + wpage.getTitle());
 			pageList.add(wpage);
 		}
 	}
 	
-	void process() throws Exception {
+	void process() {
 	}
 
 	/**

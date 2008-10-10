@@ -9,6 +9,7 @@ public class WikiPage {
 	
 	private String title = null;
 	private WikiTextParser wikiText = null;
+	private String id = null;
 	
 	private String redirect = null;
 	
@@ -42,5 +43,13 @@ public class WikiPage {
 	
 	public Vector<String> getCategories() {
 		return wikiText.getCategories();
+	}
+
+	public void setID(String id) {
+		this.id = id;
+	}
+
+	public String getID() {
+		return id;
 	}
 }
