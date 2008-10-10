@@ -1,0 +1,40 @@
+/**
+ * @author delip
+ * Data structures for a wikipedia page
+ */
+import java.util.Vector;
+
+
+public class WikiPage {
+	
+	private String title = null;
+	private WikiTextParser wikiText = null;
+	
+	//TODO: Add redirect methods
+	private boolean isRedirect = false;
+	private String redirect = null;
+	
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	
+	public void setWikiText(String wtext) {
+		wikiText = new WikiTextParser(wtext);
+	}
+	
+	public String getTitle() {
+		return title;
+	}
+	
+	public String getWikiText() {
+		return wikiText.getText();
+	}
+	
+	public String getText() {
+		return wikiText.getPlainText();
+	}
+	
+	public Vector<String> getCategories() {
+		return wikiText.getCategories();
+	}
+}

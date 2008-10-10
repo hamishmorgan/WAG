@@ -16,8 +16,8 @@ import java.util.zip.GZIPInputStream;
 
 public class WikiXMLParser {
 	
-	String wikiXMLFile = null;
-	boolean useGZip = false;
+	private String wikiXMLFile = null;
+	private boolean useGZip = false;
 	private DOMParser domParser = new DOMParser();
 	private static String FEATURE_URI = 
 		"http://apache.org/xml/features/dom/defer-node-expansion";
