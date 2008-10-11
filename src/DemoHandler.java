@@ -14,7 +14,7 @@ public class DemoHandler implements PageCallbackHandler {
 		//if(page.isRedirect()) redir = " [" + page.getRedirectPage() + "] "; 
 		//System.err.println(page.getTitle() + redir);
 		
-		if(page.getTitle().equals("Anarchism")) {
+		if(page.getTitle().equals("Abraham Lincoln")) {
 			Vector<String> cats = page.getCategories();
 			for(int i = 0; i < cats.size(); i++) {
 				System.err.println("\t -> " + cats.elementAt(i));
