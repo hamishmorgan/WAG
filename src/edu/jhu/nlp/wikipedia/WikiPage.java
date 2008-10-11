@@ -1,3 +1,4 @@
+package edu.jhu.nlp.wikipedia;
 /**
  * @author delip
  * Data structures for a wikipedia page

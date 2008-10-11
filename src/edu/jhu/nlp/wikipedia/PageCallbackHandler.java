@@ -1,3 +1,4 @@
+package edu.jhu.nlp.wikipedia;
 /**
  * Interface to allow streamed processing of pages
  * @author delip

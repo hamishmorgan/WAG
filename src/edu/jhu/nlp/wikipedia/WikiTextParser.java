@@ -1,3 +1,4 @@
+package edu.jhu.nlp.wikipedia;
 /**
  * @author delip
  * Parser for wikipedia-formatted text

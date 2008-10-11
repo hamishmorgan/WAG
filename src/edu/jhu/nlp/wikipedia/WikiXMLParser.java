@@ -1,3 +1,4 @@
+package edu.jhu.nlp.wikipedia;
 /**
  * A simple API to handle Wikipedia XML dumps
  * @author delip
