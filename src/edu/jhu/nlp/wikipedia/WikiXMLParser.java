@@ -25,9 +25,9 @@ public class WikiXMLParser {
 	private DOMParser domParser = new DOMParser();
 	private static String FEATURE_URI = 
 		"http://apache.org/xml/features/dom/defer-node-expansion";
-	private Vector<WikiPage> pageList = new Vector<WikiPage>();
+	private Vector<WikiPage> pageList = null;
 	private PageCallbackHandler pageHandler = null;
-	
+		
 	public WikiXMLParser(String fileName){
 		wikiXMLFile = fileName;
 		if(wikiXMLFile.endsWith(".gz")) useGZip = true;
@@ -37,9 +37,19 @@ public class WikiXMLParser {
 		pageHandler = handler;
 	}
 	
+	public WikiPageIterator getIterator() throws Exception {
+		if(pageHandler != null) throw new Exception("page callback found. Cannot iterate.");
+		return new WikiPageIterator(pageList);
+	}
+	
 	public void parse()  throws Exception  {
+		
+		if(pageHandler == null)
+			pageList = new Vector<WikiPage>();
+		
 		domParser.setFeature(FEATURE_URI, true);
 		BufferedReader br = null;
+		
 		if(useGZip) {
 			br = new BufferedReader(new InputStreamReader(
 					new GZIPInputStream(new FileInputStream(wikiXMLFile))));
@@ -47,9 +57,11 @@ public class WikiXMLParser {
 			br = new BufferedReader(new InputStreamReader( 
 					new FileInputStream(wikiXMLFile)));
 		}
+		
 		domParser.parse(new InputSource(br));
 		Document doc = domParser.getDocument();
 		NodeList pages = doc.getElementsByTagName("page");
+		
 		for(int i = 0; i < pages.getLength(); i++) {
 			WikiPage wpage = new WikiPage();
 			Node pageNode = pages.item(i);
@@ -73,24 +85,6 @@ public class WikiXMLParser {
 			if(pageHandler != null) {
 				pageHandler.process(wpage);
 			} else pageList.add(wpage);
-		}
-	}
-	
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		
-		if(args.length != 1) {
-			System.err.println("Usage: Parser <XML-FILE>");
-			System.exit(-1);
-		}
-		WikiXMLParser wxp = new WikiXMLParser(args[0]);
-		wxp.setPageCallback(new DemoHandler());
-		try {
-			wxp.parse();
-		}catch(Exception e) {
-			e.printStackTrace();
-		}
+		}	
 	}
 }

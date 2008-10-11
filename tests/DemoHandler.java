@@ -1,5 +1,7 @@
-package edu.jhu.nlp.wikipedia;
+
 import java.util.Vector;
+
+import edu.jhu.nlp.wikipedia.*;
 
 /**
  * A very simple callback for demo
