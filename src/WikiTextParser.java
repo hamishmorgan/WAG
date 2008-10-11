@@ -39,14 +39,18 @@ public class WikiTextParser {
 	}
 
 	public Vector<String> getCategories() {
-		// TODO Auto-generated method stub
 		if(pageCats == null) parseCategories();
 		return pageCats;
 	}
 
 	private void parseCategories() {
-		// TODO Auto-generated method stub
-		
+		pageCats = new Vector<String>();
+		Pattern catPattern = Pattern.compile("\\[\\[Category:(.*?)\\]\\]", Pattern.MULTILINE);
+		Matcher matcher = catPattern.matcher(wikiText);
+		while(matcher.find()) {
+			String [] temp = matcher.group(1).split("\\|");
+			pageCats.add(temp[0]);
+		}
 	}
 
 	public String getPlainText() {

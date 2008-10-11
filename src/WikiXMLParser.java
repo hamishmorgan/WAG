@@ -25,10 +25,15 @@ public class WikiXMLParser {
 	private static String FEATURE_URI = 
 		"http://apache.org/xml/features/dom/defer-node-expansion";
 	private Vector<WikiPage> pageList = new Vector<WikiPage>();
+	private PageCallbackHandler pageHandler = null;
 	
 	public WikiXMLParser(String fileName){
 		wikiXMLFile = fileName;
 		if(wikiXMLFile.endsWith(".gz")) useGZip = true;
+	}
+	
+	public void setPageCallback(PageCallbackHandler handler) {
+		pageHandler = handler;
 	}
 	
 	public void parse()  throws Exception  {
@@ -63,13 +68,13 @@ public class WikiXMLParser {
 					}
 				}
 			}
-			pageList.add(wpage);
+			
+			if(pageHandler != null) {
+				pageHandler.process(wpage);
+			} else pageList.add(wpage);
 		}
 	}
 	
-	void process() {
-	}
-
 	/**
 	 * @param args
 	 */
@@ -80,10 +85,9 @@ public class WikiXMLParser {
 			System.exit(-1);
 		}
 		WikiXMLParser wxp = new WikiXMLParser(args[0]);
-		
+		wxp.setPageCallback(new DemoHandler());
 		try {
 			wxp.parse();
-			wxp.process();
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
