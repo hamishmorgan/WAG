@@ -5,6 +5,7 @@ package edu.jhu.nlp.wikipedia;
  *
  */
 
+import org.apache.tools.bzip2.CBZip2InputStream;
 import org.apache.xerces.parsers.DOMParser;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -21,7 +22,6 @@ import java.util.zip.GZIPInputStream;
 public class WikiXMLParser {
 	
 	private String wikiXMLFile = null;
-	private boolean useGZip = false;
 	private DOMParser domParser = new DOMParser();
 	private static String FEATURE_URI = 
 		"http://apache.org/xml/features/dom/defer-node-expansion";
@@ -30,7 +30,6 @@ public class WikiXMLParser {
 		
 	public WikiXMLParser(String fileName){
 		wikiXMLFile = fileName;
-		if(wikiXMLFile.endsWith(".gz")) useGZip = true;
 	}
 	
 	public void setPageCallback(PageCallbackHandler handler) {
@@ -50,9 +49,15 @@ public class WikiXMLParser {
 		domParser.setFeature(FEATURE_URI, true);
 		BufferedReader br = null;
 		
-		if(useGZip) {
+		if(wikiXMLFile.endsWith(".gz")) {
 			br = new BufferedReader(new InputStreamReader(
 					new GZIPInputStream(new FileInputStream(wikiXMLFile))));
+		} else if(wikiXMLFile.endsWith(".bz2")) {
+			FileInputStream fis = new FileInputStream(wikiXMLFile);
+			byte [] ignoreBytes = new byte[2];
+			fis.read(ignoreBytes); //"B", "Z" bytes from commandline tools
+			br = new BufferedReader(new InputStreamReader(
+					new CBZip2InputStream(fis)));
 		} else {
 			br = new BufferedReader(new InputStreamReader( 
 					new FileInputStream(wikiXMLFile)));
