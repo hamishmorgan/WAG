@@ -1,14 +1,15 @@
 package edu.jhu.nlp.wikipedia;
-/**
- * @author delip
- * Parser for wikipedia-formatted text
- */
 
 import java.util.Vector;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
+/**
+ * For internal use only -- Used by the {@link WikiPage} class.
+ * Can also be used as a stand alone class to parse wiki formatted text.
+ * @author Delip Rao
+ *
+ */
 public class WikiTextParser {
 	
 	private String wikiText = null;
@@ -55,7 +56,7 @@ public class WikiTextParser {
 	}
 
 	public String getPlainText() {
-		// TODO Auto-generated method stub
+		System.err.println("getPlainText : unimplemented method");
 		return null;
 	}
 

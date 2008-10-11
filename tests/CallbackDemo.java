@@ -13,8 +13,8 @@ public class CallbackDemo {
 		}
 		
 		WikiXMLParser wxp = new WikiXMLParser(args[0]);
-		wxp.setPageCallback(new DemoHandler());
 		try {
+			wxp.setPageCallback(new DemoHandler());
 			wxp.parse();
 		}catch(Exception e) {
 			e.printStackTrace();

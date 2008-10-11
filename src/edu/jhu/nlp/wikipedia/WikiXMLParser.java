@@ -1,9 +1,4 @@
 package edu.jhu.nlp.wikipedia;
-/**
- * A simple API to handle Wikipedia XML dumps
- * @author delip
- *
- */
 
 import org.apache.tools.bzip2.CBZip2InputStream;
 import org.apache.xerces.parsers.DOMParser;
@@ -18,7 +13,25 @@ import java.io.InputStreamReader;
 import java.util.Vector;
 import java.util.zip.GZIPInputStream;
 
-
+/**
+ * A memory efficient parser for easy access to Wikipedia XML dumps in native and compressed XML formats.<br>
+ * 
+ * Typical pattern of use:<p>
+ * <code>
+ * WikiXMLParser wxp = new WikiXMLParser("enwiki-latest-pages-articles.xml");<br>
+ * wxp.setPageCallback(...);<br>
+ * wxp.parse();<br>
+ * </code><p>
+ * or<p>
+ * <code>
+ * WikiXMLParser wxp = new WikiXMLParser("enwiki-latest-pages-articles.xml");<br>
+ * wxp.parse();<br>
+ * WikiPageIterator it = wxp.getIterator();<br>
+ * ...
+ * </code>
+ * @author Delip Rao
+ *
+ */
 public class WikiXMLParser {
 	
 	private String wikiXMLFile = null;
@@ -32,15 +45,32 @@ public class WikiXMLParser {
 		wikiXMLFile = fileName;
 	}
 	
-	public void setPageCallback(PageCallbackHandler handler) {
+	/**
+	 * Set a callback handler. The callback is executed every time a
+	 * page instance is detected in the stream. Custom handlers are
+	 * implementations of {@link PageCallbackHandler}
+	 * @param handler
+	 * @throws Exception
+	 */
+	public void setPageCallback(PageCallbackHandler handler) throws Exception {
+		if(pageList != null) throw new Exception("Set the callback before calling parse()");
 		pageHandler = handler;
 	}
 	
+	/**
+	 * 
+	 * @return an iterator to the list of pages
+	 * @throws Exception
+	 */
 	public WikiPageIterator getIterator() throws Exception {
 		if(pageHandler != null) throw new Exception("page callback found. Cannot iterate.");
 		return new WikiPageIterator(pageList);
 	}
 	
+	/**
+	 * The main parse method.
+	 * @throws Exception
+	 */
 	public void parse()  throws Exception  {
 		
 		if(pageHandler == null)
