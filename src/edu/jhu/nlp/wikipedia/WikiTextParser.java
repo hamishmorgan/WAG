@@ -56,8 +56,14 @@ public class WikiTextParser {
 	}
 
 	public String getPlainText() {
-		System.err.println("getPlainText : unimplemented method");
-		return null;
+		String text = wikiText.replaceAll("<ref>.*?</ref>", " ");
+		text = text.replaceAll("<.*?/>", "");
+		text = text.replaceAll("\\{\\{.*?\\}\\}", " ");
+		text = text.replaceAll("\\[\\[.*?:.*?\\]\\]", " ");
+		text = text.replaceAll("\\[\\[", " ");
+		text = text.replaceAll("\\]\\]", " ");
+		text = text.replaceAll("\\[.*?\\]", " ");
+		return text;
 	}
 
 }
