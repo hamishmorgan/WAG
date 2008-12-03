@@ -14,6 +14,7 @@ public class WikiTextParser {
 	
 	private String wikiText = null;
 	private Vector<String> pageCats = null;
+	private Vector<String> pageLinks = null;
 	private boolean redirect = false;
 	private String redirectString = null;
 
@@ -45,6 +46,11 @@ public class WikiTextParser {
 		return pageCats;
 	}
 
+	public Vector<String> getLinks() {
+		if(pageCats == null) parseLinks();
+		return pageLinks;
+	}
+
 	private void parseCategories() {
 		pageCats = new Vector<String>();
 		Pattern catPattern = Pattern.compile("\\[\\[Category:(.*?)\\]\\]", Pattern.MULTILINE);
@@ -52,6 +58,17 @@ public class WikiTextParser {
 		while(matcher.find()) {
 			String [] temp = matcher.group(1).split("\\|");
 			pageCats.add(temp[0]);
+		}
+	}
+	
+	private void parseLinks() {
+		pageLinks = new Vector<String>();
+		Pattern catPattern = Pattern.compile("\\[\\[(.*?)\\]\\]", Pattern.MULTILINE);
+		Matcher matcher = catPattern.matcher(wikiText);
+		while(matcher.find()) {
+			String link = matcher.group(1);
+			if(link.contains(":") == false)
+				pageLinks.add(link);
 		}
 	}
 

@@ -88,6 +88,14 @@ public class WikiPage {
 		return wikiTextParser.getCategories();
 	}
 
+	/**
+	 * 
+	 * @return a list of links contained in the page 
+	 */
+	public Vector<String> getLinks() {
+		return wikiTextParser.getLinks();
+	}
+
 	public void setID(String id) {
 		this.id = id;
 	}
