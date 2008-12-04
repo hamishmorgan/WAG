@@ -48,6 +48,14 @@ public class WikiPage {
 	}
 	
 	/**
+	 * 
+	 * @return true for "special pages" -- like Category:, Wikipedia:, etc
+	 */
+	public boolean isSpecialPage() {
+		return title.contains(":");
+	}
+	
+	/**
 	 * Use this method to get the wiki text associated with this page.
 	 * Useful for custom processing the wiki text.
 	 * @return a string containing the wiki text.
