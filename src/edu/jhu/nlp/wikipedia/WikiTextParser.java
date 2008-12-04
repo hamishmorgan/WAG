@@ -13,8 +13,8 @@ import java.util.regex.Pattern;
 public class WikiTextParser {
 	
 	private String wikiText = null;
-	private Vector<String> pageCats = null;
-	private Vector<String> pageLinks = null;
+	private Vector<String> pageCats = new Vector<String>();;
+	private Vector<String> pageLinks = new Vector<String>();;
 	private boolean redirect = false;
 	private String redirectString = null;
 
@@ -52,7 +52,6 @@ public class WikiTextParser {
 	}
 
 	private void parseCategories() {
-		pageCats = new Vector<String>();
 		Pattern catPattern = Pattern.compile("\\[\\[Category:(.*?)\\]\\]", Pattern.MULTILINE);
 		Matcher matcher = catPattern.matcher(wikiText);
 		while(matcher.find()) {
@@ -62,7 +61,6 @@ public class WikiTextParser {
 	}
 	
 	private void parseLinks() {
-		pageLinks = new Vector<String>();
 		Pattern catPattern = Pattern.compile("\\[\\[(.*?)\\]\\]", Pattern.MULTILINE);
 		Matcher matcher = catPattern.matcher(wikiText);
 		while(matcher.find()) {
