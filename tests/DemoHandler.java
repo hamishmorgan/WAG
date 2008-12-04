@@ -26,8 +26,9 @@ public class DemoHandler implements PageCallbackHandler {
 //			}
 //		}
 
-		if(page.getTitle().equals("Abraham Lincoln")) {
-			System.out.println(page.getText());
+		if(page.getTitle().equals("Covering (graph theory)")) {
+			for(String link : page.getLinks())
+				System.out.println(link);
 		}
 				
 	}

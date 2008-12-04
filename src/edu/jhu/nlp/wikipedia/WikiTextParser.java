@@ -13,8 +13,8 @@ import java.util.regex.Pattern;
 public class WikiTextParser {
 	
 	private String wikiText = null;
-	private Vector<String> pageCats = new Vector<String>();;
-	private Vector<String> pageLinks = new Vector<String>();;
+	private Vector<String> pageCats = null;
+	private Vector<String> pageLinks = null;
 	private boolean redirect = false;
 	private String redirectString = null;
 
@@ -47,11 +47,12 @@ public class WikiTextParser {
 	}
 
 	public Vector<String> getLinks() {
-		if(pageCats == null) parseLinks();
+		if(pageLinks == null) parseLinks();
 		return pageLinks;
 	}
 
 	private void parseCategories() {
+		pageCats = new Vector<String>();
 		Pattern catPattern = Pattern.compile("\\[\\[Category:(.*?)\\]\\]", Pattern.MULTILINE);
 		Matcher matcher = catPattern.matcher(wikiText);
 		while(matcher.find()) {
@@ -61,23 +62,27 @@ public class WikiTextParser {
 	}
 	
 	private void parseLinks() {
+		pageLinks = new Vector<String>();  
 		Pattern catPattern = Pattern.compile("\\[\\[(.*?)\\]\\]", Pattern.MULTILINE);
 		Matcher matcher = catPattern.matcher(wikiText);
 		while(matcher.find()) {
-			String link = matcher.group(1);
-			if(link.contains(":") == false)
+			String [] temp = matcher.group(1).split("\\|");
+			String link = temp[0];
+			if(link.contains(":") == false) {
 				pageLinks.add(link);
+			}
 		}
 	}
 
 	public String getPlainText() {
 		String text = wikiText.replaceAll("<ref>.*?</ref>", " ");
-		text = text.replaceAll("<.*?/>", "");
+		text = text.replaceAll("</?.*?>", " ");
 		text = text.replaceAll("\\{\\{.*?\\}\\}", " ");
 		text = text.replaceAll("\\[\\[.*?:.*?\\]\\]", " ");
-		text = text.replaceAll("\\[\\[", " ");
-		text = text.replaceAll("\\]\\]", " ");
+		text = text.replaceAll("\\[\\[(.*?)\\]\\]", "$1");
+		text = text.replaceAll("\\s(.*?)\\|(\\w+\\s)", " $2");
 		text = text.replaceAll("\\[.*?\\]", " ");
+		text = text.replaceAll("\\'+", "");
 		return text;
 	}
 
