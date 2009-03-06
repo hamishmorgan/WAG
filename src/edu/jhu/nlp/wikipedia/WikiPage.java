@@ -108,6 +108,9 @@ public class WikiPage {
 		this.id = id;
 	}
 
+	public InfoBox getInfoBox() {
+		return wikiTextParser.getInfoBox();
+	}
 	
 	public String getID() {
 		return id;

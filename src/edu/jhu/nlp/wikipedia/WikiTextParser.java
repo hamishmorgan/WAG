@@ -86,4 +86,8 @@ public class WikiTextParser {
 		return text;
 	}
 
+	public InfoBox getInfoBox() {
+		throw new UnsupportedOperationException();
+	}
+
 }
