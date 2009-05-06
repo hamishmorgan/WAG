@@ -1,22 +1,8 @@
 package edu.jhu.nlp.wikipedia;
 
-import org.apache.tools.bzip2.CBZip2InputStream;
-import org.apache.xerces.parsers.DOMParser;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
-
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
-import java.util.Vector;
-import java.util.zip.GZIPInputStream;
-
-import javax.xml.parsers.SAXParser;
 
 /**
  * 
@@ -26,14 +12,13 @@ import javax.xml.parsers.SAXParser;
  * @author Jason Smith
  *
  */
-public class WikiXMLSAXParser implements WikiXMLParser {
+public class WikiXMLSAXParser extends WikiXMLParser {
 	
-	private String wikiXMLFile = null;
 	private XMLReader xmlReader;
 	private PageCallbackHandler pageHandler = null;
 		
 	public WikiXMLSAXParser(String fileName){
-		wikiXMLFile = fileName;
+		super(fileName);
 		try {
 			xmlReader = XMLReaderFactory.createXMLReader();
 		} catch (SAXException e) {
@@ -59,23 +44,7 @@ public class WikiXMLSAXParser implements WikiXMLParser {
 	 */
 	public void parse()  throws Exception  {
 		
-		BufferedReader br = null;
-		
-		if(wikiXMLFile.endsWith(".gz")) {
-			br = new BufferedReader(new InputStreamReader(
-					new GZIPInputStream(new FileInputStream(wikiXMLFile))));
-		} else if(wikiXMLFile.endsWith(".bz2")) {
-			FileInputStream fis = new FileInputStream(wikiXMLFile);
-			byte [] ignoreBytes = new byte[2];
-			fis.read(ignoreBytes); //"B", "Z" bytes from commandline tools
-			br = new BufferedReader(new InputStreamReader(
-					new CBZip2InputStream(fis)));
-		} else {
-			br = new BufferedReader(new InputStreamReader( 
-					new FileInputStream(wikiXMLFile)));
-		}
-		
 		xmlReader.setContentHandler(new SAXPageCallbackHandler(pageHandler));
-		xmlReader.parse(new InputSource(br));
+		xmlReader.parse(getInputSource());
 	}
 }

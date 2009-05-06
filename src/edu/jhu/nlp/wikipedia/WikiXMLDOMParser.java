@@ -1,17 +1,11 @@
 package edu.jhu.nlp.wikipedia;
 
-import org.apache.tools.bzip2.CBZip2InputStream;
+import java.util.Vector;
+
 import org.apache.xerces.parsers.DOMParser;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
-
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
-import java.util.Vector;
-import java.util.zip.GZIPInputStream;
 
 /**
  * A memory efficient parser for easy access to Wikipedia XML dumps in native and compressed XML formats.<br>
@@ -32,9 +26,8 @@ import java.util.zip.GZIPInputStream;
  * @author Delip Rao
  *
  */
-public class WikiXMLDOMParser implements WikiXMLParser {
+public class WikiXMLDOMParser extends WikiXMLParser {
 	
-	private String wikiXMLFile = null;
 	private DOMParser domParser = new DOMParser();
 	private static String FEATURE_URI = 
 		"http://apache.org/xml/features/dom/defer-node-expansion";
@@ -42,7 +35,7 @@ public class WikiXMLDOMParser implements WikiXMLParser {
 	private PageCallbackHandler pageHandler = null;
 		
 	public WikiXMLDOMParser(String fileName){
-		wikiXMLFile = fileName;
+		super(fileName);
 	}
 	
 	/**
@@ -77,23 +70,9 @@ public class WikiXMLDOMParser implements WikiXMLParser {
 			pageList = new Vector<WikiPage>();
 		
 		domParser.setFeature(FEATURE_URI, true);
-		BufferedReader br = null;
+
+		domParser.parse(this.getInputSource());
 		
-		if(wikiXMLFile.endsWith(".gz")) {
-			br = new BufferedReader(new InputStreamReader(
-					new GZIPInputStream(new FileInputStream(wikiXMLFile))));
-		} else if(wikiXMLFile.endsWith(".bz2")) {
-			FileInputStream fis = new FileInputStream(wikiXMLFile);
-			byte [] ignoreBytes = new byte[2];
-			fis.read(ignoreBytes); //"B", "Z" bytes from commandline tools
-			br = new BufferedReader(new InputStreamReader(
-					new CBZip2InputStream(fis)));
-		} else {
-			br = new BufferedReader(new InputStreamReader( 
-					new FileInputStream(wikiXMLFile)));
-		}
-		
-		domParser.parse(new InputSource(br));
 		Document doc = domParser.getDocument();
 		NodeList pages = doc.getElementsByTagName("page");
 		
