@@ -4,9 +4,9 @@ import java.util.Vector;
 
 /**
  * 
- * A class to iterate the pages after the wikipedia XML file has been parsed with {@link WikiXMLParser}.
+ * A class to iterate the pages after the wikipedia XML file has been parsed with {@link WikiXMLDOMParser}.
  * @author Delip Rao
- * @see WikiXMLParser
+ * @see WikiXMLDOMParser
  *
  */
 public class WikiPageIterator {

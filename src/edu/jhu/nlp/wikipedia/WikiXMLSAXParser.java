@@ -26,7 +26,7 @@ import javax.xml.parsers.SAXParser;
  * @author Jason Smith
  *
  */
-public class WikiXMLSAXParser {
+public class WikiXMLSAXParser implements WikiXMLParser {
 	
 	private String wikiXMLFile = null;
 	private XMLReader xmlReader;

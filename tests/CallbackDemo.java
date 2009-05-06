@@ -12,7 +12,7 @@ public class CallbackDemo {
 			System.exit(-1);
 		}
 		
-		WikiXMLParser wxp = new WikiXMLParser(args[0]);
+		WikiXMLDOMParser wxp = new WikiXMLDOMParser(args[0]);
 		try {
 			wxp.setPageCallback(new DemoHandler());
 			wxp.parse();

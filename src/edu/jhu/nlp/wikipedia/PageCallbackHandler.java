@@ -11,7 +11,7 @@ package edu.jhu.nlp.wikipedia;
  * dumps like English and German.
  * 	
  * @author Delip Rao
- * @see WikiXMLParser
+ * @see WikiXMLDOMParser
  * @see WikiPage
  *
  */
@@ -19,7 +19,7 @@ package edu.jhu.nlp.wikipedia;
 public interface PageCallbackHandler {
 	/**
 	 * This is the callback method that should be implemented before
-	 * registering with <code>WikiXMLParser</code>
+	 * registering with <code>WikiXMLDOMParser</code>
 	 * @param page a wikipedia page object
 	 * @see   WikiPage
 	 */
