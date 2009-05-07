@@ -1,5 +1,5 @@
 
-import edu.jhu.nlp.wikipedia.*;
+import edu.jhu.nlp.wikipedia.WikiXMLDOMParser;
 
 public class CallbackDemo {
 	/**

@@ -1,5 +1,6 @@
 
-import edu.jhu.nlp.wikipedia.*;
+import edu.jhu.nlp.wikipedia.PageCallbackHandler;
+import edu.jhu.nlp.wikipedia.WikiXMLSAXParser;
 
 public class SAXParserDemo {
 	/**
