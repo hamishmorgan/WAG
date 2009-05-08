@@ -20,6 +20,7 @@ public class WikiXMLSAXParser extends WikiXMLParser {
 		super(fileName);
 		try {
 			xmlReader = XMLReaderFactory.createXMLReader();
+			pageHandler = new IteratorHandler(this);
 		} catch (SAXException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -42,7 +43,6 @@ public class WikiXMLSAXParser extends WikiXMLParser {
 	 * @throws Exception
 	 */
 	public void parse()  throws Exception  {
-
 		xmlReader.setContentHandler(new SAXPageCallbackHandler(pageHandler));
 		xmlReader.parse(getInputSource());
 	}
@@ -53,6 +53,9 @@ public class WikiXMLSAXParser extends WikiXMLParser {
 	 */
 	@Override
 	public WikiPageIterator getIterator() throws Exception {
+		if(!(pageHandler instanceof IteratorHandler)) {
+			throw new Exception("Custom page callback found. Will not iterate.");
+		}
 		throw new UnsupportedOperationException();
 	}
 }

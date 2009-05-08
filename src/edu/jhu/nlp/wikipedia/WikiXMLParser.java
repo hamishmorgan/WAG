@@ -18,6 +18,7 @@ import org.xml.sax.InputSource;
 public abstract class WikiXMLParser {
 	
 	private String wikiXMLFile = null;
+	protected WikiPage currentPage = null;
 	
 	public WikiXMLParser(String fileName){
 		wikiXMLFile = fileName;
@@ -69,5 +70,10 @@ public abstract class WikiXMLParser {
 		}
 		
 		return new InputSource(br);
+	}
+
+	protected void notifyPage(WikiPage page) {
+		currentPage = page;
+		
 	}
 }
