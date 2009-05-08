@@ -63,6 +63,7 @@ public class WikiTextParser {
 	
 	private void parseLinks() {
 		pageLinks = new Vector<String>();  
+		
 		Pattern catPattern = Pattern.compile("\\[\\[(.*?)\\]\\]", Pattern.MULTILINE);
 		Matcher matcher = catPattern.matcher(wikiText);
 		while(matcher.find()) {
