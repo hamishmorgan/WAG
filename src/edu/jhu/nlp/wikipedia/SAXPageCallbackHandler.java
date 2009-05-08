@@ -41,6 +41,10 @@ public class SAXPageCallbackHandler extends DefaultHandler {
 			currentPage.setWikiText(currentWikitext);
 			pageHandler.process(currentPage);
 		}
+		if (qName.equals("mediawiki"))
+		{
+			// TODO hasMoreElements() should now return false
+		}
 	}
 	
 	public void characters(char ch[], int start, int length){
