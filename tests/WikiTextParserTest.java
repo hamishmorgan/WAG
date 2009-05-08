@@ -10,7 +10,6 @@ public class WikiTextParserTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String wikiText = readFile(args[0]);
 		WikiTextParser wtp = new WikiTextParser(wikiText);
 		System.err.println(wtp.getPlainText());

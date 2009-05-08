@@ -1,7 +1,13 @@
 
 import edu.jhu.nlp.wikipedia.PageCallbackHandler;
-import edu.jhu.nlp.wikipedia.WikiXMLSAXParser;
+import edu.jhu.nlp.wikipedia.WikiXMLParser;
+import edu.jhu.nlp.wikipedia.WikiXMLParserFactory;
 
+/**
+ * 
+ * @author Jason Smith
+ *
+ */
 public class SAXParserDemo {
 	/**
 	 * @param args
@@ -15,7 +21,8 @@ public class SAXParserDemo {
 		
 		PageCallbackHandler handler = new DemoSAXHandler();
 		
-		WikiXMLSAXParser wxsp = new WikiXMLSAXParser(args[0]);
+		WikiXMLParser wxsp = WikiXMLParserFactory.getSAXParser(args[0]);
+		
 		try {
 			wxsp.setPageCallback(handler);
 			wxsp.parse();

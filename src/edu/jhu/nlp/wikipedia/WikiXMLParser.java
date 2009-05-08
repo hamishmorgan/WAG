@@ -12,6 +12,7 @@ import org.xml.sax.InputSource;
  * 
  * 
  * @author Delip Rao
+ * @author Jason Smith
  *
  */
 public abstract class WikiXMLParser {
@@ -36,6 +37,13 @@ public abstract class WikiXMLParser {
 	 * @throws Exception
 	 */
 	public abstract void parse() throws Exception;
+	
+	/**
+	 * 
+	 * @return an iterator to the list of pages
+	 * @throws Exception
+	 */
+	public abstract WikiPageIterator getIterator() throws Exception;
 	
 	/**
 	 * 

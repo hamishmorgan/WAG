@@ -1,7 +1,13 @@
 
 import edu.jhu.nlp.wikipedia.WikiPageIterator;
-import edu.jhu.nlp.wikipedia.WikiXMLDOMParser;
+import edu.jhu.nlp.wikipedia.WikiXMLParser;
+import edu.jhu.nlp.wikipedia.WikiXMLParserFactory;
 
+/**
+ * 
+ * @author Delip Rao
+ *
+ */
 public class DOMParserDemo {
 	/**
 	 * @param args
@@ -13,7 +19,7 @@ public class DOMParserDemo {
 			System.exit(-1);
 		}
 		
-		WikiXMLDOMParser wxp = new WikiXMLDOMParser(args[0]);
+		WikiXMLParser wxp = WikiXMLParserFactory.getDOMParser(args[0]);
 		try {
 			wxp.parse();
 			WikiPageIterator it = wxp.getIterator();
