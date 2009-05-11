@@ -3,6 +3,7 @@ package edu.jhu.nlp.wikipedia;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
+import java.util.concurrent.Semaphore;
 import java.util.zip.GZIPInputStream;
 
 import org.apache.tools.bzip2.CBZip2InputStream;
@@ -15,13 +16,15 @@ import org.xml.sax.InputSource;
  * @author Jason Smith
  *
  */
-public abstract class WikiXMLParser {
+public abstract class WikiXMLParser extends Thread {
 	
 	private String wikiXMLFile = null;
 	protected WikiPage currentPage = null;
+	private Semaphore pageIteratorLock = null;
 	
 	public WikiXMLParser(String fileName){
 		wikiXMLFile = fileName;
+		pageIteratorLock = new Semaphore(1, true);
 	}
 	
 	/**
@@ -73,7 +76,28 @@ public abstract class WikiXMLParser {
 	}
 
 	protected void notifyPage(WikiPage page) {
+		acquireLock();
 		currentPage = page;
-		
 	}
+
+	private void acquireLock() {
+		boolean keepTrying = true;
+		while(keepTrying) {
+			try {
+				pageIteratorLock.acquire();
+				keepTrying = false;
+			} catch (InterruptedException e) {
+				keepTrying = true;
+				e.printStackTrace();
+
+			}
+		}
+	}
+	
+	public void releaseLock() {
+		// There should be exactly one thread waiting
+		if(pageIteratorLock.getQueueLength() == 1)
+			pageIteratorLock.release();
+	}
+	
 }

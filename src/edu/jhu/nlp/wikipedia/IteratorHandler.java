@@ -1,6 +1,6 @@
 package edu.jhu.nlp.wikipedia;
 
-public class IteratorHandler implements PageCallbackHandler {
+public class IteratorHandler extends PageCallbackHandler {
 
 	private WikiXMLParser parser = null;
 	

@@ -16,12 +16,27 @@ package edu.jhu.nlp.wikipedia;
  *
  */
 
-public interface PageCallbackHandler {
+public abstract class PageCallbackHandler {
+	
+	private boolean morePages;
+
+	/**
+	 * Internal method. Set it if you know what you're doing.
+	 * 
+	 * @param value
+	 */
+	public void setMorePages(boolean value) {
+		morePages = value;
+	}
+
+	public boolean hasMorePages() {
+		return morePages;
+	}
 	/**
 	 * This is the callback method that should be implemented before
 	 * registering with <code>WikiXMLDOMParser</code>
 	 * @param page a wikipedia page object
 	 * @see   WikiPage
 	 */
-	public void process(WikiPage page);
+	public abstract void process(WikiPage page);
 }

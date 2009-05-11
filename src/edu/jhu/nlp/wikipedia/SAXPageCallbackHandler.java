@@ -19,9 +19,10 @@ public class SAXPageCallbackHandler extends DefaultHandler {
 	private String currentWikitext;
 	private String currentTitle;
 	private String currentID;
-	
+		
 	public SAXPageCallbackHandler(PageCallbackHandler ph){
 		pageHandler = ph;
+		pageHandler.setMorePages(true);
 	}
 	
 	public void startElement(String uri, String name, String qName, Attributes attr){
@@ -41,11 +42,11 @@ public class SAXPageCallbackHandler extends DefaultHandler {
 			currentPage.setWikiText(currentWikitext);
 			pageHandler.process(currentPage);
 		}
-		if (qName.equals("mediawiki"))
-		{
-			// TODO hasMoreElements() should now return false
+		if (qName.equals("mediawiki")) {
+			pageHandler.setMorePages(false);
 		}
 	}
+	
 	
 	public void characters(char ch[], int start, int length){
 		if (currentTag.equals("title")){

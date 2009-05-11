@@ -1,5 +1,7 @@
 package edu.jhu.nlp.wikipedia;
 
+import java.io.IOException;
+
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
@@ -38,24 +40,44 @@ public class WikiXMLSAXParser extends WikiXMLParser {
 		pageHandler = handler;
 	}
 
+	
+	private boolean parserInitialized = false;
 	/**
 	 * The main parse method.
-	 * @throws Exception
 	 */
-	public void parse()  throws Exception  {
+	public void parse() {
+		// Start the thread that will actually parse. 
+		// This will call the run() method internally.
+		start(); 
+		while(parserInitialized == false);
+	}
+	
+	public void run()  {
 		xmlReader.setContentHandler(new SAXPageCallbackHandler(pageHandler));
-		xmlReader.parse(getInputSource());
+		try {
+			xmlReader.parse(getInputSource());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		parserInitialized = true;
 	}
 
-	/**
-	 * This parser is event driven, so it
-	 * can't provide a page iterator.
-	 */
 	@Override
 	public WikiPageIterator getIterator() throws Exception {
 		if(!(pageHandler instanceof IteratorHandler)) {
 			throw new Exception("Custom page callback found. Will not iterate.");
 		}
-		throw new UnsupportedOperationException();
+		return new WikiPageIterator(this);
+	}
+
+	public boolean hasMorePages() throws Exception {
+		IteratorHandler hdlr = (IteratorHandler)pageHandler;
+		return hdlr.hasMorePages();
+	}
+
+	public WikiPage getCurrentPage() {
+		WikiPage tmp = currentPage;
+		releaseLock();
+		return tmp;
 	}
 }
