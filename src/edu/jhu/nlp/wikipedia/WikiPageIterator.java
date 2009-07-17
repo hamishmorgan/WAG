@@ -11,19 +11,29 @@ import java.util.Vector;
  */
 public class WikiPageIterator {
 	
-	private WikiXMLSAXParser parser = null;
+	private int currentPage = 0;
+	private int lastPage = 0;
+	Vector<WikiPage> pageList = null;
 	
-	public WikiPageIterator(WikiXMLSAXParser parser) {
-		this.parser = parser;
+	public WikiPageIterator(Vector<WikiPage> list) {
+		pageList = list;
+		if(pageList != null)
+		  lastPage = pageList.size();
 	}
-
+	
 	/**
 	 * 
 	 * @return true if there are more pages to be read 
-	 * @throws Exception 
 	 */
-	public boolean hasMorePages() throws Exception {
-		return parser.hasMorePages();
+	public boolean hasMorePages() {
+		return (currentPage < lastPage);
+	}
+	
+	/**
+	 * Reset the iterator.
+	 */
+	public void reset() {
+		currentPage = 0;
 	}
 	
 	/**
@@ -31,6 +41,8 @@ public class WikiPageIterator {
 	 * @return a {@link WikiPage} 
 	 */
 	public WikiPage nextPage() {
-		return parser.getCurrentPage();
+		if(hasMorePages())
+			return pageList.elementAt(currentPage++); 
+		return null;
 	}
 }

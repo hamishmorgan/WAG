@@ -10,7 +10,7 @@ import edu.jhu.nlp.wikipedia.WikiPage;
  *
  */
 
-public class DemoSAXHandler extends PageCallbackHandler {
+public class DemoSAXHandler implements PageCallbackHandler {
 
 	public void process(WikiPage page) {
 		System.out.println(page.getTitle() + "\t" + page.getCategories());
