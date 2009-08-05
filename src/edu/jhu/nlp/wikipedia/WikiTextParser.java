@@ -68,6 +68,7 @@ public class WikiTextParser {
 		Matcher matcher = catPattern.matcher(wikiText);
 		while(matcher.find()) {
 			String [] temp = matcher.group(1).split("\\|");
+			if(temp == null || temp.length == 0) continue;
 			String link = temp[0];
 			if(link.contains(":") == false) {
 				pageLinks.add(link);
