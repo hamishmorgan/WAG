@@ -17,20 +17,29 @@ public class WikiTextParser {
 	private Vector<String> pageLinks = null;
 	private boolean redirect = false;
 	private String redirectString = null;
-
+	private static Pattern redirectPattern = 
+	  Pattern.compile("#REDIRECT\\s+\\[\\[(.*?)\\]\\]");
+	private boolean stub = false;
+	private static Pattern stubPattern = Pattern.compile("\\-stub\\}\\}");
+	
 	public WikiTextParser(String wtext) {
-		wikiText = wtext;
-		Pattern redirectPattern = Pattern.compile("#REDIRECT\\s+\\[\\[(.*?)\\]\\]");
+		wikiText = wtext;		
 		Matcher matcher = redirectPattern.matcher(wikiText);
 		if(matcher.find()) {
 			redirect = true;
 			if(matcher.groupCount() == 1)
 				redirectString = matcher.group(1); 
 		}
+		matcher = stubPattern.matcher(wikiText);
+		stub = matcher.find();
 	}
 	
 	public boolean isRedirect() {
 		return redirect;
+	}
+	
+	public boolean isStub() {
+	  return stub;
 	}
 	
 	public String getRedirectText() {

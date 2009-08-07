@@ -73,6 +73,14 @@ public class WikiPage {
 	}
 	
 	/**
+   * 
+   * @return true if this is a stub page
+   */
+  public boolean isStub() {
+    return wikiTextParser.isStub();
+  }
+  
+	/**
 	 * 
 	 * @return the title of the page being redirected to. 
 	 */
