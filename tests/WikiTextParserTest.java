@@ -1,35 +1,27 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-
+import edu.jhu.nlp.util.FileUtil;
 import edu.jhu.nlp.wikipedia.WikiTextParser;
 
 
-public class WikiTextParserTest {
+public class WikiTextParserTest extends TestCase {
+  
+  public static boolean testDisambiguationPage() {
+    String lexingtonWikiText = FileUtil.readFile("data/Lexington.wiki");
+    WikiTextParser wtp = new WikiTextParser(lexingtonWikiText);
+    return wtp.isDisambiguationPage();
+  }
 
+  public static void demoGetText(String wikiFile) {
+    String wikiText = FileUtil.readFile(wikiFile);
+    WikiTextParser wtp = new WikiTextParser(wikiText);
+    System.err.println(wtp.getPlainText());
+  }
+  
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String wikiText = readFile(args[0]);
-		WikiTextParser wtp = new WikiTextParser(wikiText);
-		System.err.println(wtp.getPlainText());
-	}
-
-	private static String readFile(String file) {
-		try {
-			BufferedReader br = new BufferedReader(new FileReader(file));
-			StringBuffer sb = new StringBuffer();
-			String line = null;
-			while((line = br.readLine()) != null) {
-				sb.append(line);
-				sb.append('\n');
-			}
-			br.close();
-			return sb.toString();
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-		return null;
+	  WikiTextParserTest test = new WikiTextParserTest();
+	  test.check("Disambiguation Page", testDisambiguationPage());
 	}
 
 }

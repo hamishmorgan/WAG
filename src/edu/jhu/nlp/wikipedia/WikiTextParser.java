@@ -20,7 +20,9 @@ public class WikiTextParser {
 	private static Pattern redirectPattern = 
 	  Pattern.compile("#REDIRECT\\s+\\[\\[(.*?)\\]\\]");
 	private boolean stub = false;
+	private boolean disambiguation = false;
 	private static Pattern stubPattern = Pattern.compile("\\-stub\\}\\}");
+	private static Pattern disambCatPattern = Pattern.compile("\\{\\{disambig\\}\\}");
 	
 	public WikiTextParser(String wtext) {
 		wikiText = wtext;		
@@ -32,6 +34,8 @@ public class WikiTextParser {
 		}
 		matcher = stubPattern.matcher(wikiText);
 		stub = matcher.find();
+		matcher = disambCatPattern.matcher(wikiText);
+		disambiguation = matcher.find();
 	}
 	
 	public boolean isRedirect() {
@@ -100,5 +104,9 @@ public class WikiTextParser {
 	public InfoBox getInfoBox() {
 		throw new UnsupportedOperationException();
 	}
+
+  public boolean isDisambiguationPage() {
+    return disambiguation;
+  }
 
 }

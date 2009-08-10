@@ -44,7 +44,10 @@ public class WikiPage {
 	 * @return true if this a disambiguation page.
 	 */
 	public boolean isDisambiguationPage() {
-		return title.contains("(disambiguation)");
+	  if(title.contains("(disambiguation)") || 
+	      wikiTextParser.isDisambiguationPage())
+	      return true;
+	  else return false;
 	}
 	
 	/**
