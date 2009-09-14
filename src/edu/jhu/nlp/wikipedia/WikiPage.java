@@ -2,6 +2,8 @@ package edu.jhu.nlp.wikipedia;
 
 import java.util.Vector;
 
+import edu.jhu.nlp.language.Language;
+
 /**
  * Data structures for a wikipedia page.
  * 
@@ -37,6 +39,17 @@ public class WikiPage {
 	 */
 	public String getTitle() {
 		return title;
+	}
+	
+	/**
+	 * 
+	 * @param languageCode 
+	 * @return a string containing the title translated 
+	 *         in the given languageCode.
+	 * @see Language
+	 */
+	public String getTranslatedTitle(String languageCode) {
+	  return wikiTextParser.getTranslatedTitle(languageCode);
 	}
 
 	/**

@@ -109,4 +109,13 @@ public class WikiTextParser {
     return disambiguation;
   }
 
+  public String getTranslatedTitle(String languageCode) {
+    Pattern pattern = Pattern.compile("^\\[\\[" + languageCode + ":(.*?)\\]\\]$", Pattern.MULTILINE);
+    Matcher matcher = pattern.matcher(wikiText);
+    if(matcher.find()) {
+      return matcher.group(1);
+    }
+    return null;
+  }
+
 }
