@@ -58,4 +58,18 @@ public class WikiXMLSAXParser extends WikiXMLParser {
 		}
 		throw new UnsupportedOperationException();
 	}
+	
+	/**
+	 * A convenience method for the Wikipedia SAX interface
+	 * @param dumpFile - path to the Wikipedia dump
+	 * @param handler - callback handler used for parsing
+	 * @throws Exception
+	 */
+	public static void parseWikipediaDump(String dumpFile, 
+	    PageCallbackHandler handler) throws Exception {
+	  WikiXMLParser wxsp = WikiXMLParserFactory.getSAXParser(dumpFile);
+	  wxsp.setPageCallback(handler);
+	  wxsp.parse();
+	}
+	
 }
