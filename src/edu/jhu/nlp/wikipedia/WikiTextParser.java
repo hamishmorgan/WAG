@@ -90,7 +90,9 @@ public class WikiTextParser {
 	}
 
 	public String getPlainText() {
-		String text = wikiText.replaceAll("<ref>.*?</ref>", " ");
+		String text = wikiText.replaceAll("&gt;", ">");
+    text = text.replaceAll("&lt;", "<");
+    text = text.replaceAll("<ref>.*?</ref>", " ");
 		text = text.replaceAll("</?.*?>", " ");
 		text = text.replaceAll("\\{\\{.*?\\}\\}", " ");
 		text = text.replaceAll("\\[\\[.*?:.*?\\]\\]", " ");
@@ -102,7 +104,12 @@ public class WikiTextParser {
 	}
 
 	public InfoBox getInfoBox() {
-		throw new UnsupportedOperationException();
+    Pattern infoBoxPattern = Pattern.compile("^\\{\\{(Infobox.*?)\\}\\}", Pattern.MULTILINE);
+    Matcher matcher = infoBoxPattern.matcher(wikiText);
+    if(matcher.find()) {
+      return new InfoBox(matcher.group(1));
+    }
+		return null;
 	}
 
   public boolean isDisambiguationPage() {

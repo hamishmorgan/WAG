@@ -28,8 +28,9 @@ public class WikiTextParserTest extends TestCase {
 	 */
 	public static void main(String[] args) {
 	  WikiTextParserTest test = new WikiTextParserTest();
-	  test.check("Disambiguation Page", testDisambiguationPage());
-	  demoGetTranslatedTitle("data/Obama.wiki");
+	  //test.check("Disambiguation Page", testDisambiguationPage());
+	  //demoGetTranslatedTitle("data/Obama.wiki");
+    demoGetText("data/newton.xml");
 	}
 
 }
