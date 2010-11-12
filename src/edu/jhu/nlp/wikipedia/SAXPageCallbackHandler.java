@@ -16,9 +16,9 @@ public class SAXPageCallbackHandler extends DefaultHandler {
 	private WikiPage currentPage;
 	private String currentTag;
 	
-	private String currentWikitext;
-	private String currentTitle;
-	private String currentID;
+	private StringBuilder currentWikitext;
+	private StringBuilder currentTitle;
+	private StringBuilder currentID;
 	
 	public SAXPageCallbackHandler(PageCallbackHandler ph){
 		pageHandler = ph;
@@ -28,17 +28,17 @@ public class SAXPageCallbackHandler extends DefaultHandler {
 		currentTag = qName;
 		if (qName.equals("page")){
 			currentPage = new WikiPage();
-			currentWikitext = "";
-			currentTitle = "";
-			currentID = "";
+			currentWikitext = new StringBuilder("");
+			currentTitle = new StringBuilder("");
+			currentID = new StringBuilder("");
 		}
 	}
 	
 	public void endElement(String uri, String name, String qName){
 		if (qName.equals("page")){
-			currentPage.setTitle(currentTitle);
-			currentPage.setID(currentID);
-			currentPage.setWikiText(currentWikitext);
+			currentPage.setTitle(currentTitle.toString());
+			currentPage.setID(currentID.toString());
+			currentPage.setWikiText(currentWikitext.toString());
 			pageHandler.process(currentPage);
 		}
 		if (qName.equals("mediawiki"))
@@ -49,16 +49,17 @@ public class SAXPageCallbackHandler extends DefaultHandler {
 	
 	public void characters(char ch[], int start, int length){
 		if (currentTag.equals("title")){
-			currentTitle = currentTitle.concat(new String(ch, start, length));
+			currentTitle = currentTitle.append(ch, start, length);
 		}
 		// TODO: To avoid looking at the revision ID, only the first ID is taken.
 		// I'm not sure how big the block size is in each call to characters(),
 		// so this may be unsafe.
 		else if ((currentTag.equals("id")) && (currentID.length() == 0)){
-			currentID = new String(ch, start, length);
+			currentID = new StringBuilder();
+			currentID.append(ch, start, length);
 		}
 		else if (currentTag.equals("text")){
-			currentWikitext = currentWikitext.concat(new String(ch, start, length));
+			currentWikitext = currentWikitext.append(ch, start, length);
 		}
 	}
 }

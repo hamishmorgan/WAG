@@ -1,7 +1,9 @@
 package edu.jhu.nlp.wikipedia;
 
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.zip.GZIPInputStream;
 
@@ -16,12 +18,18 @@ import org.xml.sax.InputSource;
  *
  */
 public abstract class WikiXMLParser {
-	
-	private String wikiXMLFile = null;
+		
+	private String wikiXMLFile = null; 
+	private BufferedReader wikiXMLBufferedReader = null;	
 	protected WikiPage currentPage = null;
 	
 	public WikiXMLParser(String fileName){
 		wikiXMLFile = fileName;
+	}
+	
+	public WikiXMLParser(InputStream is){
+		wikiXMLBufferedReader = 
+			new BufferedReader(new InputStreamReader(is));	    
 	}
 	
 	/**
@@ -43,7 +51,7 @@ public abstract class WikiXMLParser {
 	 * 
 	 * @return an iterator to the list of pages
 	 * @throws Exception
-	 */
+	 */                       
 	public abstract WikiPageIterator getIterator() throws Exception;
 	
 	/**
@@ -52,10 +60,12 @@ public abstract class WikiXMLParser {
 	 * @throws Exception
 	 */
 	protected InputSource getInputSource() throws Exception
-	{
+	{		
 		BufferedReader br = null;
 		
-		if(wikiXMLFile.endsWith(".gz")) {
+		if(this.wikiXMLBufferedReader != null) {
+			br = this.wikiXMLBufferedReader;
+		} else if(wikiXMLFile.endsWith(".gz")) {		
 			br = new BufferedReader(new InputStreamReader(
 					new GZIPInputStream(new FileInputStream(wikiXMLFile))));
 		} else if(wikiXMLFile.endsWith(".bz2")) {

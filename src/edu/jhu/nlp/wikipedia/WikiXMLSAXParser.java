@@ -1,5 +1,7 @@
 package edu.jhu.nlp.wikipedia;
 
+import java.io.InputStream;
+
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
@@ -16,8 +18,17 @@ public class WikiXMLSAXParser extends WikiXMLParser {
 	private XMLReader xmlReader;
 	private PageCallbackHandler pageHandler = null;
 
+	public WikiXMLSAXParser(InputStream is){
+		super(is);
+		this.initReaderHandler();		
+	}
+	
 	public WikiXMLSAXParser(String fileName){
 		super(fileName);
+		this.initReaderHandler();				
+	}
+
+	private void initReaderHandler(){
 		try {
 			xmlReader = XMLReaderFactory.createXMLReader();
 			pageHandler = new IteratorHandler(this);
@@ -26,7 +37,7 @@ public class WikiXMLSAXParser extends WikiXMLParser {
 			e.printStackTrace();
 		}
 	}
-
+	
 	/**
 	 * Set a callback handler. The callback is executed every time a
 	 * page instance is detected in the stream. Custom handlers are

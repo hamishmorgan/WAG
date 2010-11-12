@@ -1,5 +1,6 @@
 package edu.jhu.nlp.wikipedia;
 
+import java.io.InputStream;
 import java.util.Vector;
 
 import org.apache.xerces.parsers.DOMParser;
@@ -36,6 +37,10 @@ public class WikiXMLDOMParser extends WikiXMLParser {
 		
 	public WikiXMLDOMParser(String fileName){
 		super(fileName);
+	}
+	
+	public WikiXMLDOMParser(InputStream is){
+		super(is);
 	}
 	
 	/**
