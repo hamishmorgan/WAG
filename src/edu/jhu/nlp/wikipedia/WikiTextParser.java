@@ -129,6 +129,9 @@ public class WikiTextParser {
       }
       if(bracketCount == 0) break;
     }
+    if(endPos+1 >= wikiText.length()) return null;
+    // This happens due to malformed Infoboxes in wiki text. See Issue #10
+    // Giving up parsing is the easier thing to do.
     String infoBoxText = wikiText.substring(startPos, endPos+1);
     infoBoxText = stripCite(infoBoxText); // strip clumsy {{cite}} tags
     // strip any html formatting
