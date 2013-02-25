@@ -1,0 +1,118 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.21wmf9</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Stephensen's method</title>
+    <ns>0</ns>
+    <id>38063525</id>
+    <redirect title="Steffensen&#039;s method" />
+    <revision>
+      <id>530394646</id>
+      <timestamp>2012-12-30T03:15:33Z</timestamp>
+      <contributor>
+        <username>Tom Lougheed</username>
+        <id>450264</id>
+      </contributor>
+      <comment>created redirect for Anglicization of Steffensen's name</comment>
+      <text xml:space="preserve" bytes="47">#REDIRECT [[Steffensen's method]]
+
+{{redirect}}</text>
+      <sha1>6ansv9o070e8sa6n8kkjitmqmuu3yrw</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Hatnote</title>
+    <ns>10</ns>
+    <id>945764</id>
+    <restrictions>move=sysop:edit=sysop</restrictions>
+    <revision>
+      <id>450301204</id>
+      <parentid>388526872</parentid>
+      <timestamp>2011-09-13T14:42:30Z</timestamp>
+      <contributor>
+        <username>GTBacchus</username>
+        <id>6781</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Template:Dablink]] to [[Template:Hatnote]] over redirect: per move request; see talk page</comment>
+      <text xml:space="preserve" bytes="76">&lt;div class=&quot;dablink&quot;&gt;{{{1}}}&lt;/div&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>2h3hxi42jzxp1m2r8ytjvbz2kzdy88q</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Redirect</title>
+    <ns>10</ns>
+    <id>1649987</id>
+    <restrictions>edit=sysop:move=sysop</restrictions>
+    <revision>
+      <id>457069469</id>
+      <parentid>441563514</parentid>
+      <timestamp>2011-10-24T00:27:47Z</timestamp>
+      <contributor>
+        <username>Rich Farmbrough</username>
+        <id>82835</id>
+      </contributor>
+      <text xml:space="preserve" bytes="1309">{{Hatnote|&lt;!--
+--&gt;&quot;{{{1}}}&quot; redirects here. For {{#if:{{{2|}}}|{{{2}}}|other uses}}, see {{#if:{{{3|}}}|[[:{{{3}}}]]{{#ifeq:{{{4|}}}|and|&amp;#32;and {{#if:{{{5|}}}|[[:{{{5}}}]]|[[{{{1}}} (disambiguation)]]}}}}|[[{{{1}}} (disambiguation)]]}}.&lt;!--
+--&gt;{{#if:{{{2|}}}|{{#if:{{{4|}}}|&lt;!--
+  --&gt;{{#ifeq:{{{4|}}}|and||&lt;!-- &quot;and&quot; is a special word, don't outputSupplier &quot;For and, ...&quot;
+    --&gt;&amp;#32;&amp;#32;For {{#ifeq:{{{4}}}|1|other uses|{{{4}}}}}, see {{#if:{{{5|}}}|[[:{{{5}}}]]{{#ifeq:{{{6|}}}|and|&amp;#32;and {{#if:{{{7|}}}|[[:{{{7}}}]]|[[{{{4}}} (disambiguation)]]}}}}|[[{{{4}}} (disambiguation)]]}}.}}&lt;!--
+  --&gt;{{#if:{{{6|}}}|&lt;!--
+    --&gt;{{#ifeq:{{{6|}}}|and||&lt;!--
+      --&gt;&amp;#32;&amp;#32;For {{#ifeq:{{{6}}}|1|other uses|{{{6}}}}}, see {{#if:{{{7|}}}|[[:{{{7}}}]]{{#ifeq:{{{8|}}}|and|&amp;#32;and {{#if:{{{9|}}}|[[:{{{9}}}]]|[[{{{6}}} (disambiguation)]]}}}}|[[{{{6}}} (disambiguation)]]}}.}}&lt;!--
+    --&gt;{{#if:{{{8|}}}|&lt;!--
+      --&gt;{{#ifeq:{{{8|}}}|and||&lt;!--
+        --&gt;&amp;#32;&amp;#32;For {{#ifeq:{{{8}}}|1|other uses|{{{8}}}}}, see {{#if:{{{9|}}}|[[:{{{9}}}]]|[[{{{8}}} (disambiguation)]]}}.}}&lt;!--
+    --&gt;}}&lt;!--
+  --&gt;}}&lt;!--
+--&gt;}}}}}}{{#switch:{{{1&lt;noinclude&gt;|REDIRECT&lt;/noinclude&gt;}}}|REDIRECT|REDIRECT1|REDIRECT2|REDIRECT3|TERM = | #default = {{#ifexist:{{{1}}}||[[Category:Missing redirects]]}}}}&lt;noinclude&gt;
+
+{{Documentation}}
+
+&lt;/noinclude&gt;</text>
+      <sha1>lwkq3lx6fahb0wyesoog3nekknt0791</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>

@@ -62,28 +62,28 @@ public abstract class WikiXMLParser {
 	protected InputSource getInputSource() throws Exception
 	{		
 		BufferedReader br = null;
-		
-		if(this.wikiXMLBufferedReader != null) {
-			br = this.wikiXMLBufferedReader;
-		} else if(wikiXMLFile.endsWith(".gz")) {		
-			br = new BufferedReader(new InputStreamReader(
-					new GZIPInputStream(new FileInputStream(wikiXMLFile))));
-		} else if(wikiXMLFile.endsWith(".bz2")) {
-			FileInputStream fis = new FileInputStream(wikiXMLFile);
-			byte [] ignoreBytes = new byte[2];
-			fis.read(ignoreBytes); //"B", "Z" bytes from commandline tools
-			br = new BufferedReader(new InputStreamReader(
-					new CBZip2InputStream(fis)));
-		} else {
-			br = new BufferedReader(new InputStreamReader( 
-					new FileInputStream(wikiXMLFile)));
-		}
-		
-		return new InputSource(br);
-	}
 
-	protected void notifyPage(WikiPage page) {
-		currentPage = page;
-		
-	}
+        if(this.wikiXMLBufferedReader != null) {
+            br = this.wikiXMLBufferedReader;
+        } else if(wikiXMLFile.endsWith(".gz")) {
+            br = new BufferedReader(new InputStreamReader(
+                    new GZIPInputStream(new FileInputStream(wikiXMLFile))));
+        } else if(wikiXMLFile.endsWith(".bz2")) {
+            FileInputStream fis = new FileInputStream(wikiXMLFile);
+            byte [] ignoreBytes = new byte[2];
+            fis.read(ignoreBytes); //"B", "Z" bytes from commandline tools
+            br = new BufferedReader(new InputStreamReader(
+                    new CBZip2InputStream(fis)));
+        } else {
+            br = new BufferedReader(new InputStreamReader(
+                    new FileInputStream(wikiXMLFile)));
+        }
+
+        return new InputSource(br);
+    }
+
+    protected void notifyPage(WikiPage page) {
+        currentPage = page;
+
+    }
 }

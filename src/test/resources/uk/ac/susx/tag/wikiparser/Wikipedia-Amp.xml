@@ -1,0 +1,853 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.21wmf9</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Amp</title>
+    <ns>0</ns>
+    <id>47413</id>
+    <revision>
+      <id>534437037</id>
+      <parentid>534431770</parentid>
+      <timestamp>2013-01-23T04:01:36Z</timestamp>
+      <contributor>
+        <username>Racerx11</username>
+        <id>11505133</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edits by [[Special:Contributions/172.9.12.18|172.9.12.18]] ([[User talk:172.9.12.18|talk]]) to last revision by ClueBot NG ([[WP:HG|HG]])</comment>
+      <text xml:space="preserve" bytes="3896">{{wiktionary|AMP|amp}}
+'''Amp''' or '''AMP''' may refer to:
+
+{{tocright}}
+==Science==
+*[[Ampere]], a unit of electrical current
+*[[Adenosine monophosphate]], nucleotide found in RNA
+*[[Amphetamine]], phenethylamine stimulant used for treatment of ADHD and certain sleep disorders
+*[[Ampicillin]], common antibiotic used in bacteria culture
+*[[Amplifier]], device that increases the amplitude of a signal
+**[[Instrument amplifier]], amplifier for electronic musical instruments
+**[[Headphone amplifier]], amplifier meant for headphones
+*[[Ampoule]], medical container
+*[[Antimicrobial peptides]], immune system peptides
+*[[AMP deaminase]], a human enzyme encoded by the ''AMPD1'' gene
+
+==Organizations==
+*[[AMP Limited]], Australian financial services company or one of its buildings:
+**AMP Building, Perth, Australia, see [[140 St Georges Terrace]]
+**[[AMP Building]], Hobart, Australia
+**[[AMP Centre]], Sydney, Australia
+**[[AMP Place, Brisbane]], Australia
+**[[AMP Society Building]], Wellington, New Zealand
+**[[AMP Capital]], a subsidiary
+* AMP Incorporated, US company purchased by [[Tyco International]] in 1999
+*[[Alliance of the Presidential Majority]] (French: ''Alliance pour la majorité présidentielle''), political platform in the Democratic Republic of Congo
+*[[Americans for Medical Progress]], medical research charity
+*[[Ameriprise Financial]], finance company spun off from American Express in 2005
+*[[Anjaman Mozareen Punjab]], small peasants organisation fighting for land rights in Okara, Lahore, Renala Khurd and Depalpur in Pakistan
+*[[Applied Measurement Professionals]], a company specializing in examinations for certification and licensure
+
+==Computing==
+*[[AMP (solution stack)]] or &quot;Apache, MySQL and PHP&quot;, software products commonly used together
+*[[Ampersand]], printable character
+*[[Asymmetric multiprocessing]], variety of processors for different tasks
+*Alternative MAC/PHY, part of the [[Bluetooth]] specification as of version 3.0
+*[[C++ AMP|C++ Accelerated Massive Parallelism]], a library implemented on [[DirectX]] 11 and an open specification from Microsoft for implementing data parallelism directly in C++
+
+==Entertainment==
+*  AMPNetwork.com, gTLD own by music-tech company [[AAMPP Network]] Inc.
+*[[AMP Radio Networks]], Malaysian-based radio company
+*[[Adobe Media Player]], media player from Adobe
+*[[Adventures in Motion Pictures]], UK ballet company
+*[[After Midnight Project]], Los Angeles alternative rock band
+*[[Amp (TV series)|''Amp'' (TV series)]], music video show on MTV
+*[[Amp (band)]], rock and electronic band
+*[[Australian Music Prize]], annual Australian music award
+*[[Amp (comics)]], a Marvel Comics fictional mutant
+*[[The Amp]], a British music video channel
+
+==Music==
+*[[Instrument amplifier]], device for amplifying electric instruments
+**[[Guitar amplifier]], device for amplifying a guitar
+*[[AMP (Amplified Music Products)]], a California based manufacturer of musical instrument amplifiers
+*[[AMP (Annointed Music Productions)]], a Korean rap group from Maryland.
+
+==Other==
+*[[AAMPP]], an abbreviation ''for'' Artists, Agents, Managers, Producers, Promoters ''and is pronounced'' &quot;AMP&quot;
+*[[AMP Energy]], drink made by PepsiCo
+*[[Advanced Manufacturing Park]], manufacturing technology park in the United Kingdom
+*[[Advanced Mobile Phone System]], first-generation analog cellular technology
+*[[Air Member for Personnel]], senior appointment in the Royal Air Force
+*[[AutoMag (pistol)]], automatic Magnum pistol
+*[[Advanced Management Program (disambiguation)]], education program offered by several organizations
+*[[Amp Electric Vehicles]], an electric vehicle maker
+*[[Asset Management Plan]]
+*[[Amp Lee]] (born 1971)
+*[[Amplified Bible]], an English translation of the Bible
+{{disambiguation}}
+
+[[de:AMP]]
+[[fr:AMP]]
+[[ko:AMP]]
+[[it:AMP]]
+[[ja:AMP]]
+[[pl:AMP]]
+[[pt:AMP]]
+[[simple:Amp]]
+[[sk:AMP]]
+[[sr:AMP]]
+[[sv:AMP]]</text>
+      <sha1>tl53jy376ghbtweouh5eg2549hl799j</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Category handler</title>
+    <ns>10</ns>
+    <id>25084818</id>
+    <revision>
+      <id>453355390</id>
+      <parentid>453215489</parentid>
+      <timestamp>2011-10-01T11:28:56Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>avoid redirects</comment>
+      <text xml:space="preserve" bytes="3251">{{#if:
+  {{#ifeq: {{lc: {{{nocat|}}} }} | true
+  | dontcat    &lt;!--&quot;nocat=true&quot;, don't categorize--&gt;
+  }}{{#ifeq: {{lc: {{{categories|}}} }} | no
+  | dontcat
+  }}{{#switch: {{lc: {{{category2|¬}}} }}
+  | yes
+  | ¬   =   &lt;!--Not defined--&gt;
+  | #default = dontcat   &lt;!--&quot;category2 = no/'defined but empty'/'anything'&quot;--&gt;
+  }}{{#switch: {{lc: {{{subpage|}}} }}
+  | no = 
+    {{basepage subpage
+    | 
+    | dontcat    &lt;!--&quot;subpage=no&quot; and on a subpage--&gt;
+    | page = {{{page|}}}   &lt;!--For testing--&gt;
+    }}
+  | only = 
+    {{basepage subpage
+    | dontcat    &lt;!--&quot;subpage=only&quot; and not on a subpage--&gt;
+    | page = {{{page|}}}   &lt;!--For testing--&gt;
+    }}
+  }}
+
+|   &lt;!--Don't categorise (result was &quot;dontcat&quot; or &quot;dontcatdontcat&quot; and so on)--&gt;
+| &lt;!--Check blacklist--&gt;
+  {{#switch:
+    {{#ifeq: {{lc: {{{nocat|}}} }} | false
+    |   &lt;!--&quot;nocat=false&quot;, skip blacklist check--&gt;
+    | {{#ifeq: {{lc: {{{categories|}}} }} | yes
+      |   &lt;!--Skip blacklist check--&gt;
+      | {{#ifeq: {{lc: {{{category2|}}} }} | yes
+        |   &lt;!--Skip blacklist check--&gt;
+        | {{category handler/blacklist| page = {{{page|}}} }}   &lt;!--Check blacklist--&gt;
+        }}
+      }}
+    }}
+  | hide = &lt;!--Blacklist returned &quot;hide&quot;, don't categorize--&gt;
+  | #default  = 
+    &lt;!--Check if any namespace parameter is defined--&gt;
+    {{#ifeq: h0#384!5nea+w9 | {{{all| {{{main| {{{talk| {{{user| {{{wikipedia| {{{file| {{{mediawiki| {{{template| {{{help| {{{category| {{{portal| {{{book| {{{other| h0#384!5nea+w9 }}} }}} }}} }}} }}} }}} }}} }}} }}} }}} }}} }}} }}}
+    | &lt;!--No namespace parameters fed, basic usage--&gt;
+      {{namespace detect
+      | main = {{{1|}}}
+      | file = {{{1|}}}
+      | help = {{{1|}}}
+      | category = {{{1|}}}
+      | portal = {{{1|}}}
+      | book = {{{1|}}}
+      | page = {{{page|}}}   &lt;!--For testing and demonstration--&gt;
+      }}
+    | &lt;!--Namespace parameters fed, advanced usage.
+          If &quot;data&quot; is a number, return the corresponding 
+          numbered parameter, else return &quot;data&quot;.  --&gt;
+      {{{all|}}}{{category handler/numbered
+      | 1 = {{{1|}}}
+      | 2 = {{{2|}}}
+      | 3 = {{{3|}}}
+      | 4 = {{{4|}}}
+      | 5 = {{{5|}}}
+      | 6 = {{{6|}}}
+      | 7 = {{{7|}}}
+      | 8 = {{{8|}}}
+      | 9 = {{{9|}}}
+      | 10 = {{{10|}}}
+      | data = 
+        &lt;!--Check what namespace, and return the data for it.
+            Respecting empty parameters on purpose.  --&gt;
+        {{namespace detect
+        | main = {{{main| {{{other|}}} }}}
+        | talk = {{{talk| {{{other|}}} }}}
+        | user = {{{user| {{{other|}}} }}}
+        | wikipedia = {{{wikipedia| {{{project| {{{other|}}} }}} }}}
+        | file = {{{file| {{{image| {{{other|}}} }}} }}}
+        | mediawiki = {{{mediawiki| {{{other|}}} }}}
+        | template = {{{template| {{{other|}}} }}}
+        | help = {{{help| {{{other|}}} }}}
+        | category = {{{category| {{{other|}}} }}}
+        | portal = {{{portal| {{{other|}}} }}}
+        | book = {{{book| {{{other|}}} }}}
+        | other = {{{other|}}}  &lt;!--Namespace special or a new namespace--&gt;
+        | page = {{{page|}}}   &lt;!--For testing and demonstration--&gt;
+        }}
+      }}
+    }}
+  }}
+}}&lt;noinclude&gt;
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>c4juwdph6z7icsts027qmyupz0ojfpy</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Category handler/blacklist</title>
+    <ns>10</ns>
+    <id>25085046</id>
+    <revision>
+      <id>454450736</id>
+      <parentid>454139417</parentid>
+      <timestamp>2011-10-07T21:12:06Z</timestamp>
+      <contributor>
+        <username>Davidgothberg</username>
+        <id>109101</id>
+      </contributor>
+      <comment>Adding  &quot;User talk:UBX/+&quot;. Userboxes are sometimes demonstrated on the boxes' own talk pages, so &quot;userbox talk space&quot; needs blacklisting too.</comment>
+      <text xml:space="preserve" bytes="762">&lt;noinclude&gt;'''Actual code of this blacklist:'''&lt;pre&gt;&lt;/noinclude&gt;{{if pagename
+&lt;!-- Start of blacklist --&gt;
+
+| Main Page = hide   &lt;!-- Don't categorise the main page --&gt;
+
+&lt;!-- Don't categorise on centralised cascade page or its subpages --&gt;
+| Wikipedia:Cascade-protected items/+ = hide
+
+&lt;!-- Don't categorise userboxes in their own &quot;template space&quot; --&gt;
+| User:UBX/+ = hide 
+| User talk:UBX/+ = hide 
+
+| Wikipedia:Template messages/* = hide   &lt;!-- Don't categorise on its subpages --&gt;
+
+| /archiv* = hide   &lt;!-- Don't categorise on /archive pages --&gt;
+
+&lt;!-- End of blacklist --&gt;
+| page = {{{page|}}}   &lt;!-- Never change this one, see the doc --&gt;
+}}&lt;noinclude&gt;&lt;/pre&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>kpoi07w4b8dm9ij1ds7kt0jdphqz9mh</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Category handler/numbered</title>
+    <ns>10</ns>
+    <id>25084858</id>
+    <revision>
+      <id>453215508</id>
+      <parentid>388522178</parentid>
+      <timestamp>2011-09-30T14:10:07Z</timestamp>
+      <contributor>
+        <username>MSGJ</username>
+        <id>42630</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Template:Cat handler/numbered]] to [[Template:Category handler/numbered]]: expand name</comment>
+      <text xml:space="preserve" bytes="297">{{#iferror: {{#expr: 1 + {{{data|}}} }} 
+| {{{data|}}}   &lt;!--Not a number, return &quot;data&quot; as is--&gt; 
+| {{{ {{{data|}}} |}}}   &lt;!--&quot;data&quot; is a number, return that numbered parameter--&gt;
+}}&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>8ic7z0l1q10jkc27z0fxcjko5x21uk9</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Disambiguation</title>
+    <ns>10</ns>
+    <id>9950598</id>
+    <revision>
+      <id>440566996</id>
+      <parentid>426365760</parentid>
+      <timestamp>2011-07-20T23:45:05Z</timestamp>
+      <contributor>
+        <username>R'n'B</username>
+        <id>2300502</id>
+      </contributor>
+      <comment>add cat per talk page request</comment>
+      <text xml:space="preserve" bytes="1007">{{Dmbox
+| type = disambig
+| text = This [[Help:Disambiguation|disambiguation]] page lists articles associated with the same title. &lt;br /&gt; &lt;small&gt;If an [{{fullurl:Special:WhatLinksHere/{{{page-title|{{FULLPAGENAME}}}}}|namespace=0}} internal link] led you here, you may wish to change the link to point directly to the intended article.&lt;/small&gt;
+| nocat = {{{nocat|}}}   &lt;!--So &quot;nocat=true&quot; works--&gt;
+}}{{main other
+| demospace = {{{demospace|}}}
+| [[Category:Disambiguation pages]]{{disambiguation/cat|{{{1|}}}}}{{disambiguation/cat|{{{2|}}}}}{{disambiguation/cat|{{{3|}}}}}{{disambiguation/cat|{{{4|}}}}}{{disambiguation/cat|{{{5|}}}}}{{disambiguation/cat|{{{6|}}}}}{{disambiguation/cat|{{{7|}}}}}{{disambiguation/cat|{{{8|}}}}}{{disambiguation/cat|{{{9|}}}}}{{disambiguation/cat|{{{10|}}}}}[[Category:Article Feedback Blacklist]]
+| &lt;!-- Don't categorise when not in main (article) space. --&gt;
+}}&lt;noinclude&gt;
+
+{{Documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>t0wvc4gu1cvqa1svgtwg8avalbipeej</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Disambiguation/cat</title>
+    <ns>10</ns>
+    <id>21250838</id>
+    <revision>
+      <id>534672804</id>
+      <parentid>534603389</parentid>
+      <timestamp>2013-01-24T16:30:44Z</timestamp>
+      <contributor>
+        <username>JHunterJ</username>
+        <id>842922</id>
+      </contributor>
+      <comment>New cat names</comment>
+      <text xml:space="preserve" bytes="3083">{{#switch:{{lc:{{{1|}}}}}
+| split      = [[Category:Disambiguation pages in need of being split]]
+| clean up
+| clean-up
+| cleanup    = [[Category:Disambiguation pages in need of cleanup]]
+| airports
+| airport    = [[Category:Airport disambiguation]]
+| call sign
+| call signs
+| broadcast call sign
+| broadcast call signs
+| callsign   = [[Category:Broadcast call sign disambiguation pages]]
+| chinese char
+| chinese-char
+| chinesechar
+| chinese character 
+| chinese    = [[Category:Disambiguation pages with Chinese character titles]]
+| churches
+| church building
+| church buildings
+| church     = [[Category:Church building disambiguation pages]]
+| fish       = [[Category:Fish common names]]
+| geodis
+| geography
+| geographical
+| place name
+| place names
+| place
+| places
+| geo        = [[Category:Place name disambiguation pages]]
+| county     = [[Category:County name disambiguation pages]]
+| uscounty   = [[Category:United States county disambiguation pages]]
+| township   = [[Category:Township name disambiguation pages]]
+| name
+| names
+| human name
+| human names
+| hndis
+| hn         = [[Category:Human name disambiguation pages]]
+| surnames   = [[Category:Disambiguation pages with surname-holder lists]]
+| surname    = [[Category:Disambiguation pages with surname-holder lists]]
+| given names =[[Category:Disambiguation pages with given-name-holder lists]]
+| given name = [[Category:Disambiguation pages with given-name-holder lists]]
+| hospital name
+| hospital names
+| hospitals
+| hospital   = [[Category:Hospital disambiguation pages]]
+| latin name
+| latin names
+| latin      = [[Category:Latin name disambiguation pages]]
+| letter-number
+| letter number = [[Category:Letter-number combination disambiguation pages]]
+| mathdab
+| maths
+| mathematics
+| mathematical
+| math       = [[Category:Mathematical disambiguation]]
+| molecular formula
+| molform    = [[Category:Molecular formula disambiguation pages]][[Category:Molecular formulas]]
+| numberdis
+| numbers
+| ambiguous number
+| ambiguous numbers
+| number     = [[Category:Lists of ambiguous numbers]]
+| plants
+| plant      = [[Category:Plant common names]]
+| roaddis
+| roads
+| road       = [[Category:Road disambiguation pages]]
+| schooldis
+| schools
+| educational institution
+| educational institutions
+| college
+| colleges
+| university
+| universities
+| school     = [[Category:Educational institution disambiguation pages]]
+| political
+| party      = [[Category:Political party disambiguation pages]]
+| genus      = [[Category:Genus disambiguation pages]]
+|            = &lt;!-- No value fed, is also valid inputSupplier --&gt;
+| #default   = &lt;!-- &lt;div style=&quot;text-align: center;&quot;&gt;This disambiguation box is using an invalid category parameter &quot;{{{1|}}}&quot; and needs fixing. &lt;small&gt;([[:Category:Wikipedia disambig or set index box parameter needs fixing|learn more]])&lt;/small&gt;&lt;/div&gt; --&gt;[[Category:Wikipedia disambig or set index box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]]&lt;!-- Sort on namespace --&gt;
+}}&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>llnjrdbe1d16e8a6vx6lcak1bpixv2o</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Dmbox</title>
+    <ns>10</ns>
+    <id>19662365</id>
+    <revision>
+      <id>466538335</id>
+      <parentid>463282681</parentid>
+      <timestamp>2011-12-18T16:05:31Z</timestamp>
+      <contributor>
+        <username>Plastikspork</username>
+        <id>5075409</id>
+      </contributor>
+      <minor/>
+      <comment>resolve redirects</comment>
+      <text xml:space="preserve" bytes="2212">&lt;table id=&quot;
+{{#switch:{{{type|}}}
+| setindex = setindexbox
+| disambig      &lt;!-- disambig = default --&gt;
+| #default = disambigbox
+}}&quot; class=&quot;metadata plainlinks dmbox 
+{{#switch:{{{type|}}}
+| setindex = dmbox-setindex
+| disambig      &lt;!-- disambig = default --&gt;
+| #default = dmbox-disambig
+}} {{{class|}}}&quot; style=&quot;{{{style|}}}&quot;&gt;
+&lt;tr&gt;
+{{#ifeq:{{{image|}}}|none
+| &lt;!-- No image. Cell with some width or padding necessary for text cell to have 100% width. --&gt;&lt;td class=&quot;mbox-empty-cell&quot;&gt;&lt;/td&gt;
+| &lt;td class=&quot;mbox-image&quot; style=&quot;padding: 2px 0 2px 0.4em;&quot;&gt;
+  {{#if:{{{image|}}}
+  | {{{image}}}
+  | [[File:{{#switch:{{{type|}}}
+    | setindex = List gray.svg
+    | disambig      &lt;!-- disambig = default --&gt;
+    | #default = Disambig gray.svg
+    }}|30px|alt=Disambiguation icon]]
+  }}&lt;/td&gt;
+}}
+&lt;td class=&quot;mbox-text&quot; style=&quot;padding: 0.25em 0.4em; font-style: italic; {{{textstyle|}}}&quot;&gt; {{{text}}} &lt;/td&gt;
+{{#if:{{{imageright|}}}
+| &lt;td class=&quot;mbox-imageright&quot; style=&quot;padding: 2px 0.4em 2px 0;&quot;&gt; {{{imageright}}} &lt;/td&gt;
+}}
+&lt;/tr&gt;
+&lt;/table&gt;&lt;!-- 
+  Detect and report usage with faulty &quot;type&quot; parameter:
+--&gt;{{#switch:{{{type|}}}
+|   &lt;!-- No type fed, is also valid inputSupplier --&gt;
+| disambig
+| setindex =    &lt;!-- Do nothing, valid &quot;type&quot; --&gt;
+| #default = &lt;div style=&quot;text-align: center;&quot;&gt;This message box is using an invalid &quot;type={{{type|}}}&quot; parameter and needs fixing.&lt;/div&gt;[[Category:Wikipedia message box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]]&lt;!-- Sort on namespace --&gt;
+}}&lt;!-- 
+  Categorization:
+--&gt;{{#switch:{{{type|}}}
+| setindex = 
+  {{category handler
+  | main = [[Category:All set index articles]]
+  | nocat = {{{nocat|}}}   &lt;!--So &quot;nocat=true&quot; works--&gt;
+  | page = {{{page|}}}   &lt;!--For testing--&gt;
+  }}
+| disambig    &lt;!-- disambig = default --&gt;
+| #default = 
+  {{category handler
+  | main = [[Category:All article disambiguation pages]][[Category:All disambiguation pages]]
+  | template =    &lt;!-- Don't categorize on template pages. --&gt;
+  | other = [[Category:All disambiguation pages]]
+  | nocat = {{{nocat|}}}   &lt;!--So &quot;nocat=true&quot; works--&gt;
+  | page = {{{page|}}}   &lt;!--For testing--&gt;
+  }}
+}}&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>qmfilm8zqq9byopftfuozwxuoy9xx36</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:If pagename</title>
+    <ns>10</ns>
+    <id>24967971</id>
+    <revision>
+      <id>388690888</id>
+      <parentid>327560279</parentid>
+      <timestamp>2010-10-04T14:56:27Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>remove {{pp-template}}</comment>
+      <text xml:space="preserve" bytes="2135">{{#if:x   &lt;!--Remove surrounding whitespace--&gt;
+| &lt;!--Check for match with full pagename--&gt;
+  {{{ {{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}   &lt;!--Has data, or is empty but defined--&gt;
+  | &lt;!--Check for match with &quot;User:Somepage/+&quot;--&gt;
+    {{{ {{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|1|1}}/+
+    | &lt;!--Else, are we on a subpage or a basepage?--&gt;
+      {{#if:{{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|0|2}}
+      | &lt;!--We are on a subpage, check for match with &quot;User:Somepage/*&quot;--&gt;
+        {{{ {{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|1|1}}/*
+        | &lt;!--Check for match with &quot;Somepage/*&quot;--&gt;
+          {{{ {{#titleparts:{{#if:{{{page|}}}| {{PAGENAME:{{{page|}}}}} | {{PAGENAME}} }}|1|1}}/*
+          | &lt;!--Check for match with &quot;/something&quot;--&gt;
+            {{{ /{{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|0|-1}}
+            | &lt;!--Check for match with &quot;/somethin*&quot;--&gt;
+              {{{ /{{lc: {{padleft:|8| {{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|0|-1}}# }} }}*
+              | &lt;!--Check for match with &quot;/someth*&quot;--&gt;
+                {{{ /{{lc: {{padleft:|6| {{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|0|-1}}# }} }}*
+                | &lt;!--Check for match with &quot;/some*&quot;--&gt;
+                  {{{ /{{lc: {{padleft:|4| {{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|0|-1}}# }} }}*   &lt;!--Pad with # so &quot;/a&quot; doesn't match &quot;/aaaa*&quot;--&gt;
+                  | {{{subpage| {{{other|}}} }}}   &lt;!--Respecting empty parameter on purpose--&gt;
+                  }}}
+                }}}
+              }}}
+            }}}
+          }}}
+        }}}
+      | &lt;!--We are on a basepage, check for match with &quot;Somepage&quot;--&gt;
+        {{{ {{#if:{{{page|}}}| {{PAGENAME:{{{page|}}}}} | {{PAGENAME}} }}
+        | {{{basepage| {{{other|}}} }}}   &lt;!--Respecting empty parameter on purpose--&gt;
+        }}}
+      }}   &lt;!--End if, are we on a subpage or a basepage?--&gt;
+    }}}
+  }}}
+}}&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>f6ui44rhtrrzwpz6jioqm0fgkeg8gdf</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Main other</title>
+    <ns>10</ns>
+    <id>17220251</id>
+    <revision>
+      <id>388689011</id>
+      <parentid>334818505</parentid>
+      <timestamp>2010-10-04T14:46:48Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>remove {{pp-template}}</comment>
+      <text xml:space="preserve" bytes="409">{{#switch:
+  &lt;!--If no or empty &quot;demospace&quot; parameter then detect namespace--&gt;
+  {{#if:{{{demospace|}}} 
+  | {{lc: {{{demospace}}} }}    &lt;!--Use lower case &quot;demospace&quot;--&gt;
+  | {{#ifeq:{{NAMESPACE}}|{{ns:0}}
+    | main
+    | other
+    }} 
+  }}
+| main     = {{{1|}}}
+| other
+| #default = {{{2|}}}
+}}&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>ngt28vb1n5t4bh1su57btnqyofkd1d5</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Namespace detect</title>
+    <ns>10</ns>
+    <id>17433896</id>
+    <revision>
+      <id>388733912</id>
+      <parentid>334823405</parentid>
+      <timestamp>2010-10-04T18:40:00Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>remove {{pp-template}} since included in {{documentation}}</comment>
+      <text xml:space="preserve" bytes="1466">{{#switch:
+  {{lc:               &lt;!--Lower case the result--&gt;
+    &lt;!--If no or empty &quot;demospace&quot; parameter then detect namespace--&gt;
+    {{#if:{{{demospace|}}} 
+    | {{{demospace}}}
+    | {{#if:{{{page|}}} 
+      | &lt;!--Detect the namespace in the &quot;page&quot; parameter--&gt;
+        {{#ifeq:{{NAMESPACE:{{{page}}} }}|{{TALKSPACE:{{{page}}} }}
+        | talk
+        | {{SUBJECTSPACE:{{{page}}} }} 
+        }}
+      | &lt;!--No &quot;demospace&quot; or &quot;page&quot; parameters, so detect actual namespace--&gt;
+        {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}
+        | talk
+        | {{SUBJECTSPACE}} 
+        }}
+      }}
+    }}
+  }}
+&lt;!-- Only one of the lines below will be executed --&gt;
+&lt;!-- Respecting empty parameters on purpose --&gt;
+| main        &lt;!--&quot;demospace=main&quot; or {{SUBJECTSPACE}}={{ns:0}}=&quot;&quot;--&gt;
+|           = {{{main| {{{other|}}} }}}
+| talk      = {{{talk| {{{other|}}} }}}
+| user      = {{{user| {{{other|}}} }}}
+| wikipedia = {{{wikipedia| {{{other|}}} }}}
+| file
+| image     = {{{file| {{{image| {{{other|}}} }}} }}}
+| mediawiki = {{{mediawiki| {{{other|}}} }}}
+| template  = {{{template| {{{other|}}} }}}
+| help      = {{{help| {{{other|}}} }}}
+| category  = {{{category| {{{other|}}} }}}
+| portal    = {{{portal| {{{other|}}} }}}
+| book      = {{{book| {{{other|}}} }}}
+| other
+| #default  = {{{other|}}}   &lt;!--&quot;demospace=other&quot; or a new namespace--&gt;
+
+}}&lt;!--End switch--&gt;&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>k2auzofayktm0oitr1kmv3dz91ydyp4</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Side box</title>
+    <ns>10</ns>
+    <id>20504849</id>
+    <revision>
+      <id>507654811</id>
+      <parentid>507545514</parentid>
+      <timestamp>2012-08-16T08:09:25Z</timestamp>
+      <contributor>
+        <username>Thumperward</username>
+        <id>545027</id>
+      </contributor>
+      <comment>add plainlist class, which makes adds semantic value when multiple elements are used. any problems with this, please let me know</comment>
+      <text xml:space="preserve" bytes="821">&lt;table class=&quot;metadata mbox-small{{#ifeq:{{lc:{{{position|}}}}}|left|-left}} {{{class|}}}&quot; style=&quot;border:1px solid #aaa; background-color:#f9f9f9; {{{style|}}}&quot;&gt;
+{{#if:{{{above|}}}
+| &lt;tr&gt;&lt;td colspan={{#if:{{{imageright|}}}|3|2}} class=&quot;mbox-text&quot; style=&quot;{{{textstyle|}}}{{{abovestyle|}}}&quot;&gt;
+{{{above}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+&lt;tr&gt;
+{{#switch:{{{image|}}}
+|&lt;!--BLANK--&gt;|none={{td}}
+|#default=&lt;td class=&quot;mbox-image&quot;&gt;{{{image}}}&lt;/td&gt;
+}}
+&lt;td class=&quot;mbox-text plainlist&quot; style=&quot;{{{textstyle|}}}&quot;&gt;{{{text}}}&lt;/td&gt;
+{{#if:{{{imageright|}}}
+| &lt;td class=&quot;mbox-imageright&quot;&gt;{{{imageright}}}&lt;/td&gt;
+}}
+&lt;/tr&gt;
+{{#if:{{{below|}}}
+| &lt;tr&gt;&lt;td colspan={{#if:{{{imageright|}}}|3|2}} class=&quot;mbox-text&quot; style=&quot;{{{textstyle|}}}&quot;&gt;{{{below}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+&lt;/table&gt;&lt;noinclude&gt;{{Documentation}}&lt;!-- Add categories and interwikis to the /doc subpage --&gt;&lt;/noinclude&gt;</text>
+      <sha1>likwd1nudg0i99njc06o1gstf63q94x</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Sister</title>
+    <ns>10</ns>
+    <id>20505184</id>
+    <revision>
+      <id>533163252</id>
+      <parentid>522968782</parentid>
+      <timestamp>2013-01-15T06:27:58Z</timestamp>
+      <contributor>
+        <username>Rschen7754</username>
+        <id>210954</id>
+      </contributor>
+      <comment>change logo</comment>
+      <text xml:space="preserve" bytes="1353">{{Side box
+| position = {{{position|}}}
+| image    = 
+  {{#switch: {{{image|}}}
+  | none =    &lt;!-- &quot;image=none&quot;, do nothing --&gt;
+  |      =    &lt;!-- No image fed, select an image --&gt;
+    [[Image:{{#switch: {{lc: {{{project|}}} }}
+    | commons                = Commons-logo.svg
+    | meta|metawiki|m        = Wikimedia Community Logo.svg
+    | wikibooks|wbk|wb|b     = Wikibooks-logo-en-noslogan.svg
+    | wikidata|data          = Wikidata-logo.svg
+    | wikiquote|quote|wqt|q  = Wikiquote-logo-en.svg
+    | wikipedia|wp|w         = Wikipedia-logo-v2.svg
+    | wikisource|source|ws|s = Wikisource-logo.svg
+    | wiktionary|wkt|wdy|d   = Wiktionary-logo-en.svg
+    | wikinews|news|wnw|n    = Wikinews-logo.svg
+    | wikispecies|species    = Wikispecies-logo.svg
+    | wikiversity|wvy|v      = Wikiversity-logo.svg
+    | wikivoyage|voyage|voy  = Wikivoyage-logo.svg
+    | mediawiki|mw           = Mediawiki.png
+    | outreachwiki|outreach  = Wikimedia Outreach.png
+    | incubator              = Incubator-notext.svg
+    | #default               = Wikimedia-logo.svg
+    }}|40x40px|link=|alt=
+    ]]
+  | #default = {{{image|}}}
+  }}
+| text       = {{{text}}}
+| below      = {{{below|}}}
+| imageright = {{{imageright|}}}
+| class      = plainlinks
+}}&lt;noinclude&gt;{{Documentation}}&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;&lt;/noinclude&gt;</text>
+      <sha1>mt5vc8grn4zljl8x96j7dy1m9xywvod</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:TOC right</title>
+    <ns>10</ns>
+    <id>1242749</id>
+    <restrictions>edit=sysop:move=sysop</restrictions>
+    <revision>
+      <id>521430153</id>
+      <parentid>388761394</parentid>
+      <timestamp>2012-11-04T23:31:50Z</timestamp>
+      <contributor>
+        <username>TheDJ</username>
+        <id>244887</id>
+      </contributor>
+      <comment>let's do away with the table here. no real need for it. bad for accessibility</comment>
+      <text xml:space="preserve" bytes="322">&lt;div style=&quot;clear: {{{clear|right}}}; margin-bottom: .5em; float: right; padding: .5em 0 .8em 1.4em; background: none; width: {{{width|{{{1|auto}}}}}};&quot; {{#if:{{{limit|}}}|class=&quot;toclimit-{{{limit}}}&quot;}}&gt;__TOC__&lt;/div&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;!-- Add cats and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>hkmb6eyree8738761xsk7lhkicja6vq</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Tocright</title>
+    <ns>10</ns>
+    <id>2924019</id>
+    <redirect title="Template:TOC right" />
+    <revision>
+      <id>488792678</id>
+      <parentid>385880843</parentid>
+      <timestamp>2012-04-23T10:36:53Z</timestamp>
+      <contributor>
+        <username>AGK</username>
+        <id>1000453</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Tocright: [[Wikipedia:High-risk templates|Highly-visible template]] (between 1900 and 4000 transclusions) (‎[edit=autoconfirmed] (indefinite) ‎[move=sysop] (indefinite))</comment>
+      <text xml:space="preserve" bytes="32">#REDIRECT [[Template:TOC right]]</text>
+      <sha1>tfpobd5x8b68zq6g7n1kinn14h0dhry</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Wiktionary</title>
+    <ns>10</ns>
+    <id>960068</id>
+    <restrictions>edit=sysop:move=sysop</restrictions>
+    <revision>
+      <id>505122081</id>
+      <parentid>452154359</parentid>
+      <timestamp>2012-07-31T16:42:46Z</timestamp>
+      <contributor>
+        <username>TheDJ</username>
+        <id>244887</id>
+      </contributor>
+      <comment>We no longer need sec link auto anymore now that we have protocol relative urls.</comment>
+      <text xml:space="preserve" bytes="613">{{sister
+|position={{{position|}}}
+|project=wiktionary
+|text=Look up '''''[[wiktionary:{{{1|Special:Search/{{lc:{{SUBPAGENAME}}}}}}}|{{{1|{{lc:{{SUBPAGENAME}}}}}}}]]'''''{{#if:{{{2|}}}
+  |{{#if:{{{3|}}}
+   |,
+   |&amp;nbsp;or
+  }} '''''[[wiktionary:{{{2}}}|{{{2}}}]]'''''
+ }}{{#if:{{{3|}}}
+  |{{#if:{{{4|}}}
+   |,
+   |, or
+  }} '''''[[wiktionary:{{{3}}}|{{{3}}}]]'''''
+ }}{{#if:{{{4|}}}
+  |{{#if:{{{5|}}}
+   |,
+   |, or
+  }} '''''[[wiktionary:{{{4}}}|{{{4}}}]]'''''
+ }}{{#if:{{{5|}}}
+  |, or '''''[[wiktionary:{{{5}}}|{{{5}}}]]'''''
+ }} in Wiktionary, the free dictionary.
+}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>3xwkwu8dmh63nfy9xikge4h38islb8l</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>

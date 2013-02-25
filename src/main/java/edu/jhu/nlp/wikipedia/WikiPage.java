@@ -35,7 +35,7 @@ public class WikiPage {
 	
 	/**
 	 * 
-	 * @return a string containing the page title.
+	 * @return a string containing the page ∑title.
 	 */
 	public String getTitle() {
 		return title;

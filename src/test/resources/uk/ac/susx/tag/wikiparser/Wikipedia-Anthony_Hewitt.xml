@@ -1,0 +1,86 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.21wmf9</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Anthony Hewitt</title>
+    <ns>0</ns>
+    <id>8237195</id>
+    <revision>
+      <id>523289137</id>
+      <parentid>516755777</parentid>
+      <timestamp>2012-11-16T07:43:49Z</timestamp>
+      <contributor>
+        <username>Magioladitis</username>
+        <id>1862829</id>
+      </contributor>
+      <minor/>
+      <comment>clean up using [[Project:AWB|AWB]] (8574)</comment>
+      <text xml:space="preserve" bytes="1609">'''Anthony Hewitt''' (born in 1971) is a classical pianist from the [[Lake District]], [[England]]. &lt;ref&gt;{{cite news|author = DONALD ROSENBERG|title = PLAYING GROWS LIVELIER AS CONTEST PROGRESSES|quote = |publisher = Plain Dealer |date = August 10, 1997|url = |accessdate = January 23, 2011}}&lt;/ref&gt;&lt;ref name=&quot;argus&quot;/&gt;
+
+Described by ''The Gramophone'' as 'a remarkably gifted artist',&lt;ref name=&quot;argus&quot;&gt;{{cite news|author = |title = Hewitt comes to shine light on sunny Cape; English pianist plans annual late-summer working holidays in city|quote = |publisher = Cape Argus|date = February 23, 2008|url = |accessdate = January 23, 2011}}&lt;/ref&gt; and by [[Alfred Brendel]] as 'a young pianist of remarkable talent', Hewitt now combines his busy concert schedule with the duties of directing the Ulverston International Music Festival.&lt;ref&gt;{{cite news|author = Adrian Mullen|title = Another top notch line-up for Ulverston International Music Festival|quote = |publisher = The Westmorland Gazette|date = May 25, 2009|url = |accessdate = January 23, 2011}}&lt;/ref&gt;
+
+==References==
+{{reflist}}
+
+==External links==
+*http://www.anthonyhewitt.co.uk
+*http://www.ulverstonmusicfestival.co.uk
+
+{{Authority control|VIAF=53978062}}
+
+{{Persondata &lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&gt;
+| NAME              =Hewitt, Anthony
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1971
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Hewitt, Anthony}}
+[[Category:1971 births]]
+[[Category:English classical pianists]]
+[[Category:Living people]]
+
+
+{{UK-classical-pianist-stub}}</text>
+      <sha1>0au5z3jebrymatdjh34jutelwbn1uy6</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,2742 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.21wmf9</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Acid</title>
+    <ns>0</ns>
+    <id>656</id>
+    <revision>
+      <id>539044791</id>
+      <parentid>538641914</parentid>
+      <timestamp>2013-02-19T14:33:47Z</timestamp>
+      <contributor>
+        <username>Legobot</username>
+        <id>7304691</id>
+      </contributor>
+      <minor/>
+      <comment>Bot: Migrating langlinks to [[WP:Wikidata]] - [[d:q11158]]</comment>
+      <text xml:space="preserve" bytes="33285">{{About|acids in chemistry|the drug|Lysergic acid diethylamide|other uses}}
+{{Redirect|Acidity|the novelette|Acidity (novelette)}}
+{{Acids and bases}}
+[[File:Zn reaction with HCl.JPG|thumb|[[Zinc]], a typical metal, reacting with [[hydrochloric acid]], a typical acid]]
+An '''acid''' (from the [[Latin]] ''acidus/acēre'' meaning ''sour''&lt;ref&gt;[http://www.merriam-webster.com/dictionary/acid Merriam-Webster's Online Dictionary: ''acid'']&lt;/ref&gt;) is a substance which reacts with a [[Base (chemistry)|base]]. Commonly, acids can be identified as tasting sour, reacting with metals such as [[calcium]], and bases like [[sodium carbonate]]. Aqueous acids have a [[pH]] under 7, with acidity increasing the lower the pH. Chemicals or substances having the property of an acid are said to be '''acidic'''.
+
+Common examples of acids include [[acetic acid]] (in [[vinegar]]), [[sulfuric acid]] (used in [[car battery|car batteries]]), and [[tartaric acid]] (used in baking). As these three examples show, acids can be [[solution]]s, [[liquid]]s, or [[solid]]s. Gases such as [[hydrogen chloride]] can be acids as well when dissolved in water. Strong acids and some concentrated weak acids are [[corrosive substance|corrosive]], but there are exceptions such as [[carborane]]s and [[boric acid]].
+
+There are three common definitions for acids: the Arrhenius definition, the Brønsted-Lowry definition, and the Lewis definition. The Arrhenius definition states that acids are substances which increase the concentration of [[hydronium]] ions (H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt;) in solution. The Brønsted-Lowry definition is an expansion: an acid is a substance which can act as a proton donor. Most acids encountered in everyday life are [[aqueous solutions]], or can be dissolved in water, and these two definitions are most relevant. The reason why pHs of acids are less than 7 is that the concentration of hydronium ions is greater than 10&lt;sup&gt;−7&lt;/sup&gt; [[Mole (unit)|moles]] per liter. Since pH is defined as the negative logarithm of the concentration of hydronium ions, acids thus have pHs of less than 7. By the Brønsted-Lowry definition, any compound which can easily be deprotonated can be considered an acid. Examples include alcohols and amines which contain O-H or N-H fragments.
+
+In chemistry, the Lewis definition of acidity is frequently encountered. Lewis acids are electron-pair acceptors. Examples of Lewis acids include all metal [[ion|cations]], and electron-deficient molecules such as [[boron trifluoride]] and [[aluminium trichloride]]. Hydronium ions are acids according to all three definitions. Interestingly, although alcohols and amines can be Brønsted-Lowry acids as mentioned above, they can also function as [[Lewis base]]s due to the lone pairs of electrons on their oxygen and nitrogen atoms.
+
+==Definitions and concepts==
+{{main|Acid–base reaction}}
+Modern definitions are concerned with the fundamental chemical reactions common to all acids.
+
+===Arrhenius acids===
+The Swedish chemist [[Svante Arrhenius]] attributed the properties of acidity to [[hydrogen]] in 1884. An '''Arrhenius acid''' is a substance that increases the concentration of the [[hydronium ion]], H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt;, when dissolved in water. This definition stems from the equilibrium dissociation of water into hydronium and [[hydroxide ion|hydroxide]] (OH&lt;sup&gt;−&lt;/sup&gt;) ions:&lt;ref name=&quot;Ebbing&quot;&gt;Ebbing, D.D., &amp; Gammon, S. D. (2005). ''General chemistry'' (8th ed.). Boston, MA: Houghton Mifflin. ISBN 0-618-51177-6&lt;/ref&gt;
+: H&lt;sub&gt;2&lt;/sub&gt;O(''l'') + H&lt;sub&gt;2&lt;/sub&gt;O(''l'') {{eqm}} H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt;(''aq'') + OH&lt;sup&gt;−&lt;/sup&gt;(''aq'')
+In pure water the majority of molecules exist as H&lt;sub&gt;2&lt;/sub&gt;O, but a small number of molecules are constantly dissociating and re-associating. Pure water is neutral with respect to acidity or basicity because the concentration of hydroxide ions is always equal to the concentration of hydronium ions. An Arrhenius [[base (chemistry)|base]] is a molecule which increases the concentration of the hydroxide ion when dissolved in water. Note that chemists often write H&lt;sup&gt;+&lt;/sup&gt;(''aq'') and refer to the [[hydrogen ion]] when describing acid-base reactions but the free hydrogen nucleus, a [[proton]], does not exist alone in water, it exists as the hydronium ion, H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt; .
+
+===Brønsted-Lowry acids===
+While the Arrhenius concept is useful for describing many reactions, it is also quite limited in its scope. In 1923 chemists [[Johannes Nicolaus Brønsted]] and [[Thomas Martin Lowry]] independently recognized that acid-base reactions involve the transfer of a proton. A '''Brønsted-Lowry acid''' (or simply Brønsted acid) is a species that donates a proton to a Brønsted-Lowry base.&lt;ref name=&quot;Ebbing&quot; /&gt; Brønsted-Lowry acid-base theory has several advantages over Arrhenius theory. Consider the following reactions of [[acetic acid]] (CH&lt;sub&gt;3&lt;/sub&gt;COOH), the [[organic acid]] that gives [[vinegar]] its characteristic taste:
+:[[File:Acid-base.png]]
+Both theories easily describe the first reaction: CH&lt;sub&gt;3&lt;/sub&gt;COOH acts as an Arrhenius acid because it acts as a source of H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt; when dissolved in water, and it acts as a Brønsted acid by donating a proton to water. In the second example CH&lt;sub&gt;3&lt;/sub&gt;COOH undergoes the same transformation, in this case donating a proton to ammonia (NH&lt;sub&gt;3&lt;/sub&gt;), but cannot be described using the Arrhenius definition of an acid because the reaction does not produce hydronium. Brønsted-Lowry theory can also be used to describe [[molecule|molecular compounds]], whereas Arrhenius acids must be [[ion|ionic compounds]]. [[Hydrogen chloride]] (HCl) and ammonia combine under several different conditions to form [[ammonium chloride]], NH&lt;sub&gt;4&lt;/sub&gt;Cl. In aqueous solution HCl behaves as [[hydrochloric acid]] and exists as hydronium and chloride ions. The following reactions illustrate the limitations of Arrhenius's definition:
+# H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt;(''aq'') + Cl&lt;sup&gt;−&lt;/sup&gt;(''aq'') + NH&lt;sub&gt;3&lt;/sub&gt; → Cl&lt;sup&gt;−&lt;/sup&gt;(''aq'') + NH&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt;(''aq'')
+# HCl(''benzene'') + NH&lt;sub&gt;3&lt;/sub&gt;(''benzene'') → NH&lt;sub&gt;4&lt;/sub&gt;Cl(''s'')
+# HCl(''g'') + NH&lt;sub&gt;3&lt;/sub&gt;(''g'') → NH&lt;sub&gt;4&lt;/sub&gt;Cl(''s'')
+As with the acetic acid reactions, both definitions work for the first example, where water is the solvent and hydronium ion is formed. The next two reactions do not involve the formation of ions but are still proton transfer reactions. In the second reaction hydrogen chloride and ammonia (dissolved in [[benzene]]) react to form solid ammonium chloride in a benzene solvent and in the third gaseous HCl and NH&lt;sub&gt;3&lt;/sub&gt; combine to form the solid.
+
+===Lewis acids===
+A third concept was proposed in 1923 by [[Gilbert N. Lewis]] which includes reactions with acid-base characteristics that do not involve a proton transfer. A '''Lewis acid''' is a species that accepts a pair of electrons from another species; in other words, it is an electron pair acceptor.&lt;ref name=&quot;Ebbing&quot; /&gt; Brønsted acid-base reactions are proton transfer reactions while Lewis acid-base reactions are electron pair transfers. All [[Brønsted acid]]s are also [[Lewis acid]]s, but not all Lewis acids are Brønsted acids. Contrast the following reactions which could be described in terms of acid-base chemistry.
+:[[File:LewisAcid.png|374px]]
+In the first reaction a [[fluoride|fluoride ion]], F&lt;sup&gt;−&lt;/sup&gt;, gives up an [[lone pair|electron pair]] to [[boron trifluoride]] to form the product [[tetrafluoroborate]]. Fluoride &quot;loses&quot; a pair of [[valence electron]]s because the electrons shared in the B—F bond are located in the region of space between the two atomic [[atomic nucleus|nuclei]] and are therefore more distant from the fluoride nucleus than they are in the lone fluoride ion. BF&lt;sub&gt;3&lt;/sub&gt; is a Lewis acid because it accepts the electron pair from fluoride. This reaction cannot be described in terms of Brønsted theory because there is no proton transfer. The second reaction can be described using either theory. A proton is transferred from an unspecified Brønsted acid to ammonia, a Brønsted base; alternatively, ammonia acts as a Lewis base and transfers a lone pair of electrons to form a bond with a hydrogen ion. The species that gains the electron pair is the Lewis acid; for example, the oxygen atom in H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt; gains a pair of electrons when one of the H—O bonds is broken and the electrons shared in the bond become localized on oxygen. Depending on the context, a Lewis acid may also be described as an [[Oxidizing agent|oxidizer]] or an [[electrophile]].
+
+The Brønsted-Lowry definition is the most widely used definition; unless otherwise specified acid-base reactions are assumed to involve the transfer of a proton (H&lt;sup&gt;+&lt;/sup&gt;) from an acid to a base.
+
+==Dissociation and equilibrium==
+Reactions of acids are often generalized in the form HA {{eqm}} H&lt;sup&gt;+&lt;/sup&gt; + A&lt;sup&gt;−&lt;/sup&gt;, where HA represents the acid and A&lt;sup&gt;−&lt;/sup&gt; is the [[conjugate acid|conjugate base]]. Acid-base conjugate pairs differ by one proton, and can be interconverted by the addition or removal of a proton ([[protonation]] and [[deprotonation]], respectively). Note that the acid can be the charged species and the conjugate base can be neutral in which case the generalized reaction scheme could be written as HA&lt;sup&gt;+&lt;/sup&gt; {{eqm}} H&lt;sup&gt;+&lt;/sup&gt; + A. In solution there exists an [[chemical equilibrium|equilibrium]] between the acid and its conjugate base. The [[equilibrium constant]] ''K'' is an expression of the equilibrium concentrations of the molecules or the ions in solution. Brackets indicate concentration, such that [H&lt;sub&gt;2&lt;/sub&gt;O] means ''the concentration of H&lt;sub&gt;2&lt;/sub&gt;O''. The [[acid dissociation constant]] ''K''&lt;sub&gt;a&lt;/sub&gt; is generally used in the context of acid-base reactions. The numerical value of ''K''&lt;sub&gt;a&lt;/sub&gt; is equal to the concentration of the products divided by the concentration of the reactants, where the reactant is the acid (HA) and the products are the conjugate base and H&lt;sup&gt;+&lt;/sup&gt;.
+:&lt;math&gt;K_a = \frac{[\mbox{H}^+] [\mbox{A}^-]}{[\mbox{HA}]}&lt;/math&gt;
+The stronger of two acids will have a higher ''K''&lt;sub&gt;a&lt;/sub&gt; than the weaker acid; the ratio of hydrogen ions to acid will be higher for the stronger acid as the stronger acid has a greater tendency to lose its proton. Because the range of possible values for ''K''&lt;sub&gt;a&lt;/sub&gt; spans many orders of magnitude, a more manageable constant, p''K''&lt;sub&gt;a&lt;/sub&gt; is more frequently used, where p''K''&lt;sub&gt;a&lt;/sub&gt; = -log&lt;sub&gt;10&lt;/sub&gt; ''K''&lt;sub&gt;a&lt;/sub&gt;. Stronger acids have a smaller p''K''&lt;sub&gt;a&lt;/sub&gt; than weaker acids. Experimentally determined p''K''&lt;sub&gt;a&lt;/sub&gt; at 25&amp;nbsp;°C in aqueous solution are often quoted in textbooks and reference material.
+
+==Nomenclature==
+In the classical naming system, acids are named according to their [[anion]]s. That ionic suffix is dropped and replaced with a new suffix (and sometimes prefix), according to the table below.
+For example, HCl has [[chloride]] as its anion, so the -ide suffix makes it take the form [[hydrochloric acid]]. In the [[IUPAC]] naming system, &quot;aqueous&quot; is simply added to the name of the ionic compound. Thus, for hydrogen chloride, the IUPAC name would be aqueous hydrogen chloride. The prefix &quot;hydro-&quot; is added only if the acid is made up of just hydrogen and one other element.
+
+Classical naming system:
+{|border=&quot;1&quot; cellpadding=&quot;4&quot; align=&quot;center&quot; cellspacing=&quot;0&quot; style=&quot;background: #f9f9f9; color: black; border: 1px #aaa solid; border-collapse: collapse;&quot;
+!Anion prefix
+!Anion suffix
+!Acid prefix
+!Acid suffix
+!Example
+|-
+|per
+|ate
+|per
+|ic acid
+|[[perchloric acid]] (HClO&lt;sub&gt;4&lt;/sub&gt;)
+|-
+|
+|ate
+|
+|ic acid
+|[[chloric acid]] (HClO&lt;sub&gt;3&lt;/sub&gt;)
+|-
+|
+|ite
+|
+|ous acid
+|[[chlorous acid]] (HClO&lt;sub&gt;2&lt;/sub&gt;)
+|-
+|hypo
+|ite
+|hypo
+|ous acid
+|[[hypochlorous acid]] (HClO)
+|-
+|
+|ide
+|hydro
+|ic acid
+|[[hydrochloric acid]] (HCl)
+|}
+
+==Acid strength==
+{{main|Acid strength}}
+
+The strength of an acid refers to its ability or tendency to lose a proton. A strong acid is one that completely dissociates in water; in other words, one [[mole (unit)|mole]] of a strong acid HA dissolves in water yielding one mole of H&lt;sup&gt;+&lt;/sup&gt; and one mole of the conjugate base, A&lt;sup&gt;−&lt;/sup&gt;, and none of the protonated acid HA. In contrast a weak acid only partially dissociates and at equilibrium both the acid and the conjugate base are in solution. Examples of [[strong acid]]s are [[hydrochloric acid]] (HCl), [[hydroiodic acid]] (HI), [[hydrobromic acid]] (HBr), [[perchloric acid]] (HClO&lt;sub&gt;4&lt;/sub&gt;), [[nitric acid]] (HNO&lt;sub&gt;3&lt;/sub&gt;) and [[sulfuric acid]] (H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;). In water each of these essentially ionizes 100%. The stronger an acid is, the more easily it loses a proton, H&lt;sup&gt;+&lt;/sup&gt;. Two key factors that contribute to the ease of deprotonation are the [[chemical polarity|polarity]] of the H—A bond and the size of atom A, which determines the strength of the H—A bond. Acid strengths are also often discussed in terms of the stability of the conjugate base.
+
+Stronger acids have a larger ''K''&lt;sub&gt;a&lt;/sub&gt; and a more negative p''K''&lt;sub&gt;a&lt;/sub&gt; than weaker acids.
+
+Sulfonic acids, which are organic oxyacids, are a class of strong acids. A common example is [[toluenesulfonic acid]] (tosylic acid). Unlike sulfuric acid itself, sulfonic acids can be solids. In fact, [[polystyrene]] functionalized into polystyrene sulfonate is a solid strongly acidic plastic that is filterable.
+
+[[Superacid]]s are acids stronger than 100% sulfuric acid. Examples of superacids are [[fluoroantimonic acid]], [[magic acid]] and [[perchloric acid]]. Superacids can permanently protonate water to give ionic, crystalline [[hydronium]] &quot;salts&quot;. They can also quantitatively stabilize [[carbocation]]s.
+
+==Chemical characteristics==
+===Monoprotic acids===
+Monoprotic acids are those acids that are able to donate one [[proton]] per molecule during the process of [[dissociation (chemistry)|dissociation]] (sometimes called ionization) as shown below (symbolized by HA):
+
+:::::HA(aq) + H&lt;sub&gt;2&lt;/sub&gt;O(l) {{eqm}} H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt;(aq) + A&lt;sup&gt;−&lt;/sup&gt;(aq) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ''K''&lt;sub&gt;a&lt;/sub&gt;
+
+Common examples of monoprotic acids in [[mineral acid]]s include [[hydrochloric acid]] (HCl) and [[nitric acid]] (HNO&lt;sub&gt;3&lt;/sub&gt;). On the other hand, for [[organic acids]] the term mainly indicates the presence of one [[carboxylic acid]] group and sometimes these acids are known as monocarboxylic acid. Examples in [[organic acids]] include [[formic acid]] (HCOOH), [[acetic acid]] (CH&lt;sub&gt;3&lt;/sub&gt;COOH) and [[benzoic acid]] (C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;COOH).
+{{See also|Acid dissociation constant#Monoprotic acids}}
+
+===Polyprotic acids===
+Polyprotic acids, also known as polybasic acids, are able to donate more than one proton per acid molecule, in contrast to monoprotic acids that only donate one proton per molecule. Specific producedTypes of polyprotic acids have more specific names, such as diprotic acid (two potential protons to donate) and triprotic acid (three potential protons to donate).
+
+A diprotic acid (here symbolized by H&lt;sub&gt;2&lt;/sub&gt;A) can undergo one or two dissociations depending on the pH. Each dissociation has its own dissociation constant, K&lt;sub&gt;a1&lt;/sub&gt; and K&lt;sub&gt;a2&lt;/sub&gt;.
+
+:::::H&lt;sub&gt;2&lt;/sub&gt;A(aq) + H&lt;sub&gt;2&lt;/sub&gt;O(l) {{eqm}} H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt;(aq) + HA&lt;sup&gt;−&lt;/sup&gt;(aq) &amp;nbsp; &amp;nbsp; &amp;nbsp; ''K''&lt;sub&gt;a1&lt;/sub&gt;
+
+:::::HA&lt;sup&gt;−&lt;/sup&gt;(aq) + H&lt;sub&gt;2&lt;/sub&gt;O(l) {{eqm}} H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt;(aq) + A&lt;sup&gt;2−&lt;/sup&gt;(aq)&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; ''K''&lt;sub&gt;a2&lt;/sub&gt;
+
+The first dissociation constant is typically greater than the second; i.e., ''K''&lt;sub&gt;a1&lt;/sub&gt; &gt; ''K''&lt;sub&gt;a2&lt;/sub&gt;. For example, [[sulfuric acid]] (H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;) can donate one proton to form the [[bisulfate]] anion (HSO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;−&lt;/sup&gt;), for which ''K''&lt;sub&gt;a1&lt;/sub&gt; is very large; then it can donate a second proton to form the [[sulfate]] anion (SO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;2-&lt;/sup&gt;), wherein the ''K''&lt;sub&gt;a2&lt;/sub&gt; is intermediate strength. The large ''K''&lt;sub&gt;a1&lt;/sub&gt; for the first dissociation makes sulfuric a strong acid. In a similar manner, the weak unstable [[carbonic acid]] (H&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;) can lose one proton to form [[bicarbonate]] anion (HCO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;−&lt;/sup&gt;) and lose a second to form [[carbonate]] anion (CO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;2-&lt;/sup&gt;). Both ''K''&lt;sub&gt;a&lt;/sub&gt; values are small, but ''K''&lt;sub&gt;a1&lt;/sub&gt; &gt; ''K''&lt;sub&gt;a2&lt;/sub&gt; .
+
+A triprotic acid (H&lt;sub&gt;3&lt;/sub&gt;A) can undergo one, two, or three dissociations and has three dissociation constants, where ''K''&lt;sub&gt;a1&lt;/sub&gt; &gt; ''K''&lt;sub&gt;a2&lt;/sub&gt; &gt; ''K''&lt;sub&gt;a3&lt;/sub&gt;.
+
+:::::H&lt;sub&gt;3&lt;/sub&gt;A(aq) + H&lt;sub&gt;2&lt;/sub&gt;O(l) {{eqm}} H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt;(aq) + H&lt;sub&gt;2&lt;/sub&gt;A&lt;sup&gt;−&lt;/sup&gt;(aq) &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; ''K''&lt;sub&gt;a1&lt;/sub&gt;
+
+:::::H&lt;sub&gt;2&lt;/sub&gt;A&lt;sup&gt;−&lt;/sup&gt;(aq) + H&lt;sub&gt;2&lt;/sub&gt;O(l) {{eqm}} H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt;(aq) + HA&lt;sup&gt;2−&lt;/sup&gt;(aq) &amp;nbsp; &amp;nbsp; &amp;nbsp; ''K''&lt;sub&gt;a2&lt;/sub&gt;
+
+:::::HA&lt;sup&gt;2−&lt;/sup&gt;(aq) + H&lt;sub&gt;2&lt;/sub&gt;O(l) {{eqm}} H&lt;sub&gt;3&lt;/sub&gt;O&lt;sup&gt;+&lt;/sup&gt;(aq) + A&lt;sup&gt;3−&lt;/sup&gt;(aq) &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ''K''&lt;sub&gt;a3&lt;/sub&gt;
+
+An [[inorganic]] example of a triprotic acid is orthophosphoric acid (H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;), usually just called [[phosphoric acid]]. All three protons can be successively lost to yield H&lt;sub&gt;2&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;−&lt;/sup&gt;, then HPO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;2-&lt;/sup&gt;, and finally PO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;3-&lt;/sup&gt;, the orthophosphate ion, usually just called [[phosphate]]. An [[organic compound|organic]] example of a triprotic acid is [[citric acid]], which can successively lose three protons to finally form the [[citrate]] ion. Even though the positions of the protons on the original molecule may be equivalent, the successive ''K''&lt;sub&gt;a&lt;/sub&gt; values will differ since it is energetically less favorable to lose a proton if the conjugate base is more negatively charged.
+
+Although the subsequent loss of each hydrogen ion is less favorable, all of the conjugate bases are present in solution. The fractional concentration, ''α'' (alpha), for each species can be calculated. For example, a generic diprotic acid will generate 3 species in solution: H&lt;sub&gt;2&lt;/sub&gt;A, HA&lt;sup&gt;-&lt;/sup&gt;, and A&lt;sup&gt;2-&lt;/sup&gt;. The fractional concentrations can be calculated as below when given either the pH (which can be converted to the [H&lt;sup&gt;+&lt;/sup&gt;]) or the concentrations of the acid with all its conjugate bases:
+
+&lt;math&gt;
+\alpha_{H_2 A}={{[H^+]^2} \over {[H^+]^2 + [H^+]K_1 + K_1 K_2}}= {{[H_2 A]} \over {[H_2 A]+[HA^-]+[A^{2-} ]}}
+&lt;/math&gt;
+
+&lt;math&gt;
+\alpha_{HA^- }={{[H^+]K_1} \over {[H^+]^2 + [H^+]K_1 + K_1 K_2}}= {{[HA^-]} \over {[H_2 A]+[HA^-]+[A^{2-} ]}}
+&lt;/math&gt;
+
+&lt;math&gt;
+\alpha_{A^{2-}}={{K_1 K_2} \over {[H^+]^2 + [H^+]K_1 + K_1 K_2}}= {{[A^{2-} ]} \over {[H_2 A]+[HA^-]+[A^{2-} ]}}
+&lt;/math&gt;
+
+A plot of these fractional concentrations against pH, for given ''K''&lt;sub&gt;1&lt;/sub&gt; and ''K''&lt;sub&gt;2&lt;/sub&gt;, is known as a [[Bjerrum plot]].
+
+A pattern is observed in the above equations and can be expanded to the general ''n'' -protic acid that has been deprotonated ''i'' -times:
+
+&lt;math&gt;
+\alpha_{H_{n-i} A^{i-} }= {{[H^+ ]^{n-i} \displaystyle \prod_{j=0}^{i}K_j} \over { \displaystyle \sum_{i=0}^n \Big[ [H^+ ]^{n-i} \displaystyle \prod_{j=0}^{i}K_j} \Big] }
+
+&lt;/math&gt;
+where K&lt;sub&gt;0&lt;/sub&gt; = 1 and the other K-terms are the dissociation constants for the acid.
+
+{{See also|Acid dissociation constant#Polyprotic acids}}
+
+===Neutralization===
+[[Image:Hydrochloric acid ammonia.jpg|thumb|[[Hydrochloric acid]] (in [[beaker (glassware)|beaker]]) reacting with [[ammonia]] fumes to produce [[ammonium chloride]] (white smoke).]]
+[[Neutralization (chemistry)|Neutralization]] is the reaction between an acid and a base, producing a [[salt (chemistry)|salt]] and neutralized base; for example, [[hydrochloric acid]] and [[sodium hydroxide]] form [[sodium chloride]] and water:
+
+::HCl(aq) + NaOH(aq) → H&lt;sub&gt;2&lt;/sub&gt;O(l) + NaCl(aq)
+
+Neutralization is the basis of [[titration]], where a [[pH indicator]] shows equivalence point when the equivalent number of moles of a base have been added to an acid. It is often wrongly assumed that neutralization should result in a solution with pH 7.0, which is only the case with similar acid and base strengths during a reaction.
+
+Neutralization with a base weaker than the acid results in a weakly acidic salt. An example is the weakly acidic [[ammonium chloride]], which is produced from the strong acid [[hydrogen chloride]] and the weak base [[ammonia]]. Conversely, neutralizing a weak acid with a strong base gives a weakly basic salt, e.g. [[sodium fluoride]] from [[hydrogen fluoride]] and [[sodium hydroxide]].
+
+===Weak acid–weak base equilibrium===
+{{main|Henderson–Hasselbalch equation}}
+In order to lose a proton, it is necessary that the pH of the system rise above the p''K''&lt;sub&gt;a&lt;/sub&gt; of the protonated acid. The decreased concentration of H&lt;sup&gt;+&lt;/sup&gt; in that basic solution shifts the equilibrium towards the conjugate base form (the deprotonated form of the acid). In lower-pH (more acidic) solutions, there is a high enough H&lt;sup&gt;+&lt;/sup&gt; concentration in the solution to cause the acid to remain in its protonated form, or to protonate its conjugate base (the deprotonated form).
+
+Solutions of weak acids and salts of their conjugate bases form [[buffer solution]]s.
+
+==Applications of acids==
+There are numerous uses for acids. Acids are often used to remove rust and other corrosion from metals in a process known as [[pickling (metal)|pickling]]. They may be used as an electrolyte in a [[wet cell battery]], such as [[sulfuric acid]] in a [[car battery]].
+
+Strong acids, sulfuric acid in particular, are widely used in mineral processing. For example, phosphate minerals react with sulfuric acid to produce [[phosphoric acid]] for the production of phosphate fertilizers, and [[zinc]] is produced by dissolving zinc oxide into sulfuric acid, purifying the solution and electrowinning.
+
+In the chemical industry, acids react in neutralization reactions to produce salts. For example, [[nitric acid]] reacts with [[ammonia]] to produce [[ammonium nitrate]], a fertilizer. Additionally, [[carboxylic acid]]s can be [[Esterification|esterified]] with [[alcohol]]s, to produce [[ester]]s.
+
+Acids are used as additives to drinks and foods, as they alter their taste and serve as preservatives. [[Phosphoric acid]], for example, is a component of [[cola]] drinks. Acetic acid is used in day to day life as vinegar. Carbonic acid is an important part of some cola drinks and soda.
+Citric acid is used as a preservative in sauces and pickles.
+
+[[Tartaric acid]] is an important component of some commonly used foods like unripened mangoes and tamarind. Natural fruits and vegetables also contain acids. [[Citric acid]] is present in oranges, lemon and other citrus fruits. [[Oxalic acid]] is present in tomatoes, spinach, and especially in [[carambola]] and [[rhubarb]]; rhubarb leaves and unripe carambolas are toxic because of high concentrations of oxalic acid.
+
+[[Ascorbic acid]] (Vitamin C) is an essential vitamin required in our body and is present in such foods as amla, lemon, citrus fruits, and guava.
+
+Certain acids are used as drugs. [[Acetylsalicylic acid]] (Aspirin) is used as a pain killer and for bringing down fevers.
+
+Acids play very important roles in the human body. The hydrochloric acid present in our stomach aids in digestion by breaking down large and complex food molecules. Amino acids are required for synthesis of proteins required for growth and repair of our body tissues. Fatty acids are also required for growth and repair of body tissues. Nucleic acids are important for the manufacturing of DNA, RNA and transmission of characters to offspring through genes. Carbonic acid is important for maintenance of pH equilibrium in the body.
+
+===Acid catalysis===
+{{Main|Acid catalysis}}
+Acids are used as [[catalyst]]s in industrial and organic chemistry; for example, [[sulfuric acid]] is used in very large quantities in the [[alkylation]] process to produce gasoline. Strong acids, such as sulfuric, phosphoric and hydrochloric acids also effect [[Dehydration reaction|dehydration]] and [[condensation reaction]]s. In biochemistry, many [[enzyme]]s employ acid catalysis.&lt;ref name=&quot;Voet acid cat&quot;&gt;{{cite book |author=Voet, Judith G.; Voet, Donald |title=Biochemistry |publisher=J. Wiley &amp; Sons |location=New York |year=2004 |pages=496–500 |isbn=978-0-471-19350-0 |oclc= |doi= |accessdate=}}&lt;/ref&gt;
+
+==Biological occurrence==
+[[Image:Aminoacid.png|thumb|left|Basic structure of an [[amino acid]].]]Many biologically important molecules are acids. [[Nucleic acid]]s, which contain acidic [[phosphate|phosphate groups]], include [[DNA]] and [[RNA]]. Nucleic acids contain the genetic code that determines many of an organism's characteristics, and is passed from parents to offspring. DNA contains the chemical blueprint for the synthesis of [[protein]]s which are made up of [[amino acid]] subunits. [[Cell membrane]]s contain [[fatty acid]] [[ester]]s such as [[phospholipids]].
+
+An α-amino acid has a central carbon (the α or ''alpha'' carbon) which is covalently bonded to a [[carboxyl]] group (thus they are [[carboxylic acid]]s), an [[amine|amino]] group, a hydrogen atom and a variable group. The variable group, also called the R group or side chain, determines the identity and many of the properties of a specific amino acid. In [[glycine]], the simplest amino acid, the R group is a hydrogen atom, but in all other amino acids it is contains one or more carbon atoms bonded to hydrogens, and may contain other elements such as sulfur, oxygen or nitrogen. With the exception of glycine, naturally occurring amino acids are [[Chirality (chemistry)|chiral]] and almost invariably occur in the [[Chirality (chemistry)#By configuration: D- and L-|&lt;small&gt;L&lt;/small&gt;-configuration]]. [[Peptidoglycan]], found in some [[bacteria]]l [[cell wall]]s contains some &lt;small&gt;D&lt;/small&gt;-amino acids. At physiological pH, typically around 7, free amino acids exist in a charged form, where the acidic carboxyl group (-COOH) loses a proton (-COO&lt;sup&gt;−&lt;/sup&gt;) and the basic amine group (-NH&lt;sub&gt;2&lt;/sub&gt;) gains a proton (-NH&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt;). The entire molecule has a net neutral charge and is a [[zwitterion]], with the exception of amino acids with basic or acidic side chains. [[Aspartic acid]], for example, possesses one protonated amine and two deprotonated carboxyl groups, for a net charge of −1 at physiological pH.
+
+Fatty acids and fatty acid derivatives are another group of carboxylic acids that play a significant role in biology. These contain long hydrocarbon chains and a carboxylic acid group on one end. The cell membrane of nearly all organisms is primarily made up of a [[phospholipid bilayer]], a [[micelle]] of hydrophobic fatty acid esters with polar, hydrophilic [[phosphate]] &quot;head&quot; groups. Membranes contain additional components, some of which can participate in acid-base reactions.
+
+In humans and many other animals, [[hydrochloric acid]] is a part of the [[gastric acid]] secreted within the [[stomach]] to help hydrolyze [[protein]]s and [[polysaccharide]]s, as well as converting the inactive pro-enzyme, [[pepsinogen]] into the [[digestive enzyme|enzyme]], [[pepsin]]. Some organisms produce acids for defense; for example, ants produce [[formic acid]].
+
+Acid-base equilibrium plays a critical role in regulating [[mammal]]ian breathing. [[molecular oxygen|Oxygen]] gas (O&lt;sub&gt;2&lt;/sub&gt;) drives [[cellular respiration]], the process by which animals release the chemical [[potential energy]] stored in food, producing [[carbon dioxide]] (CO&lt;sub&gt;2&lt;/sub&gt;) as a byproduct. Oxygen and carbon dioxide are exchanged in the [[lungs]], and the body responds to changing energy demands by adjusting the rate of [[ventilation (physiology)|ventilation]]. For example, during periods of exertion the body rapidly breaks down stored [[carbohydrate]]s and [[fat]], releasing CO&lt;sub&gt;2&lt;/sub&gt; into the blood stream. In aqueous solutions such as blood CO&lt;sub&gt;2&lt;/sub&gt; exists in equilibrium with [[carbonic acid]] and [[bicarbonate]] ion.
+: CO&lt;sub&gt;2&lt;/sub&gt; + H&lt;sub&gt;2&lt;/sub&gt;O {{eqm}} H&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt; {{eqm}} H&lt;sup&gt;+&lt;/sup&gt; + HCO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;−&lt;/sup&gt;
+It is the decrease in pH that signals the brain to breathe faster and deeper, expelling the excess CO&lt;sub&gt;2&lt;/sub&gt; and resupplying the cells with O&lt;sub&gt;2&lt;/sub&gt;.
+
+[[Image:Aspirin-skeletal.svg|thumb|right|[[Aspirin]] (acetylsalicylic acid) is a [[carboxylic acid]].]] [[Cell membrane]]s are generally impermeable to charged or large, polar molecules because of the [[lipophilicity|lipophilic]] fatty acyl chains comprising their interior. Many biologically important molecules, including a number of pharmaceutical agents, are organic weak acids which can cross the membrane in their protonated, uncharged form but not in their charged form (i.e. as the conjugate base). For this reason the activity of many drugs can be enhanced or inhibited by the use of antacids or acidic foods. The charged form, however, is often more soluble in blood and [[cytosol]], both aqueous environments. When the extracellular environment is more acidic than the neutral pH within the cell, certain acids will exist in their neutral form and will be membrane soluble, allowing them to cross the phospholipid bilayer. Acids that lose a proton at the [[intracellular pH]] will exist in their soluble, charged form and are thus able to diffuse through the cytosol to their target. [[Ibuprofen]], [[aspirin]] and [[penicillin]] are examples of drugs that are weak acids.
+
+==Common acids==
+===Mineral acids (inorganic acids)===
+* Hydrogen halides and their solutions: [[hydrofluoric acid]] (HF), [[hydrochloric acid]] (HCl), [[hydrobromic acid]] (HBr), [[hydroiodic acid]] (HI)
+* Halogen oxoacids: [[hypochlorous acid]] (HClO), [[chlorous acid]] (HClO&lt;sub&gt;2&lt;/sub&gt;), [[chloric acid]] (HClO&lt;sub&gt;3&lt;/sub&gt;), [[perchloric acid]] (HClO&lt;sub&gt;4&lt;/sub&gt;), and corresponding compounds for bromine and iodine
+* [[Sulfuric acid]] (H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;)
+* [[Fluorosulfuric acid]] (HSO&lt;sub&gt;3&lt;/sub&gt;F)
+* [[Nitric acid]] (HNO&lt;sub&gt;3&lt;/sub&gt;)
+* [[Phosphoric acid]] (H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;)
+* [[Fluoroantimonic acid]] (HSbF&lt;sub&gt;6&lt;/sub&gt;)
+* [[Fluoroboric acid]] (HBF&lt;sub&gt;4&lt;/sub&gt;)
+* [[Hexafluorophosphoric acid]] (HPF&lt;sub&gt;6&lt;/sub&gt;)
+* [[Chromic acid]] (H&lt;sub&gt;2&lt;/sub&gt;CrO&lt;sub&gt;4&lt;/sub&gt;)
+* [[Boric acid]] (H&lt;sub&gt;3&lt;/sub&gt;BO&lt;sub&gt;3&lt;/sub&gt;)
+
+===Sulfonic acids===
+* [[Methanesulfonic acid]] (or mesylic acid, CH&lt;sub&gt;3&lt;/sub&gt;SO&lt;sub&gt;3&lt;/sub&gt;H)
+* [[Ethanesulfonic acid]] (or esylic acid, CH&lt;sub&gt;3&lt;/sub&gt;CH&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;3&lt;/sub&gt;H)
+* [[Benzenesulfonic acid]] (or besylic acid, C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;SO&lt;sub&gt;3&lt;/sub&gt;H)
+* [[p-Toluenesulfonic acid]] (or tosylic acid, CH&lt;sub&gt;3&lt;/sub&gt;C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;4&lt;/sub&gt;SO&lt;sub&gt;3&lt;/sub&gt;H)
+* [[Trifluoromethanesulfonic acid]] (or triflic acid, CF&lt;sub&gt;3&lt;/sub&gt;SO&lt;sub&gt;3&lt;/sub&gt;H)
+* [[Polystyrene sulfonic acid]] (sulfonated [[polystyrene]], [CH&lt;sub&gt;2&lt;/sub&gt;CH(C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;4&lt;/sub&gt;)SO&lt;sub&gt;3&lt;/sub&gt;H]&lt;sub&gt;n&lt;/sub&gt;)
+
+===Carboxylic acids===
+* [[Acetic acid]] (CH&lt;sub&gt;3&lt;/sub&gt;COOH)
+* [[Citric acid]] (C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;8&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt;)
+* [[Formic acid]] (HCOOH)
+* [[Gluconic acid]] HOCH&lt;sub&gt;2&lt;/sub&gt;-(CHOH)&lt;sub&gt;4&lt;/sub&gt;-COOH
+* [[Lactic acid]] (CH&lt;sub&gt;3&lt;/sub&gt;-CHOH-COOH)
+* [[Oxalic acid]] (HOOC-COOH)
+* [[Tartaric acid]] (HOOC-CHOH-CHOH-COOH)
+
+===Vinylogous carboxylic acids===
+Normal carboxylic acids are the direct union of a carbonyl group and a hydroxy group.  In [[vinylogous]] carboxylic acids, a carbon-carbon double bond separates the carbonyl and hydroxyl groups.
+
+* [[Ascorbic acid]]
+
+===Nucleic acids===
+* [[Deoxyribonucleic acid]] (DNA)
+* [[Ribonucleic acid]] (RNA)
+
+==See also==
+;Chemistry
+* [[Acid-base extraction]]
+* [[Acid value]]
+* [[Acid salt]]
+* [[Base (chemistry)|Base]]
+* [[Basic salt]]
+* [[Binary acid]]
+* [[Hard and soft acids and bases]] (HSAB theory)
+* [[Titration]]
+* [[Vitriol]]
+
+;Environment
+* [[Acid rain]]
+* [[Acid sulfate soil]]
+* [[Ocean acidification]]
+
+==References==
+{{more footnotes|date=May 2009}}
+{{reflist|2}}
+* [http://www.csudh.edu/oliver/chemdata/data-ka.htm Listing of strengths of common acids and bases]
+* Zumdahl, Chemistry, 4th Edition.
+* Ebbing, D.D., &amp; Gammon, S. D. (2005). ''General chemistry'' (8th ed.). Boston, MA: Houghton Mifflin. ISBN 0-618-51177-6
+* Pavia, D.L., Lampman, G.M., &amp; Kriz, G.S. (2004). ''Organic chemistry volume 1: Organic chemistry 351.'' Mason, OH: Cenage Learning. ISBN 0-7593-4727-1
+
+==External links==
+* [http://scienceaid.co.uk/chemistry/physical/acidbases.html Science Aid: Acids and Bases] Information for High School students
+* [http://www2.iq.usp.br/docente/gutz/Curtipot_.html Curtipot]: Acid-Base equilibria diagrams, [[pH]] calculation and [[titration]] curves simulation and analysis – [[freeware]]
+* [http://canadaconnects.ca/chemistry/10081/ A summary of the Properties of Acids for the beginning chemistry student]
+* [http://www.unece.org/env/lrtap/ The UN ECE Convention on Long-Range Transboundary Air Pollution]
+* [http://isites.harvard.edu/fs/docs/icb.topic776365.files/lecture%2017.pdf Chem 106 – Acidity Concepts]
+
+[[Category:Acids| ]]
+[[Category:Acid-base chemistry]]</text>
+      <sha1>1dfiac5x66sqbdkya1wl0mjjrrn73b9</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:About</title>
+    <ns>10</ns>
+    <id>2468023</id>
+    <restrictions>edit=sysop:move=sysop</restrictions>
+    <revision>
+      <id>475947170</id>
+      <parentid>457066264</parentid>
+      <timestamp>2012-02-09T14:23:33Z</timestamp>
+      <contributor>
+        <username>Anomie</username>
+        <id>301903</id>
+      </contributor>
+      <comment>Display &quot;This category is about&quot; for Category-namespace pages, per talk request</comment>
+      <text xml:space="preserve" bytes="1526">{{Hatnote|&lt;!--
+--&gt;{{#if: {{{1|}}}|&lt;!--
+  --&gt;This {{namespace detect|main=article|category=category|other=page}} is about {{{1}}}.&amp;#32;&amp;#32;}}&lt;!--
+--&gt;For {{#if:{{{2|}}}|{{{2}}}|other uses}}, see {{#if:{{{3|}}}|[[{{{3}}}]]{{#ifeq:{{{4|}}}|and|&amp;#32;and {{#if:{{{5|}}}|[[{{{5}}}]]|[[{{PAGENAME}} (disambiguation)]]}}}}|[[{{PAGENAME}} (disambiguation)]]}}.&lt;!--
+--&gt;{{#if:{{{2|}}}|{{#if:{{{4|}}}|&lt;!--
+  --&gt;{{#ifeq:{{{4|}}}|and||&lt;!-- &quot;and&quot; is a special word, don't outputSupplier &quot;For and, ...&quot;
+    --&gt;&amp;#32;&amp;#32;For {{#ifeq:{{{4}}}|1|other uses|{{{4}}}}}, see {{#if:{{{5|}}}|[[{{{5}}}]]{{#ifeq:{{{6|}}}|and|&amp;#32;and {{#if:{{{7|}}}|[[{{{7}}}]]|[[{{PAGENAME}} (disambiguation)]]}}}}|[[{{PAGENAME}} (disambiguation)]]}}.}}&lt;!--
+  --&gt;{{#if:{{{6|}}}|&lt;!--
+    --&gt;{{#ifeq:{{{6|}}}|and||&lt;!--
+      --&gt;&amp;#32;&amp;#32;For {{#ifeq:{{{6}}}|1|other uses|{{{6}}}}}, see {{#if:{{{7|}}}|[[{{{7}}}]]{{#ifeq:{{{8|}}}|and|&amp;#32;and {{#if:{{{9|}}}|[[{{{9}}}]]|[[{{PAGENAME}} (disambiguation)]]}}}}|[[{{PAGENAME}} (disambiguation)]]}}.}}&lt;!--
+    --&gt;{{#if:{{{8|}}}|&lt;!--
+      --&gt;{{#ifeq:{{{8|}}}|and||&lt;!--
+        --&gt;&amp;#32;&amp;#32;For {{#ifeq:{{{8}}}|1|other uses|{{{8}}}}}, see {{#if:{{{9|}}}|[[{{{9}}}]]|[[{{PAGENAME}} (disambiguation)]]}}.}}&lt;!--
+    --&gt;}}&lt;!--
+  --&gt;}}&lt;!--
+--&gt;}}}}}}&lt;!--
+--&gt;{{#if:{{{_nocat|}}}||{{#if:{{{1|}}}{{{2|}}}||{{#if:{{{3|}}}|[[Category:Hatnote templates using unusual parameters|A{{PAGENAME}}]]}}}}{{#ifeq:{{str left|{{{1}}}|3}}|is |[[Category:Hatnote templates using unusual parameters|B{{PAGENAME}}]]}}}}&lt;noinclude&gt;
+{{Documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>12dmka8m2zke9h8ww7o249ge1jh7t38</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Acids and bases</title>
+    <ns>10</ns>
+    <id>626877</id>
+    <revision>
+      <id>511336686</id>
+      <parentid>511336660</parentid>
+      <timestamp>2012-09-08T06:10:44Z</timestamp>
+      <contributor>
+        <username>Ryulong</username>
+        <id>889851</id>
+      </contributor>
+      <text xml:space="preserve" bytes="1602">{{Sidebar
+|name = Acids and bases
+|title = [[Acid]]s and [[Base (chemistry)|Base]]s
+|titlestyle = background:#d3d3d3;
+|headingstyle = background:#e5e5e5;
+
+|content1 = [[Acid dissociation constant]]&lt;br/&gt; [[Acid-base extraction]]&lt;br/&gt; [[Acid–base reaction]]&lt;br/&gt; [[Acid–base titration]]&lt;br/&gt; [[Dissociation constant]]&lt;br/&gt; [[Acidity function]]&lt;br/&gt; [[Buffer solution]]s&lt;br/&gt; [[pH]]&lt;br/&gt; [[Proton affinity]]&lt;br/&gt; [[Self-ionization of water]]&lt;br/&gt;[[Acid strength]]
+
+|heading2 = [[Acid]] producedTypes
+|content2 = [[Brønsted–Lowry acid–base theory|Brønsted]]{{·}}[[Lewis acids and bases|Lewis]]{{·}}[[Mineral acid|Mineral]]&lt;br/&gt; [[Organic acid|Organic]]{{·}}[[Strong acid|Strong]]&lt;br/&gt; [[Superacid]]s{{·}}[[Weak acid|Weak]]
+
+|heading3 = [[Base (chemistry)|Base]] producedTypes
+|content3 = [[Brønsted–Lowry acid–base theory|Brønsted]]{{·}}[[Lewis acids and bases|Lewis]]{{·}}[[Organic base|Organic]]&lt;br/&gt; [[Base (chemistry)#Strong bases|Strong]]{{·}}[[Superbase]]s&lt;br/&gt; [[Non-nucleophilic base|Non-nucleophilic]]{{·}}[[Weak base|Weak]]
+}}&lt;noinclude&gt;
+
+[[Category:WikiProject Chemistry templates|{{PAGENAME}}]] 
+[[Category:Chemistry templates|{{PAGENAME}}]]
+
+[[ar:قالب:حموض وقلويات]]
+[[ca:Plantilla:Àcids i Bases]]
+[[fa:الگو:اسیدها و بازها]]
+[[ko:틀:산과 염기]]
+[[id:Templat:Asam dan basa]]
+[[it:Template:Acidi e basi]]
+[[ml:ഫലകം:Acids and bases]]
+[[ja:Template:酸と塩基]]
+[[pt:Predefinição:Ácidos e bases]]
+[[simple:Template:Acids and bases]]
+[[sr:Шаблон:Kiseline i baze-lat]]
+[[vi:Bản mẫu:Axít-Bazơ]]
+[[zh:Template:酸鹼]]
+&lt;/noinclude&gt;</text>
+      <sha1>skuyrpjsfsyxtkhsdo5zjz67ffcmcgx</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Ambox</title>
+    <ns>10</ns>
+    <id>13179742</id>
+    <revision>
+      <id>500755875</id>
+      <parentid>499890721</parentid>
+      <timestamp>2012-07-05T05:50:02Z</timestamp>
+      <contributor>
+        <username>MSGJ</username>
+        <id>42630</id>
+      </contributor>
+      <comment>major rewrite, splitting code for small ambox, add section parameter</comment>
+      <text xml:space="preserve" bytes="2508">{{#ifeq:{{{subst}}}|SUBST
+ |{{#if:{{{name|}}}
+  |{{Error|Template {{tlx|{{{name}}}}} has been incorrectly substituted.}}
+ }}[[Category:Pages with incorrectly substituted templates]]
+}}{{Ambox/{{#ifeq:{{{small}}}|left|small|core}}
+ |type = {{{type|}}}
+ |image = {{{image|}}}
+ |smallimage = {{#if:{{{smallimage|}}}|{{{smallimage}}}|{{{image|}}}}}
+ |imageright = {{{imageright|}}}
+ |smallimageright = {{#if:{{{smallimageright|}}}|{{{smallimageright}}}|{{{imageright|}}}}}
+ |class = ambox-{{#switch:{{{type|}}}
+  |speedy = speedy
+  |delete = delete
+  |content = content
+  |style = style
+  |move = move
+  |protection = protection
+  |notice|#default = notice
+ }} {{{class|}}}
+ |style = {{{style|}}}
+ |textstyle  = {{{textstyle|}}}
+ |smalltext  = {{{smalltext|}}}
+ |talk = {{#switch:{{{talk|¬}}}
+  |¬        = &lt;!-- No talk link used --&gt;
+  |         = {{#ifeq:{{FULLROOTPAGENAME}}|Template:{{PAGENAME:{{{name}}}}}|#}}
+  |#default = {{{talk}}}
+ }}
+ |issue = {{#switch:{{{sect|¬}}}
+  |¬ = &lt;!-- No section parameter used --&gt;
+  |  = This article
+  |This {{{sect}}}
+ }} {{{issue&lt;includeonly&gt;|&lt;/includeonly&gt;}}} {{{text|}}}
+ |fix = {{{fix&lt;includeonly&gt;|&lt;/includeonly&gt;}}}
+ |date = {{#switch:{{{date|¬}}}
+  |¬        = &lt;!-- No date used --&gt;
+  |         = {{#ifeq:{{FULLROOTPAGENAME}}|Template:{{PAGENAME:{{{name}}}}}|{{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+  |#default = {{{date}}}
+ }}
+ |info = {{{info|}}}
+}}{{Category handler
+ |nocat={{{nocat|&lt;noinclude&gt;true&lt;/noinclude&gt;}}}
+ |main={{Ambox/category
+  |cat={{{cat|{{{category|}}}}}} 
+  |all={{{all|}}}
+  |date={{{date|}}}
+ }}{{Ambox/category
+  |cat={{{cat2|{{{category2|}}}}}} 
+  |all={{{all2|}}}
+  |date={{{date|}}}
+ }}{{Ambox/category
+  |cat={{{cat3|{{{category3|}}}}}} 
+  |all={{{all3|}}}
+  |date={{{date|}}}
+ }}
+ |template={{#switch:Template:{{{name|}}}
+  |{{FULLPAGENAME}} = [[Category:Article message templates]]{{#ifexpr:{{#ifeq:{{{issue|¬}}}|¬|1|0}}+{{#ifeq:{{{fix|¬}}}|¬|1|0}}+{{#ifeq:{{{subst|¬}}}|¬|1|0}}
+   |[[Category:Article message templates with missing parameters|{{#expr:{{#ifeq:{{{issue|¬}}}|¬|1|0}}+{{#ifeq:{{{fix|¬}}}|¬|1|0}}+{{#ifeq:{{{subst|¬}}}|¬|1|0}}}}]]
+  }}{{#if:{{{category|}}}{{{category2|}}}{{{category3|}}}
+   |[[Category:Article message templates with missing parameters|C]]
+  }}
+  |Template:        = {{#ifeq:{{BASEPAGENAME}}|{{SUBPAGENAME}}|[[Category:Article message templates with missing parameters]]}}
+ }}
+}}&lt;noinclude&gt;
+{{Documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>srk9s1k6u5kvc0larvar60x5805f1qb</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Ambox/category</title>
+    <ns>10</ns>
+    <id>31079477</id>
+    <revision>
+      <id>496461707</id>
+      <parentid>468557028</parentid>
+      <timestamp>2012-06-07T16:32:18Z</timestamp>
+      <contributor>
+        <username>MSGJ</username>
+        <id>42630</id>
+      </contributor>
+      <comment>more efficient code</comment>
+      <text xml:space="preserve" bytes="308">{{#if:{{{cat|}}}
+ |{{#if:{{{date|}}}
+  |[[Category:{{{cat}}} {{{preposition|from}}} {{{date}}}]]{{#ifexist:Category:{{{cat}}} {{{preposition|from}}} {{{date}}}|
+   |[[Category:Articles with invalid date parameter in template]]
+  }}
+  |[[Category:{{{cat}}}]]
+ }}
+}}{{#if:{{{all|}}}
+ |[[Category:{{{all}}}]]
+}}</text>
+      <sha1>0faqj9ekbsbaaa8fh10z75uyc9s40fi</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Ambox/core</title>
+    <ns>10</ns>
+    <id>21903186</id>
+    <revision>
+      <id>500755876</id>
+      <parentid>497616132</parentid>
+      <timestamp>2012-07-05T05:50:03Z</timestamp>
+      <contributor>
+        <username>MSGJ</username>
+        <id>42630</id>
+      </contributor>
+      <comment>code for small ambox split off, some code from outer template moved here, tracking categories removed</comment>
+      <text xml:space="preserve" bytes="1436">&lt;table class=&quot;metadata plainlinks ambox {{{class|}}}&quot; style=&quot;{{{style|}}}&quot;&gt;
+&lt;tr&gt;{{#switch:{{{image|}}}
+ |blank
+ |none = &lt;td class=&quot;mbox-empty-cell&quot;&gt;&lt;/td&gt;
+ |#default = &lt;td class=&quot;mbox-image&quot;&gt;&lt;div style=&quot;width: 52px;&quot;&gt;{{#if:{{{image|}}}
+  |{{{image}}}
+  |[[File:{{#switch:{{{type|}}}
+   |speedy = Ambox speedy deletion.png
+   |delete = Ambox deletion.png
+   |content = Ambox content.png
+   |style = Edit-clear.svg
+   |move = Ambox move.png
+   |protection = Ambox protection.png
+   |notice|#default = Ambox notice.png
+  }}|40x40px|link=|alt=]]
+ }}&lt;/div&gt;&lt;/td&gt;
+}}&lt;td class=&quot;mbox-text&quot; style=&quot;{{{textstyle|}}}&quot;&gt;&lt;span class=&quot;mbox-text-span&quot;&gt;{{{issue|}}}&lt;span class=&quot;hide-when-compact&quot;&gt; {{#if:{{{talk|}}}
+ |{{#ifexist:{{#ifeq:{{TALKPAGENAME:{{{talk}}}}}|{{FULLPAGENAME:{{{talk}}}}}
+   |{{{talk}}}
+   |{{TALKPAGENAME}}
+  }}
+  |&amp;#32;Relevant discussion may be found on {{#ifeq:{{TALKPAGENAME:{{{talk}}}}}|{{FULLPAGENAME:{{{talk}}}}}
+   |[[{{{talk}}}|{{FULLPAGENAME:{{{talk}}}}}]]
+   |the [[{{TALKPAGENAME}}#{{{talk}}}|talk page]]
+  }}.
+ }}
+}} {{{fix|}}}&lt;/span&gt;{{#if:{{{date|}}}
+ |&amp;#32;&lt;small&gt;''({{{date}}})''&lt;/small&gt;
+}}&lt;span class=&quot;hide-when-compact&quot;&gt; {{{info|}}}&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;{{#switch:{{{imageright|}}}
+ |none = 
+ |=
+ |#default = &lt;td class=&quot;mbox-imageright&quot;&gt;&lt;div style=&quot;width: 52px;&quot;&gt;{{{imageright}}}&lt;/div&gt;&lt;/td&gt;
+}}&lt;/tr&gt;&lt;/table&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>4f5eju0n6rfi7ztieav2v3nqldh2oj3</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Category handler</title>
+    <ns>10</ns>
+    <id>25084818</id>
+    <revision>
+      <id>453355390</id>
+      <parentid>453215489</parentid>
+      <timestamp>2011-10-01T11:28:56Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>avoid redirects</comment>
+      <text xml:space="preserve" bytes="3251">{{#if:
+  {{#ifeq: {{lc: {{{nocat|}}} }} | true
+  | dontcat    &lt;!--&quot;nocat=true&quot;, don't categorize--&gt;
+  }}{{#ifeq: {{lc: {{{categories|}}} }} | no
+  | dontcat
+  }}{{#switch: {{lc: {{{category2|¬}}} }}
+  | yes
+  | ¬   =   &lt;!--Not defined--&gt;
+  | #default = dontcat   &lt;!--&quot;category2 = no/'defined but empty'/'anything'&quot;--&gt;
+  }}{{#switch: {{lc: {{{subpage|}}} }}
+  | no = 
+    {{basepage subpage
+    | 
+    | dontcat    &lt;!--&quot;subpage=no&quot; and on a subpage--&gt;
+    | page = {{{page|}}}   &lt;!--For testing--&gt;
+    }}
+  | only = 
+    {{basepage subpage
+    | dontcat    &lt;!--&quot;subpage=only&quot; and not on a subpage--&gt;
+    | page = {{{page|}}}   &lt;!--For testing--&gt;
+    }}
+  }}
+
+|   &lt;!--Don't categorise (result was &quot;dontcat&quot; or &quot;dontcatdontcat&quot; and so on)--&gt;
+| &lt;!--Check blacklist--&gt;
+  {{#switch:
+    {{#ifeq: {{lc: {{{nocat|}}} }} | false
+    |   &lt;!--&quot;nocat=false&quot;, skip blacklist check--&gt;
+    | {{#ifeq: {{lc: {{{categories|}}} }} | yes
+      |   &lt;!--Skip blacklist check--&gt;
+      | {{#ifeq: {{lc: {{{category2|}}} }} | yes
+        |   &lt;!--Skip blacklist check--&gt;
+        | {{category handler/blacklist| page = {{{page|}}} }}   &lt;!--Check blacklist--&gt;
+        }}
+      }}
+    }}
+  | hide = &lt;!--Blacklist returned &quot;hide&quot;, don't categorize--&gt;
+  | #default  = 
+    &lt;!--Check if any namespace parameter is defined--&gt;
+    {{#ifeq: h0#384!5nea+w9 | {{{all| {{{main| {{{talk| {{{user| {{{wikipedia| {{{file| {{{mediawiki| {{{template| {{{help| {{{category| {{{portal| {{{book| {{{other| h0#384!5nea+w9 }}} }}} }}} }}} }}} }}} }}} }}} }}} }}} }}} }}} }}}
+    | &lt;!--No namespace parameters fed, basic usage--&gt;
+      {{namespace detect
+      | main = {{{1|}}}
+      | file = {{{1|}}}
+      | help = {{{1|}}}
+      | category = {{{1|}}}
+      | portal = {{{1|}}}
+      | book = {{{1|}}}
+      | page = {{{page|}}}   &lt;!--For testing and demonstration--&gt;
+      }}
+    | &lt;!--Namespace parameters fed, advanced usage.
+          If &quot;data&quot; is a number, return the corresponding 
+          numbered parameter, else return &quot;data&quot;.  --&gt;
+      {{{all|}}}{{category handler/numbered
+      | 1 = {{{1|}}}
+      | 2 = {{{2|}}}
+      | 3 = {{{3|}}}
+      | 4 = {{{4|}}}
+      | 5 = {{{5|}}}
+      | 6 = {{{6|}}}
+      | 7 = {{{7|}}}
+      | 8 = {{{8|}}}
+      | 9 = {{{9|}}}
+      | 10 = {{{10|}}}
+      | data = 
+        &lt;!--Check what namespace, and return the data for it.
+            Respecting empty parameters on purpose.  --&gt;
+        {{namespace detect
+        | main = {{{main| {{{other|}}} }}}
+        | talk = {{{talk| {{{other|}}} }}}
+        | user = {{{user| {{{other|}}} }}}
+        | wikipedia = {{{wikipedia| {{{project| {{{other|}}} }}} }}}
+        | file = {{{file| {{{image| {{{other|}}} }}} }}}
+        | mediawiki = {{{mediawiki| {{{other|}}} }}}
+        | template = {{{template| {{{other|}}} }}}
+        | help = {{{help| {{{other|}}} }}}
+        | category = {{{category| {{{other|}}} }}}
+        | portal = {{{portal| {{{other|}}} }}}
+        | book = {{{book| {{{other|}}} }}}
+        | other = {{{other|}}}  &lt;!--Namespace special or a new namespace--&gt;
+        | page = {{{page|}}}   &lt;!--For testing and demonstration--&gt;
+        }}
+      }}
+    }}
+  }}
+}}&lt;noinclude&gt;
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>c4juwdph6z7icsts027qmyupz0ojfpy</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Category handler/blacklist</title>
+    <ns>10</ns>
+    <id>25085046</id>
+    <revision>
+      <id>454450736</id>
+      <parentid>454139417</parentid>
+      <timestamp>2011-10-07T21:12:06Z</timestamp>
+      <contributor>
+        <username>Davidgothberg</username>
+        <id>109101</id>
+      </contributor>
+      <comment>Adding  &quot;User talk:UBX/+&quot;. Userboxes are sometimes demonstrated on the boxes' own talk pages, so &quot;userbox talk space&quot; needs blacklisting too.</comment>
+      <text xml:space="preserve" bytes="762">&lt;noinclude&gt;'''Actual code of this blacklist:'''&lt;pre&gt;&lt;/noinclude&gt;{{if pagename
+&lt;!-- Start of blacklist --&gt;
+
+| Main Page = hide   &lt;!-- Don't categorise the main page --&gt;
+
+&lt;!-- Don't categorise on centralised cascade page or its subpages --&gt;
+| Wikipedia:Cascade-protected items/+ = hide
+
+&lt;!-- Don't categorise userboxes in their own &quot;template space&quot; --&gt;
+| User:UBX/+ = hide 
+| User talk:UBX/+ = hide 
+
+| Wikipedia:Template messages/* = hide   &lt;!-- Don't categorise on its subpages --&gt;
+
+| /archiv* = hide   &lt;!-- Don't categorise on /archive pages --&gt;
+
+&lt;!-- End of blacklist --&gt;
+| page = {{{page|}}}   &lt;!-- Never change this one, see the doc --&gt;
+}}&lt;noinclude&gt;&lt;/pre&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>kpoi07w4b8dm9ij1ds7kt0jdphqz9mh</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Category handler/numbered</title>
+    <ns>10</ns>
+    <id>25084858</id>
+    <revision>
+      <id>453215508</id>
+      <parentid>388522178</parentid>
+      <timestamp>2011-09-30T14:10:07Z</timestamp>
+      <contributor>
+        <username>MSGJ</username>
+        <id>42630</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Template:Cat handler/numbered]] to [[Template:Category handler/numbered]]: expand name</comment>
+      <text xml:space="preserve" bytes="297">{{#iferror: {{#expr: 1 + {{{data|}}} }} 
+| {{{data|}}}   &lt;!--Not a number, return &quot;data&quot; as is--&gt; 
+| {{{ {{{data|}}} |}}}   &lt;!--&quot;data&quot; is a number, return that numbered parameter--&gt;
+}}&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>8ic7z0l1q10jkc27z0fxcjko5x21uk9</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Citation/core</title>
+    <ns>10</ns>
+    <id>8941610</id>
+    <revision>
+      <id>522712754</id>
+      <parentid>503414772</parentid>
+      <timestamp>2012-11-12T22:25:46Z</timestamp>
+      <contributor>
+        <username>Tim Starling</username>
+        <id>4635</id>
+      </contributor>
+      <comment>remove COINS metadata to improve performance, see talk page</comment>
+      <text xml:space="preserve" bytes="22335">&lt;span class=&quot;citation {{{Citation class|{{{Citation type|}}}}}}&quot;
+{{
+  #switch:{{{Ref|}}}
+  ||none =
+  |#default = id=&quot;{{anchorencode:{{{Ref}}}}}&quot;
+  |harv = {{#if:{{{Surname1|}}}{{{EditorSurname1|}}}
+    |id=&quot;CITEREF{{anchorencode:{{#if:{{{Surname1|}}}
+      |{{{Surname1}}}{{{Surname2|}}}{{{Surname3|}}}{{{Surname4|}}}
+      |{{{EditorSurname1|}}}{{{EditorSurname2|}}}{{{EditorSurname3|}}}{{{EditorSurname4|}}}
+    }}{{{Year|{{{Date|}}}}}}}}&quot;
+  }}
+}}&gt;{{
+&lt;!--============  Author or editor and date  ============--&gt;
+  #if:{{{Surname1|}}}
+  |{{
+     #if: {{{AuthorMask|}}}
+     |{{
+        #iferror: {{ #expr: 1*{{{AuthorMask}}} }}
+        |{{{AuthorMask}}}
+        |{{loop|{{{AuthorMask}}}|2=&amp;mdash;}}
+      }}
+     |{{
+        #if: {{{Authorlink1|}}}
+        |[[{{{Authorlink1}}} |{{{Surname1}}}{{
+          #if: {{{Given1|}}}
+          |{{{NameSep|,&amp;#32;}}}{{{Given1}}}
+         }}]]
+        |{{{Surname1}}}{{
+           #if: {{{Given1|}}}
+           |{{{NameSep|,&amp;#32;}}}{{{Given1}}}
+         }}
+      }}
+   }}{{
+     #if: {{{Surname2|}}}
+     |{{#ifexpr:{{{Trunc|8}}}&lt;2
+       |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+       |{{
+          #iferror: {{ #expr: 1*0.0{{{AuthorMask|}}} }}
+          |&amp;#32;&lt;!-- then punctuation should be included in AuthorMask --&gt;
+          |{{
+            #if: {{{Surname3|}}}
+            |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+            |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+          }}
+        }}{{
+          #if: {{{Authorlink2|}}}
+          |[[{{{Authorlink2}}} |{{{Surname2}}}{{
+             #if: {{{Given2|}}}
+             |{{{NameSep|,&amp;#32;}}}{{{Given2}}}
+           }}]]
+          |{{{Surname2}}}{{
+             #if: {{{Given2|}}}
+             |{{{NameSep|,&amp;#32;}}}{{{Given2}}}
+           }}
+        }}{{
+          #if: {{{Surname3|}}}
+          |{{#ifexpr:{{{Trunc|8}}}&lt;3
+            |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+            |{{
+               #if: {{{Surname4|}}}
+               |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+               |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+             }}{{
+               #if: {{{Authorlink3|}}}
+               |[[{{{Authorlink3}}} |{{{Surname3}}}{{
+                  #if: {{{Given3|}}}
+                  |{{{NameSep|,&amp;#32;}}}{{{Given3}}}
+                }}]]
+               |{{{Surname3}}}{{
+                  #if: {{{Given3|}}}
+                  |{{{NameSep|,&amp;#32;}}}{{{Given3}}}
+                }}
+             }}{{
+               #if:{{{Surname4|}}}
+               |{{#ifexpr:{{{Trunc|8}}}&lt;4
+                 |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                 |{{
+                    #if: {{{Surname5|}}}
+                    |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+                    |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+                  }}{{
+                    #if: {{{Authorlink4|}}}
+                    |[[{{{Authorlink4}}} |{{{Surname4}}}{{
+                       #if: {{{Given4|}}}
+                       |{{{NameSep|,&amp;#32;}}}{{{Given4}}}
+                     }}]]
+                    |{{{Surname4}}}{{
+                       #if: {{{Given4|}}}
+                       |{{{NameSep|,&amp;#32;}}}{{{Given4}}}
+                    }}
+                  }}{{
+                  #if:{{{Surname5|}}}
+                  |{{#ifexpr:{{{Trunc|8}}}&lt;5
+                    |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                    |{{
+                     #if: {{{Surname6|}}}
+                     |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+                     |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+                    }}{{
+                     #if: {{{Authorlink5|}}}
+                     |[[{{{Authorlink5}}} |{{{Surname5}}}{{
+                        #if: {{{Given5|}}}
+                        |{{{NameSep|,&amp;#32;}}}{{{Given5}}}
+                      }}]]
+                     |{{{Surname5}}}{{
+                        #if: {{{Given5|}}}
+                        |{{{NameSep|,&amp;#32;}}}{{{Given5}}}
+                      }}
+                   }}{{
+                     #if:{{{Surname6|}}}
+                     |{{#ifexpr:{{{Trunc|8}}}&lt;6
+                     |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                      |{{
+                        #if: {{{Surname7|}}}
+                        |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+                        |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+                      }}{{
+                        #if: {{{Authorlink6|}}}
+                        |[[{{{Authorlink6}}} |{{{Surname6}}}{{
+                           #if: {{{Given6|}}}
+                           |{{{NameSep|,&amp;#32;}}}{{{Given6}}}
+                         }}]]
+                        |{{{Surname6}}}{{
+                           #if: {{{Given6|}}}
+                           |{{{NameSep|,&amp;#32;}}}{{{Given6}}}
+                         }}
+                      }}{{
+                        #if:{{{Surname7|}}}
+                         |{{#ifexpr:{{{Trunc|8}}}&lt;7
+                           |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                        |{{
+                           #if: {{{Surname8|}}}
+                           |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+                           |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+                         }}{{
+                           #if: {{{Authorlink7|}}}
+                           |[[{{{Authorlink7}}} |{{{Surname7}}}{{
+                              #if: {{{Given7|}}}
+                              |{{{NameSep|,&amp;#32;}}}{{{Given7}}}
+                            }}]]
+                           |{{{Surname7}}}{{
+                              #if: {{{Given7|}}}
+                              |{{{NameSep|,&amp;#32;}}}{{{Given7}}}
+                            }}
+                                    }}{{
+                                       #if:{{{Surname8|}}}
+                                       |{{#ifexpr:{{{Trunc|8}}}&lt;8
+                                           |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                                           |{{
+                                              #if: {{{Surname9|}}}
+                                              |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+                                              |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+                                            }}{{
+                                              #if: {{{Authorlink8|}}}
+                                              |[[{{{Authorlink8}}} |{{{Surname8}}}{{
+                                                 #if: {{{Given8|}}}
+                                                 |{{{NameSep|,&amp;#32;}}}{{{Given8}}}
+                                               }}]]
+                                              |{{{Surname8}}}{{
+                                                 #if: {{{Given8|}}}
+                                                 |{{{NameSep|,&amp;#32;}}}{{{Given8}}}
+                                               }}
+                                            }}{{
+                                              #if:{{{Surname9|}}}
+                                              |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                                            }}
+                                         }}
+                                      }}
+                                   }}
+                                }}
+                             }}
+                          }}
+                       }}
+                     }}
+                  }}
+               }}
+            }}
+         }}
+      }}
+
+   }}{{
+     #if: {{{Coauthors|}}}
+     |{{{AuthorSep|&amp;#059;&amp;#32;}}}{{{Coauthors|}}}|
+   }}{{
+     #if: {{{Date|}}}
+     |&amp;#32;({{{Date}}}){{
+       #if:{{{YearNote|}}}
+     |&amp;#32;[{{{YearNote}}}]
+     }}
+   }}
+  |{{&lt;!-- ============== No author: display editors first == --&gt;
+     #if: {{{EditorSurname1|}}}
+     |{{
+        #if: {{{Editorlink1|}}}
+        |[[{{{Editorlink1}}} |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}]]
+        |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}
+      }}{{
+        #if: {{{EditorSurname2|}}}
+        |{{
+          #if: {{{EditorSurname3|}}}
+          |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+          |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+        }}{{
+           #if: {{{Editorlink2|}}}
+           |[[{{{Editorlink2}}} |{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}]]
+           |{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}
+         }}{{
+           #if: {{{EditorSurname3|}}}
+           |{{
+              #if: {{{EditorSurname4|}}}
+              |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+              |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+            }}{{
+              #if: {{{Editorlink3|}}}
+              |[[{{{Editorlink3}}} |{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}]]
+              |{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}
+            }}{{
+              #if:{{{EditorSurname4|}}}
+              |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+            }}
+         }}
+       }}, ed{{#if:{{{EditorSurname2|}}}|s}}{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}{{
+        #if: {{{Date|}}}
+        |&amp;#32;({{{Date}}}){{
+         #if:{{{YearNote|}}}
+       |&amp;#32;[{{{YearNote}}}]
+       }}
+      }}
+   }}
+}}{{
+&lt;!--============  Title of included work  ============--&gt;
+  #if: {{{IncludedWorkTitle|}}}{{#if:{{{Periodical|}}}||{{#if:{{{TransItalic|}}}||{{{TransTitle|}}}}}}}
+  |{{
+     #if:{{{Surname1|}}}{{{EditorSurname1|}}}
+     |{{{Sep|,}}}&amp;#32;
+   }}{{Citation/make link
+     | 1={{
+           #if: {{{IncludedWorkURL|}}}
+           |{{{IncludedWorkURL}}}
+           |{{
+              #if: {{{URL|}}}
+              |{{{URL}}}
+            }}
+         }}
+     | 2={{
+           #if: {{{Periodical|}}}
+           |''&lt;nowiki /&gt;{{{IncludedWorkTitle}}}&lt;nowiki /&gt;''
+           |&quot;{{{IncludedWorkTitle|}}}{{
+             #if: {{{TransTitle|}}}
+             |{{
+                #if: {{{IncludedWorkTitle|}}}
+                |&amp;#32;
+              }}&amp;#91;{{{TransTitle}}}&amp;#93;
+           }}&quot;
+         }}
+   }}
+}}{{
+&lt;!--============  Place (if different than PublicationPlace) ============--&gt;
+  #if: {{{Place|}}}
+  |{{
+     #ifeq: {{{Place|}}} | {{{PublicationPlace|}}}
+     |
+     |{{
+        #if: {{{Surname1|}}}{{{EditorSurname1|}}}{{{IncludedWorkTitle|}}}
+        |{{{Sep|,}}}&amp;#32;written at {{{Place}}}
+      }}
+   }}
+}}{{
+&lt;!--============  Editor of compilation  ============--&gt;
+  #if: {{{EditorSurname1|}}}
+  |{{
+     #if: {{{Surname1|}}}
+     |{{{Sep|,}}}&amp;#32;{{
+        #if: {{{IncludedWorkTitle|}}}
+        |{{#ifeq:{{{Sep|}}}|.|I|i}}n&amp;#32;
+      }}{{
+        #if: {{{Editorlink1|}}}
+        |[[{{{Editorlink1}}} |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}]]
+        |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}}}{{
+        #if: {{{EditorSurname2|}}}
+        |{{
+          #if: {{{EditorSurname3|}}}
+            |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+            |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+          }}{{
+           #if: {{{Editorlink2|}}}
+           |[[{{{Editorlink2}}}|{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}]]
+           |{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}
+         }}{{
+           #if: {{{EditorSurname3|}}}
+           |{{
+              #if: {{{EditorSurname4|}}}
+              |&amp;#059;&amp;#32;
+              |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+            }}{{
+              #if: {{{Editorlink3|}}}
+              |[[{{{Editorlink3}}}|{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}]]
+              |{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}
+            }}{{
+              #if:{{{EditorSurname4|}}}
+              |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+            }}
+         }}
+      }}{{
+        #if: {{{IncludedWorkTitle|}}}
+        |
+        |{{{Sep|,}}}&amp;#32;ed{{#if:{{{EditorSurname2|}}}|s}}{{#ifeq:{{{Sep}}}|.||.}}
+      }}
+   }}
+}}{{
+  &lt;!--============  Periodicals  ============--&gt;
+  #if: {{{Periodical|}}}
+  |{{
+     #if: {{{Other|}}}
+     |{{{Sep|,}}}&amp;#32;{{{Other|}}}
+   }}{{
+     #if: {{{Surname1|}}}{{{EditorSurname1|}}}{{{IncludedWorkTitle|}}}
+     |{{{Sep|,}}}&amp;#32;}}{{
+     #if: {{{Title|}}}{{{TransTitle|}}}
+     |{{Citation/make link
+        | 1={{
+              #if: {{{IncludedWorkTitle|}}}
+              |{{
+                 #if: {{{IncludedWorkURL|}}}
+                 |{{
+                    #if: {{{URL|}}}
+                    |{{{URL}}}
+                  }}
+               }}
+              |{{
+                 #if: {{{URL|}}}
+                 |{{{URL}}}
+               }}
+            }}
+        | 2=&quot;{{{Title}}}{{
+          #if: {{{TransTitle|}}}
+          |{{
+             #if: {{{Title|}}}
+             |&amp;#32;
+           }}&amp;#91;{{{TransTitle}}}&amp;#93;
+        }}&quot;
+      }}{{
+        #if: {{{TitleNote|}}}
+        |{{{Sep|,}}}&amp;#32;{{{TitleNote}}}
+      }}
+   }}
+}}{{
+  #if: {{{language|}}}
+  |&amp;#32;(in {{{language}}})
+}}{{
+  #if: {{{format|}}}
+  |&amp;#32;({{{format}}})
+}}{{
+   #if: {{{Periodical|}}}
+   |{{
+      #if:{{{IncludedWorkTitle|}}}{{{Title|}}}{{{TransTitle|}}}
+      |{{{Sep|,}}}&amp;#32;
+    }}''&lt;nowiki /&gt;{{{Periodical}}}&lt;nowiki /&gt;''{{
+      #if: {{{Series|}}}
+      |{{{Sep|,}}}&amp;#32;{{{Series}}}
+    }}{{
+      #if: {{{PublicationPlace|}}}
+      |{{
+         #if: {{{Publisher|}}}
+         |&amp;#32;({{{PublicationPlace}}}&lt;nowiki&gt;: &lt;/nowiki&gt;{{{Publisher}}})
+         |&amp;#32;({{{PublicationPlace}}})
+       }}
+      |{{
+         #if: {{{Publisher|}}}
+         |&amp;#32;({{{Publisher}}})
+       }}
+    }}{{
+      #if: {{{Volume|}}}
+      |&amp;#32;{{#if:{{{Periodical|}}}|'''&lt;nowiki /&gt;{{{Volume}}}&lt;nowiki /&gt;'''|{{{Volume}}}}}{{
+         #if: {{{Issue|}}}
+         |&amp;#32;({{{Issue}}})
+       }}
+      |{{
+         #if: {{{Issue|}}}
+         |&amp;#32;({{{Issue}}})
+       }}
+    }}{{
+      #if: {{{At|}}}
+      |&lt;nowiki&gt;: &lt;/nowiki&gt; {{{At}}}
+    }}
+   |{{
+      &lt;!--============ Anything else with a title, including books ============--&gt;
+      #if: {{{Title|}}}{{{TransItalic|}}}
+      |{{
+         #if: {{{Surname1|}}}{{{EditorSurname1|}}}{{{IncludedWorkTitle|}}}{{{Periodical|}}}
+         |{{{Sep|,}}}
+       }}&amp;#32;{{Citation/make link
+         | 1={{
+               #if: {{{IncludedWorkTitle|}}}
+               |{{
+                  #if: {{{IncludedWorkURL|}}}
+                  |{{
+                     #if: {{{URL|}}}
+                     |{{{URL}}}
+                   }}
+                }}
+               |{{
+                  #if: {{{URL|}}}
+                  |{{{URL}}}
+                }}
+             }}
+         | 2=''&lt;nowiki /&gt;{{{Title|}}}{{
+            #if:{{{TransItalic|}}}|&amp;#32;&amp;#91;{{{TransItalic}}}&amp;#93;
+          }}&lt;nowiki /&gt;''
+       }}
+    }}{{
+      #if: {{{TitleType|}}}
+      |&amp;#32;({{{TitleType}}})
+    }}{{
+      #if: {{{Series|}}}
+      |{{{Sep|,}}}&amp;#32;{{{Series}}}
+    }}{{
+      #if: {{{Volume|}}}
+      |{{{Sep|,}}}&amp;#32;'''&lt;nowiki /&gt;{{{Volume}}}&lt;nowiki /&gt;'''
+    }}{{
+      #if: {{{Other|}}}
+      |{{{Sep|,}}}&amp;#32;{{{Other|}}}
+    }}{{
+      #if: {{{Edition|}}}
+      |&amp;#32;({{{Edition}}} ed.)
+    }}{{
+      #if: {{{PublicationPlace|}}}
+      |{{{Sep|,}}}&amp;#32;{{{PublicationPlace}}}
+    }}{{
+      #if: {{{Publisher|}}}
+      |{{
+         #if: {{{PublicationPlace|}}}
+         |&lt;nowiki&gt;:&lt;/nowiki&gt;
+         |{{{Sep|,}}}
+       }}&amp;#32;{{{Publisher}}}
+    }}
+}}{{
+&lt;!--============ Date (if no author/editor) ============--&gt;
+  #if: {{{Surname1|}}}{{{EditorSurname1|}}}
+  |
+  |{{
+     #if: {{{Date|}}}
+     |{{{Sep|,}}}&amp;#32;{{{Date}}}{{
+       #if:{{{YearNote|}}}
+     |&amp;#32;[{{{YearNote}}}]
+     }}
+   }}
+}}{{
+&lt;!--============ Publication date ============--&gt;
+  #if: {{{PublicationDate|}}}
+  |{{
+     #ifeq: {{{PublicationDate|}}} | {{{Date|}}}
+     |
+     |{{
+        #if: {{{EditorSurname1|}}}
+        |{{
+           #if: {{{Surname1|}}}
+           |{{{Sep|,}}}&amp;#32;{{{PublicationDate}}}
+           |&amp;#32;(published {{{PublicationDate}}})
+         }}
+        |{{
+           #if: {{{Periodical|}}}
+           |{{{Sep|,}}}&amp;#32;{{{PublicationDate}}}
+           |&amp;#32;(published {{{PublicationDate}}})
+         }}
+      }}
+   }}
+}}{{
+&lt;!--============ Page within included work ============--&gt;
+  #if: {{{Periodical|}}}
+  |
+  |{{
+     #if: {{{At|}}}
+     |{{{Sep|,}}}&amp;#32;{{{At}}}
+   }}
+}}{{
+&lt;!--============ arXiv ==============--&gt;
+  #if: {{{ARXIV|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=arxiv |input1={{{ARXIV|}}} }}
+}}{{
+&lt;!--============ ASIN ===============--&gt;
+  #if: {{{ASIN|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=asin |input1={{{ASIN|}}} |input2={{{ASIN-TLD|}}} }}
+}}{{
+&lt;!--============ BIBCODE ============--&gt;
+  #if: {{{BIBCODE|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=bibcode |input1={{{BIBCODE|}}} }}
+}}{{
+&lt;!--============ DOI ================--&gt;
+#if:{{{DOI|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=doi |input1={{{DOI|}}}  |input2={{{DoiBroken|}}} |input3={{{template doc demo|}}}}}
+}}{{
+&lt;!--============ ISBN ===============--&gt;
+  #if: {{{ISBN|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=isbn |input1={{{ISBN|}}} }}
+}}{{
+&lt;!--============ ISSN ===============--&gt;
+  #if: {{{ISSN|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=issn |input1={{{ISSN|}}} }}
+}}{{
+&lt;!--============ JFM ================--&gt;
+  #if: {{{JFM|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=jfm |input1={{{JFM|}}} }}
+}}{{
+&lt;!--============ JSTOR ==============--&gt;
+  #if: {{{JSTOR|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=jstor |input1={{{JSTOR|}}} }}
+}}{{
+&lt;!--============ LCCN ===============--&gt;
+  #if: {{{LCCN|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=lccn |input1={{{LCCN|}}} }}
+}}{{
+&lt;!--============ MR =================--&gt;
+  #if: {{{MR|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=mr |input1={{{MR|}}} }}
+}}{{
+&lt;!--============ OCLC ===============--&gt;
+  #if: {{{OCLC|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=oclc |input1={{{OCLC|}}} }}
+}}{{
+&lt;!--============ OL =================--&gt;
+  #if: {{{OL|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=ol |input1={{{OL|}}} }}
+}}{{
+&lt;!--============ OSTI ===============--&gt;
+  #if: {{{OSTI|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=osti |input1={{{OSTI|}}} }}
+}}{{
+&lt;!--============ PMC ================--&gt;
+  #if: {{{PMC|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=pmc |input1={{{PMC|}}} }}
+}}{{
+&lt;!--============ PMID ===============--&gt;
+  #if: {{{PMID|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=pmid |input1={{{PMID|}}} }}
+}}{{
+&lt;!--============ RFC ================--&gt;
+  #if: {{{RFC|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=rfc|input1={{{RFC|}}} }}
+}}{{
+&lt;!--============ SSRN ================--&gt;
+  #if: {{{SSRN|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=ssrn |input1={{{SSRN|}}} }}
+}}{{
+&lt;!--============ ZBL ================--&gt;
+  #if: {{{ZBL|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=zbl |input1={{{ZBL|}}} }}
+}}{{
+&lt;!--============  Misc. Identifier ============--&gt;
+  #if: {{{ID|}}}
+  |{{{Sep|,}}}&amp;#32;{{{ID}}}
+}}{{
+&lt;!--============  Archive data, etc ===========--&gt;
+#if: {{{Archive|}}}
+|{{{Sep|,}}}&amp;#32;{{{Archive}}}[[Category:Pages using deprecated citation archive parameters]]
+|{{
+  #if:{{{ArchiveURL|}}}{{{ArchiveDate|}}}
+  | {{{Sep|,}}}&amp;#32;{{#ifeq: {{{DeadURL|}}} | no
+    | {{#if:{{{ArchiveURL|}}}
+       |{{Citation/make link|{{{ArchiveURL|}}}|{{#ifeq:{{{Sep}}}|.|A|a}}rchived}}&amp;#32;from the original
+       |{{#ifeq:{{{Sep}}}|.|A|a}}rchived
+      }}
+    | {{#ifeq:{{{Sep}}}|.|A|a}}rchived{{#if:{{{OriginalURL|}}}{{{IncludedWorkURL|}}}
+       |{{#if:{{{ArchiveURL|}}}|&amp;#32;from {{Citation/make link|{{{OriginalURL|{{{IncludedWorkURL|}}}}}}|the original}}}}
+      }}
+    }}{{#if:{{{ArchiveDate|}}}|&amp;#32;on {{{ArchiveDate}}}}}{{
+     #if:{{#if:{{{ArchiveURL|}}}||A}}{{#if:{{{OriginalURL|}}}{{{IncludedWorkURL|}}}||B}}{{#if:{{{ArchiveDate|}}}||C}}
+     |. {{citation error|nocat={{{template doc demo|}}}
+       |If you specify &lt;code&gt;&amp;#124;{{#if:{{{ArchiveURL|}}}|archiveurl|archivedate}}&amp;#61;&lt;/code&gt;{{#ifeq:{{{DeadURL|}}}|no|{{#if:{{{OriginalURL|}}}{{{IncludedWorkURL|}}}||&amp;#32;and &lt;code&gt;&amp;#124;deadurl&amp;#61;no&lt;/code&gt;}}}}, you must {{#if:{{{OriginalURL|}}}{{{IncludedWorkURL|}}}| also specify &lt;code&gt;&amp;#124;{{#if:{{{ArchiveURL|}}}|archivedate|archiveurl}}&amp;#61;&lt;/code&gt;| {{#ifeq:{{{DeadURL|}}}|no|also|first}} specify &lt;code&gt;&amp;#124;url&amp;#61;&lt;/code&gt;}}}}
+    }}
+  }}
+}}{{
+&lt;!--============ URL and AccessDate ============--&gt;
+  #if: {{{URL|}}}{{{IncludedWorkURL|}}}{{#ifeq:{{{DeadURL|}}}|no|{{{ArchiveURL|}}}|}}
+  |{{
+     #if: {{{Title|}}}{{{IncludedWorkTitle|}}}{{{TransTitle|}}}
+     |&lt;span class=&quot;printonly&quot;&gt;{{{Sep|,}}}&amp;#32;{{
+                                      #if: {{{IncludedWorkURL|}}}
+                                      |{{{IncludedWorkURL}}}
+                                      |{{{URL}}}
+                                    }}&lt;/span&gt;
+     |{{{Sep|,}}}&amp;#32;{{
+              #if: {{{IncludedWorkURL|}}}
+              |{{{IncludedWorkURL}}}
+              |{{{URL}}}
+            }}
+   }}{{
+     #if: {{{AccessDate|}}}
+     | &lt;span class=&quot;reference-accessdate&quot;&gt;{{#ifeq:{{{Sep|}}}|,|,&amp;#32;r|.&amp;#32;R}}etrieved {{{AccessDate}}}&lt;/span&gt;
+     }}
+}}{{#if:{{{laysummary|}}}
+  |{{{Sep|,}}}&amp;#32;[{{{laysummary}}} Lay summary]{{#if: {{{laysource|}}}|&amp;nbsp;&amp;ndash;&amp;nbsp;''&lt;nowiki /&gt;{{{laysource}}}&lt;nowiki /&gt;''}}
+}}{{#if:{{{laydate|}}}
+  | &amp;#32;({{{laydate}}})
+}}{{#if:{{{quote|}}}
+  |{{{Sep|,}}}&amp;#32;&quot;{{{quote}}}&quot;
+}}{{{PS|}}}&lt;/span&gt;&lt;noinclude&gt;
+{{Documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>3d0flmxgobo91q1mvaifvkva4hgsovv</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Citation/identifier</title>
+    <ns>10</ns>
+    <id>26368089</id>
+    <revision>
+      <id>535169135</id>
+      <parentid>509607082</parentid>
+      <timestamp>2013-01-27T14:00:09Z</timestamp>
+      <contributor>
+        <username>Gadget850</username>
+        <id>339034</id>
+      </contributor>
+      <comment>OCLC</comment>
+      <text xml:space="preserve" bytes="5495">{{#switch:{{{identifier}}}
+ |arxiv={{hide in print
+         |[[arXiv]]:[http://arxiv.org/abs/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+        }}&lt;!--
+     --&gt;{{only in print
+         |arXiv:{{{input1|}}}
+        }}
+ |asin={{hide in print
+        |[[Amazon Standard Identification Number|ASIN]]&amp;nbsp;[//www.amazon.&lt;!--
+     --&gt;{{#switch: {{{input2|}}}
+          |ca=ca
+          |cn=cn
+          |de=de
+          |ed=es
+          |fr=fr
+          |it=it
+          |jp=co.jp
+          |co.jp=co.jp
+          |uk=co.uk
+          |co.uk=co.uk
+          |#default=com
+         }}/dp/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |ASIN&amp;nbsp;{{{input1|}}}
+       }}
+ |bibcode={{hide in print
+           |[[Bibcode]] [http://adsabs.harvard.edu/abs/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+          }}&lt;!--
+       --&gt;{{only in print
+           |Bibcode&amp;nbsp;{{{input1|}}}
+          }}
+ |doi={{hide in print
+       |{{#ifeq:{{str left|{{{input1|}}}|3}}|10.
+         |{{#if:{{{input2|}}}
+           |[[Digital object identifier|doi]]:{{{input1|}}} (inactive {{{input2|}}}) &lt;!--
+            --&gt;{{#ifeq:{{NAMESPACE}}|{{ns:0}}
+                |[[Category:Pages with DOIs inactive since {{#time: Y | {{{input2|}}} }}]]
+                |
+               }}
+           |[[Digital object identifier|doi]]:[http://dx.doi.org/{{urlencode:{{{input1|}}}}} {{#tag:nowiki|{{{input1|}}}}}]
+          }}
+         |{{citation error|nocat={{{input3|}}}|cat=Pages with DOI errors|Bad DOI specified}}
+        }}
+      }}&lt;!--
+   --&gt;{{only in print
+       |{{#if:{{{input2|}}}
+         |doi:{{{input1|}}} (inactive {{{input2|}}})
+         |doi:{{{input1|}}}
+        }}
+      }}
+ |isbn={{hide in print
+        |[[International Standard Book Number|ISBN]]&amp;nbsp;[[Special:BookSources/{{{input1|}}}|{{{input1|}}}]]
+       }}&lt;!--
+    --&gt;{{only in print
+        |ISBN&amp;nbsp;{{{input1|}}}
+       }}
+ |issn={{hide in print
+        |[[International Standard Serial Number|ISSN]]&amp;nbsp;[//www.worldcat.org/issn/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |ISSN&amp;nbsp;{{{input1|}}}
+       }}
+ |jfm={{hide in print
+       |[[Jahrbuch über die Fortschritte der Mathematik|JFM]]&amp;nbsp;[http://www.zentralblatt-math.org/zmath/en/search/?q{{=}}an:{{{input1|}}}&amp;format{{=}}complete {{#tag:nowiki|{{{input1|}}}}}]
+      }}&lt;!--
+   --&gt;{{only in print
+       |JFM&amp;nbsp;{{{input1|}}}
+      }}
+ |jstor={{hide in print
+         |[[JSTOR]]&amp;nbsp;[http://www.jstor.org/stable/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+        }}&lt;!--
+     --&gt;{{only in print
+         |JSTOR&amp;nbsp;{{{input1|}}}
+         }}
+ |lccn={{hide in print
+         |[[Library of Congress Control Number|LCCN]]&amp;nbsp;[http://lccn.loc.gov/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+        }}&lt;!--
+     --&gt;{{only in print
+         |LCCN&amp;nbsp;{{{input1|}}}
+         }}
+ |mr={{hide in print
+      |[[Mathematical Reviews|MR]]&amp;nbsp;[http://www.ams.org/mathscinet-getitem?mr{{=}}{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+     }}&lt;!--
+  --&gt;{{only in print
+      |MR{{{input1|}}}
+     }}
+ |oclc={{hide in print
+        |[[OCLC]]&amp;nbsp;[//www.worldcat.org/oclc/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |OCLC&amp;nbsp;{{{input1|}}}
+       }}
+ |ol={{hide in print
+      |1={{#if:{{str endswith|{{{input1|}}}|A}}
+          |[[Open Library|OL]][http://openlibrary.org/authors/OL{{urlencode:{{{input1|}}}}} {{{input1|}}}]
+          |{{#if:{{str endswith|{{{input1|}}}|M}}
+            |[[Open Library|OL]][http://openlibrary.org/books/OL{{urlencode:{{{input1|}}}}} {{{input1|}}}]
+            |{{#if:{{str endswith|{{{input1|}}}|W}}
+              |[[Open Library|OL]][http://openlibrary.org/works/OL{{urlencode:{{{input1|}}}}} {{{input1|}}}]
+              |&lt;includeonly&gt;[[Category:Pages with OL errors]]&lt;span class=&quot;error&quot;&gt;Error: Bad OL specified!&lt;/span&gt;&lt;/includeonly&gt;
+             }}
+           }}
+         }}
+     }}&lt;!--
+--&gt;{{Only in print
+    |1=OL{{{id|{{{1}}}}}}
+   }}
+ |osti={{hide in print
+        |[[Office of Scientific and Technical Information|OSTI]]&amp;nbsp;[http://www.osti.gov/energycitations/product.biblio.jsp?osti_id{{=}}{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |OSTI&amp;nbsp;{{{input1|}}}
+       }}
+ |pmc={{hide in print
+        |[[PubMed Central|PMC]]&amp;nbsp;[//www.ncbi.nlm.nih.gov/pmc/articles/PMC{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+      }}&lt;!--
+   --&gt;{{only in print
+       |PMC&amp;nbsp;{{{input1|}}}
+      }}
+ |pmid={{hide in print
+        |[[PubMed Identifier|PMID]]&amp;nbsp;[//www.ncbi.nlm.nih.gov/pubmed/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |PMID&amp;nbsp;{{{input1|}}}
+       }}
+ |rfc={{hide in print
+        |[[Request for Comments|RFC]]&amp;nbsp;[//tools.ietf.org/html/rfc{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |RFC&amp;nbsp;{{{input1|}}}
+       }}
+ |ssrn={{hide in print
+        |[[Social Science Research Network|SSRN]]&amp;nbsp;[http://ssrn.com/abstract{{=}}{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |SSRN&amp;nbsp;{{{input1|}}}
+       }}
+ |zbl={{hide in print
+        |[[Zentralblatt MATH|Zbl]]&amp;nbsp;[http://www.zentralblatt-math.org/zmath/en/search/?q{{=}}an:{{{input1|}}}&amp;format{{=}}complete {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |Zbl&amp;nbsp;{{{input1|}}}
+       }}
+}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>nvemuwwc2aq2qbqc2m706nwk8yazoxx</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Citation/make link</title>
+    <ns>10</ns>
+    <id>29897504</id>
+    <revision>
+      <id>406462373</id>
+      <parentid>400598787</parentid>
+      <timestamp>2011-01-07T10:18:51Z</timestamp>
+      <contributor>
+        <username>Courcelles</username>
+        <id>1004750</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Citation/make link: Not reprotected after history merge.  Over 1 million transclusions ([edit=sysop] (indefinite) [move=sysop] (indefinite))</comment>
+      <text xml:space="preserve" bytes="535">{{#if:{{{1|}}}
+ |[{{{1}}} {{{2}}}]
+ |{{{2}}}
+}}&lt;noinclude&gt;&lt;!--
+  Code notes (here so that people /read/ it)
+  1. Parameter #2 is always nonempty when called from {{Citation/core}}.
+  2. It's up to {{Citation/core}} to stop italicized &quot;'foo' &amp; 'bar'&quot; from becoming
+     &quot;'''foo' &amp; 'bar'''&quot;. Citation/core does this by having a &lt;nowiki&gt;&lt;/nowiki&gt;
+     at both beginning and end of the call to this template. Since this is only
+     needed once, it's more efficient to do it in {{Citation/core}} than here.
+--&gt;{{documentation}}&lt;/noinclude&gt;</text>
+      <sha1>kpq1iofpfn0fdo5bshpu1vjve3ehx2d</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Cite book</title>
+    <ns>10</ns>
+    <id>4086375</id>
+    <restrictions>edit=sysop:move=sysop</restrictions>
+    <revision>
+      <id>527182610</id>
+      <parentid>510970131</parentid>
+      <timestamp>2012-12-09T14:07:57Z</timestamp>
+      <contributor>
+        <username>Gadget850</username>
+        <id>339034</id>
+      </contributor>
+      <comment>add section and sectionurl| per [[Wikipedia:Templates for discussion/Log/2012 December 1#Template:Cite manual]]</comment>
+      <text xml:space="preserve" bytes="5159">{{Citation/core
+|Citation class=book
+
+|Surname1={{{last|{{{last1|{{{author|{{{author1|{{{authors|{{{surname|{{{surname1|}}}}}}}}}}}}}}}}}}}}}
+|Surname2={{{last2|{{{author2|{{{surname2|}}}}}}}}}
+|Surname3={{{last3|{{{author3|{{{surname3|}}}}}}}}}
+|Surname4={{{last4|{{{author4|{{{surname4|}}}}}}}}}
+|Surname5={{{last5|{{{author5|{{{surname5|}}}}}}}}}
+|Surname6={{{last6|{{{author6|{{{surname6|}}}}}}}}}
+|Surname7={{{last7|{{{author7|{{{surname7|}}}}}}}}}
+|Surname8={{{last8|{{{author8|{{{surname8|}}}}}}}}}
+|Surname9={{{last9|{{{author9|{{{surname9|}}}}}}}}}
+
+|Given1={{{first|{{{first1|{{{given|{{{given1|}}}}}}}}}}}}
+|Given2={{{first2|{{{given2|}}}}}}
+|Given3={{{first3|{{{given3|}}}}}}
+|Given4={{{first4|{{{given4|}}}}}}
+|Given5={{{first5|{{{given5|}}}}}}
+|Given6={{{first6|{{{given6|}}}}}}
+|Given7={{{first7|{{{given7|}}}}}}
+|Given8={{{first8|{{{given8|}}}}}}
+|Given9={{{first9|{{{given9|}}}}}}
+
+|Authorlink1={{{authorlink|{{{authorlink1|{{{author-link|{{{author1-link|}}}}}}}}}}}}
+|Authorlink2={{{authorlink2|{{{author2-link|}}}}}}
+|Authorlink3={{{authorlink3|{{{author3-link|}}}}}}
+|Authorlink4={{{authorlink4|{{{author4-link|}}}}}}
+|Authorlink5={{{authorlink5|{{{author5-link|}}}}}}
+|Authorlink6={{{authorlink6|{{{author6-link|}}}}}}
+|Authorlink7={{{authorlink7|{{{author7-link|}}}}}}
+|Authorlink8={{{authorlink8|{{{author8-link|}}}}}}
+|Authorlink9={{{authorlink9|{{{author9-link|}}}}}}
+
+|Coauthors={{{coauthors|{{{coauthor|}}}}}}
+
+|Other={{{others|}}}
+
+|Year={{{year|{{    &lt;!-- attempt to derive year from date, if possible --&gt;
+           #if: {{{date|}}}
+           |{{
+              #iferror:{{#time:Y|{{{date|}}} }}
+              |{{#iferror:{{#time:Y|{{{publication-date|einval}}} }}||{{#time:Y|{{{publication-date|}}} }}}}
+              |{{#time:Y|{{{date|}}} }}
+            }}
+           |{{{publication-date|}}} &lt;!-- last resort --&gt;
+         }}
+      }}}
+|YearNote={{{origyear|}}}
+|Date={{#if:{{{date|}}}|{{{date}}}|{{{day|}}} {{{month|}}} {{{year|{{{publication-date|}}}}}}}}
+
+|Title={{{title|}}}
+|TransTitle={{{trans_chapter|}}}
+|TransItalic={{{trans_title|}}}
+|IncludedWorkTitle={{{chapter|{{{contribution|{{{section|}}}}}}}}}
+|TitleType={{{type|}}}
+|language={{{language|}}}
+
+|URL={{#if:{{{archiveurl|}}}
+       |{{#ifeq: {{{deadurl|}}} | no | {{{url|}}} | {{{archiveurl|}}}}}
+       |{{{url|}}}
+     }}
+|IncludedWorkURL={{{chapter-url|{{{chapterurl|{{{contribution-url|{{{sectionurl|}}}}}}}}}}}}
+|AccessDate={{{accessdate|}}}
+|OriginalURL={{{url|}}}
+|ArchiveURL={{{archiveurl|}}}
+|ArchiveDate={{{archivedate|}}}
+|DeadURL={{{deadurl|}}}
+|format={{{format|}}}
+
+|At={{#if: {{{page|}}}|{{#if:{{{nopp|}}}||p.&amp;nbsp;}}{{{page}}}
+      |{{#if: {{{pages|}}}|{{#if:{{{nopp|}}}||pp.&amp;nbsp;}}{{{pages}}}
+      |{{{at|}}}}}
+    }}
+
+|Edition={{{edition|}}}
+|Series={{{series|{{{version|}}}}}}
+|Volume={{{volume|}}}
+
+|Publisher={{{publisher|}}}
+|Place={{{location|{{{place|}}}}}}
+|PublicationPlace={{{location|{{{place|{{{publication-place|}}}}}}}}}
+|PublicationDate={{{publication-date|}}}
+
+|EditorSurname1={{{editor-last|{{{editor1-last|{{{editor|{{{editors|{{{editor-surname|{{{editor1-surname|}}}}}}}}}}}}}}}}}}
+|EditorSurname2={{{editor2-last|{{{editor2-surname|}}}}}}
+|EditorSurname3={{{editor3-last|{{{editor3-surname|}}}}}}
+|EditorSurname4={{{editor4-last|{{{editor4-surname|}}}}}}
+|EditorGiven1={{{editor-first|{{{editor1-first|{{{editor-given|{{{editor1-given|}}}}}}}}}}}}
+|EditorGiven2={{{editor2-first|{{{editor2-given|}}}}}}
+|EditorGiven3={{{editor3-first|{{{editor3-given|}}}}}}
+|EditorGiven4={{{editor4-first|{{{editor4-given|}}}}}}
+|Editorlink1={{{editor-link|{{{editor1-link|}}}}}}
+|Editorlink2={{{editor2-link|}}}
+|Editorlink3={{{editor3-link|}}}
+|Editorlink4={{{editor4-link|}}}
+
+|ARXIV={{{arxiv|}}}
+|ASIN={{{asin|{{{ASIN|}}}}}}
+|ASIN-TLD={{{asin-tld|}}}
+|BIBCODE={{{bibcode|}}}
+|DOI={{{doi|{{{DOI|}}}}}}
+|DoiBroken={{{doi_brokendate|{{{doi_inactivedate|}}}}}}
+|ISBN={{{isbn|{{{ISBN|}}}}}}
+|ISSN={{{issn|{{{ISSN|}}}}}}
+|JFM={{{jfm|{{{JFM|}}}}}}
+|JSTOR={{{jstor|{{{JSTOR|}}}}}}
+|LCCN={{{lccn|{{{LCCN|}}}}}}
+|MR={{{mr|{{{MR|}}}}}}
+|OCLC={{{oclc|{{{OCLC|}}}}}}
+|OL={{{ol|{{{OL|}}}}}}
+|OSTI={{{osti|{{{OSTI|}}}}}}
+|PMC={{{pmc|{{{PMC|}}}}}}
+|PMID={{{pmid|{{{PMID|}}}}}}
+|RFC={{{rfc|{{{RFC|}}}}}}
+|SSRN={{{ssrn|{{{SSRN|}}}}}}
+|ZBL={{{zbl|}}}
+|ID={{{id|{{{ID|}}}}}}
+
+|laysummary={{{laysummary|}}}
+|laydate={{{laydate|}}}
+|laysource={{{laysource|}}}
+
+|quote={{{quote|}}}
+
+|Ref={{{ref|}}}
+
+|amp={{{lastauthoramp|}}}
+|AuthorMask={{{author-mask|{{{authormask|}}}}}}
+|AuthorSep={{#ifeq:{{{author-separator|}}}|;|&amp;#059;|{{{author-separator|&amp;#059;}}}}}&amp;#32;
+|NameSep={{{author-name-separator|,}}}&amp;#32;
+|PS={{#if:{{{quote|}}}||{{{postscript|.}}}}}
+|Sep={{#ifeq:{{{separator|{{{seperator}}} }}}|;|&amp;#059;|{{{separator|{{{seperator|.}}} }}} }}
+|template doc demo={{{template doc demo|}}}
+|Trunc={{#if:{{{display-authors|}}}|{{{display-authors}}}|8}}
+}}{{#if:{{{access-date|}}}{{{accessdaymonth|}}}{{{accessday|}}}{{{accessmonthday|}}}{{{accessmonth|}}}{{{accessyear|}}}{{{dateformat|}}}{{{day|}}}{{{doilabel|}}}
+|[[Category:Pages containing cite templates with deprecated parameters|{{NAMESPACE}} {{PAGENAME}}]]}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>ncred0kzao8wikkqvqlyo15xb0t0sbx</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Column-count</title>
+    <ns>10</ns>
+    <id>29216387</id>
+    <revision>
+      <id>433980026</id>
+      <parentid>391428558</parentid>
+      <timestamp>2011-06-13T01:52:47Z</timestamp>
+      <contributor>
+        <username>Edokter</username>
+        <id>1624037</id>
+      </contributor>
+      <comment>vendor-neutral last</comment>
+      <text xml:space="preserve" bytes="231">&lt;includeonly&gt;-moz-column-count: {{{1|2}}}; -webkit-column-count: {{{1|2}}}; column-count: {{{1|2}}};&lt;/includeonly&gt;&lt;noinclude&gt;
+
+&lt;!-- ADD CATEGORIES AND INTERWIKIS TO THE /doc PAGE, NOT HERE, THANKS --&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>k5fgrdnkgqlsuhvfbng1yutmo23zaj5</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Eqm</title>
+    <ns>10</ns>
+    <id>19269481</id>
+    <revision>
+      <id>376345392</id>
+      <parentid>376321424</parentid>
+      <timestamp>2010-07-31T00:07:03Z</timestamp>
+      <contributor>
+        <username>Physchim62</username>
+        <id>254243</id>
+      </contributor>
+      <comment>restoring alt text (must be text for screenreaders)</comment>
+      <text xml:space="preserve" bytes="204">[[Image:Equilibrium.svg|{{{1|15px}}}|alt=is in equilibrium with|link=]]&lt;noinclude&gt;
+
+{{Documentation}}
+&lt;!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>nqhhvq3ysiydvm0zkht36jgoq784jxh</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Hatnote</title>
+    <ns>10</ns>
+    <id>945764</id>
+    <restrictions>move=sysop:edit=sysop</restrictions>
+    <revision>
+      <id>450301204</id>
+      <parentid>388526872</parentid>
+      <timestamp>2011-09-13T14:42:30Z</timestamp>
+      <contributor>
+        <username>GTBacchus</username>
+        <id>6781</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Template:Dablink]] to [[Template:Hatnote]] over redirect: per move request; see talk page</comment>
+      <text xml:space="preserve" bytes="76">&lt;div class=&quot;dablink&quot;&gt;{{{1}}}&lt;/div&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>2h3hxi42jzxp1m2r8ytjvbz2kzdy88q</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Hide in print</title>
+    <ns>10</ns>
+    <id>21706434</id>
+    <revision>
+      <id>388689196</id>
+      <parentid>273545910</parentid>
+      <timestamp>2010-10-04T14:47:42Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>remove {{pp-template}}</comment>
+      <text xml:space="preserve" bytes="109">&lt;includeonly&gt;{{{1|}}}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{documentation}}
+[[Category:Exclude in print|!]]
+&lt;/noinclude&gt;</text>
+      <sha1>73og27prhvo5g5zugn2d87cnvzb68h8</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:If pagename</title>
+    <ns>10</ns>
+    <id>24967971</id>
+    <revision>
+      <id>388690888</id>
+      <parentid>327560279</parentid>
+      <timestamp>2010-10-04T14:56:27Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>remove {{pp-template}}</comment>
+      <text xml:space="preserve" bytes="2135">{{#if:x   &lt;!--Remove surrounding whitespace--&gt;
+| &lt;!--Check for match with full pagename--&gt;
+  {{{ {{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}   &lt;!--Has data, or is empty but defined--&gt;
+  | &lt;!--Check for match with &quot;User:Somepage/+&quot;--&gt;
+    {{{ {{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|1|1}}/+
+    | &lt;!--Else, are we on a subpage or a basepage?--&gt;
+      {{#if:{{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|0|2}}
+      | &lt;!--We are on a subpage, check for match with &quot;User:Somepage/*&quot;--&gt;
+        {{{ {{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|1|1}}/*
+        | &lt;!--Check for match with &quot;Somepage/*&quot;--&gt;
+          {{{ {{#titleparts:{{#if:{{{page|}}}| {{PAGENAME:{{{page|}}}}} | {{PAGENAME}} }}|1|1}}/*
+          | &lt;!--Check for match with &quot;/something&quot;--&gt;
+            {{{ /{{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|0|-1}}
+            | &lt;!--Check for match with &quot;/somethin*&quot;--&gt;
+              {{{ /{{lc: {{padleft:|8| {{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|0|-1}}# }} }}*
+              | &lt;!--Check for match with &quot;/someth*&quot;--&gt;
+                {{{ /{{lc: {{padleft:|6| {{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|0|-1}}# }} }}*
+                | &lt;!--Check for match with &quot;/some*&quot;--&gt;
+                  {{{ /{{lc: {{padleft:|4| {{#titleparts:{{#if:{{{page|}}}| {{{page|}}} | {{FULLPAGENAME}} }}|0|-1}}# }} }}*   &lt;!--Pad with # so &quot;/a&quot; doesn't match &quot;/aaaa*&quot;--&gt;
+                  | {{{subpage| {{{other|}}} }}}   &lt;!--Respecting empty parameter on purpose--&gt;
+                  }}}
+                }}}
+              }}}
+            }}}
+          }}}
+        }}}
+      | &lt;!--We are on a basepage, check for match with &quot;Somepage&quot;--&gt;
+        {{{ {{#if:{{{page|}}}| {{PAGENAME:{{{page|}}}}} | {{PAGENAME}} }}
+        | {{{basepage| {{{other|}}} }}}   &lt;!--Respecting empty parameter on purpose--&gt;
+        }}}
+      }}   &lt;!--End if, are we on a subpage or a basepage?--&gt;
+    }}}
+  }}}
+}}&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>f6ui44rhtrrzwpz6jioqm0fgkeg8gdf</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Main</title>
+    <ns>10</ns>
+    <id>1208356</id>
+    <restrictions>move=sysop:edit=sysop</restrictions>
+    <revision>
+      <id>424831235</id>
+      <parentid>387216347</parentid>
+      <timestamp>2011-04-19T09:44:39Z</timestamp>
+      <contributor>
+        <username>Rich Farmbrough</username>
+        <id>82835</id>
+      </contributor>
+      <comment>Add namespace check,  and plurals checks to category invocation.</comment>
+      <text xml:space="preserve" bytes="1230">{{Rellink|extraclasses=relarticle mainarticle|{{#ifeq:{{SUBJECTSPACE}}|Category|The main {{#ifeq:{{NAMESPACE:{{{1}}}}}||article|page}}{{#if:{{{2|}}}|s}} for this [[Wikipedia:Categorization|category]] {{#if:{{{2|}}}|are|is}}|Main {{#ifeq:{{NAMESPACE:{{{1}}}}}||article|page}}{{#if:{{{2|}}}|s}}:}} [[{{{1|{{PAGENAME}}}}}|{{{l1|{{{1|{{PAGENAME}}}}}}}}]]{{#if:{{{2| }}}
+ |{{#if:{{{3|}}}|,&amp;#32;|&amp;#32;and&amp;#32;}}[[{{{2}}}|{{{l2|{{{2}}}}}}]]}}{{#if:{{{3|}}}
+ |{{#if:{{{4|}}}|,&amp;#32;|,&amp;#32;and&amp;#32;}}[[{{{3}}}|{{{l3|{{{3}}}}}}]]}}{{#if:{{{4|}}}
+ |{{#if:{{{5|}}}|,&amp;#32;|,&amp;#32;and&amp;#32;}}[[{{{4}}}|{{{l4|{{{4}}}}}}]]}}{{#if:{{{5|}}}
+ |{{#if:{{{6|}}}|,&amp;#32;|,&amp;#32;and&amp;#32;}}[[{{{5}}}|{{{l5|{{{5}}}}}}]]}}{{#if:{{{6|}}}
+ |{{#if:{{{7|}}}|,&amp;#32;|,&amp;#32;and&amp;#32;}}[[{{{6}}}|{{{l6|{{{6}}}}}}]]}}{{#if:{{{7|}}}
+ |{{#if:{{{8|}}}|,&amp;#32;|,&amp;#32;and&amp;#32;}}[[{{{7}}}|{{{l7|{{{7}}}}}}]]}}{{#if:{{{8|}}}
+ |{{#if:{{{9|}}}|,&amp;#32;|,&amp;#32;and&amp;#32;}}[[{{{8}}}|{{{l8|{{{8}}}}}}]]}}{{#if:{{{9|}}}
+ |{{#if:{{{10|}}}|,&amp;#32;|,&amp;#32;and&amp;#32;}}[[{{{9}}}|{{{l9|{{{9}}}}}}]]}}{{#if:{{{10|}}}
+ |, and [[{{{10}}}|{{{l10|{{{10}}}}}}]]}}{{#if:{{{11| }}}|&amp;#32; (too many parameters in &amp;#123;&amp;#123;[[Template:main|main]]&amp;#125;&amp;#125;)}}}}&lt;noinclude&gt;
+
+{{Documentation}}
+
+&lt;/noinclude&gt;</text>
+      <sha1>iofc6334i4rxca8gspsh12f1jz1556q</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:More footnotes</title>
+    <ns>10</ns>
+    <id>14697869</id>
+    <revision>
+      <id>506138899</id>
+      <parentid>499641761</parentid>
+      <timestamp>2012-08-06T22:51:29Z</timestamp>
+      <contributor>
+        <username>Kaldari</username>
+        <id>59944</id>
+      </contributor>
+      <comment>making not case dependent</comment>
+      <text xml:space="preserve" bytes="1243">&lt;!--{{More footnotes}} begin--&gt;{{Ambox
+| name  = More footnotes
+| subst = &lt;includeonly&gt;{{subst:&lt;/includeonly&gt;&lt;includeonly&gt;substcheck}}&lt;/includeonly&gt;
+| type  = style
+| class = ambox-More_footnotes
+| image = [[file:Text document with red question mark.svg|50x40px|alt=|link=]]
+| issue = This {{#ifeq: {{{BLP|{{{blp|}}}}}} | yes | [[Wikipedia:Biographies of living persons{{!}}{{{1|'''biographical article'''}}}]] | {{{1|article}}} }} includes a [[{{SITENAME}}:Citing sources|list of references]], but '''its sources remain unclear because it has insufficient [[Wikipedia:INCITE|inline citations]]'''.
+| fix   = {{#ifeq: {{{BLP|{{{blp|}}}}}} | yes | Contentious material about living persons that is unsourced or poorly sourced '''must be removed immediately''', especially if potentially [[defamation|libelous]] or harmful.}} Please help to [[{{SITENAME}}:WikiProject Fact and Reference Check|improve]] this article by [[Wikipedia:When to cite|introducing]] more precise citations.
+| date  = {{{date|}}}
+| cat   = Articles lacking in-text citations
+| all   = All articles lacking in-text citations
+}}&lt;!--{{More footnotes}} end--&gt;&lt;noinclude&gt;
+{{Documentation}}
+&lt;!-- Please add categories and interwikis to the /doc subpage, thanks --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>fkjiviq8644dr5jnqyiruv0dgioc90z</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Namespace detect</title>
+    <ns>10</ns>
+    <id>17433896</id>
+    <revision>
+      <id>388733912</id>
+      <parentid>334823405</parentid>
+      <timestamp>2010-10-04T18:40:00Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>remove {{pp-template}} since included in {{documentation}}</comment>
+      <text xml:space="preserve" bytes="1466">{{#switch:
+  {{lc:               &lt;!--Lower case the result--&gt;
+    &lt;!--If no or empty &quot;demospace&quot; parameter then detect namespace--&gt;
+    {{#if:{{{demospace|}}} 
+    | {{{demospace}}}
+    | {{#if:{{{page|}}} 
+      | &lt;!--Detect the namespace in the &quot;page&quot; parameter--&gt;
+        {{#ifeq:{{NAMESPACE:{{{page}}} }}|{{TALKSPACE:{{{page}}} }}
+        | talk
+        | {{SUBJECTSPACE:{{{page}}} }} 
+        }}
+      | &lt;!--No &quot;demospace&quot; or &quot;page&quot; parameters, so detect actual namespace--&gt;
+        {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}
+        | talk
+        | {{SUBJECTSPACE}} 
+        }}
+      }}
+    }}
+  }}
+&lt;!-- Only one of the lines below will be executed --&gt;
+&lt;!-- Respecting empty parameters on purpose --&gt;
+| main        &lt;!--&quot;demospace=main&quot; or {{SUBJECTSPACE}}={{ns:0}}=&quot;&quot;--&gt;
+|           = {{{main| {{{other|}}} }}}
+| talk      = {{{talk| {{{other|}}} }}}
+| user      = {{{user| {{{other|}}} }}}
+| wikipedia = {{{wikipedia| {{{other|}}} }}}
+| file
+| image     = {{{file| {{{image| {{{other|}}} }}} }}}
+| mediawiki = {{{mediawiki| {{{other|}}} }}}
+| template  = {{{template| {{{other|}}} }}}
+| help      = {{{help| {{{other|}}} }}}
+| category  = {{{category| {{{other|}}} }}}
+| portal    = {{{portal| {{{other|}}} }}}
+| book      = {{{book| {{{other|}}} }}}
+| other
+| #default  = {{{other|}}}   &lt;!--&quot;demospace=other&quot; or a new namespace--&gt;
+
+}}&lt;!--End switch--&gt;&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>k2auzofayktm0oitr1kmv3dz91ydyp4</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbar</title>
+    <ns>10</ns>
+    <id>5277509</id>
+    <restrictions>edit=sysop:move=sysop</restrictions>
+    <revision>
+      <id>478598159</id>
+      <parentid>478596989</parentid>
+      <timestamp>2012-02-24T13:06:35Z</timestamp>
+      <contributor>
+        <username>Edokter</username>
+        <id>1624037</id>
+      </contributor>
+      <comment>Use CSS class for small-caps</comment>
+      <text xml:space="preserve" bytes="1111">&lt;includeonly&gt;&lt;div class=&quot;noprint plainlinks hlist navbar {{#if:{{{mini|}}}|mini}}&quot; style=&quot;{{{style|}}}&quot;&gt;&lt;!--
+
+--&gt;{{#if:{{{mini|}}}{{{plain|}}}|&lt;!--nothing--&gt;|&lt;!--else:
+--&gt;&lt;span style=&quot;word-spacing:0;{{{fontstyle|}}}&quot;&gt;{{{text|This box:}}} &lt;/span&gt;}}&lt;!--
+
+--&gt;{{#if:{{{brackets|}}}|&lt;span style=&quot;margin-right:-0.125em;{{{fontstyle|}}}&quot;&gt;&amp;#91;&lt;/span&gt;}}&lt;!--
+
+--&gt;&lt;ul&gt;&lt;!--
+--&gt;&lt;li class=&quot;nv-view&quot;&gt;[[{{transclude|{{{1}}}}}|&lt;span title=&quot;View this template&quot; &lt;!--
+--&gt;style=&quot;{{{fontstyle|}}}&quot;&gt;{{#if:{{{mini|}}}|v|view}}&lt;/span&gt;]]&lt;/li&gt;&lt;!--
+
+--&gt;&lt;li class=&quot;nv-talk&quot;&gt;[[{{TALKPAGENAME:{{transclude|{{{1}}}}}}}|&lt;span title=&quot;Discuss this template&quot; &lt;!--
+--&gt;style=&quot;{{{fontstyle|}}}&quot;&gt;{{#if:{{{mini|}}}|t|talk}}&lt;/span&gt;]]&lt;/li&gt;&lt;!--
+
+--&gt;{{#if:{{{noedit|}}}|&lt;!--nothing--&gt;|&lt;!--else:
+--&gt;&lt;li class=&quot;nv-edit&quot;&gt;[{{fullurl:{{transclude|{{{1}}}}}|action=edit}} &lt;span title=&quot;Edit this template&quot; &lt;!--
+--&gt;style=&quot;{{{fontstyle|}}}&quot;&gt;{{#if:{{{mini|}}}|e|edit}}&lt;/span&gt;]&lt;/li&gt;}}&lt;!--
+--&gt;&lt;/ul&gt;&lt;!--
+
+--&gt;{{#if:{{{brackets|}}}|&lt;span style=&quot;margin-left:-0.125em;{{{fontstyle|}}}&quot;&gt;&amp;#93;&lt;/span&gt;}}&lt;!--
+
+--&gt;&lt;/div&gt;&lt;/includeonly&gt;&lt;noinclude&gt;
+
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>l8vtirhspr68sezcde8873k75m5b4u4</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Only in print</title>
+    <ns>10</ns>
+    <id>21722702</id>
+    <revision>
+      <id>306661840</id>
+      <parentid>278108348</parentid>
+      <timestamp>2009-08-07T20:15:30Z</timestamp>
+      <contributor>
+        <username>MBisanz</username>
+        <id>92123</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Only in print: [[WP:MOVP|Highly visible page]] ([edit=sysop] (indefinite) [move=sysop] (indefinite))</comment>
+      <text xml:space="preserve" bytes="79">{{#if:{{hide in print|1}}||{{{1|}}}}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>rm8emca34tsah296fr9jh9dzgyhnfxo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Redirect</title>
+    <ns>10</ns>
+    <id>1649987</id>
+    <restrictions>edit=sysop:move=sysop</restrictions>
+    <revision>
+      <id>457069469</id>
+      <parentid>441563514</parentid>
+      <timestamp>2011-10-24T00:27:47Z</timestamp>
+      <contributor>
+        <username>Rich Farmbrough</username>
+        <id>82835</id>
+      </contributor>
+      <text xml:space="preserve" bytes="1309">{{Hatnote|&lt;!--
+--&gt;&quot;{{{1}}}&quot; redirects here. For {{#if:{{{2|}}}|{{{2}}}|other uses}}, see {{#if:{{{3|}}}|[[:{{{3}}}]]{{#ifeq:{{{4|}}}|and|&amp;#32;and {{#if:{{{5|}}}|[[:{{{5}}}]]|[[{{{1}}} (disambiguation)]]}}}}|[[{{{1}}} (disambiguation)]]}}.&lt;!--
+--&gt;{{#if:{{{2|}}}|{{#if:{{{4|}}}|&lt;!--
+  --&gt;{{#ifeq:{{{4|}}}|and||&lt;!-- &quot;and&quot; is a special word, don't outputSupplier &quot;For and, ...&quot;
+    --&gt;&amp;#32;&amp;#32;For {{#ifeq:{{{4}}}|1|other uses|{{{4}}}}}, see {{#if:{{{5|}}}|[[:{{{5}}}]]{{#ifeq:{{{6|}}}|and|&amp;#32;and {{#if:{{{7|}}}|[[:{{{7}}}]]|[[{{{4}}} (disambiguation)]]}}}}|[[{{{4}}} (disambiguation)]]}}.}}&lt;!--
+  --&gt;{{#if:{{{6|}}}|&lt;!--
+    --&gt;{{#ifeq:{{{6|}}}|and||&lt;!--
+      --&gt;&amp;#32;&amp;#32;For {{#ifeq:{{{6}}}|1|other uses|{{{6}}}}}, see {{#if:{{{7|}}}|[[:{{{7}}}]]{{#ifeq:{{{8|}}}|and|&amp;#32;and {{#if:{{{9|}}}|[[:{{{9}}}]]|[[{{{6}}} (disambiguation)]]}}}}|[[{{{6}}} (disambiguation)]]}}.}}&lt;!--
+    --&gt;{{#if:{{{8|}}}|&lt;!--
+      --&gt;{{#ifeq:{{{8|}}}|and||&lt;!--
+        --&gt;&amp;#32;&amp;#32;For {{#ifeq:{{{8}}}|1|other uses|{{{8}}}}}, see {{#if:{{{9|}}}|[[:{{{9}}}]]|[[{{{8}}} (disambiguation)]]}}.}}&lt;!--
+    --&gt;}}&lt;!--
+  --&gt;}}&lt;!--
+--&gt;}}}}}}{{#switch:{{{1&lt;noinclude&gt;|REDIRECT&lt;/noinclude&gt;}}}|REDIRECT|REDIRECT1|REDIRECT2|REDIRECT3|TERM = | #default = {{#ifexist:{{{1}}}||[[Category:Missing redirects]]}}}}&lt;noinclude&gt;
+
+{{Documentation}}
+
+&lt;/noinclude&gt;</text>
+      <sha1>lwkq3lx6fahb0wyesoog3nekknt0791</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Reflist</title>
+    <ns>10</ns>
+    <id>7585648</id>
+    <revision>
+      <id>505934185</id>
+      <parentid>505928777</parentid>
+      <timestamp>2012-08-05T17:49:47Z</timestamp>
+      <contributor>
+        <username>Edokter</username>
+        <id>1624037</id>
+      </contributor>
+      <comment>fix pre-space bug</comment>
+      <text xml:space="preserve" bytes="808">&lt;div class=&quot;reflist &lt;!--
+ --&gt;{{#if: {{{1|}}}
+    | {{#iferror: {{#ifexpr: {{{1|1}}} &gt; 1 }}
+      | references-column-width 
+      | references-column-count references-column-count-{{#if:1|{{{1}}}}} }}
+    | {{#if: {{{colwidth|}}}
+      | references-column-width }} }}&quot; style=&quot;&lt;!--
+ --&gt;{{#if: {{{1|}}}
+    | {{#iferror: {{#ifexpr: {{{1|1}}} &gt; 1 }}
+      | {{column-width|{{#if:1|{{{1}}}}}}}
+      | {{column-count|{{#if:1|{{{1}}}}}}} }}
+    | {{#if: {{{colwidth|}}}
+      | {{column-width|{{{colwidth}}}}} }} }} list-style-type: &lt;!--
+ --&gt;{{{liststyle|{{#switch: {{{group|}}}
+    | upper-alpha
+    | upper-roman
+    | lower-alpha
+    | lower-greek
+    | lower-roman = {{{group}}}
+    | #default = decimal}}}}};&quot;&gt;
+{{#tag:references|{{{refs|}}}|group={{{group|}}}}}&lt;/div&gt;&lt;noinclude&gt;
+{{documentation}}&lt;/noinclude&gt;</text>
+      <sha1>f3apxyfsq3ms5u18bf7m8mihj4dfed0</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Rellink</title>
+    <ns>10</ns>
+    <id>21737712</id>
+    <revision>
+      <id>387212324</id>
+      <parentid>280802448</parentid>
+      <timestamp>2010-09-26T23:20:40Z</timestamp>
+      <contributor>
+        <username>Plastikspork</username>
+        <id>5075409</id>
+      </contributor>
+      <comment>dupe pp</comment>
+      <text xml:space="preserve" bytes="140">&lt;div class=&quot;rellink{{#if:{{{extraclasses|}}}|&lt;nowiki&gt; &lt;/nowiki&gt;{{{extraclasses}}}}}&quot;&gt;{{{1}}}&lt;/div&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>2324mokuqb4rybkh0qre9oyyqesbdvb</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:See also</title>
+    <ns>10</ns>
+    <id>1721254</id>
+    <restrictions>edit=sysop:move=sysop</restrictions>
+    <revision>
+      <id>443612426</id>
+      <parentid>442197861</parentid>
+      <timestamp>2011-08-08T03:04:05Z</timestamp>
+      <contributor>
+        <username>Bkonrad</username>
+        <id>44062</id>
+      </contributor>
+      <comment>remove terminal punctuation -- this does not form a grammatical sentence and the use of a full stop is simply incorrect</comment>
+      <text xml:space="preserve" bytes="2165">{{rellink|extraclasses=boilerplate seealso|{{{altphrase|See also}}}: {{#if:{{{1&lt;includeonly&gt;|&lt;/includeonly&gt;}}} |&lt;!--then:--&gt;[[:{{{1}}}{{#if:{{{label 1|{{{l1|}}}}}}|{{!}}{{{label 1|{{{l1}}}}}}}}]] |&lt;!--else:--&gt;'''Error: [[Template:See also|Template must be given at least one article name]]'''
+}}{{#if:{{{2|}}}|{{#if:{{{3|}}}|, |&amp;nbsp;and }} [[:{{{2}}}{{#if:{{{label 2|{{{l2|}}}}}}|{{!}}{{{label 2|{{{l2}}}}}}}}]]
+}}{{#if:{{{3|}}}|{{#if:{{{4|}}}|, |,&amp;nbsp;and }} [[:{{{3}}}{{#if:{{{label 3|{{{l3|}}}}}}|{{!}}{{{label 3|{{{l3}}}}}}}}]]
+}}{{#if:{{{4|}}}|{{#if:{{{5|}}}|, |,&amp;nbsp;and }} [[:{{{4}}}{{#if:{{{label 4|{{{l4|}}}}}}|{{!}}{{{label 4|{{{l4}}}}}}}}]]
+}}{{#if:{{{5|}}}|{{#if:{{{6|}}}|, |,&amp;nbsp;and }} [[:{{{5}}}{{#if:{{{label 5|{{{l5|}}}}}}|{{!}}{{{label 5|{{{l5}}}}}}}}]]
+}}{{#if:{{{6|}}}|{{#if:{{{7|}}}|, |,&amp;nbsp;and }} [[:{{{6}}}{{#if:{{{label 6|{{{l6|}}}}}}|{{!}}{{{label 6|{{{l6}}}}}}}}]]
+}}{{#if:{{{7|}}}|{{#if:{{{8|}}}|, |,&amp;nbsp;and }} [[:{{{7}}}{{#if:{{{label 7|{{{l7|}}}}}}|{{!}}{{{label 7|{{{l7}}}}}}}}]]
+}}{{#if:{{{8|}}}|{{#if:{{{9|}}}|, |,&amp;nbsp;and }} [[:{{{8}}}{{#if:{{{label 8|{{{l8|}}}}}}|{{!}}{{{label 8|{{{l8}}}}}}}}]]
+}}{{#if:{{{9|}}}|{{#if:{{{10|}}}|, |,&amp;nbsp;and }} [[:{{{9}}}{{#if:{{{label 9|{{{l9|}}}}}}|{{!}}{{{label 9|{{{l9}}}}}}}}]]
+}}{{#if:{{{10|}}}|{{#if:{{{11|}}}|, |,&amp;nbsp;and }} [[:{{{10}}}{{#if:{{{label 10|{{{l10|}}}}}}|{{!}}{{{label 10|{{{l10}}}}}}}}]]
+}}{{#if:{{{11|}}}|{{#if:{{{12|}}}|, |,&amp;nbsp;and }} [[:{{{11}}}{{#if:{{{label 11|{{{l11|}}}}}}|{{!}}{{{label 11|{{{l11}}}}}}}}]]
+}}{{#if:{{{12|}}}|{{#if:{{{13|}}}|, |,&amp;nbsp;and }} [[:{{{12}}}{{#if:{{{label 12|{{{l12|}}}}}}|{{!}}{{{label 12|{{{l12}}}}}}}}]]
+}}{{#if:{{{13|}}}|{{#if:{{{14|}}}|, |,&amp;nbsp;and }} [[:{{{13}}}{{#if:{{{label 13|{{{l13|}}}}}}|{{!}}{{{label 13|{{{l13}}}}}}}}]]
+}}{{#if:{{{14|}}}|{{#if:{{{15|}}}|, |,&amp;nbsp;and }} [[:{{{14}}}{{#if:{{{label 14|{{{l14|}}}}}}|{{!}}{{{label 14|{{{l14}}}}}}}}]]
+}}{{#if:{{{15|}}}|,&amp;nbsp;and [[:{{{15}}}{{#if:{{{label 15|{{{l15|}}} }}}|{{!}}{{{label 15|{{{l15|}}} }}} }}]]
+}}{{#if:{{{16|}}}| &amp;mdash; '''&lt;br/&gt;Error: [[Template:See also|Too many links specified (maximum is 15)]]'''
+}}}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>eot43r3pz980m26b40oh5jiriw1nfm0</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Sidebar</title>
+    <ns>10</ns>
+    <id>1960394</id>
+    <revision>
+      <id>534631771</id>
+      <parentid>534468066</parentid>
+      <timestamp>2013-01-24T09:47:36Z</timestamp>
+      <contributor>
+        <username>Thumperward</username>
+        <id>545027</id>
+      </contributor>
+      <comment>rm redundant conditional</comment>
+      <text xml:space="preserve" bytes="14778">&lt;table class=&quot;vertical-navbox {{#ifeq:{{{wraplinks|}}}|true||nowraplinks}} {{{bodyclass|{{{class|}}}}}}&quot; &lt;!--
+    --&gt;cellspacing=&quot;{{#if:{{{cellspacing|}}} |{{{cellspacing}}} |5}}&quot; &lt;!--
+    --&gt;cellpadding=&quot;{{#if:{{{cellpadding|}}} |{{{cellpadding}}} |0}}&quot; &lt;!--
+    --&gt;style=&quot;float:{{#if:{{{float|}}} |{{{float}}} |right}};&lt;!--
+           --&gt;clear:{{#ifeq:{{{float|}}}|none |both |{{#if:{{{float|}}} |{{{float}}} |right}}}};&lt;!--
+           --&gt;width:{{#if:{{{width|}}} |{{{width}}} |22.0em}};&lt;!--
+             (margins:)--&gt;{{#switch:{{{float|}}} |left=margin:0 1.0em 1.0em 0; |none|right|#default=margin:0 0 1.0em 1.0em;}}&lt;!--
+           --&gt;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;{{{bodystyle|{{{style|}}}}}}&quot;&gt;&lt;!--
+
+ --&gt;{{#if:{{{outertitle|}}}
+     |&lt;caption class=&quot;{{{outertitleclass|}}}&quot; style=&quot;padding-bottom:0.2em;font-size:125%;line-height:1.2em;font-weight:bold;{{{outertitlestyle|}}}&quot;&gt;{{{outertitle}}}&lt;/caption&gt;&lt;!--
+ --&gt;}}&lt;!--
+
+ --&gt;{{#if:{{{topimage|}}}
+     |&lt;tr&gt;&lt;td class=&quot;{{{topimageclass|}}}&quot; style=&quot;padding:0.4em 0;{{{topimagestyle|}}}&quot;&gt;{{{topimage}}}&lt;!--
+           --&gt;{{#if:{{{topcaption|}}} |&lt;div style=&quot;padding-top:0.2em;line-height:1.2em;{{{topcaptionstyle|}}}&quot;&gt;{{{topcaption}}}&lt;/div&gt;}}&lt;/td&gt;
+      &lt;/tr&gt;
+    }}&lt;!--
+
+ --&gt;{{#if:{{{pretitle|}}}
+     |&lt;tr&gt;&lt;td class=&quot;{{{pretitleclass|}}}&quot; style=&quot;{{{basestyle|}}};{{#if:{{{topimage|}}} |padding-top:0.2em |padding-top:0.4em}};line-height:1.2em;{{{pretitlestyle|}}}&quot;&gt;{{{pretitle}}}&lt;/td&gt;
+      &lt;/tr&gt;
+    }}&lt;!--
+
+ --&gt;{{#if:{{{title|}}}
+     |&lt;tr&gt;&lt;th class=&quot;{{{titleclass|}}}&quot; style=&quot;{{{basestyle|}}};padding:0.2em 0.4em 0.2em;{{#if:{{{pretitle|}}} |padding-top:0}};font-size:145%;line-height:1.2em;{{{titlestyle|}}}&quot;&gt;{{{title}}}&lt;/th&gt;
+      &lt;/tr&gt;
+    }}&lt;!--
+
+ --&gt;{{#if:{{{image|}}}
+     |&lt;tr&gt;&lt;td class=&quot;{{{imageclass|}}}&quot; style=&quot;padding:0.2em 0 0.4em;{{{imagestyle|}}}&quot;&gt;{{{image}}}&lt;!--
+           --&gt;{{#if:{{{caption|}}} |&lt;div style=&quot;padding-top:0.2em;line-height:1.2em;{{{captionstyle|}}}&quot;&gt;{{{caption}}}&lt;/div&gt;}}&lt;/td&gt;
+      &lt;/tr&gt;
+    }}&lt;!--
+
+ --&gt;{{#if:{{{above|}}}
+     |&lt;tr&gt;&lt;td class=&quot;{{{aboveclass|}}}&quot; style=&quot;padding:0.3em 0.4em 0.3em;font-weight:bold;{{{abovestyle|}}}&quot;&gt;&lt;!--newline required for bullet-points to work:--&gt;
+{{{above}}}&lt;/td&gt;
+      &lt;/tr&gt;
+    }}&lt;!--
+
+ heading#/content# starts here:
+
+ --&gt;{{#if: {{{heading1|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading1style|}}}&quot;&gt;{{{heading1}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content1|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content1style|}}}&quot;&gt;&lt;!-- newline required before contents# for bullets to work --&gt;
+{{{content1}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading2|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading2style|}}}&quot;&gt;{{{heading2}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content2|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content2style|}}}&quot;&gt;
+{{{content2}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading3|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading3style|}}}&quot;&gt;{{{heading3}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content3|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content3style|}}}&quot;&gt;
+{{{content3}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading4|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading4style|}}}&quot;&gt;{{{heading4}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content4|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content4style|}}}&quot;&gt;
+{{{content4|}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading5|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading5style|}}}&quot;&gt;{{{heading5}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content5|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content5style|}}}&quot;&gt;
+{{{content5}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading6|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading6style|}}}&quot;&gt;{{{heading6}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content6|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content6style|}}}&quot;&gt;
+{{{content6}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading7|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading7style|}}}&quot;&gt;{{{heading7}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content7|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content7style|}}}&quot;&gt;
+{{{content7}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading8|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading8style|}}}&quot;&gt;{{{heading8}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content8|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content8style|}}}&quot;&gt;
+{{{content8}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading9|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading9style|}}}&quot;&gt;{{{heading9}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content9|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content9style|}}}&quot;&gt;
+{{{content9}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading10|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading10style|}}}&quot;&gt;{{{heading10}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content10|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content10style|}}}&quot;&gt;
+{{{content10}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading11|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading11style|}}}&quot;&gt;{{{heading11}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content11|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content11style|}}}&quot;&gt;
+{{{content11}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading12|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading12style|}}}&quot;&gt;{{{heading12}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content12|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content12style|}}}&quot;&gt;
+{{{content12}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading13|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading13style|}}}&quot;&gt;{{{heading13}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content13|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content13style|}}}&quot;&gt;
+{{{content13}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading14|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading14style|}}}&quot;&gt;{{{heading14}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content14|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content14style|}}}&quot;&gt;
+{{{content14}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading15|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading15style|}}}&quot;&gt;{{{heading15}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content15|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content15style|}}}&quot;&gt;
+{{{content15}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading16|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading16style|}}}&quot;&gt;{{{heading16}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content16|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content16style|}}}&quot;&gt;
+{{{content16}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading17|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading17style|}}}&quot;&gt;{{{heading17}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content17|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content17style|}}}&quot;&gt;
+{{{content17}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading18|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading18style|}}}&quot;&gt;{{{heading18}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content18|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content18style|}}}&quot;&gt;
+{{{content18}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading19|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading19style|}}}&quot;&gt;{{{heading19}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content19|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content19style|}}}&quot;&gt;
+{{{content19}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading20|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading20style|}}}&quot;&gt;{{{heading20}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content20|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content20style|}}}&quot;&gt;
+{{{content20}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading21|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading21style|}}}&quot;&gt;{{{heading21}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content21|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content21style|}}}&quot;&gt;
+{{{content21}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading22|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading22style|}}}&quot;&gt;{{{heading22}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content22|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content22style|}}}&quot;&gt;
+{{{content22}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading23|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading23style|}}}&quot;&gt;{{{heading23}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content23|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content23style|}}}&quot;&gt;
+{{{content23}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading24|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading24style|}}}&quot;&gt;{{{heading24}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content24|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content24style|}}}&quot;&gt;
+{{{content24}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading25|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading25style|}}}&quot;&gt;{{{heading25}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content25|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content25style|}}}&quot;&gt;
+{{{content25}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading26|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading26style|}}}&quot;&gt;{{{heading26}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content26|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content26style|}}}&quot;&gt;
+{{{content26}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading27|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading27style|}}}&quot;&gt;{{{heading27}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content27|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content27style|}}}&quot;&gt;
+{{{content27}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading28|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading28style|}}}&quot;&gt;{{{heading28}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content28|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content28style|}}}&quot;&gt;
+{{{content28}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading29|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading29style|}}}&quot;&gt;{{{heading29}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content29|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content29style|}}}&quot;&gt;
+{{{content29}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading30|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading30style|}}}&quot;&gt;{{{heading30}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content30|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content30style|}}}&quot;&gt;
+{{{content30}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading31|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading31style|}}}&quot;&gt;{{{heading31}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content31|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content31style|}}}&quot;&gt;
+{{{content31}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading32|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading32style|}}}&quot;&gt;{{{heading32}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content32|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content32style|}}}&quot;&gt;
+{{{content32}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading33|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading33style|}}}&quot;&gt;{{{heading33}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content33|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content33style|}}}&quot;&gt;
+{{{content33}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading34|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading34style|}}}&quot;&gt;{{{heading34}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content34|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content34style|}}}&quot;&gt;
+{{{content34}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}{{#if: {{{heading35|}}}|
+&lt;tr&gt;
+&lt;th class=&quot;{{{headingclass|}}}&quot; style=&quot;padding:0.1em;{{{basestyle|}}};{{{headingstyle|}}};{{{heading35style|}}}&quot;&gt;{{{heading35}}}&lt;/th&gt;
+&lt;/tr&gt;
+}}{{#if:
+{{{content35|}}}|
+&lt;tr&gt;
+&lt;td class=&quot;{{{contentclass|}}}&quot; style=&quot;padding:0 0.1em 0.4em; {{{contentstyle|}}};{{{content35style|}}}&quot;&gt;
+{{{content35}}}&lt;/td&gt;
+&lt;/tr&gt;
+}}&lt;!--
+
+ --&gt;{{#if: {{{below|}}}
+     |&lt;tr&gt;&lt;td class=&quot;{{{belowclass|}}}&quot; style=&quot;padding:0.3em 0.4em 0.3em;font-weight:bold;{{{belowstyle|}}}&quot;&gt;
+{{{below}}}&lt;/td&gt;
+     &lt;/tr&gt;
+    }}&lt;!--
+
+ --&gt;{{#switch:{{{navbar|{{{tnavbar|&lt;noinclude&gt;off&lt;/noinclude&gt;}}}}}}
+     |none |off=
+     |#default=&lt;tr&gt;&lt;td style=&quot;text-align:right;font-size:115%;{{{navbarstyle|{{{tnavbarstyle|}}}}}}&quot;&gt;{{navbar|{{{name|{{PAGENAME}}}}}|mini=1|fontstyle={{{navbarfontstyle|{{{tnavbarfontstyle|}}}}}}}}&lt;/td&gt;&lt;/tr&gt;&lt;!--
+ --&gt;}}
+
+&lt;/table&gt;&lt;noinclude&gt;{{documentation}}&lt;!-- Please add categories and interwikis to the bottom of Template:Sidebar/doc, not here --&gt;&lt;/noinclude&gt;</text>
+      <sha1>cigbriujr8lx5db4q2iffd3bswar0hw</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Str left</title>
+    <ns>10</ns>
+    <id>21696393</id>
+    <revision>
+      <id>357829690</id>
+      <parentid>357829625</parentid>
+      <timestamp>2010-04-23T14:30:19Z</timestamp>
+      <contributor>
+        <username>Amalthea</username>
+        <id>429625</id>
+      </contributor>
+      <minor/>
+      <comment>Aargh</comment>
+      <text xml:space="preserve" bytes="117">&lt;includeonly&gt;{{ {{{|safesubst:}}}padleft:|{{{2|1}}}|{{{1}}}}}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>i87f9fd5zu12vbrsxzfd7491aopjrjn</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Transclude</title>
+    <ns>10</ns>
+    <id>21843384</id>
+    <revision>
+      <id>275377931</id>
+      <parentid>275377779</parentid>
+      <timestamp>2009-03-06T12:09:04Z</timestamp>
+      <contributor>
+        <username>Happy-melon</username>
+        <id>994084</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Transclude: [[WP:HRT|Highly visible template]] ([edit=sysop] (indefinite) [move=sysop] (indefinite))</comment>
+      <text xml:space="preserve" bytes="400">{{#switch: {{NAMESPACE: {{{1}}} }}
+ |#default = {{FULLPAGENAME: {{{1}}} }} &lt;!-- eg &quot;User:Foo&quot; --&gt;
+ |{{ns:0}} = 
+    {{#ifeq: {{NAMESPACE: {{{1}}} }} | {{NAMESPACE: Template{{{1}}} }}
+      | Template:{{{1}}}            &lt;!-- no leading colon, eg &quot;Foo&quot; --&gt;
+      | {{PAGENAME: {{{1}}} }}      &lt;!-- leading colon, eg &quot;:Foo&quot;, so we want the article --&gt;
+    }}
+}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>ob9m2b913drxlie5tgekieudupfrl9n</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:·</title>
+    <ns>10</ns>
+    <id>7599646</id>
+    <revision>
+      <id>405160034</id>
+      <parentid>405080370</parentid>
+      <timestamp>2010-12-31T12:52:01Z</timestamp>
+      <contributor>
+        <username>Edokter</username>
+        <id>1624037</id>
+      </contributor>
+      <comment>Use &amp;middot;</comment>
+      <text xml:space="preserve" bytes="171">&amp;nbsp;&lt;span style=&quot;font-weight:bold;&quot;&gt;&amp;middot;&lt;/span&gt;&amp;#32;&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>jlv5r64ch09axm9jlurkpmpmd43ju0e</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>

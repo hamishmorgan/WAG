@@ -72,7 +72,7 @@ public class WikiXMLSAXParser extends WikiXMLParser {
 	
 	/**
 	 * A convenience method for the Wikipedia SAX interface
-	 * @param dumpFile - path to the Wikipedia dump
+	 * @param dumpFile - path to the Wikipedia print
 	 * @param handler - callback handler used for parsing
 	 * @throws Exception
 	 */

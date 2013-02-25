@@ -1,0 +1,169 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.21wmf9</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Jaccard index</title>
+    <ns>0</ns>
+    <id>2203756</id>
+    <revision>
+      <id>534328436</id>
+      <parentid>532595608</parentid>
+      <timestamp>2013-01-22T13:47:54Z</timestamp>
+      <contributor>
+        <username>Kku</username>
+        <id>5846</id>
+      </contributor>
+      <comment>/* See also */ smc</comment>
+      <text xml:space="preserve" bytes="9722">The '''Jaccard index''', also known as the '''Jaccard similarity coefficient''' (originally coined ''coefficient de communauté'' by [[Paul Jaccard]]), is a [[statistic]] used for comparing the similarity and diversity of [[Sample (statistics)|sample]] sets.
+
+The Jaccard coefficient measures similarity between sample sets, and is defined as the size of the [[intersection (set theory)|intersection]] divided by the size of the [[Union (set theory)|union]] of the sample sets:
+
+:&lt;math&gt; J(A,B) = {{|A \cap B|}\over{|A \cup B|}}.&lt;/math&gt;
+
+The [[MinHash]] min-wise independent permutations [[locality sensitive hashing]] scheme may be used to efficiently compute an accurate estimate of the Jaccard similarity coefficient of pairs of sets, where each set is represented by a constant-sized signature derived from the minimum values of a [[hash function]].
+
+The '''Jaccard distance''', which measures ''dis''similarity between sample sets, is complementary to the Jaccard coefficient and is obtained by subtracting the Jaccard coefficient from 1, or, equivalently, by dividing the difference of the sizes of the union and the intersection of two sets by the size of the union:
+
+:&lt;math&gt; J_{\delta}(A,B) = 1 - J(A,B) = { { |A \cup B| - |A \cap B| } \over |A \cup B| }.&lt;/math&gt;
+
+This distance is a proper [[Distance function|metric]]&lt;ref name=&quot;lipkus&quot;&gt;{{citation |last=Lipkus |first=Alan H
+|title=A proof of the triangle inequality for the Tanimoto distance
+|journal=J Math Chem |volume=26 |number=1-3 |year=1999 |pages=263–265 }}&lt;/ref&gt;
+.&lt;ref&gt;{{citation |last1=Levandowsky |first1=Michael |last2=Winter |first2=David |title=Distance between sets|journal=Nature |volume=234 |number=5 |year=1971 |pages=34–35 }}&lt;/ref&gt;
+
+== Similarity of asymmetric binary attributes ==
+Given two objects, ''A'' and ''B'', each with ''n'' [[binary numeral system|binary]] attributes, the Jaccard coefficient is a useful measure of the overlap that ''A'' and ''B'' share with their attributes.  Each attribute of ''A'' and ''B'' can either be 0 or 1.  The total number of each combination of attributes for both ''A'' and ''B'' are specified as follows:
+:&lt;math&gt;M_{11}&lt;/math&gt; represents the total number of attributes where ''A'' and ''B'' both have a value of 1.
+:&lt;math&gt;M_{01}&lt;/math&gt; represents the total number of attributes where the attribute of ''A'' is 0 and the attribute of ''B'' is 1.
+:&lt;math&gt;M_{10}&lt;/math&gt; represents the total number of attributes where the attribute of ''A'' is 1 and the attribute of ''B'' is 0.
+:&lt;math&gt;M_{00}&lt;/math&gt; represents the total number of attributes where ''A'' and ''B'' both have a value of 0.
+Each attribute must fall into one of these four categories, meaning that
+:&lt;math&gt;M_{11} + M_{01} + M_{10} + M_{00} = n.&lt;/math&gt;
+
+The Jaccard similarity coefficient, ''J'', is given as
+:&lt;math&gt;J = {M_{11} \over M_{01} + M_{10} + M_{11}}.&lt;/math&gt;
+
+The Jaccard distance, ''J''', is given as
+:&lt;math&gt;J' = {M_{01} + M_{10} \over M_{01} + M_{10} + M_{11}}.&lt;/math&gt;
+
+== Tanimoto Similarity and Distance==
+
+Various forms of functions described as  Tanimoto Similarity  and Tanimoto Distance occur  in the literature and on the Internet. Most of these are synonyms for Jaccard Similarity and Jaccard Distance, but some are mathematically different. Many sources cite an  unavailable IBM Technical Report as the seminal reference.
+
+In &quot;A Computer Program for Classifying Plants&quot;, published in October 1960,&lt;ref&gt;David J. Rogers and Taffee T. Tanimoto, &quot;A Computer Program for Classifying Plants&quot;, Science Vol 132 pp 1115-1118, October 1960&lt;/ref&gt; a method of classification based on a similarity ratio, and a derived distance function, is given. It seems that this is  the most authoritative  source for the meaning of the terms &quot;Tanimoto Similarity&quot; and &quot;Tanimoto Distance&quot;. The similarity ratio is equivalent to Jaccard similarity, but the distance function is ''not'' the same as Jaccard Distance.
+
+=== Tanimoto's Definitions of Similarity and Distance ===
+
+In that paper, a &quot;similarity ratio&quot; is  given over [[Bit array|bitmaps]], where each bit of a fixed-size array represents the presence or absence of a characteristic in the plant being modelled. The definition of the ratio is the number of common bits, divided by the number of bits set in either sample.
+
+Presented in mathematical terms, if samples ''X'' and ''Y'' are bitmaps, &lt;math&gt;X_i&lt;/math&gt; is the ''i''th bit of ''X'', and &lt;math&gt; \land , \lor &lt;/math&gt; are [[bitwise operation|bitwise]] ''[[logical conjunction|and]]'', ''[[logical disjunction|or]]'' operators respectively, then the similarity ratio &lt;math&gt;T_s&lt;/math&gt; is
+
+&lt;math&gt; T_s(X,Y) =  \frac{\sum_i ( X_i \land Y_i)}{\sum_i ( X_i \lor Y_i)}&lt;/math&gt;
+
+If each sample is modelled instead as a set of attributes, this value is  equal to the Jaccard Coefficient of the two sets. Jaccard is not cited in the paper, and it seems likely that the authors were not aware of it. 
+ 
+Tanimoto goes on to define a distance coefficient based on this ratio, defined over values with non-zero similarity:
+ 
+&lt;math&gt;T_d(X,Y) = -{\log} _2 ( T_s(X,Y) ) &lt;/math&gt;
+
+This coefficient is, deliberately, not a distance metric. It is chosen to allow the possibility of two specimens, which are quite different to each other, to both be similar to a third. It is  easy to construct an example which disproves the property of [[Triangle inequality#Metric space|triangle inequality]].
+
+===Other Definitions of Tanimoto Distance===
+
+Tanimoto Distance is often referred to, erroneously, as a synonym for Jaccard Distance (&lt;math&gt; 1 - T_s&lt;/math&gt;). This function is a proper distance metric. &quot;Tanimoto Distance&quot; is often stated as being a proper distance metric, probably because of its confusion with Jaccard Distance.
+
+If Jaccard or Tanimoto Similarity is expressed over a bit vector, then it can be written as 
+ 
+&lt;math&gt;
+f(A,B) =\frac{ A \cdot B}{{\vert A\vert}^2 +{ \vert B\vert}^2 -  A \cdot B }
+&lt;/math&gt;
+
+where the same calculation is expressed in terms of vector scalar product and magnitude. This representation relies on the fact that, for a bit vector (where the value of each dimension is either 0 or 1) then &lt;math&gt;A \cdot B = \sum_i A_iB_i = \sum_i ( A_i \land B_i)&lt;/math&gt; and &lt;math&gt;{\vert A\vert}^2 = \sum_i A_i^2 = \sum_i A_i &lt;/math&gt;.
+
+This is a potentially confusing representation, because the function as expressed over vectors is more general, unless its domain is explicitly restricted. Properties of &lt;math&gt; T_s &lt;/math&gt; do not necessarily extend to &lt;math&gt;f&lt;/math&gt;. In particular, the difference function &lt;math&gt;( 1 - f)&lt;/math&gt; does not preserve triangle inequality, and is not therefore a proper distance metric, whereas &lt;math&gt;( 1 - T_s) &lt;/math&gt; is.
+
+There is a real danger that the combination of &quot;Tanimoto Distance&quot; being defined using this formula, along with the statement &quot;Tanimoto Distance is a proper distance metric&quot; will lead to the false conclusion that the function &lt;math&gt;(1 - f)&lt;/math&gt; is in fact a distance metric over vectors or multisets in general, whereas its use in similarity search or clustering algorithms may fail to produce correct results.
+
+Lipkus&lt;ref name=&quot;lipkus&quot; /&gt; uses a definition of Tanimoto similarity which is equivalent to &lt;math&gt;f&lt;/math&gt;, and refers to Tanimoto distance as the function &lt;math&gt; (1 - f) &lt;/math&gt;. It is however made clear within the paper that the context is restricted by the use of a (positive) weighting vector &lt;math&gt;W&lt;/math&gt; such that, for any vector ''A'' being considered, &lt;math&gt; A_i \in \{0,W_i\} &lt;/math&gt;. Under these circumstances, the  function  is a proper distance metric, and so a set of vectors governed by such a weighting vector forms a metric space under this function.
+
+== See also ==
+* [[Sørensen similarity index]]
+* [[simple matching coefficient]]
+* [[Mountford's index of similarity]]
+* [[Hamming distance]]
+* [[Dice's coefficient]], which is equivalent: &lt;math&gt;J=D/(2-D)&lt;/math&gt; and &lt;math&gt;D=2J/(1+J)&lt;/math&gt;
+* [[Tversky index]]
+* [[Correlation]]
+* [[Mutual information]], a normalized [[Mutual information#Metric|metricated]] variant of which is an entropic Jaccard distance.
+
+==Notes==
+{{reflist}}
+
+{{More footnotes|date=March 2011}}
+
+== References ==
+*{{citation|first1=Pang-Ning|last1=Tan|first2=Michael|last2=Steinbach|first3=Vipin|last3=Kumar|title=Introduction to Data Mining|year=2005|isbn=0-321-32136-7}}.
+*{{citation|first=Paul|last=Jaccard|authorlink=Paul Jaccard|year=1901|title=Étude comparative de la distribution florale dans une portion des Alpes et des Jura|journal=Bulletin de la Société Vaudoise des Sciences Naturelles|volume=37|pages=547–579}}.
+*{{citation|last=Tanimoto|first=Taffee T.|series=IBM Internal Report|date=November 17, 1957}}.
+
+== External links ==
+* [http://www.cals.ncsu.edu/course/ent591k/gcextend.html#diversity Jaccard's index and species diversity]
+* [http://www-users.cs.umn.edu/~kumar/dmbook/dmslides/chap2_data.pdf Introduction to Data Mining lecture notes from Tan, Steinbach, Kumar]
+* [http://sourceforge.net/projects/simmetrics/ SimMetrics a sourceforge implementation of Jaccard index and many other similarity metrics]
+* [http://www.idea-miner.de/cgi-bin/INT_Tools/ver_vergleich_0_1/cmp_menu2.cgi Web based tool for comparing texts using Jaccard coefficient]
+* [http://www.gettingcirrius.com/2011/01/calculating-similarity-part-2-jaccard.html Tutorial on how to calculate different similarities]
+
+{{DEFAULTSORT:Jaccard Index}}
+[[Category:Index numbers]]
+[[Category:Measure theory]]
+[[Category:Clustering criteria]]
+[[Category:String similarity measures]]
+
+[[ca:Índex de Jaccard]]
+[[de:Jaccard-Koeffizient]]
+[[fr:Indice et distance de Jaccard]]
+[[it:Indice di Jaccard]]
+[[pl:Indeks Jaccarda]]
+[[fa:اندیس جاکارد]]
+[[ru:Коэффициент Жаккара]]
+[[uk:Коефіцієнт подібності]]</text>
+      <sha1>tnkhq9c84ru0p105dduqi8pxuv9qa7r</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,3926 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.21wmf9</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Fur seal</title>
+    <ns>0</ns>
+    <id>11780</id>
+    <revision>
+      <id>539376752</id>
+      <parentid>537933944</parentid>
+      <timestamp>2013-02-21T07:14:40Z</timestamp>
+      <contributor>
+        <username>Legobot</username>
+        <id>7304691</id>
+      </contributor>
+      <minor/>
+      <comment>Bot: Migrating langlinks to [[WP:Wikidata]] - [[d:q1043473]]</comment>
+      <text xml:space="preserve" bytes="7406">{{common name for|Otariid|eared seals, including the [[sea lion]]s}}
+[[Image:Arctocephalus Pusillus Pusillus.jpg|250px|thumb|right|[[Cape fur seal]]]]
+'''Fur seals''' are any of nine species of [[pinniped]]s in the ''[[Otariidae]]'' family.  One species, the [[northern fur seal]] (''Callorhinus ursinus'') inhabits the North Pacific, while seven species in the ''[[Arctocephalus]]'' genus are found primarily in the Southern Hemisphere.  They are much more closely related to [[sea lion]]s than [[Earless seal|true seals]], and share with them external ears  ([[pinnae]]), relatively long and muscular foreflippers, and the ability to walk on all fours.  They are marked by their dense [[pelage|underfur]], which made them a long-time object of commercial [[Seal hunting|hunting]].
+
+==Taxonomy==
+[[Image:Arctocephalinae.png|Fur seal ranges|left|thumb]]
+Until recently, fur seals were all grouped under a single subfamily of Pinnipedia, called Arctocephalinae, to contrast them with Otariinae – the sea lions – based on the most prominent common feature, namely the coat of dense underfur intermixed with guard hairs.  Recent genetic evidence, however, suggests ''Callorhinus'' is more closely related to some sea lion species, and the fur seal/sea lion subfamily distinction has been eliminated from many [[taxonomies]].  Nonetheless, all fur seals have certain features in common: the fur, generally smaller sizes, farther and longer foraging trips, smaller and more abundant prey items and greater [[sexual dimorphism]].  For these reasons, the distinction remains useful.
+
+==Physical appearance==
+Fur seals share with other otariids the ability to turn their rear limbs forward and move on all fours. Fur seals are generally smaller than sea lions. At under {{convert|1|m}}, the [[Galápagos_fur_seal]] is the smallest of all pinnipeds.  However, their [[Flipper (anatomy)|flipper]]s tend to be proportionately longer, their [[pelage]] tends to be darker and the [[vibrissae]] more prominent.  Males are often more than five times heavier than the females, making them among the most sexually dimorphic of all mammal groups.
+
+==Behavior and ecology==
+[[Image:Seal Sunbathing.jpg|thumb|right|A fur seal at [[Living Coasts]] sunbathing on a rock]]
+[[File:Thousands of fur-seals on a St. Paul beach - a fur seal rookery.jpg|thumb|right|A fur seal rookery with thousands of seals]]Typically, fur seals gather during the summer months annually in large [[rookeries|assemblages]] at specific beaches or rocky outcrops to give birth and breed. All species are [[polygynous]], meaning dominant males reproduce with more than one female. For most species, total gestation lasts about 11.5 months, including a several-month period of [[delayed implantation]] of the embryo. While northern fur seal males aggressively select and defend the specific females in their harems,&lt;ref&gt;[http://web.archive.org/web/20070818070157/http://www.afsc.noaa.gov/nmml/education/Pinnipeds/furseals.htm Fur Seals (Arctocephalinae)]. afsc.noaa.gov&lt;/ref&gt; males of southern species of fur seals tend to protect spatial territories, and females are free to choose or switch their mates according to their own preference or social hierarchy. After several continuous days of nursing the newborn pups, females go on extended foraging trips that can last as long as a week, returning to the rookery to feed their pups until they are weaned. Males fast during the reproductive season, unwilling to leave their females or territories.
+
+The remainder of the year, fur seals lead a largely [[pelagic]] existence in the open sea pursuing their prey wherever it is abundant and plentiful. Fur seals feed on moderately sized fish, [[squid]] and [[krill]]. Several species of the southern fur seal also have sea birds, especially penguins, as part of their diets.&lt;ref&gt;{{cite journal|doi=10.1007/s00300-008-0475-3|title=Interannual variation in the diet of non-breeding male Antarctic fur seals, Arctocephalus gazella, at Isla 25 de Mayo/King George Island|year=2008|last1=Daneri|first1=G. A.|last2=Carlini|first2=A. R.|last3=Harrington|first3=A.|last4=Balboni|first4=L.|last5=Hernandez|first5=C. M.|journal=Polar Biology|volume=31|issue=11|pages=1365}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|url=http://www.bas.ac.uk/documents/bas_bulletins/bulletin56_08.pdf |journal=British Antarctic Survey Bulletin |year=1982 |volume=56 | pages=75–79 |title=Predatory interactions between Antarctic fur seals, macaroni penguins and giant petrels |author=Nigel W Bonner, S Hunter }}&lt;/ref&gt; The fur seals themselves are preyed upon by [[shark]]s, [[orcas]] and occasionally by larger sea lions.
+
+When fur seals were hunted in the late 18th and early 19th centuries, they hauled out on remote islands where there were no predators. The hunters reported being able to club the unwary animals to death one after another, making the hunt profitable even though the price per seal skin was low.&lt;ref name=muir/&gt;
+
+==Exploitation==
+[[File:Fur Seal, Alaska Maritime National Wildlife Refuge.jpg|thumb|right|[[Northern fur seal]], [[Alaska Maritime National Wildlife Refuge]]]]
+Many fur seal species were heavily exploited by commercial [[seal hunting|sealer]]s, especially during the 19th century when their fur was highly valued. Beginning in the 1790s, the ports of [[Stonington, Connecticut|Stonington]] and [[New Haven]], Connecticut were leaders of the American fur seal trade, which primarily entailed clubbing fur seals to death on uninhabited South Pacific islands, skinning them, and selling the hides in [[China]].&lt;ref name=muir&gt;Muir, Diana, &quot;[[Reflections in Bullough's Pond]]&quot;, University Press of New England, 2000, pp. 80ff ISBN 0-87451-909-8.&lt;/ref&gt; Many populations, notably the [[Guadalupe fur seal]], [[northern fur seal]] and [[Cape fur seal]], suffered dramatic declines and are still recovering.  Currently, most species are protected and hunting is mostly limited to subsistence harvest.  Globally, most populations can be considered healthy, mostly because they often prefer remote habitats that are relatively inaccessible to humans.  Nonetheless, [[environmental degradation]], competition with [[fisheries]] and [[climate change]] potentially pose threats to some populations.
+
+==Species==
+* '''Suborder [[Pinnipedia]]'''
+* '''Family Otariidae'''
+** '''Subfamily''' [[Arctocephalinae]]
+*** Genus ''Arctocephalus''
+**** [[Antarctic fur seal]], ''A. gazella''
+**** [[Brown fur seal]], ''A. pusillus''
+*****South African fur seal, ''A. pusillus pusillus''
+*****Australian fur seal, ''A. pusillus doriferus''
+**** [[Galápagos fur seal]], ''A. galapagoensis''
+**** [[Guadalupe fur seal]], ''A. townsendi''
+**** [[Juan Fernández fur seal]], ''A. philippii''
+**** New Zealand fur seal or southern fur seal, ''[[Arctocephalus forsteri|A. forsteri]]''
+**** [[South American fur seal]], ''A. australis''
+**** [[Subantarctic fur seal]], ''A. tropicalis''
+*** Genus ''Callorhinus''
+**** [[Northern fur seal]], ''C. ursinus''
+** '''Subfamily''' [[Otariinae]]
+*** Genus ''Eumetopias''
+*** Genus ''Neophoca''
+*** Genus ''Otaria''
+*** Genus ''Phocarctos''
+*** Genus ''Zalophus''
+* Family [[Phocidae]]: true seals
+* Family [[Odobenidae]]: walrus
+
+==See also==
+* [[Seal (disambiguation)]]
+* [[Bering Sea Arbitration]]
+
+==References==
+{{reflist}}
+
+{{Carnivora|C1.}}
+
+{{DEFAULTSORT:Fur seal}}
+[[Category:Eared seals| Fur seal]]
+[[Category:Fur trade]]
+[[Category:Pinnipeds]]</text>
+      <sha1>r1vyzm9xyyjyct4q7h22to70g86xxl4</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Carnivora</title>
+    <ns>10</ns>
+    <id>11809263</id>
+    <revision>
+      <id>531718783</id>
+      <parentid>511668106</parentid>
+      <timestamp>2013-01-07T02:24:30Z</timestamp>
+      <contributor>
+        <username>TonyTheTiger</username>
+        <id>1426328</id>
+      </contributor>
+      <comment>adding {{collapsible option}} and/or {{{state}}}</comment>
+      <text xml:space="preserve" bytes="29023">{{Navbox with collapsible groups
+|name = Carnivora
+|title = Extant [[Carnivora]] species
+|aboveclass = hlist
+|listclass = hlist
+|state = {{{state&lt;includeonly&gt;|collapsed&lt;/includeonly&gt;}}}
+|selected = {{{1|}}}
+
+|above =
+* Kingdom: [[Animal]]ia
+* Phylum: [[Chordate|Chordata]]
+* Class: [[Mammal]]ia
+* Infraclass: [[Eutheria]]
+* Superorder: [[Laurasiatheria]]
+
+|group1 = Suborder [[Feliformia]]
+|abbr1 = F.
+|list1 = {{Navbox|child
+ | group1 = [[African palm civet|Nandiniidae]]
+ | list1  = {{Navbox subgroup
+ | groupstyle = width:8em;
+ | liststyle  = width:auto;
+ | group1 = ''[[African palm civet|Nandinia]]''
+ | list1      =
+* [[African palm civet|African palm civet (''N. binotata'')]]
+}}
+
+ | group2     = [[Mongoose|Herpestidae]]&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Mongooses)}}&lt;/span&gt;&lt;/small&gt;
+ | list2      = {{Navbox subgroup
+ | groupstyle = width:8em;
+ | liststyle  = width:auto;
+ | evenodd    = swap
+ | group1 = ''[[Marsh mongoose|Atilax]]''
+ | list1      =
+* [[Marsh mongoose|Marsh mongoose (''A. paludinosus'')]]
+ | group2     = ''[[Bdeogale]]''
+ | list2      =
+* [[Bushy-tailed mongoose|Bushy-tailed mongoose (''B. crassicauda'')]]
+* [[Jackson's mongoose|Jackson's mongoose (''B. jacksoni'')]]
+* [[Black-footed mongoose|Black-footed mongoose (''B. nigripes'')]]
+ | group3     = ''[[Crossarchus]]''
+ | list3      =
+* [[Alexander's kusimanse|Alexander's kusimanse (''C. alexandri'')]]
+* [[Angolan kusimanse|Angolan kusimanse (''C. ansorgei'')]]
+* [[Common kusimanse|Common kusimanse (''C. obscurus'')]]
+* [[Flat-headed kusimanse|Flat-headed kusimanse (''C. platycephalus'')]]
+ | group4     = ''[[Yellow mongoose|Cynictis]]''
+ | list4      =
+* [[Yellow mongoose|Yellow mongoose (''C. penicillata'')]]
+ | group5     = ''[[Pousargues's mongoose|Dologale]]''
+ | list5      =
+* [[Pousargues's mongoose|Pousargues's mongoose (''D. dybowskii'')]]
+ | group6     = ''[[Galerella]]''
+ | list6      =
+* [[Angolan slender mongoose|Angolan slender mongoose (''G. flavescens'')]]
+* [[Somalian slender mongoose|Somalian slender mongoose (''G. ochracea'')]]
+* [[Cape gray mongoose|Cape gray mongoose (''G. pulverulenta'')]]
+* [[Slender mongoose|Slender mongoose (''G. sanguinea'')]]
+ | group7     = ''[[Helogale]]''
+ | list7      =
+* [[Ethiopian dwarf mongoose|Ethiopian dwarf mongoose (''H. hirtula'')]]
+* [[Common dwarf mongoose|Common dwarf mongoose (''H. parvula'')]]
+ | group8     = ''[[Herpestes]]''
+ | list8      =
+* [[Short-tailed mongoose|Short-tailed mongoose (''H. brachyurus'')]]
+* [[Indian gray mongoose|Indian gray mongoose (''H. edwardsii'')]]
+* [[Indian brown mongoose|Indian brown mongoose (''H. fuscus'')]]
+* [[Egyptian mongoose|Egyptian mongoose (''H. ichneumon'')]]
+* [[Small Asian mongoose|Small Asian mongoose (''H. javanicus'')]]
+* [[Long-nosed mongoose|Long-nosed mongoose (''H. naso'')]]
+* [[Collared mongoose|Collared mongoose (''H. semitorquatus'')]]
+* [[Ruddy mongoose|Ruddy mongoose (''H. smithii'')]]
+* [[Crab-eating mongoose|Crab-eating mongoose (''H. urva'')]]
+* [[Stripe-necked mongoose|Stripe-necked mongoose (''H. vitticollis'')]]
+ | group9     = ''[[White-tailed mongoose|Ichneumia]]''
+ | list9      =
+* [[White-tailed mongoose|White-tailed mongoose (''I. albicauda'')]]
+ | group10    = ''[[Liberian mongoose|Liberiictus]]''
+ | list10     =
+* [[Liberian mongoose|Liberian mongoose (''L. kuhni'')]]
+ | group11    = ''[[Mungos]]''
+ | list11     =
+* [[Gambian mongoose|Gambian mongoose (''M. gambianus'')]]
+* [[Banded mongoose|Banded mongoose (''M. mungo'')]]
+ | group12    = ''[[Selous' mongoose|Paracynictis]]''
+ | list12     =
+* [[Selous' mongoose|Selous' mongoose (''P. selousi'')]]
+ | group13    = ''[[Meller's mongoose|Rhynchogale]]''
+ | list13     =
+* [[Meller's mongoose|Meller's mongoose (''R. melleri'')]]
+ | group14    = ''[[Meerkat|Suricata]]''
+ | list14     =
+* [[Meerkat|Meerkat (''S. suricatta'')]]
+}}
+
+ | group3     = [[Hyena|Hyaenidae]]&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Hyenas)}}&lt;/span&gt;&lt;/small&gt;
+ | list3      = {{Navbox subgroup
+ | groupstyle = width:8em;
+ | liststyle  = width:auto;
+ | evenodd    = swap
+ | group1 = ''[[Spotted hyena|Crocuta]]''
+ | list1  =
+* [[Spotted hyena|Spotted hyena (''C. crocuta'')]]
+ | group2 = ''[[Hyena|Hyaena]]''
+ | list2      =
+* [[Brown hyena|Brown hyena (''H. brunnea'')]]
+* [[Striped hyena|Striped hyena (''H. hyaena'')]]
+ | group3     = ''[[Aardwolf|Proteles]]''
+ | list3      =
+* [[Aardwolf|Aardwolf (''P. cristatus'')]]
+}}
+
+| group5     = [[Felidae]]
+ | list5      = Large family listed below
+ | group6     = [[Viverridae]]
+ | list6      = Large family listed below
+ | group7     = [[Eupleridae]]
+ | list7      = Small family listed below
+}}
+
+|group2 = {{Nobold|Family [[Felidae]]}}
+|abbr2 = Fe.
+|list2 = {{Navbox|child
+ | group1     = [[Felinae]]
+ | list1      = {{Navbox subgroup
+ | groupstyle = width:8em;
+ | liststyle  = width:auto;
+ | group1 = ''[[Acinonyx]]''
+ | list1  =
+* [[Cheetah|Cheetah (''A. jubatus'')]]
+ | group2 = ''[[Caracal]]''
+ | list2  =
+* [[Caracal|Caracal (''C. caracal'')]]
+ | group3 = ''[[Felis]]''
+ | list3  =
+* [[Chinese mountain cat|Chinese mountain cat (''F. bieti'')]]
+* [[Cat|Domestic cat (''F. catus'')]]
+* [[Jungle cat|Jungle cat (''F. chaus'')]]
+* [[Pallas's cat|Pallas's cat (''F. manul'')]]
+* [[Sand cat|Sand cat (''F. margarita'')]]
+* [[Black-footed cat|Black-footed cat (''F. nigripes'')]]
+* [[Wildcat|Wildcat (''F. silvestris'')]]
+ | group4 = ''[[Leopardus]]''
+ | list4  =
+* [[Pantanal cat|Pantanal cat (''L. braccatus'')]]
+* [[Colocolo|Colocolo (''L. colocolo'')]]
+* [[Geoffroy's cat|Geoffroy's cat (''L. geoffroyi'')]]
+* [[Kodkod|Kodkod (''L. guigna'')]]
+* [[Andean mountain cat|Andean mountain cat (''L. jacobitus'')]]
+* [[Pampas cat|Pampas cat (''L. pajeros'')]]
+* [[Ocelot|Ocelot (''L. pardalis'')]]
+* [[Oncilla|Oncilla (''L. tigrinus'')]]
+* [[Margay|Margay (''L. wiedii'')]]
+ | group5 = ''[[Serval|Leptailurus]]''
+ | list5  =
+* [[Serval|Serval (''L. serval'')]]
+ | group6 = ''[[Lynx]]''
+ | list6  =
+* [[Canada lynx|Canadian lynx (''L. canadensis'')]]
+* [[Eurasian lynx|Eurasian lynx (''L. lynx'')]]
+* [[Iberian lynx|Iberian lynx (''L. pardinus'')]]
+* [[Bobcat|Bobcat (''L. rufus'')]]
+ | group7 = ''[[Pardofelis]]''
+ | list7  =
+* [[Marbled cat|Marbled cat (''P. marmorata'')]]
+* [[Bay cat|Bay cat (''P. badia'')]]
+* [[Asian golden cat|Asian golden cat (''P. temminckii'')]]
+ | group8 = ''[[Prionailurus]]''
+ | list8  =
+* [[Leopard cat|Leopard cat (''P. bengalensis'')]]
+* [[Iriomote cat|Iriomote cat (''P. iriomotensis'')]]
+* [[Flat-headed cat|Flat-headed cat (''P. planiceps'')]]
+* [[Rusty-spotted cat|Rusty-spotted cat (''P. rubiginosus'')]]
+* [[Fishing cat|Fishing cat (''P. viverrinus'')]]
+ | group9 = ''[[African golden cat|Profelis]]''
+ | list9  =
+* [[African golden cat|African golden cat (''P. aurata'')]]
+ | group10 = ''[[Puma (genus)|Puma]]''
+ | list10  =
+* [[Cougar|Cougar (''P. concolor'')]]
+* [[Jaguarundi|Jaguarundi (''P. yagouaroundi'')]]
+}}
+
+ | group2     = [[Pantherinae]]
+ | list2      = {{Navbox subgroup
+ | groupstyle = width:8em;
+ | liststyle  = width:auto;
+ | evenodd    = swap
+ | group1 = ''[[Panthera]]''
+ | list1  =
+* [[Lion|Lion (''P. leo'')]]
+* [[Jaguar|Jaguar (''P. onca'')]]
+* [[Leopard|Leopard (''P. pardus'')]]
+* [[Tiger|Tiger (''P. tigris'')]]
+ | group2 = ''[[Snow leopard|Uncia]]''
+ | list2  =
+* [[Snow leopard|Snow leopard (''U. uncia'')]]
+ | group3 = ''[[Neofelis]]''
+ | list3  =
+* [[Clouded leopard|Clouded leopard (''N. nebulosa'')]]
+* [[Sunda clouded leopard|Sunda clouded leopard (''N. diardi'')]]
+}}
+}}
+
+|group3 = {{Nobold|Family [[Viverridae]] &lt;small&gt;(includes [[Civet]]s)&lt;/small&gt;}}
+|abbr3 = V.
+|list3 = {{Navbox|child
+ | group1     = [[Paradoxurinae]]
+ | list1      = {{Navbox subgroup
+ | groupstyle = width:8.5em;
+ | liststyle  = width:auto;
+ | group1 = ''[[Binturong|Arctictis]]''
+ | list1  =
+* [[Binturong|Binturong (''A. binturong'')]]
+ | group2 = ''[[Small-toothed palm civet |Arctogalidia]]''
+ | list2  =
+* [[Small-toothed palm civet |Small-toothed palm civet (''A. trivirgata'')]]
+ | group3 = ''[[Sulawesi palm civet|Macrogalidia]]''
+ | list3  =
+* [[Sulawesi palm civet|Sulawesi palm civet (''M. musschenbroekii'')]]
+ | group4 = ''[[Masked palm civet|Paguma]]''
+ | list4  =
+* [[Masked palm civet|Masked palm civet (''P. larvata'')]]
+ | group5 = ''[[Paradoxurus]]''
+ | list5  =
+* [[Paradoxurus aureus|Golden wet-zone palm civet (''P. aureus'')]]
+* [[Asian palm civet|Asian palm civet (''P. hermaphroditus'')]]
+* [[Brown palm civet|Jerdon's palm civet (''P. jerdoni'')]]
+* [[Golden palm civet|Golden palm civet (''P. zeylonensis'')]]
+}}
+
+ | group2     = [[Hemigalinae]]
+ | list2      = {{Navbox subgroup
+ | groupstyle = width:8.5em;
+ | liststyle  = width:auto;
+ | evenodd    = swap
+ | group1 = ''[[Owston's palm civet|Chrotogale]]''
+ | list1  =
+* [[Owston's palm civet|Owston's palm civet (''C. owstoni'')]]
+ | group2 = ''[[Otter civet|Cynogale]]''
+ | list2  =
+* [[Otter civet|Otter civet (''C. bennettii'')]]
+ | group3 = ''[[Hose's palm civet |Diplogale]]''
+ | list3  =
+* [[Hose's palm civet |Hose's palm civet (''D. hosei'')]]
+ | group4 = ''[[Banded palm civet|Hemigalus]]''
+ | list4  =
+* [[Banded palm civet|Banded palm civet (''H. derbyanus'')]]
+}}
+
+ | group3     = [[Asiatic linsang|Prionodontinae]]&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Asiatic linsangs)}}&lt;/span&gt;&lt;/small&gt;
+ | list3      = {{Navbox subgroup
+ | groupstyle = width:8.5em; height:4em;
+ | liststyle  = width:auto; height:auto;
+ | evenodd    = swap
+ | group1 = ''[[Asiatic linsang|Prionodon]]''
+ | list1  =
+* [[Banded linsang|Banded linsang (''P. linsang'')]]
+* [[Spotted linsang|Spotted linsang (''P. pardicolor'')]]
+}}
+
+ | group4     = [[Viverrinae]]
+ | list4      = {{Navbox subgroup
+ | groupstyle = width:8.5em;
+ | liststyle  = width:auto;
+ | group1 = ''[[African civet|Civettictis]]''
+ | list1  =
+* [[African civet|African civet (''C. civetta'')]]
+ | group2 = ''[[Genet (animal)|Genetta]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Genets)}}&lt;/span&gt;&lt;/small&gt;
+ | list2  =
+* [[Abyssinian genet|Abyssinian genet (''G. abyssinica'')]]
+* [[Angolan genet|Angolan genet (''G. angolensis'')]]
+* [[Bourlon's genet|Bourlon's genet (''G. bourloni'')]]
+* [[Crested servaline genet|Crested servaline genet (''G. cristata'')]]
+* [[Common genet|Common genet (''G. genetta'')]]
+* [[Johnston's genet|Johnston's genet (''G. johnstoni'')]]
+* [[Rusty-spotted genet|Rusty-spotted genet (''G. maculata'')]]
+* [[Pardine genet|Pardine genet (''G. pardina'')]]
+* [[Aquatic genet|Aquatic genet (''G. piscivora'')]]
+* [[King genet|King genet (''G. poensis'')]]
+* [[Servaline genet|Servaline genet (''G. servalina'')]]
+* [[Haussa genet|Haussa genet (''G. thierryi'')]]
+* [[Cape genet|Cape genet (''G. tigrina'')]]
+* [[Giant forest genet|Giant gorest genet (''G. victoriae'')]]
+ | group3 = ''[[African linsang (genus)|Poiana]]''
+ | list3  =
+* [[Leighton's linsang|Leighton's linsang (''P. leightoni'')]]
+* [[African linsang|African linsang (''P. richardsonii'')]]
+ | group4 = ''[[Viverra]]''
+ | list4  =
+* [[Malabar large-spotted civet|Malabar large-spotted civet (''V. civettina'')]]
+* [[Large-spotted civet|Large-spotted civet (''V. megaspila'')]]
+* [[Malayan civet|Malayan civet (''V. tangalunga'')]]
+* [[Large Indian civet|Large Indian civet (''V. zibetha'')]]
+ | group5 = ''[[Small Indian civet|Viverricula]]''
+ | list5  =
+* [[Small Indian civet|Small Indian civet (''V. indica'')]]
+}}
+}}
+
+|group4 = {{Nobold|Family [[Eupleridae]]}}
+|abbr4 = E.
+|list4 = {{Navbox|child
+ | group1     = [[Euplerinae]]
+ | list1      = {{Navbox subgroup
+ | groupstyle = width:8em;
+ | liststyle  = width:auto;
+ | group1 = ''[[Fossa (animal)|Cryptoprocta]]''
+ | list1  =
+* [[Fossa (animal)|Fossa (''C. ferox'')]]
+ | group2 = ''[[Falanouc|Eupleres]]''
+ | list2  =
+* [[Falanouc|Falanouc (''E. goudotii'')]]
+ | group3 = ''[[Malagasy civet|Fossa]]''
+ | list3  =
+* [[Malagasy civet|Malagasy civet (''F. fossana'')]]
+}}
+
+ | group2     = [[Galidiinae]]
+ | list2      = {{Navbox subgroup
+ | groupstyle = width:8em;
+ | liststyle  = width:auto;
+ | evenodd    = swap
+ | group1 = ''[[Ring-tailed mongoose|Galidia]]''
+ | list1  =
+* [[Ring-tailed mongoose|Ring-tailed mongoose (''G. elegans'')]]
+ | group2 = ''[[Galidictis]]''
+ | list2  =
+* [[Broad-striped Malagasy mongoose|Broad-striped Malagasy mongoose (''G. fasciata'')]]
+* [[Grandidier's mongoose|Grandidier's mongoose (''G. grandidieri'')]]
+ | group3 = ''[[Narrow-striped mongoose|Mungotictis]]''
+ | list3  =
+* [[Narrow-striped mongoose|Narrow-striped mongoose (''M. decemlineata'')]]
+ | group4 = ''[[Brown-tailed mongoose|Salanoia]]''
+ | list4  =
+* [[Brown-tailed mongoose|Brown-tailed mongoose (''S. concolor'')]]
+* [[Salanoia durrelli|Durrell's vontsira (''S. durrelli'')]]
+}}
+}}
+
+|group5 = Suborder [[Caniformia]] {{nobold|(cont. below)}}
+|abbr5 = C.
+|list5 = {{Navbox|child
+ | group1     = [[Bear|Ursidae]]&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Bears)}}&lt;/span&gt;&lt;/small&gt;
+ | list1      = {{Navbox subgroup
+ | groupstyle = width:9em;
+ | liststyle  = width:auto;
+ | group1 = ''[[Ailuropoda]]''
+ | list1  =
+* [[Giant panda|Giant panda (''A. melanoleuca'')]]
+ | group2 = ''[[Sun bear|Helarctos]]''
+ | list2  =
+* [[Sun bear|Sun bear (''H. malayanus'')]]
+ | group3 = ''[[Sloth bear|Melursus]]''
+ | list3  =
+* [[Sloth bear|Sloth bear (''M. ursinus'')]]
+ | group4 = ''[[Spectacled bear|Tremarctos]]''
+ | list4  =
+* [[Spectacled bear|Spectacled bear (''T. ornatus'')]]
+ | group5 = ''[[Ursus (genus)|Ursus]]''
+ | list5  =
+* [[American black bear|American black bear (''U. americanus'')]]
+* [[Brown bear|Brown bear (''U. arctos'')]]
+* [[Polar bear|Polar bear (''U. maritimus'')]]
+* [[Asian black bear|Asian black bear (''U. thibetanus'')]]
+}}
+
+ | group2     = [[Skunk|Mephitidae]]&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Skunks)}}&lt;/span&gt;&lt;/small&gt;
+ | list2      = {{Navbox subgroup
+ | groupstyle = width:9em;
+ | liststyle  = width:auto;
+ | evenodd    = swap
+ | group1 = ''[[Hog-nosed skunk|Conepatus]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Hog-nosed&lt;br /&gt;skunks)}}&lt;/span&gt;&lt;/small&gt;
+ | list1      =
+* [[Molina's hog-nosed skunk|Molina's hog-nosed skunk (''C. chinga'')]]
+* [[Humboldt's hog-nosed skunk|Humboldt's hog-nosed skunk (''C. humboldtii'')]]
+* [[American hog-nosed skunk|American hog-nosed skunk (''C. leuconotus'')]]
+* [[Striped hog-nosed skunk|Striped hog-nosed skunk (''C. semistriatus'')]]
+ | group2     = ''[[Mephitis (genus)|Mephitis]]''
+ | list2      =
+* [[Hooded skunk|Hooded skunk (''M. macroura'')]]
+* [[Striped skunk|Striped skunk (''M. mephitis'')]]
+ | group3     = ''[[Stink badger|Mydaus]]''
+ | list3      =
+* [[Sunda stink badger|Sunda stink badger (''M. javanensis'')]]
+* [[Palawan stink badger|Palawan stink badger (''M. marchei'')]]
+ | group4     = ''[[Spotted skunk|Spilogale]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Spotted skunks)}}&lt;/span&gt;&lt;/small&gt;
+ | list4      =
+* [[Spilogale angustifrons|Southern spotted skunk (''S. angustifrons'')]]
+* [[Western spotted skunk|Western spotted skunk (''S. gracilis'')]]
+* [[Eastern spotted skunk|Eastern spotted skunk (''S. putorius'')]]
+* [[Pygmy spotted skunk|Pygmy spotted skunk (''S. pygmaea'')]]
+}}
+
+ | group3     = [[Procyonidae]]
+ | list3      = {{Navbox subgroup
+ | groupstyle = width:9em;
+ | liststyle  = width:auto;
+ | evenodd    = swap
+ | group1 = ''[[Olingo|Bassaricyon]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Olingos)}}&lt;/span&gt;&lt;/small&gt;
+ | list1  =
+* [[Allen's olingo|Allen's olingo (''B. alleni'')]]
+* [[Beddard's olingo|Beddard's olingo (''B. beddardi'')]]
+* [[Bushy-tailed olingo|Bushy-tailed olingo (''B. gabbii'')]]
+* [[Harris's olingo|Harris's olingo (''B. lasius'')]]
+* [[Chiriqui olingo|Chiriqui olingo (''B. pauli'')]]
+ | group2 = ''[[Bassariscus]]''
+ | list2  =
+* [[Ring-tailed Cat|Ring-tailed cat (''B. astutus'')]]
+* [[Cacomistle|Cacomistle (''B. sumichrasti'')]]
+ | group3 = ''[[Nasua]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|([[Coati]]s inclusive)}}&lt;/span&gt;&lt;/small&gt;
+ | list3  =
+* [[White-nosed Coati|White-nosed coati (''N. narica'')]]
+* [[South American Coati|South American coati (''N. nasua'')]]
+ | group4 = ''[[Nasuella]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|([[Coati]]s inclusive)}}&lt;/span&gt;&lt;/small&gt;
+ | list4  =
+* [[Nasuella olivacea|Western mountain coati (''N. olivacea'')]]
+* [[Nasuella meridensis|Eastern mountain coati (''N. meridensis'')]]
+ | group5 = ''[[Kinkajou|Potos]]''
+ | list5  =
+* [[Kinkajou|Kinkajou (''P. flavus'')]]
+ | group6 = ''[[Procyon (genus)|Procyon]]''
+ | list6  =
+* [[Crab-eating Raccoon|Crab-eating raccoon (''P. cancrivorus'')]]
+* [[Raccoon|Raccoon (''P. lotor'')]]
+* [[Cozumel Raccoon|Cozumel raccoon (''P. pygmaeus'')]]
+}}
+
+ | group4     = [[Ailuridae]]
+ | list4      = {{Navbox subgroup
+ | groupstyle = width:9em;
+ | liststyle  = width:auto;
+ | evenodd    = swap
+ | group1 = ''[[Red panda|Ailurus]]''
+ | list1  =
+* [[Red panda|Red panda (''A. fulgens'')]]
+}}
+
+}}
+
+|group6 = Suborder [[Caniformia]] {{nobold|(cont. above)}}
+|abbr6 = C1.
+|list6 = {{Navbox|child
+ | group1 = [[Eared seal|Otariidae]]&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Eared seals)}}&lt;/span&gt;&lt;/small&gt;&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(includes [[fur seal]]s&lt;br /&gt;and [[sea lion]]s)}}&lt;/span&gt;&lt;/small&gt;&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|([[Pinniped]] inclusive)}}&lt;/span&gt;&lt;/small&gt;
+ | list1 = {{Navbox subgroup
+ | groupstyle = width:9em;
+ | liststyle  = width:auto;
+ | group1 = ''[[Arctocephalus]]''
+ | list1  =
+* [[South American fur seal|South American fur seal (''A. australis'')]]
+* [[Arctocephalus forsteri|Australasian fur seal (''A. forsteri'')]]
+* [[Galápagos fur seal|Galápagos fur seal (''A. galapagoensis'')]]
+* [[Antarctic fur seal|Antarctic fur seal (''A. gazella'')]]
+* [[Juan Fernández fur seal|Juan Fernández fur seal (''A. philippii'')]]
+* [[Brown fur seal|Brown fur seal (''A. pusillus'')]]
+* [[Guadalupe fur seal|Guadalupe fur seal (''A. townsendi'')]]
+* [[Subantarctic fur seal|Subantarctic fur seal (''A. tropicalis'')]]
+ | group2 = ''[[Northern fur seal|Callorhinus]]''
+ | list2  =
+* [[Northern fur seal|Northern fur seal (''C. ursinus'')]]
+ | group3 = ''[[Steller sea lion|Eumetopias]]''
+ | list3  =
+* [[Steller sea lion|Steller sea lion (''E. jubatus'')]]
+ | group4 = ''[[Australian sea lion|Neophoca]]''
+ | list4  =
+* [[Australian sea lion|Australian sea lion (''N. cinerea'')]]
+ | group5 = ''[[South American sea lion|Otaria]]''
+ | list5  =
+* [[South American sea lion|South American sea lion (''O. flavescens'')]]
+ | group6 = ''[[New Zealand sea lion|Phocarctos]]''
+ | list6  =
+* [[New Zealand sea lion|New Zealand sea lion (''P. hookeri'')]]
+ | group7 = ''[[Zalophus]]''
+ | list7  =
+* [[California sea lion|California sea lion (''Z. californianus'')]]
+* [[Galápagos sea lion|Galápagos sea lion (''Z. wollebaeki'')]]
+}}
+
+ | group2     = [[Walrus|Odobenidae]]&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|([[Pinniped]] inclusive)}}&lt;/span&gt;&lt;/small&gt;
+ | list2      = {{Navbox subgroup
+ | groupstyle = width:9em; height:4em;
+ | liststyle  = width:auto;
+ | evenodd    = swap
+ | group1 = ''[[Walrus|Odobenus]]''
+ | list1  =
+* [[Walrus|Walrus (''O. rosmarus'')]]
+}}
+
+ | group3     = [[Earless seal|Phocidae]]&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Earless seals)}}&lt;/span&gt;&lt;/small&gt;&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|([[Pinniped]] inclusive)}}&lt;/span&gt;&lt;/small&gt;
+ | list3      = {{Navbox subgroup
+ | groupstyle = width:9em;
+ | liststyle  = width:auto;
+ | group1     = ''[[Hooded seal|Cystophora]]''
+ | list1      =
+* [[Hooded seal|Hooded seal (''C. cristata'')]]
+ | group2     = ''[[Bearded seal|Erignathus]]''
+ | list2      =
+* [[Bearded seal|Bearded seal (''E. barbatus'')]]
+ | group3 = ''[[Grey seal|Halichoerus]]''
+ | list3  =
+* [[Grey seal|Gray seal (''H. grypus'')]]
+ | group4 = ''[[Ribbon seal|Histriophoca]]''
+ | list4  =
+* [[Ribbon seal|Ribbon seal (''H. fasciata'')]]
+ | group5     = ''[[Leopard seal|Hydrurga]]''
+ | list5      =
+* [[Leopard seal|Leopard seal (''H. leptonyx'')]]
+ | group6     = ''[[Weddell seal|Leptonychotes]]''
+ | list6      =
+* [[Weddell seal|Weddell seal (''L. weddellii'')]]
+ | group7     = ''[[Crabeater seal|Lobodon]]''
+ | list7      =
+* [[Crabeater seal|Crabeater seal (''L. carcinophagus'')]]
+ | group8     = ''[[Elephant seal|Mirounga]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Elephant seals)}}&lt;/span&gt;&lt;/small&gt;
+ | list8      =
+* [[Northern elephant seal|Northern elephant seal (''M. angustirostris'')]]
+* [[Southern elephant seal|Southern elephant seal (''M. leonina'')]]
+ | group9 = ''[[Monachus]]''
+ | list9      =
+* [[Mediterranean monk seal|Mediterranean monk seal (''M. monachus'')]]
+* [[Hawaiian monk seal|Hawaiian monk seal (''M. schauinslandi'')]]
+ | group10     = ''[[Ross seal|Ommatophoca]]''
+ | list10      =
+* [[Ross seal|Ross seal (''O. rossi'')]]
+ | group11    = ''[[Harp seal|Pagophilus]]''
+ | list11     =
+* [[Harp seal|Harp seal (''P. groenlandicus'')]]
+ | group12     = ''[[Phoca]]''
+ | list12      =
+* [[Spotted seal|Spotted seal (''P. largha'')]]
+* [[Harbor seal|Harbor seal (''P. vitulina'')]]
+ | group13    = ''[[Pusa]]''
+ | list13     =
+* [[Caspian seal|Caspian seal (''P. caspica'')]]
+* [[Ringed seal|Ringed seal (''P. hispida'')]]
+* [[Baikal seal|Baikal seal (''P. sibirica'')]]
+}}
+
+ | group4     = [[Canidae]]
+ | list4      = Large family listed below
+ | group5     = [[Mustelidae]]
+ | list5      = Large family listed below
+}}
+
+|group7 = {{Nobold|Family [[Canidae]]}}
+|abbr7 = Ca.
+|list7 = {{Navbox|child
+ | group1 = ''[[Short-eared dog|Atelocynus]]''
+ | list1  =
+* [[Short-eared dog|Short-eared dog (''A. microtis'')]]
+ | group2 = ''[[Canis]]''
+ | list2  =
+* [[Side-striped jackal|Side-striped jackal (''C. adustus'')]]
+* [[Golden jackal|Golden jackal (''C. aureus'')]]
+* [[Coyote|Coyote (''C. latrans'')]]
+* [[Gray wolf|Gray wolf (''C. lupus'')]]
+* [[Dog|Dog (''C. lupus familiaris'')]]
+* [[Black-backed jackal|Black-backed jackal (''C. mesomelas'')]]
+* [[Red wolf|Red wolf (''C. rufus'')]]
+* [[Ethiopian wolf|Ethiopian wolf (''C. simensis'')]]
+ | group3 = ''[[Crab-eating fox|Cerdocyon]]''
+ | list3  =
+* [[Crab-eating fox|Crab-eating fox (''C. thous'')]]
+ | group4 = ''[[Maned wolf|Chrysocyon]]''
+ | list4  =
+* [[Maned wolf|Maned wolf (''C. brachyurus'')]]
+ | group5 = ''[[Dhole|Cuon]]''
+ | list5  =
+* [[Dhole|Dhole (''C. alpinus'')]]
+ | group6 = ''[[Lycalopex]]''
+ | list6  =
+* [[Culpeo|Culpeo (''L. culpaeus'')]]
+* [[Darwin's fox|Darwin's fox (''L. fulvipes'')]]
+* [[South American gray fox|South American gray fox (''L. griseus'')]]
+* [[Pampas fox|Pampas fox (''L. gymnocercus'')]]
+* [[Sechuran fox|Sechuran fox (''L. sechurae'')]]
+* [[Hoary fox|Hoary fox (''L. vetulus'')]]
+ | group7 = ''[[Lycaon pictus|Lycaon]]''
+ | list7  =
+* [[Lycaon pictus|African wild dog (''L. pictus'')]]
+ | group8 = ''[[Nyctereutes]]''
+ | list8  =
+* [[Raccoon dog|Raccoon dog (''N. procyonoides'')]]
+ | group9 = ''[[Bat-eared fox|Otocyon]]''
+ | list9  =
+* [[Bat-eared fox|Bat-eared fox (''O. megalotis'')]]
+ | group10 = ''[[Speothos]]''
+ | list10  =
+* [[Bush dog|Bush dog (''S. venaticus'')]]
+ | group11 = ''[[Urocyon]]''
+ | list11  =
+* [[Gray fox|Gray fox (''U. cinereoargenteus'')]]
+* [[Island fox|Island fox (''U. littoralis'')]]
+ | group12 = ''[[Vulpes]]''
+ | list12  =
+* [[Bengal fox|Bengal fox (''V. bengalensis'')]]
+* [[Blanford's fox|Blanford's fox (''V. cana'')]]
+* [[Cape fox|Cape fox (''V. chama'')]]
+* [[Corsac fox|Corsac fox (''V. corsac'')]]
+* [[Tibetan sand fox|Tibetan sand fox (''V. ferrilata'')]]
+* [[Arctic fox|Arctic fox (''V. lagopus'')]]
+* [[Kit fox|Kit fox (''V. macrotis'')]]
+* [[Pale fox|Pale fox (''V. pallida'')]]
+* [[Rüppell's fox|Rüppell's fox (''V. rueppelli'')]]
+* [[Swift fox|Swift fox (''V. velox'')]]
+* [[Red fox|Red fox (''V. vulpes'')]]
+* [[Fennec fox|Fennec fox (''V. zerda'')]]
+}}
+
+|group8 = {{Nobold|Family [[Mustelidae]]}}
+|abbr8 = M.
+|list8 = {{Navbox|child
+ | group1     = [[Otter|Lutrinae]]&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Otters)}}&lt;/span&gt;&lt;/small&gt;
+ | list1      = {{Navbox subgroup
+ | groupstyle = width:8em;
+ | liststyle  = width:auto;
+ | group1 = ''[[Aonyx]]''
+ | list1  =
+* [[African clawless otter|African clawless otter (''A. capensis'')]]
+* [[Oriental small-clawed otter|Oriental small-clawed otter (''A. cinerea'')]]
+ | group2 = ''[[Sea otter|Enhydra]]''
+ | list2  =
+* [[Sea otter|Sea otter (''E. lutris'')]]
+ | group3 = ''[[Spotted-necked otter|Hydrictis]]''
+ | list3  =
+* [[Spotted-necked otter|Spotted-necked otter (''H. maculicollis'')]]
+ | group4 = ''[[Lontra]]''
+ | list4  =
+* [[North American river otter|North American river otter (''L. canadensis'')]]
+* [[Marine otter|Marine otter (''L. felina'')]]
+* [[Neotropical otter|Neotropical otter (''L. longicaudis'')]]
+* [[Southern river otter|Southern river otter (''L. provocax'')]]
+ | group5 = ''[[Lutra]]''
+ | list5  =
+* [[European otter|European otter (''L. lutra'')]]
+* [[Hairy-nosed otter|Hairy-nosed otter (''L. sumatrana'')]]
+ | group6 = ''[[Lutrogale]]''
+ | list6  =
+* [[Smooth-coated otter|Smooth-coated otter (''L. perspicillata'')]]
+ | group7 = ''[[Giant otter|Pteronura]]''
+ | list7  =
+* [[Giant otter|Giant otter (''P. brasiliensis'')]]
+}}
+
+ | group2     = [[Mustelinae]]&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(including [[badger]]s)}}&lt;/span&gt;&lt;/small&gt;
+ | list2      = {{Navbox subgroup
+ | groupstyle = width:8em;
+ | liststyle  = width:auto;
+ | evenodd    = swap
+ | group1 = ''[[Hog badger|Arctonyx]]''
+ | list1  =
+* [[Hog badger|Hog badger (''A. collaris'')]]
+ | group2 = ''[[Tayra|Eira]]''
+ | list2  =
+* [[Tayra|Tayra (''E. barbara'')]]
+ | group3 = ''[[Galictis]]''
+ | list3  =
+* [[Lesser grison|Lesser grison (''G. cuja'')]]
+* [[Greater grison|Greater grison (''G. vittata'')]]
+ | group4 = ''[[Wolverine|Gulo]]''
+ | list4  =
+* [[Wolverine|Wolverine (''G. gulo'')]]
+ | group5 = ''[[Ictonyx]]''
+ | list5  =
+* [[Saharan striped polecat|Saharan striped polecat (''I. libyca'')]]
+* [[Striped polecat|Striped polecat (''I. striatus'')]]
+ | group6 = ''[[Patagonian weasel|Lyncodon]]''
+ | list6  =
+* [[Patagonian weasel|Patagonian weasel (''L. patagonicus'')]]
+ | group7 = ''[[Marten|Martes]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Martens)}}&lt;/span&gt;&lt;/small&gt;
+ | list7  =
+* [[American marten|American marten (''M. americana'')]]
+* [[Yellow-throated marten|Yellow-throated marten (''M. flavigula'')]]
+* [[Beech marten|Beech marten (''M. foina'')]]
+* [[Nilgiri marten|Nilgiri marten (''M. gwatkinsii'')]]
+* [[European pine marten|European pine marten (''M. martes'')]]
+* [[Japanese marten|Japanese marten (''M. melampus'')]]
+* [[Fisher (animal)|Fisher (''M. pennanti'')]]
+* [[Sable|Sable (''M. zibellina'')]]
+ | group8 = ''[[Meles (genus)|Meles]]''
+ | list8  =
+* [[Japanese badger|Japanese badger (''M. anakuma'')]]
+* [[Asian badger|Asian badger (''M. leucurus'')]]
+* [[European badger|European badger (''M. meles'')]]
+ | group9 = ''[[Honey badger|Mellivora]]''
+ | list9  =
+* [[Honey badger|Honey badger (''M. capensis'')]]
+ | group10= ''[[Ferret-badger|Melogale]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Ferret-badgers)}}&lt;/span&gt;&lt;/small&gt;
+ | list10 =
+* [[Bornean ferret-badger|Bornean ferret-badger (''M. everetti'')]]
+* [[Chinese ferret-badger|Chinese ferret-badger (''M. moschata'')]]
+* [[Javan ferret-badger|Javan ferret-badger (''M. orientalis'')]]
+* [[Burmese ferret-badger|Burmese ferret-badger (''M. personata'')]]
+ | group11= ''[[Weasel|Mustela]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Weasels)}}&lt;/span&gt;&lt;/small&gt;
+ | list11 =
+* [[Amazon weasel|Amazon weasel (''M. africana'')]]
+* [[Mountain weasel|Mountain weasel (''M. altaica'')]]
+* [[Stoat|Stoat (''M. erminea'')]]
+* [[Steppe polecat|Steppe polecat (''M. eversmannii'')]]
+* [[Colombian weasel|Colombian weasel (''M. felipei'')]]
+* [[Long-tailed weasel|Long-tailed weasel (''M. frenata'')]]
+* [[Japanese weasel|Japanese weasel (''M. itatsi'')]]
+* [[Yellow-bellied weasel|Yellow-bellied weasel (''M. kathiah'')]]
+* [[European mink|European mink (''M. lutreola'')]]
+* [[Indonesian mountain weasel|Indonesian mountain weasel (''M. lutreolina'')]]
+* [[Black-footed ferret|Black-footed ferret (''M. nigripes'')]]
+* [[Least weasel|Least weasel (''M. nivalis'')]]
+* [[Malayan weasel|Malayan weasel (''M. nudipes'')]]
+* [[European polecat|European polecat (''M. putorius'')]]
+* [[Siberian weasel|Siberian weasel (''M. sibirica'')]]
+* [[Back-striped weasel|Back-striped weasel (''M. strigidorsa'')]]
+* [[Egyptian weasel|Egyptian weasel (''M. subpalmata'')]]
+ | group12= ''[[Mink|Neovison]]''&lt;br /&gt;&lt;small&gt;&lt;span style=&quot;color:#696969&quot;&gt;{{Nobold|(Minks)}}&lt;/span&gt;&lt;/small&gt;
+ | list12 =
+* [[American mink|American mink (''N. vison'')]]
+ | group13= ''[[African striped weasel|Poecilogale]]''
+ | list13 =
+* [[African striped weasel|African striped weasel (''P. albinucha'')]]
+ | group14= ''[[American badger|Taxidea]]''
+ | list14 =
+* [[American badger|American badger (''T. taxus'')]]
+ | group15= ''[[Marbled polecat|Vormela]]''
+ | list15 =
+* [[Marbled polecat|Marbled polecat (''V. peregusna'')]]
+}}
+}}
+
+}}&lt;noinclude&gt;
+{{collapsible option}}
+{{Documentation|Wikipedia:WikiProject Mammals/Article templates/doc}}
+&lt;/noinclude&gt;</text>
+      <sha1>sp6arom5simwyr1ywwikzrovnodh4gr</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Citation/core</title>
+    <ns>10</ns>
+    <id>8941610</id>
+    <revision>
+      <id>522712754</id>
+      <parentid>503414772</parentid>
+      <timestamp>2012-11-12T22:25:46Z</timestamp>
+      <contributor>
+        <username>Tim Starling</username>
+        <id>4635</id>
+      </contributor>
+      <comment>remove COINS metadata to improve performance, see talk page</comment>
+      <text xml:space="preserve" bytes="22335">&lt;span class=&quot;citation {{{Citation class|{{{Citation type|}}}}}}&quot;
+{{
+  #switch:{{{Ref|}}}
+  ||none =
+  |#default = id=&quot;{{anchorencode:{{{Ref}}}}}&quot;
+  |harv = {{#if:{{{Surname1|}}}{{{EditorSurname1|}}}
+    |id=&quot;CITEREF{{anchorencode:{{#if:{{{Surname1|}}}
+      |{{{Surname1}}}{{{Surname2|}}}{{{Surname3|}}}{{{Surname4|}}}
+      |{{{EditorSurname1|}}}{{{EditorSurname2|}}}{{{EditorSurname3|}}}{{{EditorSurname4|}}}
+    }}{{{Year|{{{Date|}}}}}}}}&quot;
+  }}
+}}&gt;{{
+&lt;!--============  Author or editor and date  ============--&gt;
+  #if:{{{Surname1|}}}
+  |{{
+     #if: {{{AuthorMask|}}}
+     |{{
+        #iferror: {{ #expr: 1*{{{AuthorMask}}} }}
+        |{{{AuthorMask}}}
+        |{{loop|{{{AuthorMask}}}|2=&amp;mdash;}}
+      }}
+     |{{
+        #if: {{{Authorlink1|}}}
+        |[[{{{Authorlink1}}} |{{{Surname1}}}{{
+          #if: {{{Given1|}}}
+          |{{{NameSep|,&amp;#32;}}}{{{Given1}}}
+         }}]]
+        |{{{Surname1}}}{{
+           #if: {{{Given1|}}}
+           |{{{NameSep|,&amp;#32;}}}{{{Given1}}}
+         }}
+      }}
+   }}{{
+     #if: {{{Surname2|}}}
+     |{{#ifexpr:{{{Trunc|8}}}&lt;2
+       |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+       |{{
+          #iferror: {{ #expr: 1*0.0{{{AuthorMask|}}} }}
+          |&amp;#32;&lt;!-- then punctuation should be included in AuthorMask --&gt;
+          |{{
+            #if: {{{Surname3|}}}
+            |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+            |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+          }}
+        }}{{
+          #if: {{{Authorlink2|}}}
+          |[[{{{Authorlink2}}} |{{{Surname2}}}{{
+             #if: {{{Given2|}}}
+             |{{{NameSep|,&amp;#32;}}}{{{Given2}}}
+           }}]]
+          |{{{Surname2}}}{{
+             #if: {{{Given2|}}}
+             |{{{NameSep|,&amp;#32;}}}{{{Given2}}}
+           }}
+        }}{{
+          #if: {{{Surname3|}}}
+          |{{#ifexpr:{{{Trunc|8}}}&lt;3
+            |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+            |{{
+               #if: {{{Surname4|}}}
+               |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+               |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+             }}{{
+               #if: {{{Authorlink3|}}}
+               |[[{{{Authorlink3}}} |{{{Surname3}}}{{
+                  #if: {{{Given3|}}}
+                  |{{{NameSep|,&amp;#32;}}}{{{Given3}}}
+                }}]]
+               |{{{Surname3}}}{{
+                  #if: {{{Given3|}}}
+                  |{{{NameSep|,&amp;#32;}}}{{{Given3}}}
+                }}
+             }}{{
+               #if:{{{Surname4|}}}
+               |{{#ifexpr:{{{Trunc|8}}}&lt;4
+                 |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                 |{{
+                    #if: {{{Surname5|}}}
+                    |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+                    |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+                  }}{{
+                    #if: {{{Authorlink4|}}}
+                    |[[{{{Authorlink4}}} |{{{Surname4}}}{{
+                       #if: {{{Given4|}}}
+                       |{{{NameSep|,&amp;#32;}}}{{{Given4}}}
+                     }}]]
+                    |{{{Surname4}}}{{
+                       #if: {{{Given4|}}}
+                       |{{{NameSep|,&amp;#32;}}}{{{Given4}}}
+                    }}
+                  }}{{
+                  #if:{{{Surname5|}}}
+                  |{{#ifexpr:{{{Trunc|8}}}&lt;5
+                    |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                    |{{
+                     #if: {{{Surname6|}}}
+                     |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+                     |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+                    }}{{
+                     #if: {{{Authorlink5|}}}
+                     |[[{{{Authorlink5}}} |{{{Surname5}}}{{
+                        #if: {{{Given5|}}}
+                        |{{{NameSep|,&amp;#32;}}}{{{Given5}}}
+                      }}]]
+                     |{{{Surname5}}}{{
+                        #if: {{{Given5|}}}
+                        |{{{NameSep|,&amp;#32;}}}{{{Given5}}}
+                      }}
+                   }}{{
+                     #if:{{{Surname6|}}}
+                     |{{#ifexpr:{{{Trunc|8}}}&lt;6
+                     |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                      |{{
+                        #if: {{{Surname7|}}}
+                        |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+                        |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+                      }}{{
+                        #if: {{{Authorlink6|}}}
+                        |[[{{{Authorlink6}}} |{{{Surname6}}}{{
+                           #if: {{{Given6|}}}
+                           |{{{NameSep|,&amp;#32;}}}{{{Given6}}}
+                         }}]]
+                        |{{{Surname6}}}{{
+                           #if: {{{Given6|}}}
+                           |{{{NameSep|,&amp;#32;}}}{{{Given6}}}
+                         }}
+                      }}{{
+                        #if:{{{Surname7|}}}
+                         |{{#ifexpr:{{{Trunc|8}}}&lt;7
+                           |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                        |{{
+                           #if: {{{Surname8|}}}
+                           |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+                           |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+                         }}{{
+                           #if: {{{Authorlink7|}}}
+                           |[[{{{Authorlink7}}} |{{{Surname7}}}{{
+                              #if: {{{Given7|}}}
+                              |{{{NameSep|,&amp;#32;}}}{{{Given7}}}
+                            }}]]
+                           |{{{Surname7}}}{{
+                              #if: {{{Given7|}}}
+                              |{{{NameSep|,&amp;#32;}}}{{{Given7}}}
+                            }}
+                                    }}{{
+                                       #if:{{{Surname8|}}}
+                                       |{{#ifexpr:{{{Trunc|8}}}&lt;8
+                                           |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                                           |{{
+                                              #if: {{{Surname9|}}}
+                                              |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+                                              |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+                                            }}{{
+                                              #if: {{{Authorlink8|}}}
+                                              |[[{{{Authorlink8}}} |{{{Surname8}}}{{
+                                                 #if: {{{Given8|}}}
+                                                 |{{{NameSep|,&amp;#32;}}}{{{Given8}}}
+                                               }}]]
+                                              |{{{Surname8}}}{{
+                                                 #if: {{{Given8|}}}
+                                                 |{{{NameSep|,&amp;#32;}}}{{{Given8}}}
+                                               }}
+                                            }}{{
+                                              #if:{{{Surname9|}}}
+                                              |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+                                            }}
+                                         }}
+                                      }}
+                                   }}
+                                }}
+                             }}
+                          }}
+                       }}
+                     }}
+                  }}
+               }}
+            }}
+         }}
+      }}
+
+   }}{{
+     #if: {{{Coauthors|}}}
+     |{{{AuthorSep|&amp;#059;&amp;#32;}}}{{{Coauthors|}}}|
+   }}{{
+     #if: {{{Date|}}}
+     |&amp;#32;({{{Date}}}){{
+       #if:{{{YearNote|}}}
+     |&amp;#32;[{{{YearNote}}}]
+     }}
+   }}
+  |{{&lt;!-- ============== No author: display editors first == --&gt;
+     #if: {{{EditorSurname1|}}}
+     |{{
+        #if: {{{Editorlink1|}}}
+        |[[{{{Editorlink1}}} |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}]]
+        |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}
+      }}{{
+        #if: {{{EditorSurname2|}}}
+        |{{
+          #if: {{{EditorSurname3|}}}
+          |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+          |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+        }}{{
+           #if: {{{Editorlink2|}}}
+           |[[{{{Editorlink2}}} |{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}]]
+           |{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}
+         }}{{
+           #if: {{{EditorSurname3|}}}
+           |{{
+              #if: {{{EditorSurname4|}}}
+              |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+              |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+            }}{{
+              #if: {{{Editorlink3|}}}
+              |[[{{{Editorlink3}}} |{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}]]
+              |{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}
+            }}{{
+              #if:{{{EditorSurname4|}}}
+              |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+            }}
+         }}
+       }}, ed{{#if:{{{EditorSurname2|}}}|s}}{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}{{
+        #if: {{{Date|}}}
+        |&amp;#32;({{{Date}}}){{
+         #if:{{{YearNote|}}}
+       |&amp;#32;[{{{YearNote}}}]
+       }}
+      }}
+   }}
+}}{{
+&lt;!--============  Title of included work  ============--&gt;
+  #if: {{{IncludedWorkTitle|}}}{{#if:{{{Periodical|}}}||{{#if:{{{TransItalic|}}}||{{{TransTitle|}}}}}}}
+  |{{
+     #if:{{{Surname1|}}}{{{EditorSurname1|}}}
+     |{{{Sep|,}}}&amp;#32;
+   }}{{Citation/make link
+     | 1={{
+           #if: {{{IncludedWorkURL|}}}
+           |{{{IncludedWorkURL}}}
+           |{{
+              #if: {{{URL|}}}
+              |{{{URL}}}
+            }}
+         }}
+     | 2={{
+           #if: {{{Periodical|}}}
+           |''&lt;nowiki /&gt;{{{IncludedWorkTitle}}}&lt;nowiki /&gt;''
+           |&quot;{{{IncludedWorkTitle|}}}{{
+             #if: {{{TransTitle|}}}
+             |{{
+                #if: {{{IncludedWorkTitle|}}}
+                |&amp;#32;
+              }}&amp;#91;{{{TransTitle}}}&amp;#93;
+           }}&quot;
+         }}
+   }}
+}}{{
+&lt;!--============  Place (if different than PublicationPlace) ============--&gt;
+  #if: {{{Place|}}}
+  |{{
+     #ifeq: {{{Place|}}} | {{{PublicationPlace|}}}
+     |
+     |{{
+        #if: {{{Surname1|}}}{{{EditorSurname1|}}}{{{IncludedWorkTitle|}}}
+        |{{{Sep|,}}}&amp;#32;written at {{{Place}}}
+      }}
+   }}
+}}{{
+&lt;!--============  Editor of compilation  ============--&gt;
+  #if: {{{EditorSurname1|}}}
+  |{{
+     #if: {{{Surname1|}}}
+     |{{{Sep|,}}}&amp;#32;{{
+        #if: {{{IncludedWorkTitle|}}}
+        |{{#ifeq:{{{Sep|}}}|.|I|i}}n&amp;#32;
+      }}{{
+        #if: {{{Editorlink1|}}}
+        |[[{{{Editorlink1}}} |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}]]
+        |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}}}{{
+        #if: {{{EditorSurname2|}}}
+        |{{
+          #if: {{{EditorSurname3|}}}
+            |{{{AuthorSep|&amp;#059;&amp;#32;}}}
+            |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+          }}{{
+           #if: {{{Editorlink2|}}}
+           |[[{{{Editorlink2}}}|{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}]]
+           |{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}
+         }}{{
+           #if: {{{EditorSurname3|}}}
+           |{{
+              #if: {{{EditorSurname4|}}}
+              |&amp;#059;&amp;#32;
+              |{{#if:{{{amp|}}}|&amp;#32;&amp;amp;&amp;#32;|{{{AuthorSep|&amp;#059;&amp;#32;}}}}}
+            }}{{
+              #if: {{{Editorlink3|}}}
+              |[[{{{Editorlink3}}}|{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}]]
+              |{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}
+            }}{{
+              #if:{{{EditorSurname4|}}}
+              |&amp;#32;et al{{#ifeq:{{{Sep}}}|.|{{#if:{{{Date|}}}|.}}|.}}
+            }}
+         }}
+      }}{{
+        #if: {{{IncludedWorkTitle|}}}
+        |
+        |{{{Sep|,}}}&amp;#32;ed{{#if:{{{EditorSurname2|}}}|s}}{{#ifeq:{{{Sep}}}|.||.}}
+      }}
+   }}
+}}{{
+  &lt;!--============  Periodicals  ============--&gt;
+  #if: {{{Periodical|}}}
+  |{{
+     #if: {{{Other|}}}
+     |{{{Sep|,}}}&amp;#32;{{{Other|}}}
+   }}{{
+     #if: {{{Surname1|}}}{{{EditorSurname1|}}}{{{IncludedWorkTitle|}}}
+     |{{{Sep|,}}}&amp;#32;}}{{
+     #if: {{{Title|}}}{{{TransTitle|}}}
+     |{{Citation/make link
+        | 1={{
+              #if: {{{IncludedWorkTitle|}}}
+              |{{
+                 #if: {{{IncludedWorkURL|}}}
+                 |{{
+                    #if: {{{URL|}}}
+                    |{{{URL}}}
+                  }}
+               }}
+              |{{
+                 #if: {{{URL|}}}
+                 |{{{URL}}}
+               }}
+            }}
+        | 2=&quot;{{{Title}}}{{
+          #if: {{{TransTitle|}}}
+          |{{
+             #if: {{{Title|}}}
+             |&amp;#32;
+           }}&amp;#91;{{{TransTitle}}}&amp;#93;
+        }}&quot;
+      }}{{
+        #if: {{{TitleNote|}}}
+        |{{{Sep|,}}}&amp;#32;{{{TitleNote}}}
+      }}
+   }}
+}}{{
+  #if: {{{language|}}}
+  |&amp;#32;(in {{{language}}})
+}}{{
+  #if: {{{format|}}}
+  |&amp;#32;({{{format}}})
+}}{{
+   #if: {{{Periodical|}}}
+   |{{
+      #if:{{{IncludedWorkTitle|}}}{{{Title|}}}{{{TransTitle|}}}
+      |{{{Sep|,}}}&amp;#32;
+    }}''&lt;nowiki /&gt;{{{Periodical}}}&lt;nowiki /&gt;''{{
+      #if: {{{Series|}}}
+      |{{{Sep|,}}}&amp;#32;{{{Series}}}
+    }}{{
+      #if: {{{PublicationPlace|}}}
+      |{{
+         #if: {{{Publisher|}}}
+         |&amp;#32;({{{PublicationPlace}}}&lt;nowiki&gt;: &lt;/nowiki&gt;{{{Publisher}}})
+         |&amp;#32;({{{PublicationPlace}}})
+       }}
+      |{{
+         #if: {{{Publisher|}}}
+         |&amp;#32;({{{Publisher}}})
+       }}
+    }}{{
+      #if: {{{Volume|}}}
+      |&amp;#32;{{#if:{{{Periodical|}}}|'''&lt;nowiki /&gt;{{{Volume}}}&lt;nowiki /&gt;'''|{{{Volume}}}}}{{
+         #if: {{{Issue|}}}
+         |&amp;#32;({{{Issue}}})
+       }}
+      |{{
+         #if: {{{Issue|}}}
+         |&amp;#32;({{{Issue}}})
+       }}
+    }}{{
+      #if: {{{At|}}}
+      |&lt;nowiki&gt;: &lt;/nowiki&gt; {{{At}}}
+    }}
+   |{{
+      &lt;!--============ Anything else with a title, including books ============--&gt;
+      #if: {{{Title|}}}{{{TransItalic|}}}
+      |{{
+         #if: {{{Surname1|}}}{{{EditorSurname1|}}}{{{IncludedWorkTitle|}}}{{{Periodical|}}}
+         |{{{Sep|,}}}
+       }}&amp;#32;{{Citation/make link
+         | 1={{
+               #if: {{{IncludedWorkTitle|}}}
+               |{{
+                  #if: {{{IncludedWorkURL|}}}
+                  |{{
+                     #if: {{{URL|}}}
+                     |{{{URL}}}
+                   }}
+                }}
+               |{{
+                  #if: {{{URL|}}}
+                  |{{{URL}}}
+                }}
+             }}
+         | 2=''&lt;nowiki /&gt;{{{Title|}}}{{
+            #if:{{{TransItalic|}}}|&amp;#32;&amp;#91;{{{TransItalic}}}&amp;#93;
+          }}&lt;nowiki /&gt;''
+       }}
+    }}{{
+      #if: {{{TitleType|}}}
+      |&amp;#32;({{{TitleType}}})
+    }}{{
+      #if: {{{Series|}}}
+      |{{{Sep|,}}}&amp;#32;{{{Series}}}
+    }}{{
+      #if: {{{Volume|}}}
+      |{{{Sep|,}}}&amp;#32;'''&lt;nowiki /&gt;{{{Volume}}}&lt;nowiki /&gt;'''
+    }}{{
+      #if: {{{Other|}}}
+      |{{{Sep|,}}}&amp;#32;{{{Other|}}}
+    }}{{
+      #if: {{{Edition|}}}
+      |&amp;#32;({{{Edition}}} ed.)
+    }}{{
+      #if: {{{PublicationPlace|}}}
+      |{{{Sep|,}}}&amp;#32;{{{PublicationPlace}}}
+    }}{{
+      #if: {{{Publisher|}}}
+      |{{
+         #if: {{{PublicationPlace|}}}
+         |&lt;nowiki&gt;:&lt;/nowiki&gt;
+         |{{{Sep|,}}}
+       }}&amp;#32;{{{Publisher}}}
+    }}
+}}{{
+&lt;!--============ Date (if no author/editor) ============--&gt;
+  #if: {{{Surname1|}}}{{{EditorSurname1|}}}
+  |
+  |{{
+     #if: {{{Date|}}}
+     |{{{Sep|,}}}&amp;#32;{{{Date}}}{{
+       #if:{{{YearNote|}}}
+     |&amp;#32;[{{{YearNote}}}]
+     }}
+   }}
+}}{{
+&lt;!--============ Publication date ============--&gt;
+  #if: {{{PublicationDate|}}}
+  |{{
+     #ifeq: {{{PublicationDate|}}} | {{{Date|}}}
+     |
+     |{{
+        #if: {{{EditorSurname1|}}}
+        |{{
+           #if: {{{Surname1|}}}
+           |{{{Sep|,}}}&amp;#32;{{{PublicationDate}}}
+           |&amp;#32;(published {{{PublicationDate}}})
+         }}
+        |{{
+           #if: {{{Periodical|}}}
+           |{{{Sep|,}}}&amp;#32;{{{PublicationDate}}}
+           |&amp;#32;(published {{{PublicationDate}}})
+         }}
+      }}
+   }}
+}}{{
+&lt;!--============ Page within included work ============--&gt;
+  #if: {{{Periodical|}}}
+  |
+  |{{
+     #if: {{{At|}}}
+     |{{{Sep|,}}}&amp;#32;{{{At}}}
+   }}
+}}{{
+&lt;!--============ arXiv ==============--&gt;
+  #if: {{{ARXIV|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=arxiv |input1={{{ARXIV|}}} }}
+}}{{
+&lt;!--============ ASIN ===============--&gt;
+  #if: {{{ASIN|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=asin |input1={{{ASIN|}}} |input2={{{ASIN-TLD|}}} }}
+}}{{
+&lt;!--============ BIBCODE ============--&gt;
+  #if: {{{BIBCODE|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=bibcode |input1={{{BIBCODE|}}} }}
+}}{{
+&lt;!--============ DOI ================--&gt;
+#if:{{{DOI|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=doi |input1={{{DOI|}}}  |input2={{{DoiBroken|}}} |input3={{{template doc demo|}}}}}
+}}{{
+&lt;!--============ ISBN ===============--&gt;
+  #if: {{{ISBN|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=isbn |input1={{{ISBN|}}} }}
+}}{{
+&lt;!--============ ISSN ===============--&gt;
+  #if: {{{ISSN|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=issn |input1={{{ISSN|}}} }}
+}}{{
+&lt;!--============ JFM ================--&gt;
+  #if: {{{JFM|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=jfm |input1={{{JFM|}}} }}
+}}{{
+&lt;!--============ JSTOR ==============--&gt;
+  #if: {{{JSTOR|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=jstor |input1={{{JSTOR|}}} }}
+}}{{
+&lt;!--============ LCCN ===============--&gt;
+  #if: {{{LCCN|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=lccn |input1={{{LCCN|}}} }}
+}}{{
+&lt;!--============ MR =================--&gt;
+  #if: {{{MR|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=mr |input1={{{MR|}}} }}
+}}{{
+&lt;!--============ OCLC ===============--&gt;
+  #if: {{{OCLC|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=oclc |input1={{{OCLC|}}} }}
+}}{{
+&lt;!--============ OL =================--&gt;
+  #if: {{{OL|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=ol |input1={{{OL|}}} }}
+}}{{
+&lt;!--============ OSTI ===============--&gt;
+  #if: {{{OSTI|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=osti |input1={{{OSTI|}}} }}
+}}{{
+&lt;!--============ PMC ================--&gt;
+  #if: {{{PMC|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=pmc |input1={{{PMC|}}} }}
+}}{{
+&lt;!--============ PMID ===============--&gt;
+  #if: {{{PMID|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=pmid |input1={{{PMID|}}} }}
+}}{{
+&lt;!--============ RFC ================--&gt;
+  #if: {{{RFC|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=rfc|input1={{{RFC|}}} }}
+}}{{
+&lt;!--============ SSRN ================--&gt;
+  #if: {{{SSRN|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=ssrn |input1={{{SSRN|}}} }}
+}}{{
+&lt;!--============ ZBL ================--&gt;
+  #if: {{{ZBL|}}}
+  |{{{Sep|,}}}&amp;#32;{{citation/identifier  |identifier=zbl |input1={{{ZBL|}}} }}
+}}{{
+&lt;!--============  Misc. Identifier ============--&gt;
+  #if: {{{ID|}}}
+  |{{{Sep|,}}}&amp;#32;{{{ID}}}
+}}{{
+&lt;!--============  Archive data, etc ===========--&gt;
+#if: {{{Archive|}}}
+|{{{Sep|,}}}&amp;#32;{{{Archive}}}[[Category:Pages using deprecated citation archive parameters]]
+|{{
+  #if:{{{ArchiveURL|}}}{{{ArchiveDate|}}}
+  | {{{Sep|,}}}&amp;#32;{{#ifeq: {{{DeadURL|}}} | no
+    | {{#if:{{{ArchiveURL|}}}
+       |{{Citation/make link|{{{ArchiveURL|}}}|{{#ifeq:{{{Sep}}}|.|A|a}}rchived}}&amp;#32;from the original
+       |{{#ifeq:{{{Sep}}}|.|A|a}}rchived
+      }}
+    | {{#ifeq:{{{Sep}}}|.|A|a}}rchived{{#if:{{{OriginalURL|}}}{{{IncludedWorkURL|}}}
+       |{{#if:{{{ArchiveURL|}}}|&amp;#32;from {{Citation/make link|{{{OriginalURL|{{{IncludedWorkURL|}}}}}}|the original}}}}
+      }}
+    }}{{#if:{{{ArchiveDate|}}}|&amp;#32;on {{{ArchiveDate}}}}}{{
+     #if:{{#if:{{{ArchiveURL|}}}||A}}{{#if:{{{OriginalURL|}}}{{{IncludedWorkURL|}}}||B}}{{#if:{{{ArchiveDate|}}}||C}}
+     |. {{citation error|nocat={{{template doc demo|}}}
+       |If you specify &lt;code&gt;&amp;#124;{{#if:{{{ArchiveURL|}}}|archiveurl|archivedate}}&amp;#61;&lt;/code&gt;{{#ifeq:{{{DeadURL|}}}|no|{{#if:{{{OriginalURL|}}}{{{IncludedWorkURL|}}}||&amp;#32;and &lt;code&gt;&amp;#124;deadurl&amp;#61;no&lt;/code&gt;}}}}, you must {{#if:{{{OriginalURL|}}}{{{IncludedWorkURL|}}}| also specify &lt;code&gt;&amp;#124;{{#if:{{{ArchiveURL|}}}|archivedate|archiveurl}}&amp;#61;&lt;/code&gt;| {{#ifeq:{{{DeadURL|}}}|no|also|first}} specify &lt;code&gt;&amp;#124;url&amp;#61;&lt;/code&gt;}}}}
+    }}
+  }}
+}}{{
+&lt;!--============ URL and AccessDate ============--&gt;
+  #if: {{{URL|}}}{{{IncludedWorkURL|}}}{{#ifeq:{{{DeadURL|}}}|no|{{{ArchiveURL|}}}|}}
+  |{{
+     #if: {{{Title|}}}{{{IncludedWorkTitle|}}}{{{TransTitle|}}}
+     |&lt;span class=&quot;printonly&quot;&gt;{{{Sep|,}}}&amp;#32;{{
+                                      #if: {{{IncludedWorkURL|}}}
+                                      |{{{IncludedWorkURL}}}
+                                      |{{{URL}}}
+                                    }}&lt;/span&gt;
+     |{{{Sep|,}}}&amp;#32;{{
+              #if: {{{IncludedWorkURL|}}}
+              |{{{IncludedWorkURL}}}
+              |{{{URL}}}
+            }}
+   }}{{
+     #if: {{{AccessDate|}}}
+     | &lt;span class=&quot;reference-accessdate&quot;&gt;{{#ifeq:{{{Sep|}}}|,|,&amp;#32;r|.&amp;#32;R}}etrieved {{{AccessDate}}}&lt;/span&gt;
+     }}
+}}{{#if:{{{laysummary|}}}
+  |{{{Sep|,}}}&amp;#32;[{{{laysummary}}} Lay summary]{{#if: {{{laysource|}}}|&amp;nbsp;&amp;ndash;&amp;nbsp;''&lt;nowiki /&gt;{{{laysource}}}&lt;nowiki /&gt;''}}
+}}{{#if:{{{laydate|}}}
+  | &amp;#32;({{{laydate}}})
+}}{{#if:{{{quote|}}}
+  |{{{Sep|,}}}&amp;#32;&quot;{{{quote}}}&quot;
+}}{{{PS|}}}&lt;/span&gt;&lt;noinclude&gt;
+{{Documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>3d0flmxgobo91q1mvaifvkva4hgsovv</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Citation/identifier</title>
+    <ns>10</ns>
+    <id>26368089</id>
+    <revision>
+      <id>535169135</id>
+      <parentid>509607082</parentid>
+      <timestamp>2013-01-27T14:00:09Z</timestamp>
+      <contributor>
+        <username>Gadget850</username>
+        <id>339034</id>
+      </contributor>
+      <comment>OCLC</comment>
+      <text xml:space="preserve" bytes="5495">{{#switch:{{{identifier}}}
+ |arxiv={{hide in print
+         |[[arXiv]]:[http://arxiv.org/abs/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+        }}&lt;!--
+     --&gt;{{only in print
+         |arXiv:{{{input1|}}}
+        }}
+ |asin={{hide in print
+        |[[Amazon Standard Identification Number|ASIN]]&amp;nbsp;[//www.amazon.&lt;!--
+     --&gt;{{#switch: {{{input2|}}}
+          |ca=ca
+          |cn=cn
+          |de=de
+          |ed=es
+          |fr=fr
+          |it=it
+          |jp=co.jp
+          |co.jp=co.jp
+          |uk=co.uk
+          |co.uk=co.uk
+          |#default=com
+         }}/dp/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |ASIN&amp;nbsp;{{{input1|}}}
+       }}
+ |bibcode={{hide in print
+           |[[Bibcode]] [http://adsabs.harvard.edu/abs/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+          }}&lt;!--
+       --&gt;{{only in print
+           |Bibcode&amp;nbsp;{{{input1|}}}
+          }}
+ |doi={{hide in print
+       |{{#ifeq:{{str left|{{{input1|}}}|3}}|10.
+         |{{#if:{{{input2|}}}
+           |[[Digital object identifier|doi]]:{{{input1|}}} (inactive {{{input2|}}}) &lt;!--
+            --&gt;{{#ifeq:{{NAMESPACE}}|{{ns:0}}
+                |[[Category:Pages with DOIs inactive since {{#time: Y | {{{input2|}}} }}]]
+                |
+               }}
+           |[[Digital object identifier|doi]]:[http://dx.doi.org/{{urlencode:{{{input1|}}}}} {{#tag:nowiki|{{{input1|}}}}}]
+          }}
+         |{{citation error|nocat={{{input3|}}}|cat=Pages with DOI errors|Bad DOI specified}}
+        }}
+      }}&lt;!--
+   --&gt;{{only in print
+       |{{#if:{{{input2|}}}
+         |doi:{{{input1|}}} (inactive {{{input2|}}})
+         |doi:{{{input1|}}}
+        }}
+      }}
+ |isbn={{hide in print
+        |[[International Standard Book Number|ISBN]]&amp;nbsp;[[Special:BookSources/{{{input1|}}}|{{{input1|}}}]]
+       }}&lt;!--
+    --&gt;{{only in print
+        |ISBN&amp;nbsp;{{{input1|}}}
+       }}
+ |issn={{hide in print
+        |[[International Standard Serial Number|ISSN]]&amp;nbsp;[//www.worldcat.org/issn/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |ISSN&amp;nbsp;{{{input1|}}}
+       }}
+ |jfm={{hide in print
+       |[[Jahrbuch über die Fortschritte der Mathematik|JFM]]&amp;nbsp;[http://www.zentralblatt-math.org/zmath/en/search/?q{{=}}an:{{{input1|}}}&amp;format{{=}}complete {{#tag:nowiki|{{{input1|}}}}}]
+      }}&lt;!--
+   --&gt;{{only in print
+       |JFM&amp;nbsp;{{{input1|}}}
+      }}
+ |jstor={{hide in print
+         |[[JSTOR]]&amp;nbsp;[http://www.jstor.org/stable/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+        }}&lt;!--
+     --&gt;{{only in print
+         |JSTOR&amp;nbsp;{{{input1|}}}
+         }}
+ |lccn={{hide in print
+         |[[Library of Congress Control Number|LCCN]]&amp;nbsp;[http://lccn.loc.gov/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+        }}&lt;!--
+     --&gt;{{only in print
+         |LCCN&amp;nbsp;{{{input1|}}}
+         }}
+ |mr={{hide in print
+      |[[Mathematical Reviews|MR]]&amp;nbsp;[http://www.ams.org/mathscinet-getitem?mr{{=}}{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+     }}&lt;!--
+  --&gt;{{only in print
+      |MR{{{input1|}}}
+     }}
+ |oclc={{hide in print
+        |[[OCLC]]&amp;nbsp;[//www.worldcat.org/oclc/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |OCLC&amp;nbsp;{{{input1|}}}
+       }}
+ |ol={{hide in print
+      |1={{#if:{{str endswith|{{{input1|}}}|A}}
+          |[[Open Library|OL]][http://openlibrary.org/authors/OL{{urlencode:{{{input1|}}}}} {{{input1|}}}]
+          |{{#if:{{str endswith|{{{input1|}}}|M}}
+            |[[Open Library|OL]][http://openlibrary.org/books/OL{{urlencode:{{{input1|}}}}} {{{input1|}}}]
+            |{{#if:{{str endswith|{{{input1|}}}|W}}
+              |[[Open Library|OL]][http://openlibrary.org/works/OL{{urlencode:{{{input1|}}}}} {{{input1|}}}]
+              |&lt;includeonly&gt;[[Category:Pages with OL errors]]&lt;span class=&quot;error&quot;&gt;Error: Bad OL specified!&lt;/span&gt;&lt;/includeonly&gt;
+             }}
+           }}
+         }}
+     }}&lt;!--
+--&gt;{{Only in print
+    |1=OL{{{id|{{{1}}}}}}
+   }}
+ |osti={{hide in print
+        |[[Office of Scientific and Technical Information|OSTI]]&amp;nbsp;[http://www.osti.gov/energycitations/product.biblio.jsp?osti_id{{=}}{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |OSTI&amp;nbsp;{{{input1|}}}
+       }}
+ |pmc={{hide in print
+        |[[PubMed Central|PMC]]&amp;nbsp;[//www.ncbi.nlm.nih.gov/pmc/articles/PMC{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+      }}&lt;!--
+   --&gt;{{only in print
+       |PMC&amp;nbsp;{{{input1|}}}
+      }}
+ |pmid={{hide in print
+        |[[PubMed Identifier|PMID]]&amp;nbsp;[//www.ncbi.nlm.nih.gov/pubmed/{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |PMID&amp;nbsp;{{{input1|}}}
+       }}
+ |rfc={{hide in print
+        |[[Request for Comments|RFC]]&amp;nbsp;[//tools.ietf.org/html/rfc{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |RFC&amp;nbsp;{{{input1|}}}
+       }}
+ |ssrn={{hide in print
+        |[[Social Science Research Network|SSRN]]&amp;nbsp;[http://ssrn.com/abstract{{=}}{{{input1|}}} {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |SSRN&amp;nbsp;{{{input1|}}}
+       }}
+ |zbl={{hide in print
+        |[[Zentralblatt MATH|Zbl]]&amp;nbsp;[http://www.zentralblatt-math.org/zmath/en/search/?q{{=}}an:{{{input1|}}}&amp;format{{=}}complete {{#tag:nowiki|{{{input1|}}}}}]
+       }}&lt;!--
+    --&gt;{{only in print
+        |Zbl&amp;nbsp;{{{input1|}}}
+       }}
+}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>nvemuwwc2aq2qbqc2m706nwk8yazoxx</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Citation/make link</title>
+    <ns>10</ns>
+    <id>29897504</id>
+    <revision>
+      <id>406462373</id>
+      <parentid>400598787</parentid>
+      <timestamp>2011-01-07T10:18:51Z</timestamp>
+      <contributor>
+        <username>Courcelles</username>
+        <id>1004750</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Citation/make link: Not reprotected after history merge.  Over 1 million transclusions ([edit=sysop] (indefinite) [move=sysop] (indefinite))</comment>
+      <text xml:space="preserve" bytes="535">{{#if:{{{1|}}}
+ |[{{{1}}} {{{2}}}]
+ |{{{2}}}
+}}&lt;noinclude&gt;&lt;!--
+  Code notes (here so that people /read/ it)
+  1. Parameter #2 is always nonempty when called from {{Citation/core}}.
+  2. It's up to {{Citation/core}} to stop italicized &quot;'foo' &amp; 'bar'&quot; from becoming
+     &quot;'''foo' &amp; 'bar'''&quot;. Citation/core does this by having a &lt;nowiki&gt;&lt;/nowiki&gt;
+     at both beginning and end of the call to this template. Since this is only
+     needed once, it's more efficient to do it in {{Citation/core}} than here.
+--&gt;{{documentation}}&lt;/noinclude&gt;</text>
+      <sha1>kpq1iofpfn0fdo5bshpu1vjve3ehx2d</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Cite journal</title>
+    <ns>10</ns>
+    <id>4740319</id>
+    <restrictions>edit=sysop:move=sysop</restrictions>
+    <revision>
+      <id>510926398</id>
+      <parentid>510803804</parentid>
+      <timestamp>2012-09-05T15:12:22Z</timestamp>
+      <contributor>
+        <username>Gadget850</username>
+        <id>339034</id>
+      </contributor>
+      <comment>ce</comment>
+      <text xml:space="preserve" bytes="5645">{{Citation/core
+|Citation class=Journal
+
+|Surname1={{{last|{{{last1|{{{author|{{{author1|{{{authors|{{{surname|{{{surname1|}}}}}}}}}}}}}}}}}}}}}
+|Surname2={{{last2|{{{author2|{{{surname2|}}}}}}}}}
+|Surname3={{{last3|{{{author3|{{{surname3|}}}}}}}}}
+|Surname4={{{last4|{{{author4|{{{surname4|}}}}}}}}}
+|Surname5={{{last5|{{{author5|{{{surname5|}}}}}}}}}
+|Surname6={{{last6|{{{author6|{{{surname6|}}}}}}}}}
+|Surname7={{{last7|{{{author7|{{{surname7|}}}}}}}}}
+|Surname8={{{last8|{{{author8|{{{surname8|}}}}}}}}}
+|Surname9={{{last9|{{{author9|{{{surname9|}}}}}}}}}
+
+|Given1={{{first|{{{first1|{{{given|{{{given1|}}}}}}}}}}}}
+|Given2={{{first2|{{{given2|}}}}}}
+|Given3={{{first3|{{{given3|}}}}}}
+|Given4={{{first4|{{{given4|}}}}}}
+|Given5={{{first5|{{{given5|}}}}}}
+|Given6={{{first6|{{{given6|}}}}}}
+|Given7={{{first7|{{{given7|}}}}}}
+|Given8={{{first8|{{{given8|}}}}}}
+|Given9={{{first9|{{{given9|}}}}}}
+
+|Authorlink1={{{authorlink|{{{authorlink1|{{{author-link|{{{author1-link|}}}}}}}}}}}}
+|Authorlink2={{{authorlink2|{{{author2-link|}}}}}}
+|Authorlink3={{{authorlink3|{{{author3-link|}}}}}}
+|Authorlink4={{{authorlink4|{{{author4-link|}}}}}}
+|Authorlink5={{{authorlink5|{{{author5-link|}}}}}}
+|Authorlink6={{{authorlink6|{{{author6-link|}}}}}}
+|Authorlink7={{{authorlink7|{{{author7-link|}}}}}}
+|Authorlink8={{{authorlink8|{{{author8-link|}}}}}}
+|Authorlink9={{{authorlink9|{{{author9-link|}}}}}}
+
+|Coauthors={{{coauthors|{{{coauthor|}}}}}}
+
+|Other={{{others|}}}
+
+|Year={{{year|{{    &lt;!-- attempt to derive year from date, if possible --&gt;
+           #if: {{{date|}}}
+           |{{
+              #iferror:{{#time:Y|{{{date|}}} }}
+              |{{#iferror:{{#time:Y|{{{publication-date|einval}}} }}||{{#time:Y|{{{publication-date|}}} }}}}
+              |{{#time:Y|{{{date|}}} }}
+            }}
+           |{{{publication-date|}}} &lt;!-- last resort --&gt;
+         }}
+      }}}
+|YearNote={{{origyear|}}}
+|Date={{#if:{{{date|}}}|{{{date}}}|{{{day|}}} {{{month|}}} {{{year|{{{publication-date|}}}}}}}}
+
+|Title={{{title|}}}
+|TransTitle={{{trans_title|}}}
+|IncludedWorkTitle={{{chapter|{{{contribution|}}}}}}
+|TitleType={{{type|}}}
+|language={{{language|}}}
+
+|URL={{#if:{{{archiveurl|}}}
+      |{{#ifeq: {{{deadurl|}}} | no | {{{url|}}} | {{{archiveurl|}}} }}
+      |{{#if:{{{url|}}}
+        |{{{url}}}
+        |{{#if:{{{pmc|{{{PMC|}}}}}}
+          |{{#ifexpr:{{#time: U}} &gt; {{#time: U | {{{Embargo|2001-10-10}}} }}
+            |{{hide in print|1=//www.ncbi.nlm.nih.gov/pmc/articles/PMC{{{pmc|{{{PMC|}}}}}}/}}
+           }}
+         }}
+       }}
+     }}
+|IncludedWorkURL={{{chapter-url|{{{chapterurl|{{{contribution-url|}}}}}}}}}
+|AccessDate={{{accessdate|}}}
+|OriginalURL={{{url|}}}
+|ArchiveURL={{{archiveurl|}}}
+|ArchiveDate={{{archivedate|}}}
+|DeadURL={{{deadurl|}}}
+|format={{{format|}}}
+
+|Periodical={{{work|{{{journal|{{{newspaper|{{{magazine|{{{periodical|}}}}}}}}}}}}}}}
+|Issue={{{issue|{{{number|}}}}}}
+|TitleNote={{{department|}}}
+
+|At={{#if: {{{journal|{{{periodical|{{{magazine|{{{work|}}}}}}}}}}}}
+        |{{{pages|{{{page|{{{at|}}}}}}}}}
+          |{{#if: {{{page|}}}|{{#if:{{{nopp|}}}||p.&amp;nbsp;}}{{{page}}}
+            |{{#if: {{{pages|}}}|{{#if:{{{nopp|}}}||pp.&amp;nbsp;}}{{{pages}}}
+              |{{{at|}}} }} }} }}
+
+|Edition={{{edition|}}}
+|Series={{{series|{{{version|}}}}}}
+|Volume={{{volume|}}}
+
+|Publisher={{{publisher|}}}
+|Place={{{location|{{{place|}}}}}}
+|PublicationPlace={{{location|{{{place|{{{publication-place|}}}}}}}}}
+|PublicationDate={{{publication-date|}}}
+
+|EditorSurname1={{{editor-last|{{{editor1-last|{{{editor|{{{editors|{{{editor-surname|{{{editor1-surname|}}}}}}}}}}}}}}}}}}
+|EditorSurname2={{{editor2-last|{{{editor2-surname|}}}}}}
+|EditorSurname3={{{editor3-last|{{{editor3-surname|}}}}}}
+|EditorSurname4={{{editor4-last|{{{editor4-surname|}}}}}}
+|EditorGiven1={{{editor-first|{{{editor1-first|{{{editor-given|{{{editor1-given|}}}}}}}}}}}}
+|EditorGiven2={{{editor2-first|{{{editor2-given|}}}}}}
+|EditorGiven3={{{editor3-first|{{{editor3-given|}}}}}}
+|EditorGiven4={{{editor4-first|{{{editor4-given|}}}}}}
+|Editorlink1={{{editor-link|{{{editor1-link|}}}}}}
+|Editorlink2={{{editor2-link|}}}
+|Editorlink3={{{editor3-link|}}}
+|Editorlink4={{{editor4-link|}}}
+
+|ARXIV={{{arxiv|}}}
+|ASIN={{{asin|{{{ASIN|}}}}}}
+|ASIN-TLD={{{asin-tld|}}}
+|BIBCODE={{{bibcode|}}}
+|DOI={{{doi|{{{DOI|}}}}}}
+|DoiBroken={{{doi_brokendate|{{{doi_inactivedate|}}}}}}
+|ISBN={{{isbn|{{{ISBN|}}}}}}
+|ISSN={{{issn|{{{ISSN|}}}}}}
+|JFM={{{jfm|{{{JFM|}}}}}}
+|JSTOR={{{jstor|{{{JSTOR|}}}}}}
+|LCCN={{{lccn|{{{LCCN|}}}}}}
+|MR={{{mr|{{{MR|}}}}}}
+|OCLC={{{oclc|{{{OCLC|}}}}}}
+|OL={{{ol|{{{OL|}}}}}}
+|OSTI={{{osti|{{{OSTI|}}}}}}
+|PMC={{{pmc|{{{PMC|}}}}}}
+|PMID={{{pmid|{{{PMID|}}}}}}
+|RFC={{{rfc|{{{RFC|}}}}}}
+|SSRN={{{ssrn|{{{SSRN|}}}}}}
+|ZBL={{{zbl|}}}
+|ID={{{id|{{{ID|}}}}}}
+
+|laysummary={{{laysummary|}}}
+|laydate={{{laydate|}}}
+|laysource={{{laysource|}}}
+
+|quote={{{quote|}}}
+
+|Ref={{{ref|}}}
+
+|amp={{{lastauthoramp|}}}
+|AuthorMask={{{author-mask|{{{authormask|}}}}}}
+|AuthorSep={{#ifeq:{{{author-separator|}}}|;|&amp;#059;|{{{author-separator|&amp;#059;}}}}}&amp;#32;
+|NameSep={{{author-name-separator|,}}}&amp;#32;
+|PS={{#if:{{{quote|}}}||{{{postscript|.}}}}}
+|Sep={{#ifeq:{{{separator|{{{seperator}}} }}}|;|&amp;#059;|{{{separator|{{{seperator|.}}} }}} }}
+|template doc demo={{{template doc demo|}}}
+|Trunc={{#if:{{{display-authors|}}}|{{{display-authors}}}|8}}
+}}{{#if:{{{access-date|}}}{{{accessdaymonth|}}}{{{accessday|}}}{{{accessmonthday|}}}{{{accessmonth|}}}{{{accessyear|}}}{{{dateformat|}}}{{{day|}}}{{{doilabel|}}}
+|[[Category:Pages containing cite templates with deprecated parameters|{{NAMESPACE}} {{PAGENAME}}]]}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>5g1u9hp5j9js9q4dk7da3j3a3939bvu</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Common name for</title>
+    <ns>10</ns>
+    <id>14836272</id>
+    <revision>
+      <id>179629216</id>
+      <parentid>179568162</parentid>
+      <timestamp>2007-12-22T18:30:52Z</timestamp>
+      <contributor>
+        <username>Eliezg</username>
+        <id>605238</id>
+      </contributor>
+      <comment>Change &quot;refer&quot; to &quot;correspond&quot; (mostly to see how this puppy works)</comment>
+      <text xml:space="preserve" bytes="236">&lt;noinclude&gt;{{template doc}}&lt;/noinclude&gt;&lt;includeonly&gt;:''{{PAGENAME}} is a [[common name]] that does not correspond to a single taxonomic unit.  For a more comprehensive discussion of all {{{2|{{{1}}}s}}}, see [[{{{1}}}]].''&lt;/includeonly&gt;</text>
+      <sha1>f9vmmtgxhs4zf4ddyzppf803pku89ug</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Convert</title>
+    <ns>10</ns>
+    <id>8387047</id>
+    <revision>
+      <id>515311076</id>
+      <parentid>448255381</parentid>
+      <timestamp>2012-09-30T14:08:00Z</timestamp>
+      <contributor>
+        <username>Jimp</username>
+        <id>275655</id>
+      </contributor>
+      <comment>hundreds of redirects can now be deleted</comment>
+      <text xml:space="preserve" bytes="579">&lt;includeonly&gt;{{#ifeq:{{{sortable|}}}|on|{{ntsh|{{FORMATNUM:{{{1}}}|R}}}}}}{{convert/{{#if:1|{{{2}}}}}|{{FORMATNUM:{{{1}}}|R}}|{{#ifeq:{{#expr:{{{3|0}}}*0}}|0|0}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|r={{#ifeq:{{{sp}}}|us|er|re}}|d=L{{{lk|off}}}A{{#switch:{{{abbr}}}|off=none|def=off|{{{abbr|off}}}}}D{{#switch:{{{disp}}}|/|slash=s|{{{disp|b}}}}}S{{{adj|{{{sing|off}}}}}}|s={{{sigfig|}}}}}&lt;/includeonly&gt;&lt;noinclude&gt;{{Documentation}}&lt;/noinclude&gt;&lt;!--testing code follows--&gt;{{#switch:{{{disp}}}|br={{convert/test/Dbr}}|/={{convert/und}}}}{{convert/test/A{{{abbr|}}}}}</text>
+      <sha1>ea2vxkc7hr6dbeiaj0juv3uabseqi1s</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Convert/And1</title>
+    <ns>10</ns>
+    <id>15182693</id>
+    <revision>
+      <id>221558470</id>
+      <parentid>212730917</parentid>
+      <timestamp>2008-06-25T01:25:21Z</timestamp>
+      <contributor>
+        <username>Cenarium</username>
+        <id>5711305</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Convert/And1: [[WP:HRT|High risk template]] [edit=sysop:move=sysop]</comment>
+      <text xml:space="preserve" bytes="130">{{formatnum:{{{1}}}&amp;nbsp;{{{2}}}&amp;nbsp;{{{3}}}&amp;nbsp;{{{4}}}}}&lt;noinclude&gt;
+[[Category:Subtemplates of Template Convert]]
+&lt;/noinclude&gt;</text>
+      <sha1>i1xfdl5wslrte6d1v1as4vcbcjmu31y</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Convert/LoffAoffDbSoff</title>
+    <ns>10</ns>
+    <id>36900743</id>
+    <revision>
+      <id>511114065</id>
+      <parentid>511113421</parentid>
+      <timestamp>2012-09-06T19:25:03Z</timestamp>
+      <contributor>
+        <username>Nyttend</username>
+        <id>1960810</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Convert/LoffAoffDbSoff: Component of fully-protected template; lack of protection enables sneaky vandalism (‎[edit=sysop] (indefinite) ‎[move=sysop] (indefinite))</comment>
+      <text xml:space="preserve" bytes="320">&lt;includeonly&gt;{{convert/numdisp|{{{1}}}}} {{#ifeq:{{{1}}}|1|{{{n}}}|{{{l|{{{n}}}s}}}}} ({{convert/{{#if:{{{2|}}}|{{{o}}}|{{{3}}}}}|{{{1}}}|({{{1}}})*{{{b}}}|{{#if:{{{2|}}}|{{{3|}}}|{{{4|}}}}}|{{{s|}}}|r={{{r}}}|j={{{j}}}|d=LoffAonSoff}})&lt;/includeonly&gt;&lt;noinclude&gt;
+[[Category:Subtemplates of Template Convert]]
+&lt;/noinclude&gt;</text>
+      <sha1>o6gzy0gpujdn89p3cghz078sk9izp78</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Convert/LoffAonSoffAnd</title>
+    <ns>10</ns>
+    <id>15182634</id>
+    <revision>
+      <id>444356105</id>
+      <parentid>444355232</parentid>
+      <timestamp>2011-08-12T00:07:11Z</timestamp>
+      <contributor>
+        <username>Jimp</username>
+        <id>275655</id>
+      </contributor>
+      <text xml:space="preserve" bytes="458">&lt;includeonly&gt;{{convert/outAnd|{{#expr:floor({{#expr:{{{2}}}/{{{a}}}/{{{b}}}}})}}|{{{U}}}|{{convert/{{#if:{{{4|}}}|s}}{{#if:{{{3|}}}|p}}rand|{{{1}}}|{{{2}}}/{{{b}}}|{{{3}}}|{{{4}}}|{{{j}}}|{{{a}}}}}|{{{u}}}
+|p={{convert/{{#if:{{{4|}}}|s}}{{#if:{{{3|}}}|p}}rand|{{{1}}}|{{{2}}}/{{{b}}}|{{{3}}}|{{{4}}}|{{{j}}}}}
+|a={{{a}}}
+|v={{{2}}}/{{{b}}}
+|nozero={{#ifexpr:{{{1}}}|1|0}}
+}}&lt;/includeonly&gt;&lt;noinclude&gt;
+[[Category:Subtemplates of Template Convert]]
+&lt;/noinclude&gt;</text>
+      <sha1>jigwuovj3xxd638j3tkbarof9a7niet</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Convert/ftin</title>
+    <ns>10</ns>
+    <id>15183154</id>
+    <revision>
+      <id>450055442</id>
+      <parentid>450055347</parentid>
+      <timestamp>2011-09-12T10:38:27Z</timestamp>
+      <contributor>
+        <username>Number 57</username>
+        <id>327289</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Convert/ftin: [[WP:High-risk templates|Highly visible template]] ([edit=sysop] (indefinite) [move=sysop] (indefinite))</comment>
+      <text xml:space="preserve" bytes="788">&lt;includeonly&gt;{{#ifeq: {{{1|0}}}|0
+&lt;!--then--&gt;|0{{#switch:{{{d}}}&lt;!--
+                   --&gt;|LoffAoffSoff=&amp;#32;inches&lt;!--
+                   --&gt;|LoffAoffSon=-inches&lt;!--
+                   --&gt;|LonAonSoff&lt;!--
+                   --&gt;|LonAonSon=&amp;nbsp;[[inch|in]]&lt;!--
+                   --&gt;|LonAoffSoff=&amp;#32;[[inch]]es&lt;!--
+                   --&gt;|LonAoffSon=-[[inch]]es&lt;!--
+                   --&gt;|&amp;nbsp;in}}
+&lt;!--else--&gt;|{{convert/{{{d|LoffAonSoff}}}And|{{{1|0}}}|{{{2|}}}|{{{3|0}}}|{{{4|1}}}|s={{{s|}}}
+|U=ft
+|N=foot
+|L=feet
+|T=foot (length)
+|u=in
+|n=inch
+|l=inches
+|a=12
+|b=0.0254
+|j=-1.595166283-{{{j}}}}}}}&lt;!--endif--&gt;&lt;/includeonly&gt;&lt;noinclude&gt;
+This subtemplate converts to feet and inches.
+
+[[Category:Subtemplates of Template Convert]]
+[[Category:2011 Convert unit subtemplates]]
+&lt;/noinclude&gt;</text>
+      <sha1>55tr2782uwvipj3x580z3bt134r90ek</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Convert/m</title>
+    <ns>10</ns>
+    <id>13740523</id>
+    <revision>
+      <id>444399018</id>
+      <parentid>444350606</parentid>
+      <timestamp>2011-08-12T06:56:28Z</timestamp>
+      <contributor>
+        <username>Jimp</username>
+        <id>275655</id>
+      </contributor>
+      <comment>Undid revision 444350606 by [[Special:Contributions/Jimp|Jimp]] ([[User talk:Jimp|talk]])</comment>
+      <text xml:space="preserve" bytes="294">{{convert/{{{d}}}|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|s={{{s|}}}|r={{{r}}}
+|u=m
+|n=met{{{r}}}
+|t=metre
+|o=ft{{#ifexpr:{{{1|4}}}&gt;0 and {{{1|4}}}&lt;3|in}}
+|b=1
+|j=0-{{{j|0}}}}}&lt;noinclude&gt;
+{{pp-template|small=yes}}
+[[Category:Subtemplates of Template Convert]]
+&lt;/noinclude&gt;</text>
+      <sha1>7axymo75qpqcl414o69tae39r89tvfk</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Convert/numdisp</title>
+    <ns>10</ns>
+    <id>22264471</id>
+    <revision>
+      <id>436596508</id>
+      <parentid>414488619</parentid>
+      <timestamp>2011-06-28T00:45:13Z</timestamp>
+      <contributor>
+        <username>Jimp</username>
+        <id>275655</id>
+      </contributor>
+      <comment>merged</comment>
+      <text xml:space="preserve" bytes="3979">&lt;noinclude&gt;&lt;!--
+--============================================================
+-- Display a number, with optional fraction part: 6+3/8
+--============================================================
+--                                (see NOTES at bottom)
+--
+--&gt;&lt;/noinclude&gt;{{#if:{{#titleparts:{{{1|-1200-3~118}}}|1|2}}
+|{{Convert/numdisp/frac
+  |{{{1|-1200-3/118}}}|{{#titleparts:{{{1|-1200-3/118}}}|1|1}}|{{#titleparts:{{{1|-1200-3/118}}}|1|2}}}}&lt;!--split at &quot;/&quot;
+--else--&gt;|{{#ifexpr:{{{1|-14000.00}}} &lt; 0
+  |&lt;!--then re-build negative number (see NOTE Z4 below)
+--&gt;{{formatnum:
+  {{padright:−&lt;!--&amp;minus--&gt;{{#expr:-{{{1|-14000.00}}} }}&lt;!--endexpr
+    --put decimal if needed--&gt;{{
+     #ifexpr:{{{1|-14000.00}}}0={{{1|-14000.00}}}
+     and {{{1|-14000.00}}}=floor( {{{1|-14000.00}}} )|.}}&lt;!--
+  --&gt;|{{strlen_short|{{{1|-14000.00}}}|}}&lt;!--endstrlen_short
+    --&gt;|0}}&lt;!--endpadright end-zeroes &quot;0&quot; to original length
+  --&gt;}}&lt;!--endformatnum
+  else--&gt;|{{formatnum: {{{1|6000.500}}} }}}}&lt;!--endif {1}&lt;0
+--&gt;}}&lt;noinclude&gt;&lt;!--endif {#titleparts..}
+--------------------------------------------------------------
+--NOTES:
+--     [ These comments are skipped by &lt;noinclude&gt; and not sent
+--       in formatted Internet pages, only during edit. ]
+--
+--NOTE A1: This template processes a number, for display, by
+--     checking to display a fraction part (&quot;/&quot;), else it
+--     will check for negative to display a unicode &amp;minus
+--     and {{formatnum:{{#expr:abs( {{{1|-6000}}} )}}}} such
+--     as &quot;-6000&quot; with a full minus sign rather than hyphen.
+--     In 99% of Wikipedia usage, there are no fractions.
+--
+--NOTE D2: The check, for fraction parts, uses parser-function
+--     #titleparts to split the number at &quot;/&quot; (if any) and
+--     then checks part 2 (the denominator, after the slash)
+--     to trigger use of {{Convert/numdisp/fracparts}}. Hence,
+--         #if: {{#titleparts:{{{1|6+3/8}}}|1|2}}
+--     will be true if a denominator exists (such as &quot;8&quot;).
+--
+--NOTE N3: This template uses minimal expansion depth of the
+--     if-else logic by checking for &quot;/&quot; before invoking the
+--     nested subtemplate {{Convert/numdisp/fracparts}}. The
+--     check for a negative number increases the nesting depth
+--     by 1 level to apply abs({1}) in a nested {#expr:} parser
+--     function, to use the absolute value of the amount {1}.
+--
+--NOTE Z4: Any end-zeroes on a decimal are preserved by not
+--     using positive amounts in an expression, and for rare
+--     negative amounts, the &amp;minus with inverse -{1} is padded
+--     by {padright:} with end-zeroes &quot;0&quot; to {strlen_short} but
+--     uses #ifexpr:{1}0={1} and floor({1})={1} to put &quot;.&quot;.
+--     So, {strlen_short} keeps minimal expansion depth of +2.
+--
+-- WARNING: *** DO NOT DELETE COMMENTS FROM THIS TEMPLATE ***
+--      Unless these comments are readily available, people
+--      might tinker with the coding (or rename templates),
+--      in hopes to clarify operation because these comments
+--      were not nearby to explain the issues. Having these
+--      comments only on a doc-page increases the danger of
+--      explanations no longer matching the current coding.
+--      UPDATE these comments to match changes to the template.
+--      UPDATE the HISTORY during major changes (not typos).
+--
+--------------------------------------------------------------
+--HISTORY:
+--03Apr09 Created by [[User:Jimp]] on English Wikipedia.
+--19Nov10 Invokes subtemplate only if has denominator (at &quot;/&quot;).
+--19Nov10 Put NOTES comments to explain template coding.
+--19Nov10 Put HISTORY comments to log major changes.
+--19Nov10 Put all parameters on 1 line to avoid newline &quot;2^ /3&quot;
+--20Nov10 Linked {Documentation} to hold any interwiki links.
+--12Feb11 Shows Unicode &amp;minus (&quot;−&quot;) for negative numbers.
+--17Feb11 Used {padright:} to re-add end-zeroes on negatives.
+--17Feb11 Used #ifexpr:{1}0={1} and floor({1})={1}, to put &quot;.&quot;
+--
+ ** Add interwiki links to /doc subpage to avoid changes here **
+--
+--&gt;{{Documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>k0nevzbtwhtw0mvp4ttn1hkax3nnjw7</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Convert/outAnd</title>
+    <ns>10</ns>
+    <id>15182658</id>
+    <revision>
+      <id>444399308</id>
+      <parentid>444355645</parentid>
+      <timestamp>2011-08-12T06:59:28Z</timestamp>
+      <contributor>
+        <username>Jimp</username>
+        <id>275655</id>
+      </contributor>
+      <text xml:space="preserve" bytes="279">{{convert/And{{#ifeq:{{#expr:({{{1}}}&gt;0) or ({{formatnum:{{{3}}}|R}}={{{a}}})}}|1|1|0}}|{{#expr:{{{1}}}+({{formatnum:{{{3}}}|R}}={{{a}}})}}|{{{2}}}|{{#ifeq:{{formatnum:{{{3}}}|R}}|{{{a}}}|0|{{{3}}}}}|{{{4}}}}}&lt;noinclude&gt;
+[[Category:Subtemplates of Template Convert]]
+&lt;/noinclude&gt;</text>
+      <sha1>h3cf3xbxkaoji4ynihhpaol7cld2j1o</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Convert/rand</title>
+    <ns>10</ns>
+    <id>15181186</id>
+    <revision>
+      <id>435491501</id>
+      <parentid>416484667</parentid>
+      <timestamp>2011-06-21T17:19:15Z</timestamp>
+      <contributor>
+        <username>Jimp</username>
+        <id>275655</id>
+      </contributor>
+      <text xml:space="preserve" bytes="427">&lt;includeonly&gt;{{#if:{{{6|}}}|{{rnd|{{{2}}}-(({{{2}}}/{{{6}}})-0.5round0)*{{{6}}}|({{max/{{#ifeq:{{{1}}}|0|2|3}}|0|{{precision|1{{{1}}}}}+({{{5}}}-0.1989700043)round0|1-{{Order of magnitude|{{{2}}}}}}})}}|&lt;!--  --&gt;({{max/{{#ifeq:{{{1}}}|0|2|3}}|0|{{precision|1{{{1}}}}}+({{{5}}}-0.1989700043)round0|1-{{Order of magnitude|{{{2}}}}}}})&lt;!--  --&gt;}}&lt;/includeonly&gt;&lt;noinclude&gt;
+[[Category:Subtemplates of Template Convert]]
+&lt;/noinclude&gt;</text>
+      <sha1>toh14h7py69rcyp7tzn2t9b98n5ld86</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Convert/test/A</title>
+    <ns>10</ns>
+    <id>11992127</id>
+    <revision>
+      <id>444432088</id>
+      <parentid>444183281</parentid>
+      <timestamp>2011-08-12T12:39:22Z</timestamp>
+      <contributor>
+        <username>Reaper Eternal</username>
+        <id>10639536</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Convert/test/A: [[WP:High-risk templates|Highly visible template]] ([edit=sysop] (indefinite) [move=sysop] (indefinite))</comment>
+      <text xml:space="preserve" bytes="28">&lt;noinclude&gt;empty&lt;/noinclude&gt;</text>
+      <sha1>741bbjsl3p157j7plbvssccmpydrk0n</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Hide in print</title>
+    <ns>10</ns>
+    <id>21706434</id>
+    <revision>
+      <id>388689196</id>
+      <parentid>273545910</parentid>
+      <timestamp>2010-10-04T14:47:42Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>remove {{pp-template}}</comment>
+      <text xml:space="preserve" bytes="109">&lt;includeonly&gt;{{{1|}}}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{documentation}}
+[[Category:Exclude in print|!]]
+&lt;/noinclude&gt;</text>
+      <sha1>73og27prhvo5g5zugn2d87cnvzb68h8</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Max</title>
+    <ns>10</ns>
+    <id>4788776</id>
+    <revision>
+      <id>539593606</id>
+      <parentid>455498474</parentid>
+      <timestamp>2013-02-22T04:10:43Z</timestamp>
+      <contributor>
+        <username>Dragons flight</username>
+        <id>16980</id>
+      </contributor>
+      <comment>Switching to Lua, hopefully nothing breaks.</comment>
+      <text xml:space="preserve" bytes="89">&lt;includeonly&gt;{{#invoke:Math|max}}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{Documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>s2lyijw8m0l517bfw1z0srbw197c8fh</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Max/3</title>
+    <ns>10</ns>
+    <id>13548703</id>
+    <redirect title="Template:Max" />
+    <revision>
+      <id>539593739</id>
+      <parentid>374542344</parentid>
+      <timestamp>2013-02-22T04:12:13Z</timestamp>
+      <contributor>
+        <username>Dragons flight</username>
+        <id>16980</id>
+      </contributor>
+      <comment>With Lua, one template does all</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Template:Max]]</text>
+      <sha1>3uieuw8j27hrygdyg9ylnaelf8utlzz</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbar</title>
+    <ns>10</ns>
+    <id>5277509</id>
+    <restrictions>edit=sysop:move=sysop</restrictions>
+    <revision>
+      <id>478598159</id>
+      <parentid>478596989</parentid>
+      <timestamp>2012-02-24T13:06:35Z</timestamp>
+      <contributor>
+        <username>Edokter</username>
+        <id>1624037</id>
+      </contributor>
+      <comment>Use CSS class for small-caps</comment>
+      <text xml:space="preserve" bytes="1111">&lt;includeonly&gt;&lt;div class=&quot;noprint plainlinks hlist navbar {{#if:{{{mini|}}}|mini}}&quot; style=&quot;{{{style|}}}&quot;&gt;&lt;!--
+
+--&gt;{{#if:{{{mini|}}}{{{plain|}}}|&lt;!--nothing--&gt;|&lt;!--else:
+--&gt;&lt;span style=&quot;word-spacing:0;{{{fontstyle|}}}&quot;&gt;{{{text|This box:}}} &lt;/span&gt;}}&lt;!--
+
+--&gt;{{#if:{{{brackets|}}}|&lt;span style=&quot;margin-right:-0.125em;{{{fontstyle|}}}&quot;&gt;&amp;#91;&lt;/span&gt;}}&lt;!--
+
+--&gt;&lt;ul&gt;&lt;!--
+--&gt;&lt;li class=&quot;nv-view&quot;&gt;[[{{transclude|{{{1}}}}}|&lt;span title=&quot;View this template&quot; &lt;!--
+--&gt;style=&quot;{{{fontstyle|}}}&quot;&gt;{{#if:{{{mini|}}}|v|view}}&lt;/span&gt;]]&lt;/li&gt;&lt;!--
+
+--&gt;&lt;li class=&quot;nv-talk&quot;&gt;[[{{TALKPAGENAME:{{transclude|{{{1}}}}}}}|&lt;span title=&quot;Discuss this template&quot; &lt;!--
+--&gt;style=&quot;{{{fontstyle|}}}&quot;&gt;{{#if:{{{mini|}}}|t|talk}}&lt;/span&gt;]]&lt;/li&gt;&lt;!--
+
+--&gt;{{#if:{{{noedit|}}}|&lt;!--nothing--&gt;|&lt;!--else:
+--&gt;&lt;li class=&quot;nv-edit&quot;&gt;[{{fullurl:{{transclude|{{{1}}}}}|action=edit}} &lt;span title=&quot;Edit this template&quot; &lt;!--
+--&gt;style=&quot;{{{fontstyle|}}}&quot;&gt;{{#if:{{{mini|}}}|e|edit}}&lt;/span&gt;]&lt;/li&gt;}}&lt;!--
+--&gt;&lt;/ul&gt;&lt;!--
+
+--&gt;{{#if:{{{brackets|}}}|&lt;span style=&quot;margin-left:-0.125em;{{{fontstyle|}}}&quot;&gt;&amp;#93;&lt;/span&gt;}}&lt;!--
+
+--&gt;&lt;/div&gt;&lt;/includeonly&gt;&lt;noinclude&gt;
+
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>l8vtirhspr68sezcde8873k75m5b4u4</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbox</title>
+    <ns>10</ns>
+    <id>995954</id>
+    <revision>
+      <id>519195887</id>
+      <parentid>519195286</parentid>
+      <timestamp>2012-10-22T12:52:00Z</timestamp>
+      <contributor>
+        <username>Thumperward</username>
+        <id>545027</id>
+      </contributor>
+      <comment>namespace filtering for tracking cat</comment>
+      <text xml:space="preserve" bytes="19871">&lt;!--
+
+Please do not edit without discussion first as this is a VERY complex template.
+
+--&gt;{{#switch:{{{border|{{{1|}}}}}}|subgroup|child=&lt;/div&gt;|none=|#default=&lt;table cellspacing=&quot;0&quot; &lt;!--
+ --&gt;class=&quot;navbox&quot; style=&quot;border-spacing:0;{{{bodystyle|}}};{{{style|}}}&quot;&gt;&lt;tr&gt;&lt;td style=&quot;padding:2px;&quot;&gt;}}&lt;!--
+
+--&gt;&lt;table cellspacing=&quot;0&quot; class=&quot;nowraplinks {{{bodyclass|}}} {{#if:{{{title|}}}|{{#switch:{{{state|}}}|&lt;!--
+ --&gt;plain|off=|#default=collapsible {{#if:{{{state|}}}|{{{state}}}|autocollapse}}}}}} {{#switch:{{{border|{{{1|}}}}}}|&lt;!--
+ --&gt;subgroup|child|none=navbox-subgroup&quot; style=&quot;border-spacing:0;{{{bodystyle|}}};{{{style|}}}|&lt;!--
+ --&gt;#default=navbox-inner&quot; style=&quot;border-spacing:0;background:transparent;color:inherit}};{{{innerstyle|}}};&quot;&gt;&lt;!--
+
+
+---Title and Navbar---
+--&gt;{{#if:{{{title|}}}|&lt;tr&gt;{{#if:{{{titlegroup|}}}|&lt;!--
+ --&gt;&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{titlegroupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{{groupstyle|}}};{{{titlegroupstyle|}}}&quot;&gt;&lt;!--
+ --&gt;{{{titlegroup|}}}&lt;/th&gt;&lt;th scope=&quot;col&quot; style=&quot;border-left:2px solid #fdfdfd;width:100%;|&lt;!--
+ --&gt;&lt;th scope=&quot;col&quot; style=&quot;}}{{{basestyle|}}};{{{titlestyle|}}}&quot; class=&quot;navbox-title&quot; &lt;!--
+ --&gt;colspan={{#expr:2{{#if:{{{imageleft|}}}|+1}}{{#if:{{{image|}}}|+1}}{{#if:{{{titlegroup|}}}|-1}}}}&gt;&lt;!--
+
+--&gt;{{#if:{{#switch:{{{navbar|}}}|plain|off=1}}&lt;!--
+ --&gt;{{#if:{{{name|}}}||{{#switch:{{{border|{{{1|}}}}}}|subgroup|child|none=1}}}}|&lt;!--
+ --&gt;{{#ifeq:{{{navbar|}}}|off|{{#ifeq:{{{state|}}}|plain|&lt;span style=&quot;float:right;width:6em;&quot;&gt;&amp;nbsp;&lt;/span&gt;}}|&lt;!--
+ --&gt;{{#ifeq:{{{state|}}}|plain||&lt;span style=&quot;float:left;width:6em;&quot;&gt;&amp;nbsp;&lt;/span&gt;}}}}|&lt;!--
+ --&gt;{{#if:{{{name|}}}|{{Navbar|{{{name}}}|mini=1|&lt;!--
+ --&gt;fontstyle={{{basestyle|}}};{{{titlestyle|}}};background:none transparent;border:none;}}|&lt;!--
+ --&gt;&lt;span class=&quot;error&quot; style=&quot;float:left;white-space:nowrap;&quot;&gt;Error: No name provided&lt;/span&gt;}}&lt;!--
+ --&gt;{{#ifeq:{{{state|}}}|plain|&lt;span style=&quot;float:right;width:6em;&quot;&gt;&amp;nbsp;&lt;/span&gt;}}}}&lt;!--
+
+ --&gt;&lt;div class=&quot;{{{titleclass|}}}&quot; style=&quot;font-size:110%;&quot;&gt;
+{{{title}}}&lt;/div&gt;&lt;/th&gt;&lt;/tr&gt;}}&lt;!--
+
+
+---Above---
+--&gt;{{#if:{{{above|}}}|&lt;!--
+ --&gt;{{#if:{{{title|}}}|&lt;tr style=&quot;height:2px;&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+ --&gt;&lt;tr&gt;&lt;td class=&quot;navbox-abovebelow {{{aboveclass|}}}&quot; style=&quot;{{{basestyle|}}};{{{abovestyle|}}}&quot; &lt;!--
+ --&gt;colspan=&quot;{{#expr:2{{#if:{{{imageleft|}}}|+1}}{{#if:{{{image|}}}|+1}}}}&quot;&gt;&lt;div&gt;
+{{{above}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+
+---Body---
+
+---First group/list and images---
+--&gt;{{#if:{{{list1|}}}|{{#if:{{{title|}}}{{{above|}}}|&lt;tr style=&quot;height:2px;&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;tr&gt;&lt;!--
+
+--&gt;{{#if:{{{imageleft|}}}|&lt;!--
+ --&gt;&lt;td class=&quot;navbox-image {{{imageclass|}}}&quot; style=&quot;width:0%;padding:0px 2px 0px 0px;{{{imageleftstyle|}}}&quot; &lt;!--
+ --&gt;rowspan={{#expr:1{{#if:{{{list2|}}}|+2}}{{#if:{{{list3|}}}|+2}}{{#if:{{{list4|}}}|+2}}&lt;!--
+ --&gt;{{#if:{{{list5|}}}|+2}}{{#if:{{{list6|}}}|+2}}{{#if:{{{list7|}}}|+2}}{{#if:{{{list8|}}}|+2}}&lt;!--
+ --&gt;{{#if:{{{list9|}}}|+2}}{{#if:{{{list10|}}}|+2}}{{#if:{{{list11|}}}|+2}}{{#if:{{{list12|}}}|+2}}&lt;!--
+ --&gt;{{#if:{{{list13|}}}|+2}}{{#if:{{{list14|}}}|+2}}{{#if:{{{list15|}}}|+2}}{{#if:{{{list16|}}}|+2}}&lt;!--
+ --&gt;{{#if:{{{list17|}}}|+2}}{{#if:{{{list18|}}}|+2}}{{#if:{{{list19|}}}|+2}}{{#if:{{{list20|}}}|+2}}}}&gt;&lt;div&gt;
+{{{imageleft}}}&lt;/div&gt;&lt;/td&gt;}}&lt;!--
+
+ --&gt;{{#if:{{{group1|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group1style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group1}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{oddstyle|}}};{{{list1style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|even|{{{evenodd|odd}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{list1padding|{{{listpadding|0em 0.25em}}}}}}&quot;&gt;
+{{{list1}}}&lt;/div&gt;&lt;/td&gt;&lt;!--
+
+--&gt;{{#if:{{{image|}}}|&lt;!--
+ --&gt;&lt;td class=&quot;navbox-image {{{imageclass|}}}&quot; style=&quot;width:0%;padding:0px 0px 0px 2px;{{{imagestyle|}}}&quot; &lt;!--
+ --&gt;rowspan={{#expr:1{{#if:{{{list2|}}}|+2}}{{#if:{{{list3|}}}|+2}}{{#if:{{{list4|}}}|+2}}&lt;!--
+ --&gt;{{#if:{{{list5|}}}|+2}}{{#if:{{{list6|}}}|+2}}{{#if:{{{list7|}}}|+2}}{{#if:{{{list8|}}}|+2}}&lt;!--
+ --&gt;{{#if:{{{list9|}}}|+2}}{{#if:{{{list10|}}}|+2}}{{#if:{{{list11|}}}|+2}}{{#if:{{{list12|}}}|+2}}&lt;!--
+ --&gt;{{#if:{{{list13|}}}|+2}}{{#if:{{{list14|}}}|+2}}{{#if:{{{list15|}}}|+2}}{{#if:{{{list16|}}}|+2}}&lt;!--
+ --&gt;{{#if:{{{list17|}}}|+2}}{{#if:{{{list18|}}}|+2}}{{#if:{{{list19|}}}|+2}}{{#if:{{{list20|}}}|+2}}}}&gt;&lt;div&gt;
+{{{image}}}&lt;/div&gt;&lt;/td&gt;}}&lt;!--
+
+--&gt;&lt;/tr&gt;}}&lt;!--
+
+
+---Remaining groups/lists---
+
+--&gt;{{#if:{{{list2|}}}|&lt;!--
+ --&gt;{{#if:{{{title|}}}{{{above|}}}{{{list1|}}}|&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group2|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group2style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group2}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{evenstyle|}}};{{{list2style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|odd|{{{evenodd|even}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list2}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list3|}}}|&lt;!--
+ --&gt;{{#if:{{{title|}}}{{{above|}}}{{{list1|}}}{{{list2|}}}|&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group3|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group3style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group3}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{oddstyle|}}};{{{list3style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|even|{{{evenodd|odd}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list3}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list4|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group4|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group4style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group4}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{evenstyle|}}};{{{list4style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|odd|{{{evenodd|even}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list4}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list5|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group5|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group5style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group5}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{oddstyle|}}};{{{list5style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|even|{{{evenodd|odd}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list5}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list6|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group6|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group6style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group6}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{evenstyle|}}};{{{list6style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|odd|{{{evenodd|even}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list6}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list7|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group7|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group7style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group7}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{oddstyle|}}};{{{list7style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|even|{{{evenodd|odd}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list7}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list8|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group8|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group8style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group8}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{evenstyle|}}};{{{list8style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|odd|{{{evenodd|even}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list8}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list9|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group9|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group9style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group9}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{oddstyle|}}};{{{list9style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|even|{{{evenodd|odd}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list9}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list10|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group10|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group10style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group10}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{evenstyle|}}};{{{list10style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|odd|{{{evenodd|even}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list10}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list11|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group11|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group11style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group11}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{oddstyle|}}};{{{list11style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|even|{{{evenodd|odd}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list11}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list12|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group12|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group12style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group12}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{evenstyle|}}};{{{list12style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|odd|{{{evenodd|even}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list12}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list13|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group13|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group13style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group13}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{oddstyle|}}};{{{list13style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|even|{{{evenodd|odd}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list13}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list14|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group14|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group14style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group14}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{evenstyle|}}};{{{list14style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|odd|{{{evenodd|even}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list14}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list15|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group15|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group15style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group15}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{oddstyle|}}};{{{list15style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|even|{{{evenodd|odd}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list15}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list16|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group16|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group16style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group16}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{evenstyle|}}};{{{list16style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|odd|{{{evenodd|even}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list16}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list17|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group17|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group17style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group17}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{oddstyle|}}};{{{list17style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|even|{{{evenodd|odd}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list17}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list18|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group18|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group18style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group18}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{evenstyle|}}};{{{list18style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|odd|{{{evenodd|even}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list18}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list19|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group19|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group19style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group19}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{oddstyle|}}};{{{list19style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|even|{{{evenodd|odd}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list19}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+--&gt;{{#if:{{{list20|}}}|&lt;!--
+ --&gt;&lt;tr style=&quot;height:2px&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;!--
+ --&gt;{{#if:{{{group20|}}}|&lt;th scope=&quot;row&quot; class=&quot;navbox-group {{{groupclass|}}}&quot; &lt;!--
+ --&gt;style=&quot;{{{basestyle|}}};{{#if:{{{groupwidth|}}}|width:{{{groupwidth}}};}}{{{groupstyle|}}};{{{group20style|}}}&quot;&gt;&lt;!--
+ --&gt;{{{group20}}}&lt;/th&gt;&lt;td style=&quot;text-align:left;border-left-width:2px;border-left-style:solid;|&lt;td colspan=2 style=&quot;}}&lt;!--
+ --&gt;{{#if:{{{groupwidth|}}}||width:100%;}}padding:0px;{{{liststyle|}}};{{{evenstyle|}}};{{{list20style|}}}&quot; &lt;!--
+ --&gt;class=&quot;navbox-list navbox-{{#ifeq:{{{evenodd|}}}|swap|odd|{{{evenodd|even}}}}} {{{listclass|}}}&quot;&gt;&lt;!--
+ --&gt;&lt;div style=&quot;padding:{{{listpadding|0em 0.25em}}}&quot;&gt;
+{{{list20}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+
+---Below---
+--&gt;{{#if:{{{below|}}}|&lt;!--
+ --&gt;{{#if:{{{title|}}}{{{above|}}}{{{list1|}}}{{{list2|}}}{{{list3|}}}|&lt;tr style=&quot;height:2px;&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+ --&gt;&lt;tr&gt;&lt;td class=&quot;navbox-abovebelow {{{belowclass|}}}&quot; style=&quot;{{{basestyle|}}};{{{belowstyle|}}}&quot; &lt;!--
+ --&gt;colspan=&quot;{{#expr:2{{#if:{{{imageleft|}}}|+1}}{{#if:{{{image|}}}|+1}}}}&quot;&gt;&lt;div&gt;
+{{{below}}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+
+
+--&gt;&lt;/table&gt;{{#switch:{{{border|{{{1|}}}}}}|subgroup|child=&lt;div&gt;|none=|#default=&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;}}&lt;!--
+
+--&gt;{{#ifeq:{{NAMESPACE}}|{{ns:10}}|{{#ifeq:{{{border|{{{1|}}}}}}|child||{{#ifeq:{{{border|{{{1|}}}}}}|subgroup||{{#switch:{{lc:{{SUBPAGENAME}}}}
+ |doc
+ |sandbox
+ |testcases =
+ |#default = {{#switch:{{{bodyclass|}}}
+  |plainlist
+  |hlist
+  |hlist hnum
+  |hlist vcard
+  |vcard hlist = 
+  |#default = {{#switch:{{{listclass|}}}
+   |plainlist
+   |hlist
+   |hlist hnum
+   |hlist vcard
+   |vcard hlist = 
+   |#default = {{#ifeq:{{{tracking|}}}|no||[[Category:Navigational boxes without horizontal lists]]}}
+   }}
+  }}
+ }}
+}}}}}}&lt;!--
+
+--&gt;{{#ifeq:{{NAMESPACE}}|{{ns:10}}|{{#switch:{{lc:{{SUBPAGENAME}}}}
+ |sandbox
+ |testcases =
+ |#default = {{#switch:{{{liststyle|}}}
+  |padding: 0.25em 0; line-height: 1.3em;
+  |padding:0.25em 0; line-height:1.4em; width:auto;
+  |padding:0.4em 0; line-height:1.4em; = [[Category:Navigational boxes with custom list spacing]]
+  |#default = 
+ }}
+}}}}&lt;includeonly&gt;{{template other|{{#if:{{{titlestyle|}}}{{{groupstyle|}}}|[[Category:Navboxes using background colours]]}}}}&lt;/includeonly&gt;&lt;noinclude&gt;{{documentation}}&lt;!-- Add categories and interwikis to the /doc sub-page --&gt;&lt;/noinclude&gt;</text>
+      <sha1>8ewtyninvloe0f10jj9n3fm77jyq3ae</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbox subgroup</title>
+    <ns>10</ns>
+    <id>12973994</id>
+    <revision>
+      <id>459967657</id>
+      <parentid>382135148</parentid>
+      <timestamp>2011-11-10T13:45:20Z</timestamp>
+      <contributor>
+        <username>Edokter</username>
+        <id>1624037</id>
+      </contributor>
+      <comment>pass classes</comment>
+      <text xml:space="preserve" bytes="5017">{{Navbox
+|name = {{{name|}}}
+|state = {{{state|}}}
+|navbar = {{{navbar|}}}
+|border = {{#if:{{{border|}}}|{{{border}}}|child}}
+
+|title = {{{title|}}}
+|above = {{{above|}}}
+|below = {{{below|}}}
+|image = {{{image|}}}
+|imageleft = {{{imageleft|}}}
+|groupwidth = {{{groupwidth|}}}
+
+|group1 = {{#if:{{{group1|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group1}}}&lt;/div&gt;}}
+|group2 = {{#if:{{{group2|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group2}}}&lt;/div&gt;}}
+|group3 = {{#if:{{{group3|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group3}}}&lt;/div&gt;}}
+|group4 = {{#if:{{{group4|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group4}}}&lt;/div&gt;}}
+|group5 = {{#if:{{{group5|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group5}}}&lt;/div&gt;}}
+|group6 = {{#if:{{{group6|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group6}}}&lt;/div&gt;}}
+|group7 = {{#if:{{{group7|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group7}}}&lt;/div&gt;}}
+|group8 = {{#if:{{{group8|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group8}}}&lt;/div&gt;}}
+|group9 = {{#if:{{{group9|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group9}}}&lt;/div&gt;}}
+|group10 = {{#if:{{{group10|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group10}}}&lt;/div&gt;}}
+|group11 = {{#if:{{{group11|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group11}}}&lt;/div&gt;}}
+|group12 = {{#if:{{{group12|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group12}}}&lt;/div&gt;}}
+|group13 = {{#if:{{{group13|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group13}}}&lt;/div&gt;}}
+|group14 = {{#if:{{{group14|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group14}}}&lt;/div&gt;}}
+|group15 = {{#if:{{{group15|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group15}}}&lt;/div&gt;}}
+|group16 = {{#if:{{{group16|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group16}}}&lt;/div&gt;}}
+|group17 = {{#if:{{{group17|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group17}}}&lt;/div&gt;}}
+|group18 = {{#if:{{{group18|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group18}}}&lt;/div&gt;}}
+|group19 = {{#if:{{{group19|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group19}}}&lt;/div&gt;}}
+|group20 = {{#if:{{{group20|}}}|&lt;div style=&quot;padding:{{{grouppadding|0em 0.75em;}}}&quot;&gt;{{{group20}}}&lt;/div&gt;}}
+
+|list1 = {{{list1|}}}
+|list2 = {{{list2|}}}
+|list3 = {{{list3|}}}
+|list4 = {{{list4|}}}
+|list5 = {{{list5|}}}
+|list6 = {{{list6|}}}
+|list7 = {{{list7|}}}
+|list8 = {{{list8|}}}
+|list9 = {{{list9|}}}
+|list10 = {{{list10|}}}
+|list11 = {{{list11|}}}
+|list12 = {{{list12|}}}
+|list13 = {{{list13|}}}
+|list14 = {{{list14|}}}
+|list15 = {{{list15|}}}
+|list16 = {{{list16|}}}
+|list17 = {{{list17|}}}
+|list18 = {{{list18|}}}
+|list19 = {{{list19|}}}
+|list20 = {{{list20|}}}
+
+|bodyclass = {{{bodyclass|}}}
+|titleclass = {{{titleclass|}}}
+|aboveclass = {{{aboveclass|}}}
+|belowclass = {{{belowclass|}}}
+|groupclass = {{{groupclass|}}}
+|listclass = {{{listclass|}}}
+
+|style = {{{style|}}}{{{bodystyle|}}}
+|imageleftstyle = {{{imageleftstyle|}}}
+|imagestyle = {{{imagestyle|}}}
+|titlestyle = {{{titlestyle|}}}
+|basestyle = {{{basestyle|}}}
+|abovestyle = {{{abovestyle|}}}
+|belowstyle = {{{belowstyle|}}}
+|groupstyle = padding-left:0em;padding-right:0em;{{{groupstyle|}}}
+|liststyle = {{{liststyle|}}}
+|evenstyle = {{{evenstyle|}}}
+|oddstyle = {{{oddstyle|}}}
+
+|group1style = {{{group1style|}}}
+|group2style = {{{group2style|}}}
+|group3style = {{{group3style|}}}
+|group4style = {{{group4style|}}}
+|group5style = {{{group5style|}}}
+|group6style = {{{group6style|}}}
+|group7style = {{{group7style|}}}
+|group8style = {{{group8style|}}}
+|group9style = {{{group9style|}}}
+|group10style = {{{group10style|}}}
+|group11style = {{{group11style|}}}
+|group12style = {{{group12style|}}}
+|group13style = {{{group13style|}}}
+|group14style = {{{group14style|}}}
+|group15style = {{{group15style|}}}
+|group16style = {{{group16style|}}}
+|group17style = {{{group17style|}}}
+|group18style = {{{group18style|}}}
+|group19style = {{{group19style|}}}
+|group20style = {{{group20style|}}}
+
+|list1style = {{{list1style|}}}
+|list2style = {{{list2style|}}}
+|list3style = {{{list3style|}}}
+|list4style = {{{list4style|}}}
+|list5style = {{{list5style|}}}
+|list6style = {{{list6style|}}}
+|list7style = {{{list7style|}}}
+|list8style = {{{list8style|}}}
+|list9style = {{{list9style|}}}
+|list10style = {{{list10style|}}}
+|list11style = {{{list11style|}}}
+|list12style = {{{list12style|}}}
+|list13style = {{{list13style|}}}
+|list14style = {{{list14style|}}}
+|list15style = {{{list15style|}}}
+|list16style = {{{list16style|}}}
+|list17style = {{{list17style|}}}
+|list18style = {{{list18style|}}}
+|list19style = {{{list19style|}}}
+|list20style = {{{list20style|}}}
+
+|{{#if:{{{evenodd|}}}|evenodd|void}} = {{{evenodd|}}}
+|{{#if:{{{listpadding|}}}|listpadding|void}} = {{{listpadding|}}}
+
+}}&lt;noinclude&gt;
+
+{{template doc}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>6xcs7qhimpl0one8fq3pg9tir9n3d7p</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbox with collapsible groups</title>
+    <ns>10</ns>
+    <id>13777826</id>
+    <revision>
+      <id>536930078</id>
+      <parentid>536923874</parentid>
+      <timestamp>2013-02-06T20:04:10Z</timestamp>
+      <contributor>
+        <username>Edokter</username>
+        <id>1624037</id>
+      </contributor>
+      <comment>reverse navbar parameter nesting (bug)</comment>
+      <text xml:space="preserve" bytes="15697">{{Navbox
+|name = {{{name|&lt;noinclude&gt;Navbox with collapsible groups&lt;/noinclude&gt;}}}
+|navbar = {{{navbar|}}}
+|state = {{{state|&lt;noinclude&gt;uncollapsed&lt;/noinclude&gt;}}}
+|border = {{{border|{{{1|}}}}}}
+
+|title = {{{title&lt;includeonly&gt;|&lt;/includeonly&gt;}}}
+|above = {{{above|}}}
+|below = {{{below|}}}
+|image = {{{image|}}}
+|imageleft = {{{imageleft|}}}
+
+|bodyclass = {{{bodyclass|}}}
+|titleclass = {{{titleclass|}}}
+|aboveclass = {{{aboveclass|}}}
+|belowclass = {{{belowclass|}}}
+|groupclass = {{{groupclass|}}}
+|listclass = {{{listclass|}}}
+|imageclass = {{{imageclass|}}}
+
+|style = {{{style|}}}{{{bodystyle|}}}
+|basestyle = {{{basestyle|}}}
+|titlestyle = {{{titlestyle|}}}
+|abovestyle = {{{abovestyle|}}}
+|belowstyle = {{{belowstyle|}}}
+|imagestyle = {{{imagestyle|}}}
+|imageleftstyle = {{{imageleftstyle|}}}
+
+|list1 =
+{{#if:{{{group1&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{sect1|}}}{{{section1|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar1|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr1}}} |uncollapsed |{{{state1|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group1style|}}}{{{sect1titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list1style|}}}{{{content1style|}}}
+    |title = {{{group1&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{sect1|}}}{{{section1|}}}&lt;noinclude&gt; or {{{section1}}} or {{{sect1}}}&lt;/noinclude&gt;
+    |list1 = {{{list1&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{content1|}}}&lt;noinclude&gt; or {{{content1}}}&lt;/noinclude&gt;
+    |image = {{{image1|}}}
+    |imageleft = {{{imageleft1|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list1|}}}{{{content1|}}}
+}}
+
+|list2 =
+{{#if:{{{group2&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{sect2|}}}{{{section2|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar2|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr2}}} |uncollapsed |{{{state2|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group2style|}}}{{{sect2titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list2style|}}}{{{content2style|}}}
+    |title = {{{group2&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{sect2|}}}{{{section2|}}}&lt;noinclude&gt; or {{{section2}}} or {{{sect2}}}&lt;/noinclude&gt;
+    |list1 = {{{list2&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{content2|}}}&lt;noinclude&gt; or {{{content2}}}&lt;/noinclude&gt;
+    |image = {{{image2|}}}
+    |imageleft = {{{imageleft2|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list2|}}}{{{content2|}}}
+}}
+
+|list3 =
+{{#if:{{{group3&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{sect3|}}}{{{section3|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar3|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr3}}} |uncollapsed |{{{state3|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group3style|}}}{{{sect3titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list3style|}}}{{{content3style|}}}
+    |title = {{{group3&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{sect3|}}}{{{section3|}}}&lt;noinclude&gt; or {{{section3}}} or {{{sect3}}}&lt;/noinclude&gt;
+    |list1 = {{{list3&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{content3|}}}&lt;noinclude&gt; or {{{content3}}}&lt;/noinclude&gt;
+    |image = {{{image3|}}}
+    |imageleft = {{{imageleft3|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list3|}}}{{{content3|}}}
+}}
+
+|list4 =
+{{#if:{{{group4&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{sect4|}}}{{{section4|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar4|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr4}}} |uncollapsed |{{{state4|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group4style|}}}{{{sect4titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list4style|}}}{{{content4style|}}}
+    |title = {{{group4&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{sect4|}}}{{{section4|}}}&lt;noinclude&gt; or {{{section4}}} or {{{sect4}}}&lt;/noinclude&gt;
+    |list1 = {{{list4&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{content4|}}}&lt;noinclude&gt; or {{{content4}}}&lt;/noinclude&gt;
+    |image = {{{image4|}}}
+    |imageleft = {{{imageleft4|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list4|}}}{{{content4|}}}
+}}
+
+|list5 =
+{{#if:{{{group5&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{sect5|}}}{{{section5|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar5|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr5}}} |uncollapsed |{{{state5|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group5style|}}}{{{sect5titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list5style|}}}{{{content5style|}}}
+    |title = {{{group5&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{sect5|}}}{{{section5|}}}&lt;noinclude&gt; or {{{section5}}} or {{{sect5}}}&lt;/noinclude&gt;
+    |list1 = {{{list5&lt;includeonly&gt;|&lt;/includeonly&gt;}}}{{{content5|}}}&lt;noinclude&gt; or {{{content5}}}&lt;/noinclude&gt;
+    |image = {{{image5|}}}
+    |imageleft = {{{imageleft5|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list5|}}}{{{content5|}}}
+}}
+
+|list6 =
+{{#if:{{{group6|}}}{{{sect6|}}}{{{section6|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar6|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr6}}} |uncollapsed |{{{state6|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group6style|}}}{{{sect6titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list6style|}}}{{{content6style|}}}
+    |title = {{{group6|}}}{{{sect6|}}}{{{section6|}}}
+    |list1 = {{{list6|}}}{{{content6|}}}
+    |image = {{{image6|}}}
+    |imageleft = {{{imageleft6|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list6|}}}{{{content6|&lt;noinclude&gt;''(...etc, to group20/sect20/section20 and list20/content20)''&lt;/noinclude&gt;}}}
+}}
+
+|list7 =
+{{#if:{{{group7|}}}{{{sect7|}}}{{{section7|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar7|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr7}}} |uncollapsed |{{{state7|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group7style|}}}{{{sect7titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list7style|}}}{{{content7style|}}}
+    |title = {{{group7|}}}{{{sect7|}}}{{{section7|}}}
+    |list1 = {{{list7|}}}{{{content7|}}}
+    |image = {{{image7|}}}
+    |imageleft = {{{imageleft7|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list7|}}}{{{content7|}}}
+}}
+
+|list8 =
+{{#if:{{{group8|}}}{{{sect8|}}}{{{section8|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar8|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr8}}} |uncollapsed |{{{state8|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group8style|}}}{{{sect8titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list8style|}}}{{{content8style|}}}
+    |title = {{{group8|}}}{{{sect8|}}}{{{section8|}}}
+    |list1 = {{{list8|}}}{{{content8|}}}
+    |image = {{{image8|}}}
+    |imageleft = {{{imageleft8|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list8|}}}{{{content8|}}}
+}}
+
+|list9 =
+{{#if:{{{group9|}}}{{{sect9|}}}{{{section9|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar9|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr9}}} |uncollapsed |{{{state9|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group9style|}}}{{{sect9titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list9style|}}}{{{content9style|}}}
+    |title = {{{group9|}}}{{{sect9|}}}{{{section9|}}}
+    |list1 = {{{list9|}}}{{{content9|}}}
+    |image = {{{image9|}}}
+    |imageleft = {{{imageleft9|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list9|}}}{{{content9|}}}
+}}
+
+|list10 =
+{{#if:{{{group10|}}}{{{sect10|}}}{{{section10|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar10|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr10}}} |uncollapsed |{{{state10|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group10style|}}}{{{sect10titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list10style|}}}{{{content10style|}}}
+    |title = {{{group10|}}}{{{sect10|}}}{{{section10|}}}
+    |list1 = {{{list10|}}}{{{content10|}}}
+    |image = {{{image10|}}}
+    |imageleft = {{{imageleft10|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list10|}}}{{{content10|}}}
+}}
+
+|list11 =
+{{#if:{{{group11|}}}{{{sect11|}}}{{{section11|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar11|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr11}}} |uncollapsed |{{{state11|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group11style|}}}{{{sect11titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list11style|}}}{{{content11style|}}}
+    |title = {{{group11|}}}{{{sect11|}}}{{{section11|}}}
+    |list1 = {{{list11|}}}{{{content11|}}}
+    |image = {{{image11|}}}
+    |imageleft = {{{imageleft11|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list11|}}}{{{content11|}}}
+}}
+
+|list12 =
+{{#if:{{{group12|}}}{{{sect12|}}}{{{section12|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar12|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr12}}} |uncollapsed |{{{state12|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group12style|}}}{{{sect12titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list12style|}}}{{{content12style|}}}
+    |title = {{{group12|}}}{{{sect12|}}}{{{section12|}}}
+    |list1 = {{{list12|}}}{{{content12|}}}
+    |image = {{{image12|}}}
+    |imageleft = {{{imageleft12|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list12|}}}{{{content12|}}}
+}}
+
+|list13 =
+{{#if:{{{group13|}}}{{{sect13|}}}{{{section13|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar13|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr13}}} |uncollapsed |{{{state13|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group13style|}}}{{{sect13titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list13style|}}}{{{content13style|}}}
+    |title = {{{group13|}}}{{{sect13|}}}{{{section13|}}}
+    |list1 = {{{list13|}}}{{{content13|}}}
+    |image = {{{image13|}}}
+    |imageleft = {{{imageleft13|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list13|}}}{{{content13|}}}
+}}
+
+|list14 =
+{{#if:{{{group14|}}}{{{sect14|}}}{{{section14|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar14|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr14}}} |uncollapsed |{{{state14|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group14style|}}}{{{sect14titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list14style|}}}{{{content14style|}}}
+    |title = {{{group14|}}}{{{sect14|}}}{{{section14|}}}
+    |list1 = {{{list14|}}}{{{content14|}}}
+    |image = {{{image14|}}}
+    |imageleft = {{{imageleft14|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list14|}}}{{{content14|}}}
+}}
+
+|list15 =
+{{#if:{{{group15|}}}{{{sect15|}}}{{{section15|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar15|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr15}}} |uncollapsed |{{{state15|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group15style|}}}{{{sect15titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list15style|}}}{{{content15style|}}}
+    |title = {{{group15|}}}{{{sect15|}}}{{{section15|}}}
+    |list1 = {{{list15|}}}{{{content15|}}}
+    |image = {{{image15|}}}
+    |imageleft = {{{imageleft15|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list15|}}}{{{content15|}}}
+}}
+
+|list16 =
+{{#if:{{{group16|}}}{{{sect16|}}}{{{section16|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar16|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr16}}} |uncollapsed |{{{state16|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group16style|}}}{{{sect16titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list16style|}}}{{{content16style|}}}
+    |title = {{{group16|}}}{{{sect16|}}}{{{section16|}}}
+    |list1 = {{{list16|}}}{{{content16|}}}
+    |image = {{{image16|}}}
+    |imageleft = {{{imageleft16|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list16|}}}{{{content16|}}}
+}}
+
+|list17 =
+{{#if:{{{group17|}}}{{{sect17|}}}{{{section17|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar17|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr17}}} |uncollapsed |{{{state17|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group17style|}}}{{{sect17titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list17style|}}}{{{content17style|}}}
+    |title = {{{group17|}}}{{{sect17|}}}{{{section17|}}}
+    |list1 = {{{list17|}}}{{{content17|}}}
+    |image = {{{image17|}}}
+    |imageleft = {{{imageleft17|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list17|}}}{{{content17|}}}
+}}
+
+|list18 =
+{{#if:{{{group18|}}}{{{sect18|}}}{{{section18|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar18|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr18}}} |uncollapsed |{{{state18|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group18style|}}}{{{sect18titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list18style|}}}{{{content18style|}}}
+    |title = {{{group18|}}}{{{sect18|}}}{{{section18|}}}
+    |list1 = {{{list18|}}}{{{content18|}}}
+    |image = {{{image18|}}}
+    |imageleft = {{{imageleft18|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list18|}}}{{{content18|}}}
+}}
+
+|list19 =
+{{#if:{{{group19|}}}{{{sect19|}}}{{{section19|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar19|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr19}}} |uncollapsed |{{{state19|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group19style|}}}{{{sect19titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list19style|}}}{{{content19style|}}}
+    |title = {{{group19|}}}{{{sect19|}}}{{{section19|}}}
+    |list1 = {{{list19|}}}{{{content19|}}}
+    |image = {{{image19|}}}
+    |imageleft = {{{imageleft19|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list19|}}}{{{content19|}}}
+}}
+
+|list20 =
+{{#if:{{{group20|}}}{{{sect20|}}}{{{section20|}}}
+ | {{Navbox|child
+    |navbar = {{{navbar20|{{{groupnavbar|}}}}}}
+    |state = {{#ifeq:{{{selected}}}|{{{abbr20}}} |uncollapsed |{{{state20|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group20style|}}}{{{sect20titlestyle|}}}
+    |liststyle  = {{{liststyle|}}}{{{contentstyle|}}}{{{list20style|}}}{{{content20style|}}}
+    |title = {{{group20|}}}{{{sect20|}}}{{{section20|}}}
+    |list1 = {{{list20|}}}{{{content20|}}}
+    |image = {{{image20|}}}
+    |imageleft = {{{imageleft20|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list20|}}}{{{content20|}}}
+}}
+}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>r7ez0l8dnzj96qq08kqqqe5u2smve04</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Nobold</title>
+    <ns>10</ns>
+    <id>10981056</id>
+    <revision>
+      <id>224914185</id>
+      <parentid>197111025</parentid>
+      <timestamp>2008-07-10T23:49:25Z</timestamp>
+      <contributor>
+        <username>Mr.Z-man</username>
+        <id>646348</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Nobold: Heavily used template [edit=sysop:move=sysop]</comment>
+      <text xml:space="preserve" bytes="164">&lt;span style=&quot;font-weight:normal;&quot;&gt;{{{1}}}&lt;/span&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>jd091g26r8rrz2i74pnanvl0wum30wj</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Only in print</title>
+    <ns>10</ns>
+    <id>21722702</id>
+    <revision>
+      <id>306661840</id>
+      <parentid>278108348</parentid>
+      <timestamp>2009-08-07T20:15:30Z</timestamp>
+      <contributor>
+        <username>MBisanz</username>
+        <id>92123</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Only in print: [[WP:MOVP|Highly visible page]] ([edit=sysop] (indefinite) [move=sysop] (indefinite))</comment>
+      <text xml:space="preserve" bytes="79">{{#if:{{hide in print|1}}||{{{1|}}}}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>rm8emca34tsah296fr9jh9dzgyhnfxo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Order of magnitude</title>
+    <ns>10</ns>
+    <id>11656899</id>
+    <revision>
+      <id>522551188</id>
+      <parentid>514729122</parentid>
+      <timestamp>2012-11-11T23:13:04Z</timestamp>
+      <contributor>
+        <username>Jimp</username>
+        <id>275655</id>
+      </contributor>
+      <text xml:space="preserve" bytes="339">&lt;includeonly&gt;{{{{{|safesubst:}}}#ifexpr:{{{1|0}}}=0
+   |{{{{{|safesubst:}}}#ifexpr:abs{{{1|0}}}1=1
+      |0
+      |{{{{{|safesubst:}}}#expr:floor((ln(abs{{{1}}}1)/ln10)+1)}}
+    }}
+   |{{#expr:floor((ln(abs({{{1|0}}}) )/ln 10)+1E((abs{{{1|0}}}&gt;1E100 or abs{{{1|0}}}&lt;1E-100)-14))}}
+}}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>o26s8fkrxrfa62h1s4cyrdxr33uqy8l</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Precision</title>
+    <ns>10</ns>
+    <id>28372034</id>
+    <revision>
+      <id>435667549</id>
+      <parentid>435652135</parentid>
+      <timestamp>2011-06-22T17:18:08Z</timestamp>
+      <contributor>
+        <username>Jimp</username>
+        <id>275655</id>
+      </contributor>
+      <comment>move &amp; fracs history note</comment>
+      <text xml:space="preserve" bytes="8607">&lt;noinclude&gt;&lt;!--
+--============================================================
+-- Getprecision - Count decimal digits or in fraction (2+1/3)
+--============================================================
+--                          (see NOTES at bottom)
+--&gt;&lt;/noinclude&gt;{{
+#expr: ( 0 {{
+#ifexpr: {{{1|0.0000}}}0={{{1|0.0000}}} |&lt;!--see NOTE Z7--&gt;
+-1 +  &lt;noinclude&gt;&lt;!--see NOTE S5--&gt;&lt;/noinclude&gt;
+{{#switch: x{{{1|0.0000}}}
+  |{{padleft:|6|x{{{1}}}}}=5
+  |{{padleft:|5|x{{{1}}}}}=4
+  |{{padleft:|7|x{{{1|0.0000}}}}}=6
+  |{{padleft:|4|x{{{1}}}}}=3
+  |{{padleft:|8|x{{{1}}}}}=7
+  |{{padleft:|9|x{{{1}}}}}=8
+  |{{padleft:|10|x{{{1}}}}}=9
+  |{{padleft:|11|x{{{1}}}}}=10
+  |{{padleft:|2|x{{{1}}}}}=1 &lt;!--for &quot;0&quot;--&gt;
+  |{{padleft:|12|x{{{1}}}}}=11
+  |{{padleft:|13|x{{{1}}}}}=12
+  |{{padleft:|14|x{{{1}}}}}=13
+  |{{padleft:|15|x{{{1}}}}}=14
+  |{{padleft:|16|x{{{1}}}}}=15
+  |{{padleft:|17|x{{{1}}}}}=16
+  |{{padleft:|18|x{{{1}}}}}=17
+  |{{padleft:|19|x{{{1}}}}}=18
+  |{{padleft:|20|x{{{1}}}}}=19
+  |{{padleft:|21|x{{{1}}}}}=20
+  |{{padleft:|3|x{{{1}}}}}=2
+  |{{padleft:|22|x{{{1}}}}}=21
+  |{{padleft:|23|x{{{1}}}}}=22
+  |{{padleft:|24|x{{{1}}}}}=23
+  |{{padleft:|25|x{{{1}}}}}=24
+  |{{padleft:|26|x{{{1}}}}}=25
+  |{{padleft:|27|x{{{1}}}}}=26
+  |{{padleft:|28|x{{{1}}}}}=27
+  |{{padleft:|29|x{{{1}}}}}=28
+  |{{padleft:|30|x{{{1}}}}}=29
+  |{{padleft:|31|x{{{1}}}}}=30
+  |{{padleft:|32|x{{{1}}}}}=31
+  |{{padleft:|33|x{{{1}}}}}=32
+  |{{padleft:|34|x{{{1}}}}}=33
+  |{{padleft:|35|x{{{1}}}}}=34
+  |{{padleft:|36|x{{{1}}}}}=35
+  |{{padleft:|37|x{{{1}}}}}=36
+  |{{padleft:|38|x{{{1}}}}}=37
+  |{{padleft:|39|x{{{1}}}}}=38
+  |{{padleft:|40|x{{{1}}}}}=39
+  |{{padleft:|41|x{{{1}}}}}=40
+  |#default = 41
+  }} - floor(
+    ln (floor( abs({{{1|0}}}) )+0.99 )/ln10 ) - 1
+    {{#ifexpr: floor(abs({{{1|0}}}) )=0 |-1}}
+    {{#ifeq: {{{1|0.0000}}}x|0x| + 1}}{{
+    #ifexpr: {{{1|500}}}&lt;0| - 1}}&lt;!--For minus sign--&gt;
+  |&lt;noinclude&gt;&lt;!--else for integers--&gt;&lt;/noinclude&gt;{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/10)*10|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/100)*100|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E3)*1E3|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E4)*1E4|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E5)*1E5|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E6)*1E6|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E7)*1E7|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E8)*1E8|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E9)*1E9|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E10)*1E10|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E11)*1E11|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E12)*1E12|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E13)*1E13|-1}}{{
+    #ifexpr:{{{1|500}}}=floor({{{1|500}}}/1E14)*1E14|-1
+  }}}}&lt;noinclude&gt;&lt;!--endif {1}0={1}
+--------------------------------------------------------
+  Check for fraction &quot;/&quot; to use logn of denominator, by
+  clearing prior count: (..prior..)*0 + (logn denom / logn 10).
+  (see NOTE A1). The whole expression ends with close &quot;)&quot;.
+  --&gt;&lt;/noinclude&gt;{{
+  #if: {{#titleparts:{{{1|6+3~8}}}|1|2}}| )*0 + (
+    (ln {{#titleparts:{{{1|6+3/8}}}|1|2}} / ln10)
+  }}&lt;noinclude&gt;&lt;!--endif fraction
+  --&gt;&lt;/noinclude&gt; ) }}&lt;noinclude&gt;&lt;!--endexpr# (close paren.)
+--
+--------------------------------------------------------------
+--NOTES:
+--    [ These comments are skipped by &lt;noinclude&gt; and not send
+--      inside formatted Internet pages, only during edit. ]
+--
+--NOTE A1: This template determines the precision of decimals
+--     by counting the length of the numeric string (in a
+--     #switch comparing lengths of padded strings), then
+--     subtracting integer length, minus the decimal point,
+--     and minus 1 if negative. For integers, 1 place is
+--     subtracted for each trailing 0 on the integer.
+--     For fractions, any prior count is cleared x 0, then
+--     size is logarithm of denominator divided by logn 10:
+--     (..prior...)*0 + floor(logn denom / logn 10 - .01) + 1.
+--
+--NOTE D2: The check, for whole integers, compares the amount
+--     versus appending &quot;0&quot; at the end: when the amount is a
+--     decimal, then the value is unchanged by appending 0 at
+--     the end: so 5.23 = 5.230 is true, whereas for whole
+--     integers, it would be: 5 = 50 as false, due to values
+--     becoming n*10 for integer n. So, for integer n, the
+--     check rejects: n = n0 as false; hence n is integer.
+--
+--NOTE M3: The magnitude of the integer portion is calculated
+--     by logarithm of the floor of absolute value (divided by
+--     [[natural logarithm]] of 10 to adjust for e=2.71828*),
+--     as: ln (floor( abs({{{1|-0.050067}}}) )+0.99 )/ln10
+--     Function floor(x) trims the decimal part, to leave the
+--     whole count: 0-9 yield 0, 10-19 as 1, 1000-1999 as 3.
+--     The abs(x) avoids floor of negatives, floor(-0.1)= -1,
+--     hence using abs(x) ensures -0.1 floors to 0 not -1.
+--     Near zero, the +0.99 avoids invalid log of 0, but does
+--     not round-up any decimals, already floored as nnn.00.
+--     Complexity is 6 operations: floor of abs( {1} ) +0.99
+--     then logn div logn10, then floor that logarithm ratio.
+--     Decimals -1 &lt; x &lt; 1 yield -1, avoiding log 0.001 = -3.
+--
+--NOTE N4: Nesting of if-else and nested templates is kept to
+--     a minimum, due to the MediaWiki 1.6 limit of 40 levels
+--     of if-logic for all nested templates used together.
+--     Template {ordomag} was omitted to avoid 2 more levels
+--     of nested templates. Template {Precision} had 8 levels,
+--     and this template was trimmed to only 5 levels.
+--
+--NOTE S5: The #switch is run with &quot;x&quot; prepended in front of
+--     the amount, otherwise a #switch will compare as numeric
+--     where 2 would match &quot;2.0&quot; even though &quot;2&quot; is length 1.
+--     So &quot;x2&quot; won't match &quot;x2.0&quot; in non-numeric comparison.
+--     The #switch will exit on the first match, so smaller
+--     lengths are compared first, to avoid extra comparisons
+--     for more rare, longer numeric strings up to 41 long.
+--
+--NOTE W6: The check for integers with whole end-zeroes uses
+--     typical n=n/10*10, for each power of 10, where whole
+--     millions match: {{#ifexpr: {1}=floor( {1}/1E6 )*1E6| }}
+--     Previously, {Precision} had tried to use &quot;round&quot; to
+--     detect end-zeroes but &quot;round&quot; loses precision at -5,
+--     so, n00000 round -5 differs from n00000 slightly, and
+--     comparisons to exact rounded amounts failed to match
+--     some numbers when 6 or more zeroes &quot;n000000&quot;.
+--
+--NOTE Z7: The check on zero for any .00000 compares adding 1
+--     to the amount, versus appending &quot;1&quot; at the end: if the
+--     amount is a decimal, then adding 1 will be larger than
+--     appending 1 at the end: 0.00 + 1 &gt; 0.001, whereas for
+--     whole zero, it would be: 0+1 &gt; 01 as false, due to the
+--     value being the same. So, for integer 0, the check
+--     rejects: 0+1 &gt; 01 as false; hence whole 0 is integer.
+--
+-- WARNING: *** DO NOT DELETE COMMENTS FROM THIS TEMPLATE ***
+--      Unless these comments are readily available, people
+--      might tinker with the coding (or rename templates),
+--      in hopes to clarify operation because these comments
+--      were not nearby to explain the issues. Having these
+--      comments only on a doc-page increases the danger of
+--      explanations no longer matching the current coding.
+--      UPDATE these comments to match changes to the template.
+--      UPDATE the HISTORY during major changes (not typos).
+--
+--------------------------------------------------------------
+--HISTORY:
+--15Aug10 Created to get precision even if large or negative.
+--15Aug10 Put NOTES comments to explain template coding.
+--15Aug10 Put HISTORY comments to log major changes.
+--18Aug10 Fixed to handle zero: 0 as 0, 0.000 as 3, etc.
+--04Sep10 Fixed to handle decimals between 0~1 (by round 0).
+--04Sep10 Updated NOTES to explain the check appending 0 or 1.
+--03Jan11 Fix integer end-zeroes: 50 as -1, 500 as -2, 5000 -3.
+--03Jan11 Omit {Order of Magnitude} for 2 levels less nesting.
+--03Jan11 Omit {Str_len} for 8 fewer levels of 40-nest limit.
+--03Jan11 Put &quot;noinclude&quot; around all inter-line HTML comments.
+--03Jan11 Allow fraction &quot;/&quot;: floor(ln denom/ln 10 -.01)+1.
+--08Feb11 Fixed to not count minus sign on negative integers.
+--08Feb11 Extended to handle integers with 14 end-zeroes &quot;0&quot;.
+--08Feb11 Ordered length-search by most-likely (rarely 1 or 2).
+--10Feb11 Re-added NOTES/HISTORY to explain logic &amp; changes.
+--22Jun11 Move to Precision: no need to keep all three.
+--22Jun11 No rounding up for fractions (i.e. ln denom/ln 10)
+--
+--&gt;{{documentation}}&lt;/noinclude&gt;</text>
+      <sha1>3gzld2n8id2y6kssvp4plp7bp51paf1</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Reflist</title>
+    <ns>10</ns>
+    <id>7585648</id>
+    <revision>
+      <id>505934185</id>
+      <parentid>505928777</parentid>
+      <timestamp>2012-08-05T17:49:47Z</timestamp>
+      <contributor>
+        <username>Edokter</username>
+        <id>1624037</id>
+      </contributor>
+      <comment>fix pre-space bug</comment>
+      <text xml:space="preserve" bytes="808">&lt;div class=&quot;reflist &lt;!--
+ --&gt;{{#if: {{{1|}}}
+    | {{#iferror: {{#ifexpr: {{{1|1}}} &gt; 1 }}
+      | references-column-width 
+      | references-column-count references-column-count-{{#if:1|{{{1}}}}} }}
+    | {{#if: {{{colwidth|}}}
+      | references-column-width }} }}&quot; style=&quot;&lt;!--
+ --&gt;{{#if: {{{1|}}}
+    | {{#iferror: {{#ifexpr: {{{1|1}}} &gt; 1 }}
+      | {{column-width|{{#if:1|{{{1}}}}}}}
+      | {{column-count|{{#if:1|{{{1}}}}}}} }}
+    | {{#if: {{{colwidth|}}}
+      | {{column-width|{{{colwidth}}}}} }} }} list-style-type: &lt;!--
+ --&gt;{{{liststyle|{{#switch: {{{group|}}}
+    | upper-alpha
+    | upper-roman
+    | lower-alpha
+    | lower-greek
+    | lower-roman = {{{group}}}
+    | #default = decimal}}}}};&quot;&gt;
+{{#tag:references|{{{refs|}}}|group={{{group|}}}}}&lt;/div&gt;&lt;noinclude&gt;
+{{documentation}}&lt;/noinclude&gt;</text>
+      <sha1>f3apxyfsq3ms5u18bf7m8mihj4dfed0</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Rnd</title>
+    <ns>10</ns>
+    <id>13373859</id>
+    <revision>
+      <id>511415708</id>
+      <parentid>478031613</parentid>
+      <timestamp>2012-09-08T18:49:28Z</timestamp>
+      <contributor>
+        <username>Ruslik0</username>
+        <id>1130897</id>
+      </contributor>
+      <comment>attempting to fix the pdf problem</comment>
+      <text xml:space="preserve" bytes="2330">&lt;includeonly&gt;{{#iferror:{{#expr:{{{2}}}}}|{{rndnear|{{{1}}}|1E{{#expr:{{order of magnitude|{{{1}}}}}-1}}}}|{{formatnum:
+   {{#ifexpr:({{{1|0}}})round({{{2|0}}})&gt;=0.0001
+     |{{#ifexpr:({{{1}}})round({{{2}}})&lt;1E9
+        |{{#ifexpr:&lt;!--
+--&gt;{{#expr:(({{{1}}})round({{{2}}})/1E5round0)*1E5}}={{#expr:({{{1}}})round({{{2}}})}}
+           |{{#ifexpr:{{{2}}}&lt;=0
+              |{{#expr:({{{1}}})round({{{2}}})E-5}}00000
+              |{{#expr:({{{1}}})round({{{2}}})E-5}}0000{{rnd/-|0|{{{2}}}}}
+            }}
+           |{{#ifexpr:{{{2}}}&lt;=0
+              |{{#expr:({{{1}}})round({{{2}}})}}
+              |{{rnd/-|{{#expr:({{{1}}})round({{{2}}})}}|{{{2}}}}}
+            }}
+         }}
+        |{{rnd/e+
+           |{{#expr:({{{1}}})round({{{2}}})}}
+           |{{{2}}}
+           |{{Order of magnitude|{{#expr:({{{1}}})round({{{2}}})}}}}}}
+      }}
+     |{{#ifexpr:({{{1|0}}})round({{{2|0}}})&lt;=-0.0001
+        |{{#ifexpr:({{{1}}})round({{{2}}})&gt;-1E9
+           |{{#ifexpr:&lt;!--
+--&gt;{{#expr:(({{{1}}})round({{{2}}})/1E5round0)*1E5}}={{#expr:({{{1}}})round({{{2}}})}}
+              |{{#ifexpr:{{{2}}}&lt;=0
+                 |−{{#expr:-({{{1}}})round({{{2}}})E-5}}00000
+                 |−{{#expr:-({{{1}}})round({{{2}}})E-5}}0000{{rnd/-|0|{{{2}}}}}
+               }}
+              |{{#ifexpr:{{{2}}}&lt;=0
+                 |−{{#expr:-({{{1}}})round({{{2}}})}}
+                 |−{{rnd/-|-{{#expr:({{{1}}})round({{{2}}})}}|{{{2}}}}}
+               }}
+            }}
+           |−{{rnd/e+
+              |-{{#expr:({{{1}}})round({{{2}}})}}
+              |{{{2}}}
+              |{{Order of magnitude|{{#expr:({{{1}}})round({{{2}}})}}}}}}
+         }}
+        |{{#ifexpr:({{{1|0}}})round({{{2|0}}})=0
+           |{{#ifexpr:{{{2|0}}}&lt;=0
+              |0
+              |{{rnd/-|0|{{{2}}}}}
+            }}
+           |{{#ifexpr:({{{1}}})round({{{2}}})&gt;0
+              |{{rnd/e−
+                 |{{#expr:({{{1}}})round({{{2}}})}}
+                 |{{{2}}}
+                 |{{Order of magnitude|({{{1}}})round({{{2}}})}}
+               }}
+              |−{{rnd/e−
+                 |-{{#expr:({{{1}}})round({{{2}}})}}
+                 |{{{2}}}
+                 |{{Order of magnitude|{{#expr:({{{1}}})round({{{2}}})}}}}
+               }}
+            }}
+         }}
+      }}
+   }}
+}}}}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>h0t5z2gpis6b84kvm2voevs2030tu9x</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Str left</title>
+    <ns>10</ns>
+    <id>21696393</id>
+    <revision>
+      <id>357829690</id>
+      <parentid>357829625</parentid>
+      <timestamp>2010-04-23T14:30:19Z</timestamp>
+      <contributor>
+        <username>Amalthea</username>
+        <id>429625</id>
+      </contributor>
+      <minor/>
+      <comment>Aargh</comment>
+      <text xml:space="preserve" bytes="117">&lt;includeonly&gt;{{ {{{|safesubst:}}}padleft:|{{{2|1}}}|{{{1}}}}}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>i87f9fd5zu12vbrsxzfd7491aopjrjn</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Template other</title>
+    <ns>10</ns>
+    <id>21418395</id>
+    <revision>
+      <id>388689098</id>
+      <parentid>276896349</parentid>
+      <timestamp>2010-10-04T14:47:12Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>remove {{pp-template}}</comment>
+      <text xml:space="preserve" bytes="435">{{#switch:
+  &lt;!--If no or empty &quot;demospace&quot; parameter then detect namespace--&gt;
+  {{#if:{{{demospace|}}}
+  | {{lc: {{{demospace}}} }}    &lt;!--Use lower case &quot;demospace&quot;--&gt;
+  | {{#ifeq:{{NAMESPACE}}|{{ns:Template}}
+    | template
+    | other
+    }}
+  }}
+| template = {{{1|}}}
+| other
+| #default = {{{2|}}}
+}}&lt;!--End switch--&gt;&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>0tcssjmltwl7y5v3f5wj2kqciaabqly</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Transclude</title>
+    <ns>10</ns>
+    <id>21843384</id>
+    <revision>
+      <id>275377931</id>
+      <parentid>275377779</parentid>
+      <timestamp>2009-03-06T12:09:04Z</timestamp>
+      <contributor>
+        <username>Happy-melon</username>
+        <id>994084</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Template:Transclude: [[WP:HRT|Highly visible template]] ([edit=sysop] (indefinite) [move=sysop] (indefinite))</comment>
+      <text xml:space="preserve" bytes="400">{{#switch: {{NAMESPACE: {{{1}}} }}
+ |#default = {{FULLPAGENAME: {{{1}}} }} &lt;!-- eg &quot;User:Foo&quot; --&gt;
+ |{{ns:0}} = 
+    {{#ifeq: {{NAMESPACE: {{{1}}} }} | {{NAMESPACE: Template{{{1}}} }}
+      | Template:{{{1}}}            &lt;!-- no leading colon, eg &quot;Foo&quot; --&gt;
+      | {{PAGENAME: {{{1}}} }}      &lt;!-- leading colon, eg &quot;:Foo&quot;, so we want the article --&gt;
+    }}
+}}&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>ob9m2b913drxlie5tgekieudupfrl9n</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Module:Math</title>
+    <ns>828</ns>
+    <id>38591527</id>
+    <revision>
+      <id>539581098</id>
+      <parentid>539573829</parentid>
+      <timestamp>2013-02-22T02:12:21Z</timestamp>
+      <contributor>
+        <username>Dragons flight</username>
+        <id>16980</id>
+      </contributor>
+      <minor/>
+      <comment>Protected Module:Math: Going to be used in high profile templates ([Edit=Block all non-admin users] (indefinite) [Move=Block all non-admin users] (indefinite))</comment>
+      <text xml:space="preserve" bytes="8064">local z = {}
+require( &quot;mw.language&quot; );
+
+-- Clean numeric value
+function z._cleanNumber( frame, number_string )
+    if number_string == nil or number_string:len() == 0 then
+        return nil, nil;
+    end    
+    
+    -- Attempt basic conversion
+    local number = tonumber( number_string )
+    
+    -- If failed, attempt to evaluate inputSupplier as an expression
+    if number == nil then        
+        local attempt = frame:preprocess( '{{#expr: ' .. number_string .. '}}' );
+        attempt = tonumber( attempt );
+        if attempt ~= nil then
+            number = attempt;
+            number_string = tostring( number );
+        else
+            number = nil;
+            number_string = nil;
+        end
+    else
+    -- String is valid but may contain padding, clean it.
+        number_string = number_string:match( &quot;^%s*(.-)%s*$&quot; );
+    end
+    
+    return number, number_string;
+end
+
+-- Generate random number
+function z.random( frame )
+    first = tonumber(frame.args[1]) -- if it doesn't exist it's NaN, if not a number it's nil
+    second = tonumber(frame.args[2])
+
+    if first then -- if NaN or nil, will skip down to final return
+        if first &lt;= second then -- could match if both nil, but already checked that first is a number in last line
+            return math.random(first, second)
+        end
+        return math.random(first)
+    end   
+    return math.random()
+end
+
+-- Determine order of magnitude
+function z.order(frame)
+    local input_string = (frame.args[1] or frame.args.x or '0');
+    local input_number;
+    
+    input_number = z._cleanNumber( frame, input_string );
+    if input_number == nil then
+        return '&lt;strong class=&quot;error&quot;&gt;Formatting error: Order of magnitude inputSupplier appears non-numeric&lt;/strong&gt;'
+    else
+        return z._order( input_number )
+    end    
+end
+function z._order(x)
+    if x == 0 then return 0 end
+    return math.floor(math.log10(math.abs(x)))
+end
+
+-- Determines precision of a number using the string representation
+function z.precision( frame )
+    local input_string = (frame.args[1] or frame.args.x or '0');
+    local input_number;
+    
+    input_number, input_string = z._cleanNumber( frame, input_string );
+    if input_string == nil then
+        return '&lt;strong class=&quot;error&quot;&gt;Formatting error: Precision inputSupplier appears non-numeric&lt;/strong&gt;'
+    else
+        return z._precision( input_string )
+    end    
+end
+function z._precision( x )    
+    x = string.upper( x )
+
+    local decimal = string.find( x, '.', 1, true )
+    local exponent_pos = string.find( x, 'E', 1, true )
+    local result = 0;
+    
+    if exponent_pos ~= nil then
+        local exponent = string.sub( x, exponent_pos + 1 )
+        x = string.sub( x, 1, exponent_pos - 1 )
+        result = result - tonumber( exponent )
+    end    
+    
+    if decimal ~= nil then
+        result = result + string.len( x ) - decimal
+        return result
+    end
+        
+    local pos = string.len( x );
+    while x:byte(pos) == string.byte('0') do
+        pos = pos - 1
+        result = result - 1
+        if pos &lt;= 0 then
+            return 0
+        end
+    end
+    
+    return result
+end
+
+-- Finds maximum argument
+function z.max( frame )
+    local args = frame.args;
+    
+    if args[1] == nil then
+        local parent = frame:getParent();
+        args = parent.args;
+    end
+    local max_value = nil;
+    
+    local i = 1;
+    while args[i] ~= nil do
+        local val = z._cleanNumber( frame, args[i] );
+        if val ~= nil then
+            if max_value == nil or val &gt; max_value then
+                max_value = val;
+            end
+        end        
+        i = i + 1;
+    end
+  
+    return max_value
+end
+
+-- Finds minimum argument
+function z.min( frame )
+    local args = frame.args;
+    
+    if args[1] == nil then
+        local parent = frame:getParent();
+        args = parent.args;
+    end
+    local min_value = nil;
+    
+    local i = 1;
+    while args[i] ~= nil do
+        local val = z._cleanNumber( frame, args[i] );
+        if val ~= nil then
+            if min_value == nil or val &lt; min_value then
+                min_value = val;
+            end
+        end        
+        i = i + 1;
+    end
+  
+    return min_value
+end
+
+-- Rounds a number to specified precision
+function z.round(frame)
+    local value, precision;
+    
+    value = z._cleanNumber( frame, frame.args[1] or frame.args.value or 0 );
+    precision = z._cleanNumber( frame, frame.args[2] or frame.args.precision or 0 );
+    
+    if value == nil or precision == nil then
+        return '&lt;strong class=&quot;error&quot;&gt;Formatting error: Round inputSupplier appears non-numeric&lt;/strong&gt;'
+    else
+        return z._round( value, precision );
+    end    
+end
+function z._round( value, precision )
+    local rescale = math.pow( 10, precision );
+    return math.floor( value * rescale + 0.5 ) / rescale;
+end
+
+-- Rounds a number to the specified precision and formats according to rules 
+-- originally used for {{template:Rnd}}.  Output is a string.
+function z.precision_format( frame )
+    -- For access to Mediawiki built-in formatter.
+    local lang = mw.getContentLanguage();
+    
+    local value_string, value, precision;
+    value, value_string = z._cleanNumber( frame, frame.args[1] or 0 );
+    precision = z._cleanNumber( frame, frame.args[2] or 0 );
+    
+    -- Check for non-numeric inputSupplier
+    if value == nil or precision == nil then
+        return '&lt;strong class=&quot;error&quot;&gt;Formatting error: invalid inputSupplier when rounding&lt;/strong&gt;'
+    end
+    
+    local current_precision = z._precision( value );
+
+    local order = z._order( value );
+    
+    -- Due to round-off effects it is neccesary to limit the returned precision under
+    -- some circumstances because the terminal digits will be inaccurately reported.
+    if order + precision &gt;= 14 then
+        orig_precision = z._precision( value_string );
+        if order + orig_precision &gt;= 14 then
+            precision = 13 - order;        
+        end        
+    end
+
+    -- If rounding off, truncate extra digits
+    if precision &lt; current_precision then
+        value = z._round( value, precision );
+        current_precision = z._precision( value );
+    end    
+    
+    local formatted_num = lang:formatNum( math.abs(value) );
+    local sign;
+    
+    -- Use proper unary minus sign rather than ASCII default
+    if value &lt; 0 then
+        sign = '−';
+    else
+        sign = '';
+    end    
+        
+    -- Handle cases requiring scientific notation
+    if string.find( formatted_num, 'E', 1, true ) ~= nil or math.abs(order) &gt;= 9 then
+        value = value * math.pow( 10, -order );
+        current_precision = current_precision + order;
+        precision = precision + order;
+        formatted_num = lang:formatNum( math.abs(value) );
+    else
+        order = 0;        
+    end
+    formatted_num = sign .. formatted_num;
+    
+    -- Pad with zeros, if needed    
+    if current_precision &lt; precision then
+        local padding;
+        if current_precision &lt;= 0 then
+            if precision &gt; 0 then
+                local zero_sep = lang:formatNum( 1.1 );
+                formatted_num = formatted_num .. zero_sep:sub(2,2);
+
+                padding = precision;
+                if padding &gt; 20 then
+                    padding = 20;
+                end
+                
+                formatted_num = formatted_num .. string.rep( '0', padding );
+            end            
+        else                   
+            padding = precision - current_precision
+            if padding &gt; 20 then
+                padding = 20;
+            end
+            formatted_num = formatted_num .. string.rep( '0', padding );
+        end
+    end
+
+    -- Add exponential notation, if necessary.
+    if order ~= 0 then
+        -- Use proper unary minus sign rather than ASCII default
+        if order &lt; 0 then
+            order = '−' .. lang:formatNum( math.abs(order) );
+        else
+            order = lang:formatNum( order );
+        end    
+        
+        formatted_num = formatted_num .. '&lt;span style=&quot;margin:0 .15em 0 .25em&quot;&gt;×&lt;/span&gt;10&lt;sup&gt;' .. order .. '&lt;/sup&gt;'
+    end
+    
+    return formatted_num;
+end
+
+return z</text>
+      <sha1>723v34v6qaw0zanfdbgu2b803lvplrf</sha1>
+      <model>text</model>
+      <format>text/plain</format>
+    </revision>
+  </page>
+</mediawiki>
