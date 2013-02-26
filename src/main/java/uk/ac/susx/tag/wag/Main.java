@@ -36,14 +36,27 @@ public class Main {
     private final Charset sinkCharset;
     private final EnumSet<AliasType> producedTypes;
     private final int pageLimit;
+    private final boolean produceIdentityAliases;
 
 
-    private Main(ByteSource source, ByteSink sink, Charset sinkCharset, EnumSet<AliasType> producedTypes, int pageLimit) {
+    /**
+     * Private constructor. Use the builder to instantiate: {@link #builder()}.
+     *
+     * @param source
+     * @param sink
+     * @param sinkCharset
+     * @param producedTypes
+     * @param pageLimit
+     * @param produceIdentityAliases
+     */
+    private Main(ByteSource source, ByteSink sink, Charset sinkCharset,
+                 EnumSet<AliasType> producedTypes, int pageLimit, boolean produceIdentityAliases) {
         this.source = source;
         this.sink = sink;
         this.sinkCharset = sinkCharset;
         this.producedTypes = producedTypes;
         this.pageLimit = pageLimit;
+        this.produceIdentityAliases = produceIdentityAliases;
     }
 
     public static Builder builder() {
@@ -51,11 +64,6 @@ public class Main {
     }
 
     void run() throws Exception {
-
-//        final EnumSet<AliasType> producedTypes = EnumSet.allOf(AliasType.class);
-//                EnumSet.of(AliasType.P1BOLD, AliasType.P2BOLD, AliasType.S1BOLD);
-//        final int pageLimit = -1;
-
         final Closer closer = Closer.create();
         try {
             // Set up the input stuff
@@ -70,6 +78,7 @@ public class Main {
 
             final WikiAliasGenerator generator =
                     new WikiAliasGenerator(handler, producedTypes);
+            generator.setIdentityAliasesProduced(produceIdentityAliases);
 
             generator.process(in, pageLimit, source.size());
 
@@ -79,7 +88,6 @@ public class Main {
         } finally {
             closer.close();
         }
-
     }
 
     public static void main(String[] args) throws Exception {
@@ -169,6 +177,14 @@ public class Main {
          * Whether or not the output file can be overwritten (if it exists)
          */
         private boolean outputClobberingEnabled = false;
+
+        /**
+         * Whether or not to produce identity aliases; relations that point the themselves.
+         */
+        @Parameter(names = {"-I", "--identityAliases"},
+                description = "Produce identity aliases (relations that point to themselves.)",
+                arity = 1)
+        private boolean produceIdentityAliases = true;
 
         /**
          *
@@ -304,6 +320,17 @@ public class Main {
         }
 
         /**
+         * Whether or not to produce identity aliases; relations that point the themselves.
+         *
+         * @param produceIdentityAliases true to produce identity aliases, false otherwise.
+         * @return this builder (for method chaining)
+         */
+        public Builder setProduceIdentityAliases(boolean produceIdentityAliases) {
+            this.produceIdentityAliases = produceIdentityAliases;
+            return this;
+        }
+
+        /**
          * @return throw IllegalArgumentException if one of the required arguments is unspecified.
          */
         public Main build() throws IOException {
@@ -381,7 +408,8 @@ public class Main {
                 throw new IllegalArgumentException("Produced alias types list is empty.");
             }
 
-            return new Main(source, sink, outputCharset, EnumSet.copyOf(producedAliasTypes), pageLimit);
+            return new Main(source, sink, outputCharset,
+                    EnumSet.copyOf(producedAliasTypes), pageLimit, produceIdentityAliases);
         }
 
     }
