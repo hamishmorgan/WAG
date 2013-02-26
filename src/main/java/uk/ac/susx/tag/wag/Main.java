@@ -1,12 +1,14 @@
 package uk.ac.susx.tag.wag;
 
 import com.beust.jcommander.*;
+import com.beust.jcommander.converters.BaseConverter;
 import com.beust.jcommander.internal.Lists;
 import com.google.common.annotations.Beta;
 import com.google.common.base.Optional;
 
 import static com.google.common.base.Preconditions.*;
 
+import com.google.common.collect.ImmutableList;
 import com.google.common.io.*;
 import uk.ac.susx.tag.util.IOUtils;
 import uk.ac.susx.tag.util.StringConverterFactory;
@@ -33,7 +35,7 @@ public class Main {
         TSV, CSV
     }
 
-    private final ByteSource source;
+    private final List<ByteSource> sources;
     private final ByteSink sink;
     private final Charset sinkCharset;
     private final EnumSet<AliasType> producedTypes;
@@ -46,17 +48,17 @@ public class Main {
     /**
      * Private constructor. Use the builder to instantiate: {@link #builder()}.
      *
-     * @param source
+     * @param sources
      * @param sink
      * @param sinkCharset
      * @param producedTypes
      * @param pageLimit
      * @param produceIdentityAliases
      */
-    private Main(ByteSource source, ByteSink sink, Charset sinkCharset,
+    private Main(List<ByteSource> sources, ByteSink sink, Charset sinkCharset,
                  EnumSet<AliasType> producedTypes, int pageLimit, boolean produceIdentityAliases,
                  OutputFormat outputFormat, EnumSet<WriteTabulatedAliasHandler.Column> outputColumns) {
-        this.source = source;
+        this.sources = sources;
         this.sink = sink;
         this.sinkCharset = sinkCharset;
         this.producedTypes = producedTypes;
@@ -71,16 +73,12 @@ public class Main {
     }
 
     void run() throws Exception {
-        final Closer closer = Closer.create();
+        final Closer outCloser = Closer.create();
         try {
-            // Set up the input stuff
-            final BufferedInputStream in = closer.register(source.openBufferedStream());
-
             // Set up the output stuff
-            final BufferedOutputStream out = closer.register(sink.openBufferedStream());
-            final Writer writer = closer.register(new OutputStreamWriter(out, sinkCharset));
-            final PrintWriter outWriter = closer.register(new PrintWriter(writer));
-
+            final BufferedOutputStream out = outCloser.register(sink.openBufferedStream());
+            final Writer writer = outCloser.register(new OutputStreamWriter(out, sinkCharset));
+            final PrintWriter outWriter = outCloser.register(new PrintWriter(writer));
 
             final AliasHandler handler;
             switch (outputFormat) {
@@ -94,18 +92,29 @@ public class Main {
                     throw new AssertionError(outputFormat);
             }
 
-
             final WikiAliasGenerator generator =
                     new WikiAliasGenerator(handler, producedTypes);
             generator.setIdentityAliasesProduced(produceIdentityAliases);
 
-            generator.process(in, pageLimit, source.size());
+            for (final ByteSource source : sources) {
+                final Closer inCloser = Closer.create();
+                try {
+                    // Set up the input stuff
+                    final BufferedInputStream in = inCloser.register(source.openBufferedStream());
+                    generator.process(in, pageLimit, source.size());
+                    outWriter.flush();
 
-            outWriter.flush();
+                } catch (Throwable throwable) {
+                    throw inCloser.rethrow(throwable);
+                } finally {
+                    inCloser.close();
+                }
+            }
+
         } catch (Throwable throwable) {
-            throw closer.rethrow(throwable);
+            throw outCloser.rethrow(throwable);
         } finally {
-            closer.close();
+            outCloser.close();
         }
     }
 
@@ -165,17 +174,12 @@ public class Main {
         @ParametersDelegate
         private final GlobalCommandDelegate globals = new GlobalCommandDelegate();
         /**
-         * The wiki-dump to parse as specified by a file
-         *
-         * @see #inputUrl
+         * The wiki-dumps to parse as specified either by a file or URL
          */
-        private Optional<File> inputFile = Optional.absent();
-        /**
-         * The wiki-dump to parse as specified by a URL
-         *
-         * @see #inputFile
-         */
-        private Optional<URL> inputUrl = Optional.absent();
+        @Parameter(description = "FILE1 [FILE2 [...]]",
+                required = true)
+        private List<String> inputs = Lists.newArrayList();
+
 
         /**
          * The destination file for discovered aliases.
@@ -254,65 +258,30 @@ public class Main {
             return this;
         }
 
-
         /**
-         * Set the input to be read from the resource denoted by {@code input}.
+         * Add the specified files to the list of input resource.
          * <p/>
-         * The input string can either represent a path of the file-system, or a URL to some other resource.
-         * Generally
-         * if the string contains a protocol prefix then it will be assumed to be a URL, otherwise it will be
-         * assumed
-         * to be file.
-         * <p/>
-         * If a resource is already set (either by File or URL), it is
-         * cleared and the new resource is used instead.
          *
-         * @param input wiki xml dump resource
+         * @param inputFiles wiki xml dump resources
          * @return this builder (for method chaining)
-         * @throws NullPointerException of {@code input} is {@code null}
+         * @throws NullPointerException of {@code inputFiles} is {@code null}
          */
-        @Parameter(names = {"-i", "--input"},
-                description = "input file/url to read the wiki-xml dump from",
-                required = true)
-        public Builder setInput(final String input) {
-            try {
-                final URL url = new URL(input);
-                return setInputUrl(url);
-            } catch (MalformedURLException ex) {
-                return setInputFile(new File(input));
-            }
-        }
-
-
-        /**
-         * Set the input to be read from the resource denoted by {@code inputFile}.
-         * <p/>
-         * If a resource is already set (either by File or URL), it is
-         * cleared and the new resource is used instead.
-         *
-         * @param inputFile wiki xml dump resource
-         * @return this builder (for method chaining)
-         * @throws NullPointerException of {@code inputFile} is {@code null}
-         */
-        public Builder setInputFile(File inputFile) {
-            this.inputUrl = Optional.absent();
-            this.inputFile = Optional.of(inputFile);
+        public Builder addInputFiles(List<File> inputFiles) {
+            for (File input : inputFiles)
+                this.inputs.add(input.toString());
             return this;
         }
 
         /**
-         * Set the input to be read from the resource denoted by {@code inputUrl}.
-         * <p/>
-         * If a resource is already set (either by File or URL), it is
-         * cleared and the new resource is used instead.
+         * Add the specified URLs to the list of input resource.
          *
-         * @param inputUrl wiki xml dump resource
+         * @param inputUrls wiki xml dump resourcess
          * @return this builder (for method chaining)
-         * @throws NullPointerException of {@code inputUrl} is {@code null}
+         * @throws NullPointerException of {@code inputUrls} is {@code null}
          */
-        public Builder setInputUrl(URL inputUrl) {
-            this.inputFile = Optional.absent();
-            this.inputUrl = Optional.of(inputUrl);
+        public Builder setInputUrls(List<URL> inputUrls) {
+            for (URL inputUrl : inputUrls)
+                this.inputs.add(inputUrl.toString());
             return this;
         }
 
@@ -370,26 +339,28 @@ public class Main {
         public Main build() throws IOException {
 
             // Check the input file and setup the source
-            final ByteSource source;
-            if (inputFile.isPresent()) {
-                assert !inputUrl.isPresent();
+            final ImmutableList.Builder<ByteSource> sources = ImmutableList.builder();
 
-                if (!inputFile.get().exists())
-                    throw new IllegalArgumentException("The input file does not exists: " + inputFile.get());
-                if (!inputFile.get().isFile())
-                    throw new IllegalArgumentException("The input file is not a regular file: " + inputFile.get());
-                if (!inputFile.get().canRead())
-                    throw new IllegalArgumentException("The input file is not readable: " + inputFile.get());
+            for (final String input : inputs) {
+                try {
+                    final URL inputUrl =  new URL(input);
 
-                LOG.log(Level.INFO, "Setting source to file: " + inputFile.get());
-                source = Files.asByteSource(inputFile.get());
-            } else if (inputUrl.isPresent()) {
-                assert !inputFile.isPresent();
+                    LOG.log(Level.INFO, "Setting source to URL: " + inputUrl);
+                    sources.add(Resources.asByteSource(inputUrl));
 
-                LOG.log(Level.INFO, "Setting source to URL: " + inputUrl.get());
-                source = Resources.asByteSource(inputUrl.get());
-            } else {
-                throw new IllegalArgumentException("Either the input file or URL must be specified.");
+                } catch (MalformedURLException ex) {
+                    final File inputFile = new File(input);
+
+                    if (!inputFile.exists())
+                        throw new IllegalArgumentException("The input file does not exists: " + inputFile);
+                    if (!inputFile.isFile())
+                        throw new IllegalArgumentException("The input file is not a regular file: " + inputFile);
+                    if (!inputFile.canRead())
+                        throw new IllegalArgumentException("The input file is not readable: " + inputFile);
+
+                    LOG.log(Level.INFO, "Setting source to file: " + inputFile);
+                    sources.add(Files.asByteSource(inputFile));
+                }
             }
 
             // Check the output file and setup the sink
@@ -443,7 +414,7 @@ public class Main {
             }
 
             return new Main(
-                    source,
+                    sources.build(),
                     sink,
                     outputCharset,
                     EnumSet.copyOf(producedAliasTypes),
@@ -492,5 +463,22 @@ public class Main {
         }
 
     }
+
+    public static class FileOrUrlConverter extends BaseConverter<Object> {
+
+        public FileOrUrlConverter(String optionName) {
+            super(optionName);
+        }
+
+        @Override
+        public Object convert(String value) {
+            try {
+                return new URL(value);
+            } catch (MalformedURLException ex) {
+                return new File(value);
+            }
+        }
+    }
+
 
 }
