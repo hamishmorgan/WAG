@@ -1,4 +1,4 @@
-package uk.ac.susx.tag.wikiparser;
+package uk.ac.susx.tag.wag;
 
 import javax.annotation.Nonnull;
 import javax.annotation.concurrent.Immutable;

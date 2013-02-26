@@ -1,4 +1,4 @@
-package uk.ac.susx.tag.wikiparser;
+package uk.ac.susx.tag.wag;
 
 import com.google.common.base.Optional;
 import de.fau.cs.osr.ptk.common.AstVisitor;
@@ -19,7 +19,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static com.google.common.base.Preconditions.checkNotNull;
-import static uk.ac.susx.tag.wikiparser.AstUtils.getText;
+import static uk.ac.susx.tag.wag.AstUtils.getText;
 
 /**
  * GetTextAstVisitor is visitor over an abstract syntax tree, that find and concatenates all text within it.

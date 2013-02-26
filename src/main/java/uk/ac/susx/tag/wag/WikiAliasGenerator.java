@@ -1,4 +1,4 @@
-package uk.ac.susx.tag.wikiparser;
+package uk.ac.susx.tag.wag;
 
 import static com.google.common.base.Preconditions.*;
 import static java.util.concurrent.TimeUnit.NANOSECONDS;
@@ -22,7 +22,6 @@ import uk.ac.susx.tag.util.MiscUtil;
 import javax.xml.bind.JAXBException;
 import java.io.*;
 import java.net.URL;
-import java.nio.charset.Charset;
 import java.util.EnumSet;
 import java.util.List;
 import java.util.logging.Level;
@@ -87,7 +86,7 @@ public class WikiAliasGenerator {
         try {
 
             final InputStream inputStream =
-//                    closer.register(compressorFactory.createCompressorInputStream(
+//                    closer.registerEnumSet(compressorFactory.createCompressorInputStream(
                     closer.register(new BufferedInputStream(
                             closer.register(new FileInputStream(wikiXmlFile))));
 

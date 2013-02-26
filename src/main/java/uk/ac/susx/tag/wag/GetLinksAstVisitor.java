@@ -1,4 +1,4 @@
-package uk.ac.susx.tag.wikiparser;
+package uk.ac.susx.tag.wag;
 
 import com.google.common.base.Optional;
 import com.google.common.collect.ImmutableList;

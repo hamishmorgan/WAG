@@ -1,6 +1,5 @@
-package uk.ac.susx.tag.wikiparser;
+package uk.ac.susx.tag.wag;
 
-import java.io.PrintStream;
 import java.io.PrintWriter;
 
 /**

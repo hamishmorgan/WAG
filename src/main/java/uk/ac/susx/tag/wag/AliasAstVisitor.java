@@ -1,4 +1,4 @@
-package uk.ac.susx.tag.wikiparser;
+package uk.ac.susx.tag.wag;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
@@ -23,7 +23,7 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import static uk.ac.susx.tag.wikiparser.AstUtils.*;
+import static uk.ac.susx.tag.wag.AstUtils.*;
 
 
 import static com.google.common.base.Preconditions.checkNotNull;

@@ -1,20 +1,24 @@
-package uk.ac.susx.tag.wikiparser;
+package uk.ac.susx.tag.wag;
 
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
+import com.beust.jcommander.Parameters;
 import com.beust.jcommander.ParametersDelegate;
+import com.google.common.annotations.Beta;
 import com.google.common.base.Optional;
 
 import static com.google.common.base.Preconditions.*;
 
 import com.google.common.io.*;
 import uk.ac.susx.tag.util.IOUtils;
+import uk.ac.susx.tag.util.StringConverterFactory;
 
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.EnumSet;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -30,11 +34,16 @@ public class Main {
     private final ByteSource source;
     private final ByteSink sink;
     private final Charset sinkCharset;
+    private final EnumSet<AliasType> producedTypes;
+    private final int pageLimit;
 
-    private Main(ByteSource source, ByteSink sink, Charset sinkCharset) {
+
+    private Main(ByteSource source, ByteSink sink, Charset sinkCharset, EnumSet<AliasType> producedTypes, int pageLimit) {
         this.source = source;
         this.sink = sink;
         this.sinkCharset = sinkCharset;
+        this.producedTypes = producedTypes;
+        this.pageLimit = pageLimit;
     }
 
     public static Builder builder() {
@@ -43,9 +52,9 @@ public class Main {
 
     void run() throws Exception {
 
-        final EnumSet<AliasType> producedTypes = EnumSet.allOf(AliasType.class);
+//        final EnumSet<AliasType> producedTypes = EnumSet.allOf(AliasType.class);
 //                EnumSet.of(AliasType.P1BOLD, AliasType.P2BOLD, AliasType.S1BOLD);
-        final int pageLimit = -1;
+//        final int pageLimit = -1;
 
         final Closer closer = Closer.create();
         try {
@@ -83,9 +92,14 @@ public class Main {
 
         final Builder builder = Main.builder();
 
+
+        StringConverterFactory converter = StringConverterFactory.newInstance(true);
+
+
         final JCommander jc = new JCommander();
         jc.setProgramName("WikiAlias");
         jc.addObject(builder);
+        jc.addConverterFactory(converter);
 
         jc.parse(args);
 
@@ -116,6 +130,7 @@ public class Main {
     /**
      * Note that some fields are prefixed with an underscore so JCommander can't tell
      */
+    @Parameters()
     public static class Builder {
 
         /**
@@ -129,11 +144,13 @@ public class Main {
         private final GlobalCommandDelegate globals = new GlobalCommandDelegate();
         /**
          * The wiki-dump to parse as specified by a file
+         *
          * @see #inputUrl
          */
         private Optional<File> inputFile = Optional.absent();
         /**
          * The wiki-dump to parse as specified by a URL
+         *
          * @see #inputFile
          */
         private Optional<URL> inputUrl = Optional.absent();
@@ -156,6 +173,20 @@ public class Main {
         /**
          *
          */
+        @Parameter(names = {"-t", "--types"},
+                description = "Set of alias types to produce.")
+        private Set<AliasType> producedAliasTypes = AliasType.STANDARD;
+
+        /**
+         *
+         */
+        @Parameter(names = {"-l", "--limit"},
+                description = "Limit the job to process on the first pages. (Set to -1 for no limit)")
+        private int pageLimit = -1;
+
+        /**
+         *
+         */
         public Builder() {
         }
 
@@ -168,7 +199,7 @@ public class Main {
          *
          * @param outputCharset character encoding to use for writing files.
          */
-        @Parameter(names = {"-c", "--outputCharset"},
+        @Parameter(names = {"-c", "--charset"},
                 description = "character encoding to use for writing aliases")
         public Builder setOutputCharset(Charset outputCharset) {
             this.outputCharset = checkNotNull(outputCharset, "outputCharset");
@@ -253,7 +284,9 @@ public class Main {
         @Parameter(names = {"-o", "--output"},
                 description = "output file to write aliases to",
                 required = true)
-        private void __jcSetOutputFile(File outputFile) {
+        @Deprecated
+        @Beta
+        public void __jcSetOutputFile(File outputFile) {
             setOutputFile(outputFile);
         }
 
@@ -276,7 +309,7 @@ public class Main {
         public Main build() throws IOException {
 
             // Check the input file and setup the source
-             final ByteSource source;
+            final ByteSource source;
             if (inputFile.isPresent()) {
                 assert !inputUrl.isPresent();
 
@@ -338,16 +371,19 @@ public class Main {
             }
 
             // Check the output character encoding
-            if(!outputCharset.canEncode()) {
+            if (!outputCharset.canEncode()) {
                 // Note: This is extremely unlikely to happen. Only auto-decoders do not
                 // support encoding, and it would be a silly user who requests such.
                 throw new IllegalArgumentException("Output character set does not support encoding: " + outputCharset);
             }
 
-            return new Main(source, sink, outputCharset);
+            if (producedAliasTypes.isEmpty()) {
+                throw new IllegalArgumentException("Produced alias types list is empty.");
+            }
+
+            return new Main(source, sink, outputCharset, EnumSet.copyOf(producedAliasTypes), pageLimit);
         }
 
     }
-
 
 }

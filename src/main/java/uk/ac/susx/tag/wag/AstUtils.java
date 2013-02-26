@@ -1,4 +1,4 @@
-package uk.ac.susx.tag.wikiparser;
+package uk.ac.susx.tag.wag;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Sets;
@@ -30,7 +30,7 @@ public class AstUtils {
         try {
             return (ImmutableList<AstNode>) (new GetLinksAstVisitor().go(node));
         } catch (ClassCastException e) {
-            throw new AssertionError("Casting to ImmutableList<AstNode> should never fail!", e);
+            throw new AssertionError("Casting to ImmutableList<AstNode> should never fail: " +  e);
         }
     }
 
@@ -45,7 +45,7 @@ public class AstUtils {
         try {
             return (String) (new GetTextAstVisitor().go(node));
         } catch (ClassCastException e) {
-            throw new AssertionError("Casting to String should never fail!", e);
+            throw new AssertionError("Casting to String should never fail: " + e);
         }
     }
 
