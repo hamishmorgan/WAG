@@ -42,11 +42,13 @@ import org.junit.Test;
 import uk.ac.susx.tag.test.AbstractTest;
 
 import java.io.*;
+import java.text.MessageFormat;
 
 import static org.junit.Assert.assertTrue;
 
 /**
- * Unit test (actually more like integration tests) for the {@link uk.ac.susx.tag.util.CompressorStreamFactory2 } class.
+ * Unit test (actually more like integration tests) for the {@link uk.ac.susx.tag.util.CompressorStreamFactory2 }
+ * class.
  *
  * @author Hamish Morgan
  */
@@ -99,7 +101,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
                             closer.register(new BufferedInputStream(
                                     closer.register(new FileInputStream(inputFile2))))));
 
-            assertTrue("The archive contents (after decompression) are not the same.",
+            assertTrue(
+                    MessageFormat.format(
+                            "The archive contents (after decompression) are not the same: \"{0}\" and \"{1}\"" ,
+                            inputFile1, inputFile2),
                     ByteStreams.equal(
                             new InputSupplier<InputStream>() {
                                 @Override
@@ -115,9 +120,9 @@ public class CompressorStreamFactory2Test extends AbstractTest {
                             }
                     ));
         } catch (Throwable t) {
-            throw closer.rethrow(t);
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
     }
 
@@ -137,8 +142,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             final OutputStream os = closer.register(new FileOutputStream(outputFile));
             final CompressorOutputStream cos = closer.register(instance.createForwardingCompressorOutputStream(os));
             ByteStreams.copy(is, cos);
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
         assertArchivesEquals(outputFile, TEXT_FILE);
     }
@@ -155,8 +162,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             final OutputStream os = closer.register(new FileOutputStream(outputFile));
             final CompressorOutputStream cos = closer.register(instance.createBZip2CompressorOutputStream(os));
             ByteStreams.copy(is, cos);
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
         assertArchivesEquals(outputFile, BZIP2_FILE);
     }
@@ -173,8 +182,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             final OutputStream os = closer.register(new FileOutputStream(outputFile));
             final CompressorOutputStream cos = closer.register(instance.createGZipCompressorOutputStream(os));
             ByteStreams.copy(is, cos);
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
         assertArchivesEquals(outputFile, GZIP_FILE);
     }
@@ -191,8 +202,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             final OutputStream os = closer.register(new FileOutputStream(outputFile));
             final CompressorOutputStream cos = closer.register(instance.createXZCompressorOutputStream(os));
             ByteStreams.copy(is, cos);
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
         assertArchivesEquals(outputFile, XZ_FILE);
     }
@@ -212,8 +225,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             final Pack200CompressorOutputStream cos = closer.register(instance.createPack200CompressorOutputStream(os));
             ByteStreams.copy(is, cos);
             cos.finish(); //!!
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
         // Archives will not necessarily be byte equal after decompression.
         // TODO: Compare the contained class (probably using URLClassloader and reflection??)
@@ -237,8 +252,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             final Pack200CompressorOutputStream cos = closer.register(instance.createPack200CompressorOutputStream(os));
             ByteStreams.copy(is, cos);
             cos.finish(); //!!
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
         // Archives will not necessarily be byte equal after decompression.
         // TODO: Compare the contained class (probably using URLClassloader and reflection??)
@@ -265,8 +282,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
                     closer.register(new FileOutputStream(outputFile))));
 
             ByteStreams.copy(cis, os);
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
 
         assertTrue("Output files differ.", Files.equal(outputFile, TEXT_FILE));
@@ -289,8 +308,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
                     closer.register(new FileOutputStream(outputFile))));
 
             ByteStreams.copy(cis, os);
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
 
         assertTrue("Output files differ.", Files.equal(outputFile, TEXT_FILE));
@@ -315,10 +336,11 @@ public class CompressorStreamFactory2Test extends AbstractTest {
                     closer.register(new FileOutputStream(outputFile))));
 
             ByteStreams.copy(cis, os);
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
-
         assertTrue("Output files differ.", Files.equal(outputFile, TEXT_FILE));
     }
 
@@ -340,8 +362,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
                     closer.register(new FileOutputStream(outputFile))));
 
             ByteStreams.copy(cis, os);
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
 
         assertTrue("Output files differ.", Files.equal(outputFile, TEXT_FILE));
@@ -364,8 +388,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
                     closer.register(new FileOutputStream(outputFile))));
 
             ByteStreams.copy(cis, os);
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
 
         assertTrue("Output files differ.", Files.equal(outputFile, TEXT_FILE));
@@ -388,8 +414,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
                     closer.register(new FileOutputStream(outputFile))));
 
             ByteStreams.copy(cis, os);
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
         // Archives will not necessarily be byte equal after decompression.
         // TODO: Compare the contained class (probably using URLClassloader and reflection??)
@@ -440,8 +468,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             }
 
 
+        } catch (Throwable t) {
+            closer.rethrow(t);
         } finally {
-            Closeables.closeQuietly(closer);
+            closer.close();
         }
     }
 }

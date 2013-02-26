@@ -124,7 +124,7 @@ public class Main {
 
 
         final JCommander jc = new JCommander();
-        jc.setProgramName("WikiAlias");
+        jc.setProgramName("wag");
         jc.addObject(builder);
         jc.addConverterFactory(converter);
 
