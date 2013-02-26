@@ -324,7 +324,7 @@
       </contributor>
       <comment>add cat per talk page request</comment>
       <text xml:space="preserve" bytes="1007">{{Dmbox
-| type = disambig
+| enumType = disambig
 | text = This [[Help:Disambiguation|disambiguation]] page lists articles associated with the same title. &lt;br /&gt; &lt;small&gt;If an [{{fullurl:Special:WhatLinksHere/{{{page-title|{{FULLPAGENAME}}}}}|namespace=0}} internal link] led you here, you may wish to change the link to point directly to the intended article.&lt;/small&gt;
 | nocat = {{{nocat|}}}   &lt;!--So &quot;nocat=true&quot; works--&gt;
 }}{{main other
@@ -462,12 +462,12 @@
       <minor/>
       <comment>resolve redirects</comment>
       <text xml:space="preserve" bytes="2212">&lt;table id=&quot;
-{{#switch:{{{type|}}}
+{{#switch:{{{enumType|}}}
 | setindex = setindexbox
 | disambig      &lt;!-- disambig = default --&gt;
 | #default = disambigbox
 }}&quot; class=&quot;metadata plainlinks dmbox 
-{{#switch:{{{type|}}}
+{{#switch:{{{enumType|}}}
 | setindex = dmbox-setindex
 | disambig      &lt;!-- disambig = default --&gt;
 | #default = dmbox-disambig
@@ -478,7 +478,7 @@
 | &lt;td class=&quot;mbox-image&quot; style=&quot;padding: 2px 0 2px 0.4em;&quot;&gt;
   {{#if:{{{image|}}}
   | {{{image}}}
-  | [[File:{{#switch:{{{type|}}}
+  | [[File:{{#switch:{{{enumType|}}}
     | setindex = List gray.svg
     | disambig      &lt;!-- disambig = default --&gt;
     | #default = Disambig gray.svg
@@ -491,15 +491,15 @@
 }}
 &lt;/tr&gt;
 &lt;/table&gt;&lt;!-- 
-  Detect and report usage with faulty &quot;type&quot; parameter:
---&gt;{{#switch:{{{type|}}}
-|   &lt;!-- No type fed, is also valid inputSupplier --&gt;
+  Detect and report usage with faulty &quot;enumType&quot; parameter:
+--&gt;{{#switch:{{{enumType|}}}
+|   &lt;!-- No enumType fed, is also valid inputSupplier --&gt;
 | disambig
-| setindex =    &lt;!-- Do nothing, valid &quot;type&quot; --&gt;
-| #default = &lt;div style=&quot;text-align: center;&quot;&gt;This message box is using an invalid &quot;type={{{type|}}}&quot; parameter and needs fixing.&lt;/div&gt;[[Category:Wikipedia message box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]]&lt;!-- Sort on namespace --&gt;
+| setindex =    &lt;!-- Do nothing, valid &quot;enumType&quot; --&gt;
+| #default = &lt;div style=&quot;text-align: center;&quot;&gt;This message box is using an invalid &quot;enumType={{{enumType|}}}&quot; parameter and needs fixing.&lt;/div&gt;[[Category:Wikipedia message box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]]&lt;!-- Sort on namespace --&gt;
 }}&lt;!-- 
   Categorization:
---&gt;{{#switch:{{{type|}}}
+--&gt;{{#switch:{{{enumType|}}}
 | setindex = 
   {{category handler
   | main = [[Category:All set index articles]]

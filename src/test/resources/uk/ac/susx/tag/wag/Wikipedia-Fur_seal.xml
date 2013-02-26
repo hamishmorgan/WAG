@@ -878,7 +878,7 @@ Many fur seal species were heavily exploited by commercial [[seal hunting|sealer
         <id>4635</id>
       </contributor>
       <comment>remove COINS metadata to improve performance, see talk page</comment>
-      <text xml:space="preserve" bytes="22335">&lt;span class=&quot;citation {{{Citation class|{{{Citation type|}}}}}}&quot;
+      <text xml:space="preserve" bytes="22335">&lt;span class=&quot;citation {{{Citation class|{{{Citation enumType|}}}}}}&quot;
 {{
   #switch:{{{Ref|}}}
   ||none =
@@ -1780,7 +1780,7 @@ Many fur seal species were heavily exploited by commercial [[seal hunting|sealer
 |Title={{{title|}}}
 |TransTitle={{{trans_title|}}}
 |IncludedWorkTitle={{{chapter|{{{contribution|}}}}}}
-|TitleType={{{type|}}}
+|TitleType={{{enumType|}}}
 |language={{{language|}}}
 
 |URL={{#if:{{{archiveurl|}}}
@@ -3460,7 +3460,7 @@ Please do not edit without discussion first as this is a VERY complex template.
       | {{column-width|{{#if:1|{{{1}}}}}}}
       | {{column-count|{{#if:1|{{{1}}}}}}} }}
     | {{#if: {{{colwidth|}}}
-      | {{column-width|{{{colwidth}}}}} }} }} list-style-type: &lt;!--
+      | {{column-width|{{{colwidth}}}}} }} }} list-style-enumType: &lt;!--
  --&gt;{{{liststyle|{{#switch: {{{group|}}}
     | upper-alpha
     | upper-roman

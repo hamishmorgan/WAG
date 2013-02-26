@@ -29,6 +29,10 @@ import java.util.logging.Logger;
  */
 public class Main {
 
+    private enum OutputFormat {
+        TSV, CSV
+    }
+
     private final ByteSource source;
     private final ByteSink sink;
     private final Charset sinkCharset;
@@ -36,6 +40,8 @@ public class Main {
     private final int pageLimit;
     private final boolean produceIdentityAliases;
 
+    private final OutputFormat outputFormat;
+    private final EnumSet<WriteTabulatedAliasHandler.Column> outputColumns;
 
     /**
      * Private constructor. Use the builder to instantiate: {@link #builder()}.
@@ -48,13 +54,16 @@ public class Main {
      * @param produceIdentityAliases
      */
     private Main(ByteSource source, ByteSink sink, Charset sinkCharset,
-                 EnumSet<AliasType> producedTypes, int pageLimit, boolean produceIdentityAliases) {
+                 EnumSet<AliasType> producedTypes, int pageLimit, boolean produceIdentityAliases,
+                 OutputFormat outputFormat, EnumSet<WriteTabulatedAliasHandler.Column> outputColumns) {
         this.source = source;
         this.sink = sink;
         this.sinkCharset = sinkCharset;
         this.producedTypes = producedTypes;
         this.pageLimit = pageLimit;
         this.produceIdentityAliases = produceIdentityAliases;
+        this.outputFormat = outputFormat;
+        this.outputColumns = outputColumns;
     }
 
     public static Builder builder() {
@@ -71,8 +80,20 @@ public class Main {
             final BufferedOutputStream out = closer.register(sink.openBufferedStream());
             final Writer writer = closer.register(new OutputStreamWriter(out, sinkCharset));
             final PrintWriter outWriter = closer.register(new PrintWriter(writer));
-            final PrintAliasHandler handler = new PrintAliasHandler(
-                    outWriter, PrintAliasHandler.Format.TSV);
+
+
+            final AliasHandler handler;
+            switch (outputFormat) {
+                case TSV:
+                    handler = WriteTabulatedAliasHandler.newTsvInstance(outWriter, outputColumns);
+                    break;
+                case CSV:
+                    handler = WriteTabulatedAliasHandler.newCsvInstance(outWriter, outputColumns);
+                    break;
+                default:
+                    throw new AssertionError(outputFormat);
+            }
+
 
             final WikiAliasGenerator generator =
                     new WikiAliasGenerator(handler, producedTypes);
@@ -89,11 +110,6 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-//
-//        final File dataDir = new File("/Volumes/LocalScratchHD/LocalHome/Data/");
-//        final File xmlFile = new File(dataDir, "enwiki-20130204-pages-articles.xml.bz2");
-//        final File out = new File(dataDir, "enwiki-20130204-pages-articles.xml.bz2-aliases");
-//
 
 
         final Builder builder = Main.builder();
@@ -198,6 +214,23 @@ public class Main {
         @Parameter(names = {"-l", "--limit"},
                 description = "Limit the job to process on the first pages. (Set to -1 for no limit)")
         private int pageLimit = -1;
+
+        /**
+         *
+         */
+        @Parameter(names = {"-of", "--outputFormat"},
+                description = "Output format.",
+                converter = OutputFormatStringConverter.class)
+        private OutputFormat outputFormat = OutputFormat.TSV;
+        /**
+         *
+         */
+        @Parameter(names = {"-oc", "--outputColumns"},
+                description = "Output format.",
+                converter = ColumnStringConverter.class)
+        private List<WriteTabulatedAliasHandler.Column> outputColumns
+                = Lists.newArrayList(EnumSet.allOf(WriteTabulatedAliasHandler.Column.class));
+
 
         /**
          *
@@ -409,8 +442,53 @@ public class Main {
                 throw new IllegalArgumentException("Produced alias types list is empty.");
             }
 
-            return new Main(source, sink, outputCharset,
-                    EnumSet.copyOf(producedAliasTypes), pageLimit, produceIdentityAliases);
+            return new Main(
+                    source,
+                    sink,
+                    outputCharset,
+                    EnumSet.copyOf(producedAliasTypes),
+                    pageLimit,
+                    produceIdentityAliases,
+                    outputFormat,
+                    EnumSet.copyOf(outputColumns));
+        }
+
+    }
+
+
+    public static final class AliasTypeStringConverter extends EnumStringConverter<AliasType> {
+
+        public AliasTypeStringConverter(String name) {
+            super(name, AliasType.class);
+        }
+
+        public AliasTypeStringConverter() {
+            super(AliasType.class);
+        }
+
+    }
+
+
+    public static final class ColumnStringConverter extends EnumStringConverter<WriteTabulatedAliasHandler.Column> {
+
+        public ColumnStringConverter(String name) {
+            super(name, WriteTabulatedAliasHandler.Column.class);
+        }
+
+        public ColumnStringConverter() {
+            super(WriteTabulatedAliasHandler.Column.class);
+        }
+
+    }
+
+    public static final class OutputFormatStringConverter extends EnumStringConverter<OutputFormat> {
+
+        public OutputFormatStringConverter(String name) {
+            super(name, OutputFormat.class);
+        }
+
+        public OutputFormatStringConverter() {
+            super(OutputFormat.class);
         }
 
     }

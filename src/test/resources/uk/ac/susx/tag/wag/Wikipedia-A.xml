@@ -967,7 +967,7 @@ Displays the &amp;xNNNN; style numeric character reference for each character wi
         <id>4635</id>
       </contributor>
       <comment>remove COINS metadata to improve performance, see talk page</comment>
-      <text xml:space="preserve" bytes="22335">&lt;span class=&quot;citation {{{Citation class|{{{Citation type|}}}}}}&quot;
+      <text xml:space="preserve" bytes="22335">&lt;span class=&quot;citation {{{Citation class|{{{Citation enumType|}}}}}}&quot;
 {{
   #switch:{{{Ref|}}}
   ||none =
@@ -1734,7 +1734,7 @@ Displays the &amp;xNNNN; style numeric character reference for each character wi
 |Title={{{title|}}}
 |TransTitle={{{trans_title|}}}
 |IncludedWorkTitle={{{chapter|{{{contribution|}}}}}}
-|TitleType={{{type|}}}
+|TitleType={{{enumType|}}}
 |language={{{language|}}}
 
 |URL={{#if:{{{archiveurl|}}}
@@ -2452,7 +2452,7 @@ Displays the &amp;xNNNN; style numeric character reference for each character wi
       </contributor>
       <minor/>
       <comment>Protected Template:IPAc-en/pronunciation: Used in a [[WP:High-risk templates|highly-visible template]] ([edit=sysop] (indefinite) [move=sysop] (indefinite))</comment>
-      <text xml:space="preserve" bytes="446">{{#switch:{{lc:{{{type|{{{1}}}}}}}}
+      <text xml:space="preserve" bytes="446">{{#switch:{{lc:{{{enumType|{{{1}}}}}}}}
  |lang
  |english       = &lt;small&gt;English &lt;/small&gt;
  |pron
@@ -5316,7 +5316,7 @@ Because many users are unaware of the style directives for changing both the fon
         <id>3138265</id>
       </contributor>
       <comment>add nopopups class to icon as per request</comment>
-      <text xml:space="preserve" bytes="6885">{{#ifeq:{{#switch:{{lc:{{{type}}}}}
+      <text xml:space="preserve" bytes="6885">{{#ifeq:{{#switch:{{lc:{{{enumType}}}}}
   |move=&lt;!--
  --&gt;{{#ifeq:
       {{#switch:{{lc:{{{demolevel|undefined}}}}}
@@ -5374,7 +5374,7 @@ Because many users are unaware of the style directives for changing both the fon
        }}
    |no}}
 }}|yes|{{#ifeq:{{lc:{{{small|}}}}}|yes|
-&lt;div class=&quot;metadata topicon nopopups&quot; id=&quot;protected-icon&quot; style=&quot;display:none; right:55px;&quot;&gt;[[Image:{{{image|{{#switch:{{lc:{{{type}}}}}
+&lt;div class=&quot;metadata topicon nopopups&quot; id=&quot;protected-icon&quot; style=&quot;display:none; right:55px;&quot;&gt;[[Image:{{{image|{{#switch:{{lc:{{{enumType}}}}}
  |full=Padlock.svg
  |semi=Padlock-silver.svg
  |move=Padlock-olive.svg
@@ -5382,7 +5382,7 @@ Because many users are unaware of the style directives for changing both the fon
  |office=Padlock-black.svg
  |create=Padlock-skyblue.svg
  |#default=Transparent.gif
-}}}}}|20px|link={{{icon-link|Wikipedia:Protection policy#{{lc:{{{type}}}}}}}}|{{{icon-text|This {{pp-meta/pagetype}} is {{#switch:{{lc:{{{type}}}}}
+}}}}}|20px|link={{{icon-link|Wikipedia:Protection policy#{{lc:{{{enumType}}}}}}}}|{{{icon-text|This {{pp-meta/pagetype}} is {{#switch:{{lc:{{{enumType}}}}}
  |semi=semi-
  |move=move-
  |indef=permanently&lt;nowiki&gt; &lt;/nowiki&gt;
@@ -5390,7 +5390,7 @@ Because many users are unaware of the style directives for changing both the fon
  |office=&lt;!--null, but should this have a special tag?--&gt;
  |full
  |#default=&lt;!--null--&gt;
-}}protected{{#ifeq:{{lc:{{{type}}}}}|indef||{{#if:{{{expiry|}}}|&lt;nowiki&gt; &lt;/nowiki&gt;until {{#time:F j, Y|{{{expiry}}}}}}}}}{{#if:{{{icon-reason|}}}|&lt;nowiki&gt; &lt;/nowiki&gt;{{{icon-reason}}}}}.}}}|alt=Page {{#switch:{{lc:{{{type}}}}}
+}}protected{{#ifeq:{{lc:{{{enumType}}}}}|indef||{{#if:{{{expiry|}}}|&lt;nowiki&gt; &lt;/nowiki&gt;until {{#time:F j, Y|{{{expiry}}}}}}}}}{{#if:{{{icon-reason|}}}|&lt;nowiki&gt; &lt;/nowiki&gt;{{{icon-reason}}}}}.}}}|alt=Page {{#switch:{{lc:{{{enumType}}}}}
  |semi=semi-
  |move=move-
  |indef=permanently&lt;nowiki&gt; &lt;/nowiki&gt;
@@ -5404,8 +5404,8 @@ Because many users are unaware of the style directives for changing both the fon
 | name = {{{name|Pp-meta}}}
 | subst = {{{subst|}}}
 | demospace = {{{demospace|}}}
-| type = protection
-| image = [[Image:{{{image|{{#switch:{{lc:{{{type}}}}}
+| enumType = protection
+| image = [[Image:{{{image|{{#switch:{{lc:{{{enumType}}}}}
  |full=Padlock.svg
  |semi=Padlock-silver.svg
  |move=Padlock-olive.svg
@@ -5413,7 +5413,7 @@ Because many users are unaware of the style directives for changing both the fon
  |office=Padlock-black.svg
  |create=Padlock-skyblue.svg
  |#default=Transparent.gif
-}}}}}|40px|{{{icon-text|This page is {{#switch:{{lc:{{{type}}}}}
+}}}}}|40px|{{{icon-text|This page is {{#switch:{{lc:{{{enumType}}}}}
  |semi=semi-
  |move=move-
  |indef=permanently&lt;nowiki&gt; &lt;/nowiki&gt;
@@ -5422,19 +5422,19 @@ Because many users are unaware of the style directives for changing both the fon
  |full
  |#default=&lt;!--null--&gt;
 }}protected.}}}]]
-| text = '''{{{reason-text|{{#switch:{{lc:{{{type}}}}}
+| text = '''{{{reason-text|{{#switch:{{lc:{{{enumType}}}}}
  |full=This page is currently [[Wikipedia:This page is protected|protected]] from editing
  |semi=Editing of this {{pp-meta/pagetype}} by [[Wikipedia:User access levels#Autoconfirmed_users|new]] or [[Wikipedia:User access levels#Anonymous_users|unregistered]] users is currently [[Wikipedia:Protection policy|disabled]]
  |move=This {{pp-meta/pagetype}} is currently [[Wikipedia:This page is protected|protected]] from [[Help:Moving a page|page moves]]
  |indef=This page is [[Wikipedia:This page is protected|protected]] from editing ''indefinitely''
  |office=This {{pp-meta/pagetype}} is currently [[Wikipedia:This page is protected|protected]] from editing
  |create=[[Help:Starting a new page|Recreation]] of this {{pp-meta/pagetype}} [[Wikipedia:This page is protected|has been disabled]]
-}}{{#ifeq:{{lc:{{{type}}}}}|indef||{{#if:{{{expiry|}}}|&amp;#32;until {{#time:F j, Y|{{{expiry}}}}}}}}}{{{reason&lt;includeonly&gt;|&lt;/includeonly&gt;}}}.}}}'''&lt;br /&gt; {{{explanation-text|{{#ifeq:{{lc:{{{dispute}}}}}|yes|This protection is '''not''' an endorsement of the {{#ifeq:{{{type}}}|move|[{{fullurl:Special:Log|type=move&amp;page={{FULLPAGENAMEE}}}} current title]|[{{fullurl:{{FULLPAGENAMEE}}|action=history}} current version]}}.}} See the [[Wikipedia:Protection policy|protection policy]] and [{{fullurl:Special:Log|type=protect&amp;page={{FULLPAGENAMEE}}}} protection log] for more details. {{#switch:{{lc:{{{type}}}}}
+}}{{#ifeq:{{lc:{{{enumType}}}}}|indef||{{#if:{{{expiry|}}}|&amp;#32;until {{#time:F j, Y|{{{expiry}}}}}}}}}{{{reason&lt;includeonly&gt;|&lt;/includeonly&gt;}}}.}}}'''&lt;br /&gt; {{{explanation-text|{{#ifeq:{{lc:{{{dispute}}}}}|yes|This protection is '''not''' an endorsement of the {{#ifeq:{{{enumType}}}|move|[{{fullurl:Special:Log|enumType=move&amp;page={{FULLPAGENAMEE}}}} current title]|[{{fullurl:{{FULLPAGENAMEE}}|action=history}} current version]}}.}} See the [[Wikipedia:Protection policy|protection policy]] and [{{fullurl:Special:Log|enumType=protect&amp;page={{FULLPAGENAMEE}}}} protection log] for more details. {{#switch:{{lc:{{{enumType}}}}}
  |full|indef=Please discuss any changes on the [[{{TALKPAGENAME}}#{{#if:{{{section|}}}|{{{section}}}|top}}|talk page]]; you may use the {{tlx|editprotected}} template to ask an [[Wikipedia:Administrator|administrator]] to make an edit if it is supported by [[Wikipedia:Consensus|consensus]]. {{#ifeq:{{NAMESPACE}}|{{ns:8}}&lt;!--MediaWiki--&gt;||You may also [[Wikipedia:Requests for page protection|request]] that this page be unprotected.}}
  |semi=If you cannot edit this {{pp-meta/pagetype}} and you wish to make a change, you can {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}||[[Template:Editsemiprotected|request an edit]], [[{{TALKPAGENAME}}|discuss changes on the talk page]],}} [[Wikipedia:Requests for page protection#Current requests for unprotection|request unprotection]], [[Special:Userlogin|log in]], or [[Special:UserLogin/signup|create an account]].
  |move=The page may still be edited but cannot be moved until unprotected. Please discuss any suggested moves on the [[{{TALKPAGENAME}}|talk page]] or at [[Wikipedia:Requested moves]].  You can also [[Wikipedia:Requests for page protection|request]] that the page be unprotected.  
  |office=If you can edit this page, please discuss all changes and additions on the [[{{TALKPAGENAME}}|talk page]] first. '''Do not remove protection from this page unless you are authorized by the Wikimedia Foundation to do so.'''
- |create=Please see the {{#if:{{{xfd|}}}|'''[[{{{xfd}}}|deletion discussion]]''' or the}} [{{fullurl:Special:Log|type=delete&amp;page={{FULLPAGENAMEE}}}} deletion log] for details of why this page was deleted. If you would like to create a page at this title, you must first [[Wikipedia:Requests for page protection|request]] for it to be unprotected, or contact the administrator who deleted the page for the deleted material to be restored. If unsuccessful, you can use [[Wikipedia:Deletion review|deletion review]].
+ |create=Please see the {{#if:{{{xfd|}}}|'''[[{{{xfd}}}|deletion discussion]]''' or the}} [{{fullurl:Special:Log|enumType=delete&amp;page={{FULLPAGENAMEE}}}} deletion log] for details of why this page was deleted. If you would like to create a page at this title, you must first [[Wikipedia:Requests for page protection|request]] for it to be unprotected, or contact the administrator who deleted the page for the deleted material to be restored. If unsuccessful, you can use [[Wikipedia:Deletion review|deletion review]].
 }}}}}
 }}
 }}|[[Category:Wikipedia pages with incorrect protection templates]]}}&lt;!--End if small--&gt;&lt;includeonly&gt;{{#ifeq:{{lc:{{{categories|no}}}}}|no||{{{categories|}}}}}&lt;/includeonly&gt;&lt;noinclude&gt;
@@ -5506,7 +5506,7 @@ Because many users are unaware of the style directives for changing both the fon
       </contributor>
       <comment>Refining demolevel defaulting scheme to enable the undefined case since, as I earlier forgot, templates cannot be passed parameters by ParserFunctions.</comment>
       <text xml:space="preserve" bytes="940">&lt;includeonly&gt;{{pp-meta
-|type=semi
+|enumType=semi
 |small=yes
 |demolevel={{{demolevel|undefined}}}
 |disallowlevel=sysop
@@ -5554,7 +5554,7 @@ Because many users are unaware of the style directives for changing both the fon
       | {{column-width|{{#if:1|{{{1}}}}}}}
       | {{column-count|{{#if:1|{{{1}}}}}}} }}
     | {{#if: {{{colwidth|}}}
-      | {{column-width|{{{colwidth}}}}} }} }} list-style-type: &lt;!--
+      | {{column-width|{{{colwidth}}}}} }} }} list-style-enumType: &lt;!--
  --&gt;{{{liststyle|{{#switch: {{{group|}}}
     | upper-alpha
     | upper-roman

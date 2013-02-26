@@ -438,12 +438,12 @@ Normal carboxylic acids are the direct union of a carbonyl group and a hydroxy g
   |{{Error|Template {{tlx|{{{name}}}}} has been incorrectly substituted.}}
  }}[[Category:Pages with incorrectly substituted templates]]
 }}{{Ambox/{{#ifeq:{{{small}}}|left|small|core}}
- |type = {{{type|}}}
+ |enumType = {{{enumType|}}}
  |image = {{{image|}}}
  |smallimage = {{#if:{{{smallimage|}}}|{{{smallimage}}}|{{{image|}}}}}
  |imageright = {{{imageright|}}}
  |smallimageright = {{#if:{{{smallimageright|}}}|{{{smallimageright}}}|{{{imageright|}}}}}
- |class = ambox-{{#switch:{{{type|}}}
+ |class = ambox-{{#switch:{{{enumType|}}}
   |speedy = speedy
   |delete = delete
   |content = content
@@ -551,7 +551,7 @@ Normal carboxylic acids are the direct union of a carbonyl group and a hydroxy g
  |none = &lt;td class=&quot;mbox-empty-cell&quot;&gt;&lt;/td&gt;
  |#default = &lt;td class=&quot;mbox-image&quot;&gt;&lt;div style=&quot;width: 52px;&quot;&gt;{{#if:{{{image|}}}
   |{{{image}}}
-  |[[File:{{#switch:{{{type|}}}
+  |[[File:{{#switch:{{{enumType|}}}
    |speedy = Ambox speedy deletion.png
    |delete = Ambox deletion.png
    |content = Ambox content.png
@@ -774,7 +774,7 @@ Normal carboxylic acids are the direct union of a carbonyl group and a hydroxy g
         <id>4635</id>
       </contributor>
       <comment>remove COINS metadata to improve performance, see talk page</comment>
-      <text xml:space="preserve" bytes="22335">&lt;span class=&quot;citation {{{Citation class|{{{Citation type|}}}}}}&quot;
+      <text xml:space="preserve" bytes="22335">&lt;span class=&quot;citation {{{Citation class|{{{Citation enumType|}}}}}}&quot;
 {{
   #switch:{{{Ref|}}}
   ||none =
@@ -1677,7 +1677,7 @@ Normal carboxylic acids are the direct union of a carbonyl group and a hydroxy g
 |TransTitle={{{trans_chapter|}}}
 |TransItalic={{{trans_title|}}}
 |IncludedWorkTitle={{{chapter|{{{contribution|{{{section|}}}}}}}}}
-|TitleType={{{type|}}}
+|TitleType={{{enumType|}}}
 |language={{{language|}}}
 
 |URL={{#if:{{{archiveurl|}}}
@@ -1962,7 +1962,7 @@ Normal carboxylic acids are the direct union of a carbonyl group and a hydroxy g
       <text xml:space="preserve" bytes="1243">&lt;!--{{More footnotes}} begin--&gt;{{Ambox
 | name  = More footnotes
 | subst = &lt;includeonly&gt;{{subst:&lt;/includeonly&gt;&lt;includeonly&gt;substcheck}}&lt;/includeonly&gt;
-| type  = style
+| enumType  = style
 | class = ambox-More_footnotes
 | image = [[file:Text document with red question mark.svg|50x40px|alt=|link=]]
 | issue = This {{#ifeq: {{{BLP|{{{blp|}}}}}} | yes | [[Wikipedia:Biographies of living persons{{!}}{{{1|'''biographical article'''}}}]] | {{{1|article}}} }} includes a [[{{SITENAME}}:Citing sources|list of references]], but '''its sources remain unclear because it has insufficient [[Wikipedia:INCITE|inline citations]]'''.
@@ -2166,7 +2166,7 @@ Normal carboxylic acids are the direct union of a carbonyl group and a hydroxy g
       | {{column-width|{{#if:1|{{{1}}}}}}}
       | {{column-count|{{#if:1|{{{1}}}}}}} }}
     | {{#if: {{{colwidth|}}}
-      | {{column-width|{{{colwidth}}}}} }} }} list-style-type: &lt;!--
+      | {{column-width|{{{colwidth}}}}} }} }} list-style-enumType: &lt;!--
  --&gt;{{{liststyle|{{#switch: {{{group|}}}
     | upper-alpha
     | upper-roman

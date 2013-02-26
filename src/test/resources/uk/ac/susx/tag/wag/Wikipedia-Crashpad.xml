@@ -152,12 +152,12 @@ A typical bedroom in a crashpad might include two to six people via bunkbeds. Be
   |{{Error|Template {{tlx|{{{name}}}}} has been incorrectly substituted.}}
  }}[[Category:Pages with incorrectly substituted templates]]
 }}{{Ambox/{{#ifeq:{{{small}}}|left|small|core}}
- |type = {{{type|}}}
+ |enumType = {{{enumType|}}}
  |image = {{{image|}}}
  |smallimage = {{#if:{{{smallimage|}}}|{{{smallimage}}}|{{{image|}}}}}
  |imageright = {{{imageright|}}}
  |smallimageright = {{#if:{{{smallimageright|}}}|{{{smallimageright}}}|{{{imageright|}}}}}
- |class = ambox-{{#switch:{{{type|}}}
+ |class = ambox-{{#switch:{{{enumType|}}}
   |speedy = speedy
   |delete = delete
   |content = content
@@ -265,7 +265,7 @@ A typical bedroom in a crashpad might include two to six people via bunkbeds. Be
  |none = &lt;td class=&quot;mbox-empty-cell&quot;&gt;&lt;/td&gt;
  |#default = &lt;td class=&quot;mbox-image&quot;&gt;&lt;div style=&quot;width: 52px;&quot;&gt;{{#if:{{{image|}}}
   |{{{image}}}
-  |[[File:{{#switch:{{{type|}}}
+  |[[File:{{#switch:{{{enumType|}}}
    |speedy = Ambox speedy deletion.png
    |delete = Ambox deletion.png
    |content = Ambox content.png
@@ -361,7 +361,7 @@ A typical bedroom in a crashpad might include two to six people via bunkbeds. Be
     |{{#titleparts:{{FULLPAGENAME}}|1}}=&lt;!--Is a subtemplate, e.g. a sandbox version. Don't display documentation.--&gt;
     |#default={{#ifeq:{{NAMESPACE}}|Template
       |&lt;!--{{ombox
-        |type=content
+        |enumType=content
         |text=It appears that the ''name'' parameter of this template is undefined or incorrect. If this is the stub template, please set {{para|name|{{FULLPAGENAME}}}}. If this is a demonstration please set {{para|demo|yes}}.
       }}--&gt;[[Category:Stub message boxes needing attention|{{#if:{{{name|}}}|E|W}}{{PAGENAME}}]]
     }}
@@ -606,7 +606,7 @@ A typical bedroom in a crashpad might include two to six people via bunkbeds. Be
       <text xml:space="preserve" bytes="902">&lt;!--{{Dead end}} begin--&gt;{{#ifeq:{{NAMESPACE}}|{{&lt;includeonly&gt;subst:&lt;/includeonly&gt;NAMESPACE}}|&lt;includeonly&gt;[[Category:Pages with incorrectly substituted templates|{{PAGENAME}}]]&lt;/includeonly&gt;|}}{{Ambox
 | name  = Dead end
 | class = ambox-dead_end
-| type  = style
+| enumType  = style
 | image = [[File:MUTCD W14-1.svg|50x40px|link=|alt=]]
 | issue = This {{{1|article}}} '''has no [[Wikipedia:Manual of Style/Linking|links to other Wikipedia articles]]'''.
 | fix   = Please help [{{fullurl:{{FULLPAGENAME}}|action=edit}} improve this article] by adding links [[Wikipedia:Only make links that are relevant to the context|that are relevant to the context]] within the existing text.
@@ -638,7 +638,7 @@ A typical bedroom in a crashpad might include two to six people via bunkbeds. Be
       <comment>Mostly undid revision 527708350 by [[Special:Contributions/SilkTork|SilkTork]] ([[User talk:SilkTork|talk]]) - Rv and reapply the one change actually mentioned in the edit summary</comment>
       <text xml:space="preserve" bytes="1663">&lt;!--{{Dicdef}} begin--&gt;{{#ifeq:{{NAMESPACE}}|{{&lt;includeonly&gt;subst:&lt;/includeonly&gt;NAMESPACE}}|&lt;includeonly&gt;[[Category:Pages with incorrectly substituted templates|{{PAGENAME}}]]&lt;/includeonly&gt;|}}{{Ambox
 | name  = Dicdef
-| type  = move
+| enumType  = move
 | image = [[File:Edit-copy purple-wikit.svg|50x40px]]
 | text  = This {{{1|article}}} '''appears to be a [[Wikipedia:Wikipedia is not a dictionary|dictionary definition]]'''. Please [[WP:DEVELOP|rewrite it]] to present the subject from an encyclopedic point of view. If it cannot be turned into a full encyclopedia article in the near future, consider moving it to [[Wiktionary]].
 {{hidden top|title=Steps for moving to Wiktionary:}}
@@ -899,7 +899,7 @@ If Wiktionary does not have the definition yet, consider moving the whole {{{1|a
 |doc   = no
 |subst = &lt;includeonly&gt;{{subst:&lt;/includeonly&gt;&lt;includeonly&gt;substcheck}}&lt;/includeonly&gt;
 |class = ambox-multiple_issues compact-ambox
-|type  = content
+|enumType  = content
 |text  = '''This {{#if:{{{section|}}}
  |section
  |article
@@ -1307,7 +1307,7 @@ If Wiktionary does not have the definition yet, consider moving the whole {{{1|a
       <text xml:space="preserve" bytes="3064">&lt;!--{{Notability}} begin--&gt;{{Ambox
 | name  = Notability
 | subst = &lt;includeonly&gt;{{subst:substcheck}}&lt;/includeonly&gt;
-| type  = content
+| enumType  = content
 | class = ambox-Notability
 | issue = The topic of this article '''may not meet Wikipedia's {{#switch: {{lc:{{{1}}}}}
 | notability          = [[Wikipedia:Notability|general notability guideline]]
@@ -1390,7 +1390,7 @@ If Wiktionary does not have the definition yet, consider moving the whole {{{1|a
       <text xml:space="preserve" bytes="1818">{{Ambox
 | name  = Orphan
 | subst = &lt;includeonly&gt;{{subst:&lt;/includeonly&gt;&lt;includeonly&gt;substcheck}}&lt;/includeonly&gt;
-| type  = style
+| enumType  = style
 | class = ambox-Orphan
 | image = [[File:Wiki letter w.svg|50x40px]]
 | all   = All orphaned articles
@@ -1618,7 +1618,7 @@ If Wiktionary does not have the definition yet, consider moving the whole {{{1|a
 {{Ambox
 | name  = {{{name|Unreferenced}}}
 | subst = &lt;includeonly&gt;{{{subst|{{subst:substcheck}}}}}&lt;/includeonly&gt;
-| type  = content
+| enumType  = content
 | class = ambox-Unreferenced
 | small = {{{small|}}}
 | image = [[File:Question book-new.svg|50x40px]]
