@@ -36,8 +36,7 @@ public class Main {
     }
 
     private final List<ByteSource> sources;
-    private final ByteSink sink;
-    private final Charset sinkCharset;
+    private final CharSink sink;
     private final EnumSet<AliasType> producedTypes;
     private final int pageLimit;
     private final boolean produceIdentityAliases;
@@ -50,17 +49,15 @@ public class Main {
      *
      * @param sources
      * @param sink
-     * @param sinkCharset
      * @param producedTypes
      * @param pageLimit
      * @param produceIdentityAliases
      */
-    private Main(List<ByteSource> sources, ByteSink sink, Charset sinkCharset,
+    private Main(List<ByteSource> sources, CharSink sink,
                  EnumSet<AliasType> producedTypes, int pageLimit, boolean produceIdentityAliases,
                  OutputFormat outputFormat, EnumSet<WriteTabulatedAliasHandler.Column> outputColumns) {
         this.sources = sources;
         this.sink = sink;
-        this.sinkCharset = sinkCharset;
         this.producedTypes = producedTypes;
         this.pageLimit = pageLimit;
         this.produceIdentityAliases = produceIdentityAliases;
@@ -76,8 +73,7 @@ public class Main {
         final Closer outCloser = Closer.create();
         try {
             // Set up the output stuff
-            final BufferedOutputStream out = outCloser.register(sink.openBufferedStream());
-            final Writer writer = outCloser.register(new OutputStreamWriter(out, sinkCharset));
+            final Writer writer = outCloser.register(sink.openBufferedStream());
             final PrintWriter outWriter = outCloser.register(new PrintWriter(writer));
 
             final AliasHandler handler;
@@ -184,7 +180,9 @@ public class Main {
         /**
          * The destination file for discovered aliases.
          */
-        private Optional<File> outputFile = Optional.absent();
+        @Parameter(names = {"-o", "--output"},
+                description = "output file to write aliases to. (\"-\" for stdout.)")
+        private File outputFile = new File("-");
 
         /**
          * Character encoding to use for writing data.
@@ -293,21 +291,10 @@ public class Main {
          * @throws NullPointerException of {@code outputFile} is {@code null}
          */
         public Builder setOutputFile(File outputFile) {
-            this.outputFile = Optional.of(outputFile);
+            this.outputFile = checkNotNull(outputFile, "outputFile");
             return this;
         }
 
-        /**
-         * XXX: Nasty hack to stop JCommander picking up the default value.
-         */
-        @Parameter(names = {"-o", "--output"},
-                description = "output file to write aliases to",
-                required = true)
-        @Deprecated
-        @Beta
-        public void __jcSetOutputFile(File outputFile) {
-            setOutputFile(outputFile);
-        }
 
         /**
          * Set whether or not the output file can be overwritten if it already exists.
@@ -341,9 +328,10 @@ public class Main {
             // Check the input file and setup the source
             final ImmutableList.Builder<ByteSource> sources = ImmutableList.builder();
 
+
             for (final String input : inputs) {
                 try {
-                    final URL inputUrl =  new URL(input);
+                    final URL inputUrl = new URL(input);
 
                     LOG.log(Level.INFO, "Setting source to URL: " + inputUrl);
                     sources.add(Resources.asByteSource(inputUrl));
@@ -363,51 +351,65 @@ public class Main {
                 }
             }
 
-            // Check the output file and setup the sink
-            final ByteSink sink;
-            if (outputFile.isPresent()) {
-
-                if (outputFile.get().exists()) {
-                    if (!outputFile.get().isFile()) {
-                        throw new IllegalArgumentException("The output file already exists, " +
-                                "and is not a regular file: " + outputFile.get());
-                    } else if (!outputFile.get().canWrite()) {
-                        throw new IllegalArgumentException("The output file already exists," +
-                                " and is not writable: " + outputFile.get());
-                    } else if (outputClobberingEnabled) {
-                        LOG.log(Level.WARNING, "Overwriting output file that already exists: {0}",
-                                outputFile.get());
-                    } else {
-                        throw new IllegalArgumentException("The output file already exists and " +
-                                "clobbering is disabled: " + outputFile.get());
-                    }
-                } else {
-                    // Output does not exist so check it is creatable
-                    if (!IOUtils.isCreatable(outputFile.get()))
-                        throw new IllegalArgumentException("Output file is not creatable." + outputFile.get());
-
-                    // Make parent directories
-                    if (outputFile.get().getParentFile() != null) {
-                        if (!outputFile.get().exists() && !outputFile.get().mkdirs()) {
-                            throw new IllegalArgumentException("Output file parent directory does not exist, " +
-                                    "and is not creatable: " + outputFile.get());
-                        }
-                    }
-
-                }
-
-                LOG.log(Level.INFO, "Setting sink to file: " + outputFile.get());
-                sink = Files.asByteSink(outputFile.get());
-            } else {
-                throw new IllegalArgumentException("The output file must be specified.");
-            }
-
             // Check the output character encoding
             if (!outputCharset.canEncode()) {
                 // Note: This is extremely unlikely to happen. Only auto-decoders do not
                 // support encoding, and it would be a silly user who requests such.
                 throw new IllegalArgumentException("Output character set does not support encoding: " + outputCharset);
             }
+
+
+            // Check the output file and setup the sink
+            final CharSink sink;
+
+            if (outputFile.toString().equals("-")) {
+                // Stdout
+                LOG.log(Level.INFO, "Setting sink to file stdout.");
+
+                sink = new CharSink() {
+                    @Override
+                    public Writer openStream() throws IOException {
+                        return new PrintWriter(System.out);
+                    }
+                };
+            } else {
+                // To a file
+
+                if (outputFile.exists()) {
+                    if (!outputFile.isFile()) {
+                        throw new IllegalArgumentException("The output file already exists, " +
+                                "and is not a regular file: " + outputFile);
+                    } else if (!outputFile.canWrite()) {
+                        throw new IllegalArgumentException("The output file already exists," +
+                                " and is not writable: " + outputFile);
+                    } else if (outputClobberingEnabled) {
+                        LOG.log(Level.WARNING, "Overwriting output file that already exists: {0}",
+                                outputFile);
+                    } else {
+                        throw new IllegalArgumentException("The output file already exists and " +
+                                "clobbering is disabled: " + outputFile);
+                    }
+                } else {
+                    // Output does not exist so check it is creatable
+                    if (!IOUtils.isCreatable(outputFile))
+                        throw new IllegalArgumentException("Output file is not creatable." + outputFile);
+
+                    // Make parent directories
+                    if (outputFile.getParentFile() != null) {
+                        if (!outputFile.exists() && !outputFile.mkdirs()) {
+                            throw new IllegalArgumentException("Output file parent directory does not exist, " +
+                                    "and is not creatable: " + outputFile);
+                        }
+                    }
+
+                }
+
+                LOG.log(Level.INFO, "Setting sink to file: " + outputFile);
+
+                final FileWriteMode[] modes = {};
+                sink = Files.asCharSink(outputFile, outputCharset, modes);
+            }
+
 
             if (producedAliasTypes.isEmpty()) {
                 throw new IllegalArgumentException("Produced alias types list is empty.");
@@ -416,7 +418,6 @@ public class Main {
             return new Main(
                     sources.build(),
                     sink,
-                    outputCharset,
                     EnumSet.copyOf(producedAliasTypes),
                     pageLimit,
                     produceIdentityAliases,
