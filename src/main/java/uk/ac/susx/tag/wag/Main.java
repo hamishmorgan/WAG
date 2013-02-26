@@ -1,9 +1,7 @@
 package uk.ac.susx.tag.wag;
 
-import com.beust.jcommander.JCommander;
-import com.beust.jcommander.Parameter;
-import com.beust.jcommander.Parameters;
-import com.beust.jcommander.ParametersDelegate;
+import com.beust.jcommander.*;
+import com.beust.jcommander.internal.Lists;
 import com.google.common.annotations.Beta;
 import com.google.common.base.Optional;
 
@@ -18,7 +16,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.EnumSet;
-import java.util.Set;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -183,15 +181,16 @@ public class Main {
          */
         @Parameter(names = {"-I", "--identityAliases"},
                 description = "Produce identity aliases (relations that point to themselves.)",
-                arity = 1)
+                variableArity = true)
         private boolean produceIdentityAliases = true;
 
         /**
          *
          */
         @Parameter(names = {"-t", "--types"},
-                description = "Set of alias types to produce.")
-        private Set<AliasType> producedAliasTypes = AliasType.STANDARD;
+                description = "Set of alias types to produce.",
+                converter = AliasTypeStringConverter.class)
+        private List<AliasType> producedAliasTypes = Lists.newArrayList(AliasType.STANDARD);
 
         /**
          *
@@ -226,8 +225,10 @@ public class Main {
         /**
          * Set the input to be read from the resource denoted by {@code input}.
          * <p/>
-         * The input string can either represent a path of the file-system, or a URL to some other resource. Generally
-         * if the string contains a protocol prefix then it will be assumed to be a URL, otherwise it will be assumed
+         * The input string can either represent a path of the file-system, or a URL to some other resource.
+         * Generally
+         * if the string contains a protocol prefix then it will be assumed to be a URL, otherwise it will be
+         * assumed
          * to be file.
          * <p/>
          * If a resource is already set (either by File or URL), it is
