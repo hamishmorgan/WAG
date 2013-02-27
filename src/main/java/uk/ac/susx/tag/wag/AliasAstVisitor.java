@@ -22,6 +22,7 @@ import uk.ac.susx.tag.util.StringUtils;
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.regex.Pattern;
 
 import static uk.ac.susx.tag.wag.AstUtils.*;
 
@@ -59,6 +60,10 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * @author Hamish Morgan
  */
 public class AliasAstVisitor extends AstVisitor {
+
+    private static final int MAX_WORD_LENGTH = 10;
+    private static final int MAX_CHAR_LENGTH = 100;
+
     private static final boolean VERBOSE_WARNINGS = false;
 
     private static final Logger LOG = Logger.getLogger(AliasAstVisitor.class.getName());
@@ -344,8 +349,24 @@ public class AliasAstVisitor extends AstVisitor {
 //        }
     }
 
+    private final Pattern WHITE_SPACE = Pattern.compile("[\\s]+");
+
     private void addAlias(AliasType type, String subType, String source, String target) {
         if (!produceTypes.contains(type))
+            return;
+
+        source =  source.trim();
+        target =  target.trim();
+
+        if(source.isEmpty() || target.isEmpty())
+            return;
+
+        if(source.length() > MAX_CHAR_LENGTH || target.length() > MAX_CHAR_LENGTH)
+            return;
+
+
+        if( WHITE_SPACE.split(source).length > MAX_WORD_LENGTH
+                ||  WHITE_SPACE.split(target).length > MAX_WORD_LENGTH)
             return;
 
         synonyms.add(new Alias(type, subType, source.trim(), target.trim()));
