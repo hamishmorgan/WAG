@@ -44,8 +44,11 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * <li></li>
  * </li>
  * </ul>
- * TODO: Disambiguation pages  (http://en.wikipedia.org/wiki/Amp)
- * TODO: Template arguments with unparsed links
+ * TODO: Disambiguation page redirect (i.e redirects too DAB pages) should be typed distinctly from other pages to be
+ * consistent with Hackey work. (http://en.wikipedia.org/wiki/Amp)
+ * <p/>
+ * TODO: Template arguments with unparsed links. Currently template arguments are only half-parsed by sweble
+ * <p/>
  * TODO: Name-spaces (e.g  Apocrypha => wiktionary:apocryphal )
  * TODO: Sub-page references (Arsenal F.C. => Arsenal F.C. records#Player records)
  * TODO: Probably we could extract something from categories
@@ -71,13 +74,20 @@ public class AliasAstVisitor extends AstVisitor {
      * is discovered this collection is used to create aliases from the current pageTitle to all the surfaces.
      */
     private Set<String> linkSurfaces;
+
     /**
      *
      */
     private int nonEmptyParagraphCounter = 0;
+
+    /**
+     *
+     */
     private int sectionCounter = 0;
 
-
+    /**
+     *
+     */
     private final EnumSet<AliasType> produceTypes;
     /**
      * True when the current page contains the "lowercase title" template; e.g iPod, and gzip. Reset to false on each
@@ -110,7 +120,10 @@ public class AliasAstVisitor extends AstVisitor {
 
         // Produce an arc from the regular title to the lower-case variant if the lower-case title template is found
         if (lowerCaseTitle) {
-            addPageTitleAlias(AliasType.LOWERCASE_TITLE, Alias.NO_SUBTYPE, pageTitle.trim(), StringUtils.firstCharToLowerCase(pageTitle.trim()));
+            final String lcTitle = StringUtils.firstCharToLowerCase(pageTitle.trim());
+            addPageTitleAlias(AliasType.LOWERCASE_TITLE, Alias.NO_SUBTYPE, pageTitle.trim(), lcTitle);
+            // Also produce the identity relation
+            addPageTitleAlias(AliasType.LOWERCASE_TITLE, Alias.NO_SUBTYPE, lcTitle, lcTitle);
         }
 
 //        print(node);
@@ -130,7 +143,6 @@ public class AliasAstVisitor extends AstVisitor {
 
 
         parseHatNote(template);
-
 
     }
 
@@ -189,7 +201,6 @@ public class AliasAstVisitor extends AstVisitor {
     }
 
 
-
     public void visit(InternalLink link) {
         final StringBuilder surface = newSurface();
 
@@ -226,7 +237,7 @@ public class AliasAstVisitor extends AstVisitor {
                 addPageTitleAlias(AliasType.P2BOLD, Alias.NO_SUBTYPE, surface.toString(), pageTitle);
             }
 
-            if(sectionCounter == 0)
+            if (sectionCounter == 0)
                 addPageTitleAlias(AliasType.S1BOLD, Alias.NO_SUBTYPE, surface.toString(), pageTitle);
         }
 
@@ -295,9 +306,20 @@ public class AliasAstVisitor extends AstVisitor {
         source = source.trim();
         target = target.trim();
 
+        // Subsection links are a huge pain in the arse, because the reference semantics can vary wildly depending on
+        // the context. In addition the relation to source (place it's linked from) is hard to determine. Note that we
+        // always want to produce aliases from an ambiguous source to a concrete target (or at least relatively.) Is a
+        // section of another page less ambiguous? Well sometimes but not always. However since we are indenturing to
+        // do entity linking, a sub-page target will generally be undesirable so lets jsut ignore all of them.
+        if (target.contains("#")) {
+            return;
+        }
+
         source = stripSuffixIfPresent(source, DISAMBIGUATION_SUFFIX);
         target = stripSuffixIfPresent(target, DISAMBIGUATION_SUFFIX);
 
+        source = stripNamespaces(source);
+        target = stripNamespaces(target);
 
         if (source.isEmpty() || target.isEmpty())
             return;
@@ -305,19 +327,21 @@ public class AliasAstVisitor extends AstVisitor {
         addAlias(type, subType, source, target);
 
         Set<String> sourcePerms = wikiTitleVarients(source);
-        Set<String> targetPerms = wikiTitleVarients(target);
+//        Set<String> targetPerms = wikiTitleVarients(target);
 
-        for (String s : sourcePerms) {
-            for (String t : targetPerms) {
-                addAlias(AliasType.TRUNCATED, type + "/" + subType, s, t);
-            }
+//        for (String s : sourcePerms) {
+//            for (String t : targetPerms) {
+//                addAlias(AliasType.TRUNCATED, type + "/" + subType, s, t);
+//            }
+//        }
+        for (String sourceVariant : sourcePerms) {
+            addAlias(AliasType.TRUNCATED,
+                    type + (subType.isEmpty() ? "" : "/" + subType),
+                    sourceVariant, target);
         }
-        for (String s : sourcePerms) {
-            addAlias(AliasType.TRUNCATED, type + "/" + subType, s, target);
-        }
-        for (String t : targetPerms) {
-            addAlias(AliasType.TRUNCATED, type + "/" + subType, source, t);
-        }
+//        for (String t : targetPerms) {
+//            addAlias(AliasType.TRUNCATED, type + "/" + subType, source, t);
+//        }
     }
 
     private void addAlias(AliasType type, String subType, String source, String target) {
@@ -342,8 +366,6 @@ public class AliasAstVisitor extends AstVisitor {
             }
         }
     }
-
-    private static final String DISAMBIGUATION_SUFFIX = " (disambiguation)";
 
 
     private final Set<String> foundTemplateNames = Sets.newHashSet();
@@ -900,7 +922,7 @@ public class AliasAstVisitor extends AstVisitor {
 //            print(template);
 
 
-        }  else if ("Disambiguation".equalsIgnoreCase(templateName)
+        } else if ("Disambiguation".equalsIgnoreCase(templateName)
                 || "disambig".equalsIgnoreCase(templateName)
                 || "geodis".equalsIgnoreCase(templateName)
                 || "Dab".equalsIgnoreCase(templateName)
@@ -921,8 +943,8 @@ public class AliasAstVisitor extends AstVisitor {
             checkTemplateArgs(0, 2, template);
 
 
-            for(String s : linkSurfaces)
-                addPageTitleAlias(AliasType.DAB_REDIRECT, "", pageTitle, s);
+            for (String s : linkSurfaces)
+                addPageTitleAlias(AliasType.DAB_TITLE, "", pageTitle, s);
 
         } else {
             if (!foundTemplateNames.contains(templateName.trim().toLowerCase())) {

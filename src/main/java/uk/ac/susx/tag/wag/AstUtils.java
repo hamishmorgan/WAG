@@ -7,18 +7,41 @@ import de.fau.cs.osr.ptk.common.ast.AstNode;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.util.List;
 import java.util.Set;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * AstUtils is a static utility class containing methods for manipulating abstract syntax tree (AST) related data.
+ * <p/>
+ * Actually it is largely concerned with Wikipedia related stuff, so I should probably split some of this class into
+ * a WikiUtils class at some point.
  *
  * @author Hamish Morgan
  */
 public class AstUtils {
 
+    /**
+     * Suffix sometimes (not always) used in Wikipedia to denote a disambiguation page.
+     */
+    public static final String DISAMBIGUATION_SUFFIX = " (disambiguation)";
+
+    /**
+     * Character used to denote namespace prefixes in Wikipedia article titles.
+     */
+    public static final char NAMESPACE_DELIMITER = ':';
+
+    /**
+     * Private constructor (Static utility class should not be instantiated.)
+     *
+     * @throws UnsupportedOperationException always
+     */
+    private AstUtils() throws UnsupportedOperationException {
+        throw new UnsupportedOperationException("Static utility class should not be instantiated.");
+    }
 
     /**
      * Get all the text with the given {@code node} tree, returning it as a string.
@@ -30,7 +53,7 @@ public class AstUtils {
         try {
             return (ImmutableList<AstNode>) (new GetLinksAstVisitor().go(node));
         } catch (ClassCastException e) {
-            throw new AssertionError("Casting to ImmutableList<AstNode> should never fail: " +  e);
+            throw new AssertionError("Casting to ImmutableList<AstNode> should never fail: " + e);
         }
     }
 
@@ -50,16 +73,31 @@ public class AstUtils {
     }
 
 
-    public static void print(AstNode node) {
-        new AstPrinter(new OutputStreamWriter(System.out) {
+    /**
+     * Print the entire abstract syntax tree rooted at the given <tt>node</tt>, on <tt>stdout</tt>.
+     *
+     * @param node tree to print
+     * @throws NullPointerException if node is null
+     */
+    public static void print(AstNode node) throws NullPointerException {
+        checkNotNull(node, "node");
+        new AstPrinter(new PrintWriter(System.out) {
             @Override
-            public void close() throws IOException {
+            public void close() {
                 super.flush();
             }
         }).go(node);
     }
 
-    public static String toString(AstNode node) {
+    /**
+     * Get the entire abstract syntax tree rooted at <tt>node</tt> as a human readable string.
+     *
+     * @param node tree to represent
+     * @return human readable string representation
+     * @throws NullPointerException if node is null
+     */
+    public static String toString(AstNode node) throws NullPointerException {
+        checkNotNull(node, "node");
         final StringWriter writer = new StringWriter();
         new AstPrinter(writer).go(node);
         return writer.toString();
@@ -130,9 +168,10 @@ public class AstUtils {
     }
 
     /**
-     * Get a set of title variants; computed by iteratively removing the last disambiguation suffix from the title until
+     * Get a set of title variants; computed by iteratively removing the last disambiguation suffix from the title
+     * until
      * no further suffixes remain.
-     *
+     * <p/>
      * The title itself is <em>not</em> included in the result set. If the title does not contain any disambiguation
      * suffixes then the empty set it returned.
      *
@@ -147,5 +186,61 @@ public class AstUtils {
         }
         return perms;
     }
+
+
+    /**
+     * Get whether or not the given Wikipedia article title contains a namespace.
+     *
+     * @param pageTitle wikipedia article title check for a namespace
+     * @return true if <tt>pageTitle</tt> contains a namespace, false otherwise
+     * @throws NullPointerException if <tt>pageTitle</tt> is null
+     */
+    public static final boolean containsNamespace(final String pageTitle)
+            throws NullPointerException {
+        checkNotNull(pageTitle, "pageTitle");
+        return -1 != pageTitle.indexOf(NAMESPACE_DELIMITER);
+    }
+
+    /**
+     * Strip the first namespace prefixes from the given page title, returning the result. Namespaces are denoted by
+     * ':' (colon) character; e.g <tt>wikt:Solidarity</tt> starts with the Wiktionary namespace. If the title does not
+     * contain any namespaces then it will be returned unaltered.
+     *
+     * @param pageTitle wikipedia article title to strip a namespace from
+     * @return title with the first namespace removed.
+     * @throws NullPointerException if <tt>pageTitle</tt> is null
+     */
+    public static final String stripNamespace(final String pageTitle)
+            throws NullPointerException {
+        checkNotNull(pageTitle, "pageTitle");
+        int i = pageTitle.indexOf(NAMESPACE_DELIMITER);
+        return (i != -1)
+                ? pageTitle.substring(i + 1)
+                : pageTitle;
+    }
+
+    /**
+     * Strip <em>all</em> namespace prefixes from the given page title, returning the result. Namespaces are denoted
+     * by ':' (colon) character; e.g <tt>wikt:Solidarity</tt> starts with the Wiktionary namespace. If the title does
+     * not contain any namespaces then it will be returned unaltered.
+     *
+     * @param pageTitle wikipedia article title to strip namespaces from
+     * @return title with <em>all</em> namespace removed.
+     * @throws NullPointerException if <tt>pageTitle</tt> is null
+     */
+    public static final String stripNamespaces(final String pageTitle)
+            throws NullPointerException {
+        checkNotNull(pageTitle, "pageTitle");
+        int start = 0;
+        {
+            int i;
+            while (-1 != (i = pageTitle.indexOf(NAMESPACE_DELIMITER, start)))
+                start = i + 1;
+        }
+        return (start > 0)
+                ? pageTitle.substring(start)
+                : pageTitle;
+    }
+
 
 }

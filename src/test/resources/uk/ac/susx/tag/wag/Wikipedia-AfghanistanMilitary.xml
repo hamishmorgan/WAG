@@ -1,0 +1,124 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.21wmf10</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>AfghanistanMilitary</title>
+    <ns>0</ns>
+    <id>20</id>
+    <redirect title="Military of Afghanistan" />
+    <revision>
+      <id>74466354</id>
+      <parentid>15898954</parentid>
+      <timestamp>2006-09-08T04:13:27Z</timestamp>
+      <contributor>
+        <username>Rory096</username>
+        <id>750223</id>
+      </contributor>
+      <comment>cat rd</comment>
+      <text xml:space="preserve" bytes="58">#REDIRECT [[Military of Afghanistan]] {{R from CamelCase}}</text>
+      <sha1>fwwag14915ks2kkiwxw9t1a2uafdagf</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Main other</title>
+    <ns>10</ns>
+    <id>17220251</id>
+    <revision>
+      <id>388689011</id>
+      <parentid>334818505</parentid>
+      <timestamp>2010-10-04T14:46:48Z</timestamp>
+      <contributor>
+        <username>WOSlinker</username>
+        <id>3138265</id>
+      </contributor>
+      <comment>remove {{pp-template}}</comment>
+      <text xml:space="preserve" bytes="409">{{#switch:
+  &lt;!--If no or empty &quot;demospace&quot; parameter then detect namespace--&gt;
+  {{#if:{{{demospace|}}} 
+  | {{lc: {{{demospace}}} }}    &lt;!--Use lower case &quot;demospace&quot;--&gt;
+  | {{#ifeq:{{NAMESPACE}}|{{ns:0}}
+    | main
+    | other
+    }} 
+  }}
+| main     = {{{1|}}}
+| other
+| #default = {{{2|}}}
+}}&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>ngt28vb1n5t4bh1su57btnqyofkd1d5</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:R from CamelCase</title>
+    <ns>10</ns>
+    <id>585692</id>
+    <revision>
+      <id>475606059</id>
+      <parentid>407908789</parentid>
+      <timestamp>2012-02-07T17:27:21Z</timestamp>
+      <contributor>
+        <username>Anomie</username>
+        <id>301903</id>
+      </contributor>
+      <comment>Wrap [[Category:Unprintworthy redirects]] in {{main other}} so it won't show on non-mainspace pages</comment>
+      <text xml:space="preserve" bytes="527">&amp;nbsp;
+----
+This is a redirect from a [[w:CamelCase|CamelCase]] or [[Wikipedia:Subpages|subpage]] title. In the initial versions of Wikipedia, all links had to be CamelCase. 
+
+They are kept to keep edit history and to avoid breaking links that may have been made externally.
+
+For more information, follow the category link.&lt;includeonly&gt;
+[[Category:Redirects with old history]]
+{{main other|[[Category:Unprintworthy redirects]]}}
+&lt;/includeonly&gt;&lt;!-- this is Template:R from CamelCase
+--&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>daalo3y1g7liqwxgazfn35vks7m344f</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>

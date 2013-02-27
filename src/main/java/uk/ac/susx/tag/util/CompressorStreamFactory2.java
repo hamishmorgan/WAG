@@ -62,7 +62,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * Factory to auto-detect and instantiate various Compressor[In|Out]putStreams
  * from names or byte signatures.
  * <p/>
- * The STANDARD {@link CompressorStreamFactory} class has been extended to allow
+ * The HACKEY {@link CompressorStreamFactory} class has been extended to allow
  * the factory to be configured with various options for the construction of
  * compressor streams.
  * <p/>

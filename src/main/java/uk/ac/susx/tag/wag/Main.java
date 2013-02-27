@@ -3,8 +3,6 @@ package uk.ac.susx.tag.wag;
 import com.beust.jcommander.*;
 import com.beust.jcommander.converters.BaseConverter;
 import com.beust.jcommander.internal.Lists;
-import com.google.common.annotations.Beta;
-import com.google.common.base.Optional;
 
 import static com.google.common.base.Preconditions.*;
 
@@ -40,7 +38,6 @@ public class Main {
     private final EnumSet<AliasType> producedTypes;
     private final int pageLimit;
     private final boolean produceIdentityAliases;
-
     private final OutputFormat outputFormat;
     private final EnumSet<WriteTabulatedAliasHandler.Column> outputColumns;
 
@@ -157,7 +154,8 @@ public class Main {
     /**
      * Note that some fields are prefixed with an underscore so JCommander can't tell
      */
-    @Parameters()
+    @Parameters(commandDescription = "Wikipedia Alias Generator (WAG) extras various form or semantic relations that " +
+            "indicative of a page title alias.")
     public static class Builder {
 
         /**
