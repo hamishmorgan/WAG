@@ -10,11 +10,10 @@ import de.fau.cs.osr.ptk.common.ast.Text;
 import org.sweble.wikitext.engine.Page;
 import org.sweble.wikitext.engine.config.WikiConfigurationInterface;
 import org.sweble.wikitext.engine.utils.EntityReferences;
+import org.sweble.wikitext.lazy.encval.IllegalCodePoint;
 import org.sweble.wikitext.lazy.parser.*;
 import org.sweble.wikitext.lazy.parser.Enumeration;
-import org.sweble.wikitext.lazy.preprocessor.Redirect;
-import org.sweble.wikitext.lazy.preprocessor.Template;
-import org.sweble.wikitext.lazy.preprocessor.TemplateArgument;
+import org.sweble.wikitext.lazy.preprocessor.*;
 import org.sweble.wikitext.lazy.utils.XmlCharRef;
 import org.sweble.wikitext.lazy.utils.XmlEntityRef;
 import uk.ac.susx.tag.util.StringUtils;
@@ -284,6 +283,24 @@ public class AliasAstVisitor extends AstVisitor {
         appendSurfaceText(" ");
     }
 
+    // Stuff we want to hide
+
+    public void visit(ImageLink n) {
+    }
+
+    public void visit(IllegalCodePoint n) {
+    }
+
+    public void visit(XmlComment n) {
+    }
+
+
+    public void visit(TagExtension n) {
+    }
+
+    public void visit(MagicWord n) {
+    }
+
     /*
 
      */
@@ -355,18 +372,18 @@ public class AliasAstVisitor extends AstVisitor {
         if (!produceTypes.contains(type))
             return;
 
-        source =  source.trim();
-        target =  target.trim();
+        source = source.trim();
+        target = target.trim();
 
-        if(source.isEmpty() || target.isEmpty())
+        if (source.isEmpty() || target.isEmpty())
             return;
 
-        if(source.length() > MAX_CHAR_LENGTH || target.length() > MAX_CHAR_LENGTH)
+        if (source.length() > MAX_CHAR_LENGTH || target.length() > MAX_CHAR_LENGTH)
             return;
 
 
-        if( WHITE_SPACE.split(source).length > MAX_WORD_LENGTH
-                ||  WHITE_SPACE.split(target).length > MAX_WORD_LENGTH)
+        if (WHITE_SPACE.split(source).length > MAX_WORD_LENGTH
+                || WHITE_SPACE.split(target).length > MAX_WORD_LENGTH)
             return;
 
         synonyms.add(new Alias(type, subType, source.trim(), target.trim()));

@@ -5,9 +5,14 @@ import de.fau.cs.osr.ptk.common.AstVisitor;
 import de.fau.cs.osr.ptk.common.ast.AstNode;
 import de.fau.cs.osr.ptk.common.ast.Text;
 import org.sweble.wikitext.engine.utils.EntityReferences;
+import org.sweble.wikitext.lazy.encval.IllegalCodePoint;
+import org.sweble.wikitext.lazy.parser.ImageLink;
+import org.sweble.wikitext.lazy.parser.MagicWord;
 import org.sweble.wikitext.lazy.parser.Url;
 import org.sweble.wikitext.lazy.parser.Whitespace;
+import org.sweble.wikitext.lazy.preprocessor.TagExtension;
 import org.sweble.wikitext.lazy.preprocessor.Template;
+import org.sweble.wikitext.lazy.preprocessor.XmlComment;
 import org.sweble.wikitext.lazy.utils.XmlCharRef;
 import org.sweble.wikitext.lazy.utils.XmlEntityRef;
 
@@ -126,5 +131,25 @@ public final class GetTextAstVisitor extends AstVisitor {
         builder.get().append(":");
         builder.get().append(url.getPath());
     }
+
+
+    // Stuff to hide
+
+    public void visit(ImageLink n) {
+    }
+
+    public void visit(IllegalCodePoint n) {
+    }
+
+    public void visit(XmlComment n) {
+    }
+
+
+    public void visit(TagExtension n) {
+    }
+
+    public void visit(MagicWord n) {
+    }
+
 
 }
