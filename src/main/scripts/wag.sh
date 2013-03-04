@@ -63,7 +63,7 @@
 #$ -j yes
 
 
-readonly JAVA_ARGS="-Xmx256m"
+readonly JAVA_ARGS="-Xmx256m -Dfile.encoding=UTF8"
 
 
 java ${JAVA_ARGS} -cp ./*:lib/* uk.ac.susx.tag.wag.Main "$@"
