@@ -388,13 +388,13 @@ public class Main {
                                 "clobbering is disabled: " + outputFile);
                     }
                 } else {
-                    // Output does not exist so check it is creatable
-                    if (!IOUtils.isCreatable(outputFile))
-                        throw new IllegalArgumentException("Output file is not creatable." + outputFile);
+                        // Output does not exist so check it is creatable
+                        if (!IOUtils.isCreatable(outputFile))
+                            throw new IllegalArgumentException("Output file is not creatable." + outputFile);
 
                     // Make parent directories
                     if (outputFile.getParentFile() != null) {
-                        if (!outputFile.exists() && !outputFile.mkdirs()) {
+                        if (!outputFile.getParentFile().exists() && !outputFile.getParentFile().mkdirs()) {
                             throw new IllegalArgumentException("Output file parent directory does not exist, " +
                                     "and is not creatable: " + outputFile);
                         }
