@@ -108,7 +108,6 @@ public class WriteTabulatedAliasHandler implements AliasHandler {
         return new WriteTabulatedAliasHandler(listWriter, selectedColumns, false);
     }
 
-
     @Override
     public void handle(Alias alias) {
         try {
@@ -146,7 +145,6 @@ public class WriteTabulatedAliasHandler implements AliasHandler {
             processors[i] = columnsOrdered[i].getProcessor();
         return processors;
     }
-
 
     private Object[] getValues(Alias alias) {
         final Column[] columnsOrdered = getColumnsOrdered();

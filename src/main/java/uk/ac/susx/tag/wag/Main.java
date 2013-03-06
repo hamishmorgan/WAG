@@ -30,7 +30,24 @@ import java.util.logging.Logger;
 public class Main {
 
     private enum OutputFormat {
-        TSV, CSV
+        /**
+         * Produce standard Tab-Separated-Values format. Values which contains tabs or new-line characters, are quoted.
+         * Internal quotes are escaped.
+         */
+        TSV,
+
+        /**
+         * Produce a simplified Tab-Separated-Values format. White-space within values and condensed and replaced with
+         * a single space character. Trailing and leading space is removed. The net result is that the output file
+         * sound never require quoted strings.
+         */
+        TSV_SIMPLIFIED,
+
+        /**
+         * Produce standard Comma-Separated-Values format. Values which contain a comma or new-line characters, are
+         * quoted. Internal quotes are escaped.
+         */
+        CSV;
     }
 
     private final List<ByteSource> sources;
@@ -75,6 +92,10 @@ public class Main {
 
             final AliasHandler handler;
             switch (outputFormat) {
+                case TSV_SIMPLIFIED:
+                    handler = new SpaceTrimmingAliasHandlerAdapter(
+                            WriteTabulatedAliasHandler.newTsvInstance(outWriter, outputColumns));
+                    break;
                 case TSV:
                     handler = WriteTabulatedAliasHandler.newTsvInstance(outWriter, outputColumns);
                     break;
@@ -388,9 +409,9 @@ public class Main {
                                 "clobbering is disabled: " + outputFile);
                     }
                 } else {
-                        // Output does not exist so check it is creatable
-                        if (!IOUtils.isCreatable(outputFile))
-                            throw new IllegalArgumentException("Output file is not creatable." + outputFile);
+                    // Output does not exist so check it is creatable
+                    if (!IOUtils.isCreatable(outputFile))
+                        throw new IllegalArgumentException("Output file is not creatable." + outputFile);
 
                     // Make parent directories
                     if (outputFile.getParentFile() != null) {
