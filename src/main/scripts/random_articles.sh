@@ -40,7 +40,7 @@ function get_http_location {
 }
 
 function urldecode {
-	sed -e's/%\([0-9A-F][0-9A-F]\)/\\\\\x\1/g'
+	echo -e `sed -e's/%\([0-9A-F][0-9A-F]\)/\\\\\x\1/g'`
 }
 
 _main_ "$@"
