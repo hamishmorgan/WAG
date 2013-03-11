@@ -55,7 +55,31 @@ Usage: wag [options] FILE1 [FILE2 [...]]
             HAT_NOTE, TRUNCATED, PERSON_ALT_NAME, S1BOLD]
 ```
 
-### Example 1: Distributional model
+### Example 1: Page titles
+
+A very simple thing one might want to do is get a list of every page in the wikipedia
+dump file. To print such a list on `stdout` run WAG with the following options.
+
+```sh
+$ ./wag.sh -c UTF-8 -I -o - -t TITLE -of TSV_SIMPLIFIED \
+    -oc TARGET enwiki-[timestamp]-pages-articles.xml.bz2 2> output.log
+```
+
+Some notes on what we're doing here:
+
+ * Specify the output character encoding as UTF-8 (`-c UTF-8`).
+ * Rather than write to a file, the result will printing to `stdout` (`-o -`).
+ * Since we are going to producing just to title alias type `-t TITLE`, which is always an identity alias (i.e target and
+source are just the page title), so we need to enable identity pairs (`-I`). 
+ * We don't need either the type information (because it's always the same), not the source, so just produce the target column
+(`-oc TARGET`). 
+ * Read the wiki xml dump from the given file `enwiki-[timestamp]-pages-articles.xml.bz2`.
+ * Finally let's hide all the logging and progress information by writing it to a file (`2> output.log`).
+
+Obviously this is all rather complicated for such simple task, but then with great power comes
+great obfuscation.
+
+### Example 2: Distributional model
 
 You might want to produce a dsitributional model out of the aliases data, by accociating 
 those target entries that correlate on source referrers. This can be done using Byblo, if
