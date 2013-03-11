@@ -10,6 +10,7 @@ import org.supercsv.io.ICsvListWriter;
 import org.supercsv.prefs.CsvPreference;
 import org.supercsv.util.CsvContext;
 
+import java.io.Flushable;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.*;
@@ -21,7 +22,7 @@ import java.util.*;
  * Time: 12:03
  * To change this template use File | Settings | File Templates.
  */
-public class WriteTabulatedAliasHandler implements AliasHandler {
+public class WriteTabulatedAliasHandler implements AliasHandler, Flushable {
 
 
     public enum Column {
@@ -82,6 +83,12 @@ public class WriteTabulatedAliasHandler implements AliasHandler {
         if (writeHeaders)
             this.listWriter.writeHeader(getHeaders());
     }
+
+    @Override
+    public void flush() throws IOException {
+       listWriter.flush();
+    }
+
 
     public static WriteTabulatedAliasHandler newCsvInstance(Writer writer)
             throws IOException {
@@ -207,8 +214,8 @@ public class WriteTabulatedAliasHandler implements AliasHandler {
 
             validateInputNotNull(value, context);  // throws an Exception if the input is null
 
-            for (AliasType type : AliasType.values()){
-                if (type.name().equalsIgnoreCase(value.toString())){
+            for (AliasType type : AliasType.values()) {
+                if (type.name().equalsIgnoreCase(value.toString())) {
                     // passes the Day enum to the next processor in the chain
                     return next.execute(type, context);
                 }

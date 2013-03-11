@@ -117,7 +117,7 @@ public class Main {
                     // Set up the input stuff
                     final BufferedInputStream in = inCloser.register(source.openBufferedStream());
                     generator.process(in, pageLimit, source.size());
-                    outWriter.flush();
+
 
                 } catch (Throwable throwable) {
                     throw inCloser.rethrow(throwable);
@@ -126,6 +126,9 @@ public class Main {
                 }
             }
 
+            if(handler instanceof Flushable)
+                ((Flushable)handler).flush();
+            outWriter.flush();
         } catch (Throwable throwable) {
             throw outCloser.rethrow(throwable);
         } finally {
