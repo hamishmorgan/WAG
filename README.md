@@ -1,3 +1,5 @@
+![WAG Logo](http://i.imgur.com/YuuRUJI.png)
+
 # Wikipedia Alias Generator (WAG)
 
 WAG is a tool for extracting aliases from a Wikipedia xml dump or export. It parses the XML and WikiText markup
