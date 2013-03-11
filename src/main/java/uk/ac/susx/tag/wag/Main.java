@@ -15,6 +15,7 @@ import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
+import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.List;
 import java.util.logging.Level;
@@ -137,7 +138,6 @@ public class Main {
 
         final Builder builder = Main.builder();
 
-
         StringConverterFactory converter = StringConverterFactory.newInstance(true);
 
 
@@ -145,7 +145,6 @@ public class Main {
         jc.setProgramName("wag");
         jc.addObject(builder);
         jc.addConverterFactory(converter);
-
         jc.parse(args);
 
         if (builder.globals.isUsageRequested()) {
@@ -173,7 +172,6 @@ public class Main {
     }
 
     /**
-     * Note that some fields are prefixed with an underscore so JCommander can't tell
      */
     @Parameters(commandDescription = "Wikipedia Alias Generator (WAG) extras various form or semantic relations that " +
             "indicative of a page title alias.")
@@ -200,7 +198,7 @@ public class Main {
          * The destination file for discovered aliases.
          */
         @Parameter(names = {"-o", "--output"},
-                description = "output file to write aliases to. (\"-\" for stdout.)")
+                description = "Output file to write aliases to. (\"-\" for stdout.)")
         private File outputFile = new File("-");
 
         /**
@@ -225,7 +223,9 @@ public class Main {
          *
          */
         @Parameter(names = {"-t", "--types"},
-                description = "Set of alias types to produce.",
+                description = "Set of alias types to produce, as a comma-separated subset of {TITLE, LOWERCASE_TITLE," +
+                        " LINK, REDIRECT, P1BOLD, DAB_TITLE, DAB_REDIRECT, HAT_NOTE, TRUNCATED, PERSON_ALT_NAME, " +
+                        "P2BOLD, S1BOLD}",
                 converter = AliasTypeStringConverter.class)
         private List<AliasType> producedAliasTypes = Lists.newArrayList(AliasType.STANDARD);
 
@@ -233,21 +233,23 @@ public class Main {
          *
          */
         @Parameter(names = {"-l", "--limit"},
-                description = "Limit the job to process on the first pages. (Set to -1 for no limit)")
+                description = "Limit the number of pages which will be processed from each input file. " +
+                        "(Set to -1 for no limit)")
         private int pageLimit = -1;
 
         /**
          *
          */
         @Parameter(names = {"-of", "--outputFormat"},
-                description = "Output format.",
+                description = "Output format. One of TSV, CSV, or TSV_SIMPLIFIED. TSV and CSV are well-formed escaped" +
+                        "output. TSV_SIMPLIFIED pre-strips tokens so escaping is not required (compatible with Byblo.)",
                 converter = OutputFormatStringConverter.class)
         private OutputFormat outputFormat = OutputFormat.TSV;
         /**
          *
          */
         @Parameter(names = {"-oc", "--outputColumns"},
-                description = "Output format.",
+                description = "Set of output columns to produce. Comma-separated subset of {TYPE, SUBTYPE, SOURCE, TARGET}",
                 converter = ColumnStringConverter.class)
         private List<WriteTabulatedAliasHandler.Column> outputColumns
                 = Lists.newArrayList(EnumSet.allOf(WriteTabulatedAliasHandler.Column.class));
@@ -269,7 +271,8 @@ public class Main {
          * @param outputCharset character encoding to use for writing files.
          */
         @Parameter(names = {"-c", "--charset"},
-                description = "character encoding to use for writing aliases")
+                description = "Character encoding to use for writing aliases. " +
+                        "(Input encoding should be set in the xml file.)")
         public Builder setOutputCharset(Charset outputCharset) {
             this.outputCharset = checkNotNull(outputCharset, "outputCharset");
             return this;
@@ -322,7 +325,7 @@ public class Main {
          * @return this builder (for method chaining)
          */
         @Parameter(names = {"-C", "--clobber"},
-                description = "overwrite output files if they already exist")
+                description = "Overwrite output files if they already exist")
         public Builder setOutputClobberingEnabled(boolean outputClobberingEnabled) {
             this.outputClobberingEnabled = outputClobberingEnabled;
             return this;
