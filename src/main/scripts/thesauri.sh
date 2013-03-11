@@ -53,7 +53,7 @@ function main {
 			--identityAliases \
 			--output "${ALIASES_FILE}" \
 			--outputColumns SOURCE,TARGET \
-			--outputFormat TSV \
+			--outputFormat TSV_SIMPLIFIED \
 			"${INPUT_FILE}"
 		cd $WORKING_DIR
 	else
