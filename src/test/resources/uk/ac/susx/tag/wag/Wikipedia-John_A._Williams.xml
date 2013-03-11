@@ -335,7 +335,7 @@ Please do not edit without discussion first as this is a VERY complex template.
 --&gt;&lt;table cellspacing=&quot;0&quot; class=&quot;nowraplinks {{{bodyclass|}}} {{#if:{{{title|}}}|{{#switch:{{{state|}}}|&lt;!--
  --&gt;plain|off=|#default=collapsible {{#if:{{{state|}}}|{{{state}}}|autocollapse}}}}}} {{#switch:{{{border|{{{1|}}}}}}|&lt;!--
  --&gt;subgroup|child|none=navbox-subgroup&quot; style=&quot;border-spacing:0;{{{bodystyle|}}};{{{style|}}}|&lt;!--
- --&gt;#default=navbox-inner&quot; style=&quot;border-spacing:0;background:transparent;color:inherit}};{{{innerstyle|}}};&quot;&gt;&lt;!--
+ --&gt;#default=navbox-deligate&quot; style=&quot;border-spacing:0;background:transparent;color:inherit}};{{{innerstyle|}}};&quot;&gt;&lt;!--
 
 
 ---Title and Navbar---

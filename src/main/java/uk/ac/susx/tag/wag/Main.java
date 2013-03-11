@@ -106,6 +106,8 @@ public class Main {
                 default:
                     throw new AssertionError(outputFormat);
             }
+            if (handler instanceof Closeable)
+                outCloser.register(((Closeable) handler));
 
             final WikiAliasGenerator generator =
                     new WikiAliasGenerator(handler, producedTypes);
@@ -126,8 +128,8 @@ public class Main {
                 }
             }
 
-            if(handler instanceof Flushable)
-                ((Flushable)handler).flush();
+            if (handler instanceof Flushable)
+                ((Flushable) handler).flush();
             outWriter.flush();
         } catch (Throwable throwable) {
             throw outCloser.rethrow(throwable);

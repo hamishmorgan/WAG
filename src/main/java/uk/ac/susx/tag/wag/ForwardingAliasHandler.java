@@ -30,6 +30,10 @@
  */
 package uk.ac.susx.tag.wag;
 
+import java.io.Closeable;
+import java.io.Flushable;
+import java.io.IOException;
+
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
@@ -39,7 +43,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  *
  * @author Hamish Morgan &lt;hamish.morgan@sussex.ac.uk&gt;
  */
-public abstract class ForwardingAliasHandler implements AliasHandler {
+public abstract class ForwardingAliasHandler implements AliasHandler, Flushable, Closeable {
 
     /**
      * Inner <tt>AliasHandler</tt> to which method invocations will be forwarded.
@@ -68,5 +72,17 @@ public abstract class ForwardingAliasHandler implements AliasHandler {
     @Override
     public void handle(Alias alias) {
         delegate.handle(checkNotNull(alias, "alias"));
+    }
+
+    @Override
+    public void close() throws IOException {
+        if(delegate instanceof Closeable)
+            ((Closeable)delegate).close();
+    }
+
+    @Override
+    public void flush() throws IOException {
+        if(delegate instanceof Flushable)
+            ((Flushable)delegate).flush();
     }
 }

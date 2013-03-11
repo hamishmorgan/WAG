@@ -10,6 +10,7 @@ import org.supercsv.io.ICsvListWriter;
 import org.supercsv.prefs.CsvPreference;
 import org.supercsv.util.CsvContext;
 
+import java.io.Closeable;
 import java.io.Flushable;
 import java.io.IOException;
 import java.io.Writer;
@@ -22,7 +23,7 @@ import java.util.*;
  * Time: 12:03
  * To change this template use File | Settings | File Templates.
  */
-public class WriteTabulatedAliasHandler implements AliasHandler, Flushable {
+public class WriteTabulatedAliasHandler implements AliasHandler, Flushable, Closeable {
 
 
     public enum Column {
@@ -87,6 +88,12 @@ public class WriteTabulatedAliasHandler implements AliasHandler, Flushable {
     @Override
     public void flush() throws IOException {
        listWriter.flush();
+    }
+
+    @Override
+    public void close() throws IOException {
+        listWriter.flush();
+        listWriter.close();
     }
 
 
