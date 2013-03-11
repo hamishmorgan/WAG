@@ -128,7 +128,7 @@ public class WikiAliasGenerator {
             @Override
             public void process(WikiPage page) {
 //                System.out.println("Title: " + page.getTitle());
-                if (limit >= 0 && count > limit) {
+                if (limit >= 0 && count >= limit) {
                     throw new WikiXMLParserHaltException();
                 }
 
