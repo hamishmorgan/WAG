@@ -79,6 +79,9 @@ source are just the page title), so we need to enable identity pairs (`-I`).
 Obviously this is all rather complicated for such simple task, but then with great power comes
 great obfuscation.
 
+This process takes about 30 minutes (on a full ~10 GB bzip2 compressed wikipedia dump) on my desktop 
+computer.
+
 ### Example 2: Distributional model
 
 You might want to produce a dsitributional model out of the aliases data, by accociating 
