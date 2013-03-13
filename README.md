@@ -1,15 +1,75 @@
 # ![WAG Logo](http://i.imgur.com/YuuRUJI.png)
 
 WAG is a tool for extracting aliases from a Wikipedia xml dump or export. It parses the XML and WikiText markup
-to discover synonomy, hyponomy, and other types of potentially usefull alias relations.
+to discover synonymy, hyponymy, and other types of potentially useful alias relations.
 
 ## Download
 
-You can get the latest snaptshot from our maven repository:
+You can get the latest snapshot from our maven repository:
 
-  http://kungf.eu:8081/nexus/content/repositories/snapshots/uk/ac/susx/mlcl/wag/
+[http://kungf.eu:8081/nexus/content/repositories/snapshots/uk/ac/susx/mlcl/wag/](http://kungf.eu:8081/nexus/content/repositories/snapshots/uk/ac/susx/mlcl/wag/)
   
-(You probably want one of the `bin-with-deps` artifacts. These include all the require libraries and are good to go.)
+(You probably want one of the `bin-with-deps` artefacts. These include all the require libraries and are good to go.)
+
+## Alias types
+
+The software produces aliases from wiki data, using a number of different heuristics. Each type can be enabled and disabled independently. Some type have a number of sub-types; the specifics of which are context dependent.
+
+#### TITLE
+
+Exact match to the page title. Relation source and target will be the same. Note this will always be an *identity alias* so that option must be enabled or it will never be produced.
+
+#### LOWERCASE_TITLE
+
+When a page contains the `{{lowercase title}}` template (e.g [iPod](http://en.wikipedia.org/wiki/iPod), [gzip](http://en.wikipedia.org/wiki/gzip), ...) then the upper case title will be denoted as an alias of the lower-case variant (since lowercase is less ambiguous.) I.e source is upper-case, target is lower-case.
+
+#### LINK
+
+From wiki internal links (to other pages) we extract the link surface text as an alias for the title of the target page.
+
+#### REDIRECT
+    
+When a page that contains `#REDIRECT [[target]]` directive it indicates that it should permanently redirect to the target page. We exact the redirecting page title as an alias of the target.
+
+#### P1BOLD
+
+Common and canonical names for a topic are conventionally listed in bold in the articles first paragraph. Note however that this is purely syntactic markup, and so is liable to be used for other meanings. When this type is enabled, the bold surface text is produced as an alias of the page title.
+
+#### DAB_TITLE
+
+Disambiguation (DAB) pages contains internal links to articles that each represent a single sense of the page title. When this type is enabled, the DAB title is extracted as an alias for each of the linked articles.
+
+#### DAB_REDIRECT
+
+There may be multiple terms that refer to the same disambiguation page (e.g [AMP](http://en.wikipedia.org/wiki/AMP) redirects to [Amp](http://en.wikipedia.org/wiki/Amp)). This is indicated with bold text at the start of the disambiguation page, or hat-note redirects. These are extracted (as types `??BOLD` and `HAT_NOTE`, respectively) but are not distinguished from normal pages. Consequently this type is never produced; enabling or disabling it does nothing. It is included for the sake of completeness with prior work.
+
+#### HAT_NOTE
+
+Articles frequently contain special templates to indicate related content. For example the template `{{About|USE1||PAGE2}}` transcludes to *"This page is about USE1. For other uses, see PAGE2."* There are a large number of variations on this theme, each of which is handled slightly differently, but in general we extract aliases where a more ambiguous terms references a less ambiguous term.
+
+#### TRUNCATED
+
+Page titles frequently contains disambiguation suffixes as bracketed terms or after a comma. When this alias type is enabled we permute page titles by stripping all combinations of disambiguation suffix, and include each variation as an alias of the full title.
+
+Note there is one exception: the suffix `(disambiguation)`, which is used to denote a disambiguation page. If this suffix is encountered it is *always* stripped.
+
+#### PERSON_ALT_NAME
+
+Articles about people usually contain a special infobox denoted by the `{{Persondata}}` template. This includes, among other things, a list of `ALTERNATIVE NAMES` for the individual. When this type is enabled we extra each alternative name as an alias of the page title.
+
+When processing this alias, we handle commas differently from other articles. In addition to including truncated variants we also re-order the name, broken by commas. E.g, for the name "Augustine, Saint, Bishop of Hippo", we
+also produce "Saint Augustine", "Bishop of Hippo", and "Augustine, Bishop of Hippo".
+
+#### P2BOLD
+
+Same as `P1BOLD` but for the second paragraph, moderately improves recall at the expense of precision.
+
+
+#### S1BOLD
+
+Extract all bold text in the first section (preceding the first sub-title) as aliases of the page title. This type is an alternative to first and second paragraph bold text extraction (`P1BOLD` and `P2BOLD`) types. 
+
+The first section of a page is the portion of text before the first section title. This may include multiple paragraphs, or it may be just one. Therefore is will have equal to or greater recall than `P1BOLD`, but may have lower recall than `P2BOLD`. 
 
 ## Usage
 
