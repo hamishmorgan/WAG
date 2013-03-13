@@ -13,7 +13,7 @@ You can get the latest snapshot from our maven repository:
 
 ## Alias types
 
-The software produces aliases from wiki data, using a number of different heuristics. Each type can be enabled and disabled independently. Some type have a number of sub-types; the specifics of which are context dependent.
+The software produces aliases from wiki data, using a number of different heuristics. Each type can be enabled and disabled independently (see [usage](#usage) section below.) Some type have a number of sub-types; the specifics of which are context dependent.
 
 #### TITLE
 
@@ -41,11 +41,11 @@ Disambiguation (DAB) pages contains internal links to articles that each represe
 
 #### DAB_REDIRECT
 
-There may be multiple terms that refer to the same disambiguation page (e.g [AMP](http://en.wikipedia.org/wiki/AMP) redirects to [Amp](http://en.wikipedia.org/wiki/Amp)). This is indicated with bold text at the start of the disambiguation page, or hat-note redirects. These are extracted (as types `??BOLD` and `HAT_NOTE`, respectively) but are not distinguished from normal pages. Consequently this type is never produced; enabling or disabling it does nothing. It is included for the sake of completeness with prior work.
+There may be multiple terms that refer to the same disambiguation page (e.g [AMP](http://en.wikipedia.org/wiki/AMP) redirects to [Amp](http://en.wikipedia.org/wiki/Amp)). This is indicated with bold text at the start of the disambiguation page, or hat-note redirects. These are extracted (as types [P1BOLD](#p1bold) and [HAT_NOTE](#hate_note), respectively) but are not distinguished from normal pages. Consequently this type is never produced; enabling or disabling it does nothing. It is included for the sake of completeness with prior work.
 
 #### HAT_NOTE
 
-Articles frequently contain special templates to indicate related content. For example the template `{{About|USE1||PAGE2}}` transcludes to *"This page is about USE1. For other uses, see PAGE2."* There are a large number of variations on this theme, each of which is handled slightly differently, but in general we extract aliases where a more ambiguous terms references a less ambiguous term.
+Articles frequently contain special templates to indicate related content. For example the template `{{About|USE1||PAGE2}}` transcludes to *"This page is about `USE1`. For other uses, see `PAGE2`."* There are a large number of variations on this theme, each of which is handled slightly differently, but in general we extract aliases where a more ambiguous terms references a less ambiguous term.
 
 #### TRUNCATED
 
@@ -67,9 +67,9 @@ Same as `P1BOLD` but for the second paragraph, moderately improves recall at the
 
 #### S1BOLD
 
-Extract all bold text in the first section (preceding the first sub-title) as aliases of the page title. This type is an alternative to first and second paragraph bold text extraction (`P1BOLD` and `P2BOLD`) types. 
+Extract all bold text in the first section (preceding the first sub-title) as aliases of the page title. This type is an alternative to first and second paragraph bold text extraction ([P1BOLD](#p1bold) and [P2BOLD](#p2bold)) types. 
 
-The first section of a page is the portion of text before the first section title. This may include multiple paragraphs, or it may be just one. Therefore is will have equal to or greater recall than `P1BOLD`, but may have lower recall than `P2BOLD`. 
+The first section of a page is the portion of text before the first section title. This may include multiple paragraphs, or it may be just one. Therefore is will have equal to or greater recall than [P1BOLD](#p1bold), but may have lower recall than [P2BOLD](#p2bold). 
 
 ## Usage
 
