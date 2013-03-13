@@ -1,4 +1,4 @@
-# ![WAG Logo](http://i.imgur.com/YuuRUJI.png)
+# ![WAG Logo](http://i.imgur.com/T7NZr2d.png)
 
 WAG is a tool for extracting aliases from a Wikipedia xml dump or export. It parses the XML and WikiText markup
 to discover synonymy, hyponymy, and other types of potentially useful alias relations.
