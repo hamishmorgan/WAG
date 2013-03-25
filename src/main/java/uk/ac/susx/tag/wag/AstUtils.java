@@ -5,11 +5,8 @@ import com.google.common.collect.Sets;
 import de.fau.cs.osr.ptk.common.AstPrinter;
 import de.fau.cs.osr.ptk.common.ast.AstNode;
 
-import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.util.List;
 import java.util.Set;
 
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -127,7 +124,7 @@ public class AstUtils {
      * @param suffix ending to remove
      * @return string with suffix removed (if present)
      */
-    public static final String stripSuffixIfPresent(String string, String suffix) {
+    public static String stripSuffixIfPresent(String string, String suffix) {
         checkNotNull(string, "string");
         checkNotNull(suffix, "suffix");
 
@@ -147,7 +144,7 @@ public class AstUtils {
      * @param title WikiText page title to check
      * @return true if the title contains a disambiguation suffix, false otherwise
      */
-    public static final boolean containsWikiTitleSuffix(String title) {
+    public static boolean containsWikiTitleSuffix(String title) {
         return title.contains(",") || (title.contains("(") && title.contains(")"));
     }
 
@@ -158,7 +155,7 @@ public class AstUtils {
      * @param title Wiki page title to strip a suffix from
      * @return the title with the last disambiguation suffix stripped, if present.
      */
-    public static final String stripWikiTitleSuffix(String title) {
+    public static String stripWikiTitleSuffix(String title) {
         int i;
         if (-1 != (i = title.lastIndexOf('(')))
             return title.substring(0, i).trim();
@@ -178,7 +175,7 @@ public class AstUtils {
      * @param title Wiki page title
      * @return set of all title variants
      */
-    public static final Set<String> wikiTitleVarients(String title) {
+    public static Set<String> wikiTitleVarients(String title) {
         final Set<String> perms = Sets.newHashSet();
         while (containsWikiTitleSuffix(title)) {
             title = stripWikiTitleSuffix(title).trim();
@@ -195,7 +192,7 @@ public class AstUtils {
      * @return true if <tt>pageTitle</tt> contains a namespace, false otherwise
      * @throws NullPointerException if <tt>pageTitle</tt> is null
      */
-    public static final boolean containsNamespace(final String pageTitle)
+    public static boolean containsNamespace(final String pageTitle)
             throws NullPointerException {
         checkNotNull(pageTitle, "pageTitle");
         return -1 != pageTitle.indexOf(NAMESPACE_DELIMITER);
@@ -210,7 +207,7 @@ public class AstUtils {
      * @return title with the first namespace removed.
      * @throws NullPointerException if <tt>pageTitle</tt> is null
      */
-    public static final String stripNamespace(final String pageTitle)
+    public static String stripNamespace(final String pageTitle)
             throws NullPointerException {
         checkNotNull(pageTitle, "pageTitle");
         int i = pageTitle.indexOf(NAMESPACE_DELIMITER);
@@ -228,7 +225,7 @@ public class AstUtils {
      * @return title with <em>all</em> namespace removed.
      * @throws NullPointerException if <tt>pageTitle</tt> is null
      */
-    public static final String stripNamespaces(final String pageTitle)
+    public static String stripNamespaces(final String pageTitle)
             throws NullPointerException {
         checkNotNull(pageTitle, "pageTitle");
         int start = 0;

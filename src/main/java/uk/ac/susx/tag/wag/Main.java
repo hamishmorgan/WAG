@@ -1,11 +1,11 @@
 package uk.ac.susx.tag.wag;
 
-import com.beust.jcommander.*;
+import com.beust.jcommander.JCommander;
+import com.beust.jcommander.Parameter;
+import com.beust.jcommander.Parameters;
+import com.beust.jcommander.ParametersDelegate;
 import com.beust.jcommander.converters.BaseConverter;
 import com.beust.jcommander.internal.Lists;
-
-import static com.google.common.base.Preconditions.*;
-
 import com.google.common.collect.ImmutableList;
 import com.google.common.io.*;
 import uk.ac.susx.tag.util.IOUtils;
@@ -15,18 +15,16 @@ import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
-import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import static com.google.common.base.Preconditions.checkNotNull;
+
 /**
- * Created with IntelliJ IDEA.
- * User: hiam20
- * Date: 18/02/2013
- * Time: 14:33
- * To change this template use File | Settings | File Templates.
+ * @author hiam20
+ * @since 18/02/2013 14:33
  */
 public class Main {
 
@@ -48,7 +46,7 @@ public class Main {
          * Produce standard Comma-Separated-Values format. Values which contain a comma or new-line characters, are
          * quoted. Internal quotes are escaped.
          */
-        CSV;
+        CSV
     }
 
     private final List<ByteSource> sources;
@@ -84,6 +82,40 @@ public class Main {
         return new Builder();
     }
 
+    private  AliasHandler newOutputHandler(
+            PrintWriter outWriter) throws IOException {
+        final AliasHandler handler;
+        switch (outputFormat) {
+            case TSV_SIMPLIFIED:
+                handler = new SpaceTrimmingAliasHandlerAdapter(
+                        WriteTabulatedAliasHandler.newTsvInstance(outWriter, outputColumns));
+                break;
+            case TSV:
+                handler = WriteTabulatedAliasHandler.newTsvInstance(outWriter, outputColumns);
+                break;
+            case CSV:
+                handler = WriteTabulatedAliasHandler.newCsvInstance(outWriter, outputColumns);
+                break;
+            default:
+                throw new AssertionError(outputFormat);
+        }
+        return handler;
+    }
+
+    void processSource(ByteSource source, WikiAliasGenerator generator) throws IOException {
+        final Closer inCloser = Closer.create();
+        try {
+            // Set up the input stuff
+            final BufferedInputStream in = inCloser.register(source.openBufferedStream());
+            generator.process(in, pageLimit, source.size());
+
+        } catch (Throwable throwable) {
+            throw inCloser.rethrow(throwable);
+        } finally {
+            inCloser.close();
+        }
+    }
+
     void run() throws Exception {
         final Closer outCloser = Closer.create();
         try {
@@ -91,21 +123,7 @@ public class Main {
             final Writer writer = outCloser.register(sink.openBufferedStream());
             final PrintWriter outWriter = outCloser.register(new PrintWriter(writer));
 
-            final AliasHandler handler;
-            switch (outputFormat) {
-                case TSV_SIMPLIFIED:
-                    handler = new SpaceTrimmingAliasHandlerAdapter(
-                            WriteTabulatedAliasHandler.newTsvInstance(outWriter, outputColumns));
-                    break;
-                case TSV:
-                    handler = WriteTabulatedAliasHandler.newTsvInstance(outWriter, outputColumns);
-                    break;
-                case CSV:
-                    handler = WriteTabulatedAliasHandler.newCsvInstance(outWriter, outputColumns);
-                    break;
-                default:
-                    throw new AssertionError(outputFormat);
-            }
+            final AliasHandler handler = newOutputHandler(outWriter);
             if (handler instanceof Closeable)
                 outCloser.register(((Closeable) handler));
 
@@ -114,18 +132,7 @@ public class Main {
             generator.setIdentityAliasesProduced(produceIdentityAliases);
 
             for (final ByteSource source : sources) {
-                final Closer inCloser = Closer.create();
-                try {
-                    // Set up the input stuff
-                    final BufferedInputStream in = inCloser.register(source.openBufferedStream());
-                    generator.process(in, pageLimit, source.size());
-
-
-                } catch (Throwable throwable) {
-                    throw inCloser.rethrow(throwable);
-                } finally {
-                    inCloser.close();
-                }
+                processSource(source, generator);
             }
 
             if (handler instanceof Flushable)

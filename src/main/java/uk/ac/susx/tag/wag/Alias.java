@@ -47,14 +47,13 @@ public final class Alias {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Alias synonym = (Alias) o;
+        final Alias synonym = (Alias) o;
 
-        if (!source.equals(synonym.source)) return false;
-        if (!target.equals(synonym.target)) return false;
-        if (type != synonym.type) return false;
-        if (!subType.equals(synonym.subType)) return false;
+        return source.equals(synonym.source)
+                && target.equals(synonym.target)
+                && type == synonym.type
+                && subType.equals(synonym.subType);
 
-        return true;
     }
 
     @Override

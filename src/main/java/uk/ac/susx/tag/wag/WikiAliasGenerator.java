@@ -1,8 +1,5 @@
 package uk.ac.susx.tag.wag;
 
-import static com.google.common.base.Preconditions.*;
-import static java.util.concurrent.TimeUnit.NANOSECONDS;
-
 import com.google.common.base.Stopwatch;
 import com.google.common.io.Closeables;
 import com.google.common.io.Closer;
@@ -19,20 +16,22 @@ import uk.ac.susx.tag.util.CompressorStreamFactory2;
 import uk.ac.susx.tag.util.DateTimeUtils;
 import uk.ac.susx.tag.util.MiscUtil;
 
-import javax.xml.bind.JAXBException;
-import java.io.*;
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.net.URL;
 import java.util.EnumSet;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import static com.google.common.base.Preconditions.checkNotNull;
+import static java.util.concurrent.TimeUnit.NANOSECONDS;
+
 /**
- * Created with IntelliJ IDEA.
- * User: hiam20
- * Date: 19/02/2013
- * Time: 16:40
- * To change this template use File | Settings | File Templates.
+ * @author hiam20
+ * @since 19/02/2013 16:40
  */
 public class WikiAliasGenerator {
     private static final Logger LOG = Logger.getLogger(WikiAliasGenerator.class.getName());
@@ -47,7 +46,7 @@ public class WikiAliasGenerator {
     // Configuration parameters
     private boolean identityAliasesProduced = DEFAULT_identityAliasesProduced;
 
-    public WikiAliasGenerator(AliasHandler handler, EnumSet<AliasType> producedTypes) throws FileNotFoundException, JAXBException {
+    public WikiAliasGenerator(AliasHandler handler, EnumSet<AliasType> producedTypes) {
         this.handler = checkNotNull(handler, "handler");
         this.producedTypes = producedTypes;
     }
@@ -156,8 +155,7 @@ public class WikiAliasGenerator {
                     final PageId pageId = new PageId(pageTitle, -1);
                     final CompiledPage cp = swebleCompiler.postprocess(pageId, page.getWikiText(), null);
 
-                    final AliasAstVisitor visitor = new AliasAstVisitor(
-                            page.getTitle(), swebleCompiler.getWikiConfig(), producedTypes);
+                    final AliasAstVisitor visitor = new AliasAstVisitor(page.getTitle(), producedTypes);
                     final List<Alias> aliases = (List<Alias>) visitor.go(cp.getPage());
 
                     for (Alias alias : aliases) {

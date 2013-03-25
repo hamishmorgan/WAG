@@ -1,18 +1,14 @@
 package uk.ac.susx.tag.wag;
 
 import com.beust.jcommander.IStringConverter;
-import com.beust.jcommander.ParameterException;
 import com.beust.jcommander.converters.BaseConverter;
 import uk.ac.susx.tag.util.EnumUtils;
 
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created with IntelliJ IDEA.
- * User: hiam20
- * Date: 26/02/2013
- * Time: 11:44
- * To change this template use File | Settings | File Templates.
+ * @author hiam20
+ * @since 26/02/2013 11:44
  */
 public abstract class EnumStringConverter<T extends Enum<T>>
         extends BaseConverter<T>

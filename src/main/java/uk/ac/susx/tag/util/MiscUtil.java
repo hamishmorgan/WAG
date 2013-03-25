@@ -203,10 +203,9 @@ public class MiscUtil {
     public static String memoryInfoString() {
         return MessageFormat.format(
                 "Memory used={0}, allocated={1}, available={2}",
-                new Object[]{
                         humanReadableBytes(usedMemory()),
                         humanReadableBytes(allocatedMemory()),
-                        humanReadableBytes(maxMemory())});
+                        humanReadableBytes(maxMemory()));
     }
 
     /**

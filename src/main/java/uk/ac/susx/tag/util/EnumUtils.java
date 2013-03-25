@@ -1,16 +1,13 @@
 package uk.ac.susx.tag.util;
 
-import static com.google.common.base.Preconditions.*;
-import static com.google.common.base.Preconditions.checkNotNull;
-
 import java.text.MessageFormat;
 
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.base.Preconditions.checkNotNull;
+
 /**
- * Created with IntelliJ IDEA.
- * User: hiam20
- * Date: 26/02/2013
- * Time: 14:07
- * To change this template use File | Settings | File Templates.
+ * @author hiam20
+ * @since 26/02/2013 14:07
  */
 public class EnumUtils {
 

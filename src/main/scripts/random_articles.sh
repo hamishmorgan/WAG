@@ -4,7 +4,7 @@
 
 
 # ============================================
-# Setup environemnt
+# Setup environment
 # ============================================
 
 # Halt on first error

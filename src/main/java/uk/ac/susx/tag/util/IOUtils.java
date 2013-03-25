@@ -6,11 +6,8 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created with IntelliJ IDEA.
- * User: hiam20
- * Date: 25/02/2013
- * Time: 11:35
- * To change this template use File | Settings | File Templates.
+ * @author hiam20
+ * @since 25/02/2013 11:35
  */
 public class IOUtils {
 

@@ -1,25 +1,21 @@
 package uk.ac.susx.tag.util;
 
-import static com.google.common.base.Preconditions.*;
-
 import com.google.common.io.Flushables;
 import com.google.common.util.concurrent.AbstractExecutionThreadService;
-import com.google.common.util.concurrent.AbstractService;
 import com.google.common.util.concurrent.ListenableFuture;
 
 import java.io.*;
-import java.nio.ByteBuffer;
+
+import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
- * Created with IntelliJ IDEA.
- * User: hiam20
- * Date: 20/02/2013
- * Time: 18:41
- * To change this template use File | Settings | File Templates.
+ *
+ * @author hiam20
+ * @since 20/02/2013 18:41
  */
 public class BytePusher extends AbstractExecutionThreadService {
 
-    private final int bufferSize = 8192;
+    private static final int BUFFER_SIZE = 8192;
     private final InputStream source;
     private final OutputStream sink;
 
@@ -31,7 +27,7 @@ public class BytePusher extends AbstractExecutionThreadService {
     @Override
     protected void run() throws Exception {
         try {
-            final byte[] buffer = new byte[bufferSize];
+            final byte[] buffer = new byte[BUFFER_SIZE];
             int nBytesRead;
             while (-1 != (nBytesRead = source.read(buffer))) {
                 sink.write(buffer, 0, nBytesRead);

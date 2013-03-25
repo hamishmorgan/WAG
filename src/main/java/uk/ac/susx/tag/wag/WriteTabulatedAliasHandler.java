@@ -1,6 +1,5 @@
 package uk.ac.susx.tag.wag;
 
-import com.google.common.collect.Lists;
 import org.supercsv.cellprocessor.CellProcessorAdaptor;
 import org.supercsv.cellprocessor.constraint.NotNull;
 import org.supercsv.cellprocessor.ift.CellProcessor;
@@ -14,14 +13,12 @@ import java.io.Closeable;
 import java.io.Flushable;
 import java.io.IOException;
 import java.io.Writer;
-import java.util.*;
+import java.util.Arrays;
+import java.util.EnumSet;
 
 /**
- * Created with IntelliJ IDEA.
- * User: hiam20
- * Date: 26/02/2013
- * Time: 12:03
- * To change this template use File | Settings | File Templates.
+ * @author hiam20
+ * @since 26/02/2013 12:03
  */
 public class WriteTabulatedAliasHandler implements AliasHandler, Flushable, Closeable {
 

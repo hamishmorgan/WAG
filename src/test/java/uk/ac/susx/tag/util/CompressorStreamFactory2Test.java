@@ -30,7 +30,10 @@
  */
 package uk.ac.susx.tag.util;
 
-import com.google.common.io.*;
+import com.google.common.io.ByteStreams;
+import com.google.common.io.Closer;
+import com.google.common.io.Files;
+import com.google.common.io.InputSupplier;
 import org.apache.commons.compress.compressors.CompressorException;
 import org.apache.commons.compress.compressors.CompressorInputStream;
 import org.apache.commons.compress.compressors.CompressorOutputStream;
@@ -120,7 +123,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
                             }
                     ));
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -143,7 +146,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             final CompressorOutputStream cos = closer.register(instance.createForwardingCompressorOutputStream(os));
             ByteStreams.copy(is, cos);
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -163,7 +166,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             final CompressorOutputStream cos = closer.register(instance.createBZip2CompressorOutputStream(os));
             ByteStreams.copy(is, cos);
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -183,7 +186,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             final CompressorOutputStream cos = closer.register(instance.createGZipCompressorOutputStream(os));
             ByteStreams.copy(is, cos);
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -203,7 +206,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             final CompressorOutputStream cos = closer.register(instance.createXZCompressorOutputStream(os));
             ByteStreams.copy(is, cos);
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -226,7 +229,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             ByteStreams.copy(is, cos);
             cos.finish(); //!!
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -253,7 +256,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
             ByteStreams.copy(is, cos);
             cos.finish(); //!!
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -283,7 +286,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
 
             ByteStreams.copy(cis, os);
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -309,7 +312,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
 
             ByteStreams.copy(cis, os);
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -337,7 +340,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
 
             ByteStreams.copy(cis, os);
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -363,7 +366,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
 
             ByteStreams.copy(cis, os);
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -389,7 +392,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
 
             ByteStreams.copy(cis, os);
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -415,7 +418,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
 
             ByteStreams.copy(cis, os);
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }
@@ -469,7 +472,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
 
 
         } catch (Throwable t) {
-            closer.rethrow(t);
+            throw closer.rethrow(t);
         } finally {
             closer.close();
         }

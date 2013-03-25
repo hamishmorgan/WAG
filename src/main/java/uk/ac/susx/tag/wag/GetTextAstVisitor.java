@@ -19,7 +19,6 @@ import org.sweble.wikitext.lazy.utils.XmlEntityRef;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.concurrent.NotThreadSafe;
-
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -136,20 +135,23 @@ public final class GetTextAstVisitor extends AstVisitor {
     // Stuff to hide
 
     public void visit(ImageLink n) {
+        // ignore these nodes
     }
 
     public void visit(IllegalCodePoint n) {
+        // ignore these nodes
     }
 
     public void visit(XmlComment n) {
+        // ignore these nodes
     }
 
-
     public void visit(TagExtension n) {
+        // ignore these nodes
     }
 
     public void visit(MagicWord n) {
+        // ignore these nodes
     }
-
 
 }

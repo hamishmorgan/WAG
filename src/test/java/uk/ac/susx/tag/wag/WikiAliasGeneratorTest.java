@@ -1,9 +1,6 @@
 package uk.ac.susx.tag.wag;
 
 import com.beust.jcommander.internal.Lists;
-
-import static junit.framework.Assert.*;
-
 import org.junit.Test;
 import uk.ac.susx.tag.test.AbstractTest;
 
@@ -11,12 +8,12 @@ import java.net.URL;
 import java.util.EnumSet;
 import java.util.List;
 
+import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertTrue;
+
 /**
- * Created with IntelliJ IDEA.
- * User: hiam20
- * Date: 19/02/2013
- * Time: 16:50
- * To change this template use File | Settings | File Templates.
+ * @author hiam20
+ * @since 19/02/2013 16:50
  */
 public class WikiAliasGeneratorTest extends AbstractTest {
 

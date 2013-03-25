@@ -8,7 +8,6 @@ import de.fau.cs.osr.ptk.common.ast.AstNode;
 import de.fau.cs.osr.ptk.common.ast.NodeList;
 import de.fau.cs.osr.ptk.common.ast.Text;
 import org.sweble.wikitext.engine.Page;
-import org.sweble.wikitext.engine.config.WikiConfigurationInterface;
 import org.sweble.wikitext.engine.utils.EntityReferences;
 import org.sweble.wikitext.lazy.encval.IllegalCodePoint;
 import org.sweble.wikitext.lazy.parser.*;
@@ -23,10 +22,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
-import static uk.ac.susx.tag.wag.AstUtils.*;
-
-
 import static com.google.common.base.Preconditions.checkNotNull;
+import static uk.ac.susx.tag.wag.AstUtils.*;
 
 /**
  * AliasAstVisitor is a Sweble {@link AstVisitor} which produces a list of all internal synonyms in the given
@@ -67,11 +64,10 @@ public class AliasAstVisitor extends AstVisitor {
 
     private static final Logger LOG = Logger.getLogger(AliasAstVisitor.class.getName());
     private final String pageTitle;
-    private final WikiConfigurationInterface config;
 
     private ImmutableList.Builder<Alias> synonyms;
 
-    private Set<StringBuilder> surfaceTextBuilders = Sets.newIdentityHashSet();
+    private final Set<StringBuilder> surfaceTextBuilders = Sets.newIdentityHashSet();
 
     /**
      * Store all-link surfaces (the part that is displayed) for all links in the page. If a {{disambiguation}} template
@@ -100,9 +96,8 @@ public class AliasAstVisitor extends AstVisitor {
      */
     private boolean lowerCaseTitle;
 
-    public AliasAstVisitor(String pageTitle, WikiConfigurationInterface config, EnumSet<AliasType> produceTypes) {
+    public AliasAstVisitor(String pageTitle, EnumSet<AliasType> produceTypes) {
         this.pageTitle = checkNotNull(pageTitle, "pageTitle").trim();
-        this.config = checkNotNull(config, "config");
         this.produceTypes = checkNotNull(produceTypes, "produceTypes");
     }
 
@@ -151,9 +146,7 @@ public class AliasAstVisitor extends AstVisitor {
     }
 
     public void visit(AstNode n) {
-
         // Fallback for all nodes that are not explicitly handled below
-//        System.out.println("<" + n.getNodeName() + " />");
     }
 
 
@@ -286,19 +279,23 @@ public class AliasAstVisitor extends AstVisitor {
     // Stuff we want to hide
 
     public void visit(ImageLink n) {
+        // ignore these nodes
     }
 
     public void visit(IllegalCodePoint n) {
+        // ignore these nodes
     }
 
     public void visit(XmlComment n) {
+        // ignore these nodes
     }
 
-
     public void visit(TagExtension n) {
+        // ignore these nodes
     }
 
     public void visit(MagicWord n) {
+        // ignore these nodes
     }
 
     /*
@@ -609,8 +606,8 @@ public class AliasAstVisitor extends AstVisitor {
             //For three sources:
             checkTemplateArgs(2, 2, template);
 
-            for (int i = 0; i < args.size(); i++) {
-                final String redirect = getLinkSurface(args.get(0));
+            for (AstNode arg : args) {
+                final String redirect = getLinkSurface(arg); //XXX
                 addPageTitleAlias(AliasType.HAT_NOTE, subType, redirect, pageTitle);
             }
 
@@ -630,8 +627,8 @@ public class AliasAstVisitor extends AstVisitor {
             //"REDIRECT1", "REDIRECT2", and "REDIRECT3" redirect here. For other uses, see REDIRECT1 (disambiguation), REDIRECT2 (disambiguation), and REDIRECT3 (disambiguation).
             checkTemplateArgs(3, 3, template);
 
-            for (int i = 0; i < args.size(); i++) {
-                final String redirect = getLinkSurface(args.get(0));
+            for (AstNode arg : args) {
+                final String redirect = getLinkSurface(arg);
                 addPageTitleAlias(AliasType.HAT_NOTE, subType, redirect, pageTitle);
             }
 

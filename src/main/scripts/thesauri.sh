@@ -37,7 +37,7 @@ function main {
 	BYBLO_PATH=`canonicalize ${BYBLO_PATH}`
 	WAG_PATH=`canonicalize ${WAG_PATH}`
 	WORKING_DIR=`canonicalize "$(pwd - P)"`
-	INPUT_FILE_NAME="$(basename -- "$INPUT_FILE")"
+	INPUT_FILE_NAME="$(basename -- "${INPUT_FILE}")"
 	
 	# ============================================
 	# Run Wikipedia Alias Generator
@@ -47,7 +47,7 @@ function main {
 	
 	if [ ! -f ${ALIASES_FILE} ]; then
 		echo "Extracting aliases from ${INPUT_FILE} to ${ALIASES_FILE}"
-		cd $WAG_PATH
+		cd ${WAG_PATH}
 		./wag.sh \
 			--charset "${CHARSET}" \
 			--identityAliases \
@@ -55,7 +55,7 @@ function main {
 			--outputColumns SOURCE,TARGET \
 			--outputFormat TSV_SIMPLIFIED \
 			"${INPUT_FILE}"
-		cd $WORKING_DIR
+		cd ${WORKING_DIR}
 	else
 		echo "Aliases file ${ALIASES_FILE} already exists; skipping."
 	fi
@@ -112,13 +112,13 @@ function main {
 	# Use Byblo to build frequency counts
 	# ============================================
 
-	cd $BYBLO_PATH
+	cd ${BYBLO_PATH}
 	
 	counts "${SOURCE_TARGET_FILE}" "${OUTPUT_DIR}"
 
 	counts "${TARGET_SOURCE_FILE}" "${OUTPUT_DIR}"
 
-	cd $WORKING_DIR
+	cd ${WORKING_DIR}
 	
 }
 
@@ -126,7 +126,7 @@ function counts {
 	
 	INSTANCES_FILE="$1"
 	OUTPUT_DIR="$2"
-	OUTPUT_BASE="${OUTPUT_DIR%%/}/$(basename $INSTANCES_FILE)"
+	OUTPUT_BASE="${OUTPUT_DIR%%/}/$(basename ${INSTANCES_FILE})"
 	
 	FEATURE_INDEX_FILE="${OUTPUT_BASE}.feature-index"
 	ENTRY_INDEX_FILE="${OUTPUT_BASE}.entry-index"
