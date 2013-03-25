@@ -29,6 +29,7 @@ package uk.ac.susx.tag.test;/*
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
+import com.google.common.io.Closer;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.rules.TestName;
@@ -45,7 +46,8 @@ import java.util.Random;
 import static org.junit.Assert.*;
 
 /**
- * uk.ac.susx.tag.test.AbstractTest is a useful superclass the unit test classes. Currently it's main function it that it will automatically
+ * uk.ac.susx.tag.test.AbstractTest is a useful superclass the unit test classes. Currently it's main function it that
+ * it will automatically
  * print the test class and method name, for each test that is run. In addition it provides a number of static utility
  * methods.
  *
@@ -81,31 +83,26 @@ public abstract class AbstractTest {
     @SuppressWarnings("unchecked")
     protected static <T> T cloneWithSerialization(final T obj) {
 
-        ObjectOutputStream objectsOut = null;
-        ObjectInputStream ois = null;
         try {
+            final Closer closer = Closer.create();
             try {
-                final ByteArrayOutputStream bytesOut = new ByteArrayOutputStream();
-                objectsOut = new ObjectOutputStream(bytesOut);
+                final ByteArrayOutputStream bytesOut = closer.register(new ByteArrayOutputStream());
+                final ObjectOutputStream objectsOut = closer.register(new ObjectOutputStream(bytesOut));
 
                 objectsOut.writeObject(obj);
                 objectsOut.flush();
 
                 final byte[] bytes = bytesOut.toByteArray();
 
-                ois = new ObjectInputStream(new ByteArrayInputStream(bytes));
+                final ObjectInputStream ois = closer.register(new ObjectInputStream(
+                        closer.register(new ByteArrayInputStream(bytes))));
 
                 return (T) ois.readObject();
+            } catch (Throwable t) {
+                throw closer.rethrow(t);
             } finally {
-                if (objectsOut != null) {
-                    objectsOut.close();
-                }
-                if (ois != null) {
-                    ois.close();
-                }
+                closer.close();
             }
-        } catch (ClassNotFoundException ex) {
-            throw new AssertionError(ex);
         } catch (IOException ex) {
             throw new AssertionError(ex);
         }
@@ -160,7 +157,7 @@ public abstract class AbstractTest {
      * Creates a new pseudo-random number generator object, displaying the seed used so it can be re-instantiated
      * if a particular test needs to be repeated.
      *
-     * @return  the new Random instance.
+     * @return the new Random instance.
      */
     protected static Random newRandom() {
         Random rand = new Random();

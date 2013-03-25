@@ -15,6 +15,7 @@ import org.sweble.wikitext.lazy.parser.Enumeration;
 import org.sweble.wikitext.lazy.preprocessor.*;
 import org.sweble.wikitext.lazy.utils.XmlCharRef;
 import org.sweble.wikitext.lazy.utils.XmlEntityRef;
+import uk.ac.susx.tag.util.Consts;
 import uk.ac.susx.tag.util.StringUtils;
 
 import java.util.*;
@@ -88,7 +89,7 @@ public class AliasAstVisitor extends AstVisitor {
     /**
      *
      */
-    private final EnumSet<AliasType> produceTypes;
+    private final Collection<AliasType> produceTypes;
     /**
      * True when the current page contains the "lowercase title" template; e.g iPod, and gzip. Reset to false on each
      * new page, then set to true when the template is found. When true the title arc is produced with the target
@@ -96,7 +97,7 @@ public class AliasAstVisitor extends AstVisitor {
      */
     private boolean lowerCaseTitle;
 
-    public AliasAstVisitor(String pageTitle, EnumSet<AliasType> produceTypes) {
+    public AliasAstVisitor(String pageTitle, Collection<AliasType> produceTypes) {
         this.pageTitle = checkNotNull(pageTitle, "pageTitle").trim();
         this.produceTypes = checkNotNull(produceTypes, "produceTypes");
     }
@@ -321,31 +322,31 @@ public class AliasAstVisitor extends AstVisitor {
     }
 
 
-    private void addPageTitleAlias(AliasType type, String subType, String source, String target) {
-        source = source.trim();
-        target = target.trim();
+    private void addPageTitleAlias(final AliasType type, final String subType, final String source, final String target) {
+        String src = source.trim();
+        String tgt = target.trim();
 
         // Subsection links are a huge pain in the arse, because the reference semantics can vary wildly depending on
         // the context. In addition the relation to source (place it's linked from) is hard to determine. Note that we
         // always want to produce aliases from an ambiguous source to a concrete target (or at least relatively.) Is a
         // section of another page less ambiguous? Well sometimes but not always. However since we are indenturing to
         // do entity linking, a sub-page target will generally be undesirable so lets jsut ignore all of them.
-        if (target.contains("#")) {
+        if (tgt.contains("#")) {
             return;
         }
 
-        source = stripSuffixIfPresent(source, DISAMBIGUATION_SUFFIX);
-        target = stripSuffixIfPresent(target, DISAMBIGUATION_SUFFIX);
+        src = stripSuffixIfPresent(src, DISAMBIGUATION_SUFFIX);
+        tgt = stripSuffixIfPresent(tgt, DISAMBIGUATION_SUFFIX);
 
-        source = stripNamespaces(source);
-        target = stripNamespaces(target);
+        src = stripNamespaces(src);
+        tgt = stripNamespaces(tgt);
 
-        if (source.isEmpty() || target.isEmpty())
+        if (src.isEmpty() || tgt.isEmpty())
             return;
 
-        addAlias(type, subType, source, target);
+        addAlias(type, subType, src, tgt);
 
-        Set<String> sourcePerms = wikiTitleVarients(source);
+        Set<String> sourcePerms = wikiTitleVarients(src);
 //        Set<String> targetPerms = wikiTitleVarients(target);
 
 //        for (String s : sourcePerms) {
@@ -356,7 +357,7 @@ public class AliasAstVisitor extends AstVisitor {
         for (String sourceVariant : sourcePerms) {
             addAlias(AliasType.TRUNCATED,
                     type + (subType.isEmpty() ? "" : "/" + subType),
-                    sourceVariant, target);
+                    sourceVariant, tgt);
         }
 //        for (String t : targetPerms) {
 //            addAlias(AliasType.TRUNCATED, type + "/" + subType, source, t);
@@ -365,25 +366,25 @@ public class AliasAstVisitor extends AstVisitor {
 
     private final Pattern WHITE_SPACE = Pattern.compile("[\\s]+");
 
-    private void addAlias(AliasType type, String subType, String source, String target) {
+    private void addAlias(final AliasType type, final String subType, final String source, final String target) {
         if (!produceTypes.contains(type))
             return;
 
-        source = source.trim();
-        target = target.trim();
+        String src = source.trim();
+        String tgt = target.trim();
 
-        if (source.isEmpty() || target.isEmpty())
+        if (src.isEmpty() || tgt.isEmpty())
             return;
 
-        if (source.length() > MAX_CHAR_LENGTH || target.length() > MAX_CHAR_LENGTH)
+        if (src.length() > MAX_CHAR_LENGTH || tgt.length() > MAX_CHAR_LENGTH)
             return;
 
 
-        if (WHITE_SPACE.split(source).length > MAX_WORD_LENGTH
-                || WHITE_SPACE.split(target).length > MAX_WORD_LENGTH)
+        if (WHITE_SPACE.split(src).length > MAX_WORD_LENGTH
+                || WHITE_SPACE.split(tgt).length > MAX_WORD_LENGTH)
             return;
 
-        synonyms.add(new Alias(type, subType, source.trim(), target.trim()));
+        synonyms.add(new Alias(type, subType, src.trim(), tgt.trim()));
     }
 
 
@@ -900,13 +901,15 @@ public class AliasAstVisitor extends AstVisitor {
 
                     final Set<String> names = Sets.newHashSet();
                     names.add(name.trim());
-                    int i, j;
-                    if (-1 != (i = name.lastIndexOf(','))) {
+                    int i = name.lastIndexOf(',');
+                    int j;
+                    if (-1 != i) {
                         names.add(name.substring(i + 1).trim() + " " + name.substring(0, i).trim());
                     }
 
                     for (String alt : altNames.split(";")) {
-                        if (-1 != (i = alt.lastIndexOf('(')))
+                        i = alt.lastIndexOf('(');
+                        if (-1 != i)
                             alt = alt.substring(0, i);
                         alt = alt.trim();
 
@@ -915,10 +918,12 @@ public class AliasAstVisitor extends AstVisitor {
 
                         names.add(alt);
 
-                        if (-1 != (i = alt.indexOf(','))) {
+                        i = alt.indexOf(',');
+                        if (-1 != i) {
                             // If there's a second comma then everything after it is titles
                             //  E.g: Augustine, Saint, Bishop of Hippo
-                            if (-1 != (j = alt.indexOf(',', i + 1))) {
+                            j = alt.indexOf(',', i + 1);
+                            if (-1 != j) {
                                 // Augustine, Saint
                                 names.add(alt.substring(0, j).trim());
                                 // Bishop of Hippo
@@ -1058,7 +1063,7 @@ public class AliasAstVisitor extends AstVisitor {
         if (!condition) {
             LOG.log(Level.WARNING, "Ill-formed template \"{0}\" in page \"{1}\": {2}{3}",
                     new String[]{getText(template.getName()), pageTitle, message,
-                            (VERBOSE_WARNINGS ? ("\n" + AstUtils.toString(template)) : "")});
+                            (VERBOSE_WARNINGS ? (Consts.NEW_LINE + AstUtils.toString(template)) : "")});
         }
     }
 

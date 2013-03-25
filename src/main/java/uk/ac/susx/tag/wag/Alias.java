@@ -67,7 +67,7 @@ public final class Alias {
 
     @Override
     public String toString() {
-        return getType() + (subType.isEmpty() ? "" : "/" + subType) +
-                "[" + getSource() + " => " + getTarget() + "]";
+        return type + (subType.isEmpty() ? "" : "/" + subType) +
+                "[" + source + " => " + target + "]";
     }
 }

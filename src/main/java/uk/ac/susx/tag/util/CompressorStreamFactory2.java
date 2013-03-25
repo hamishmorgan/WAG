@@ -144,7 +144,8 @@ public class CompressorStreamFactory2 extends CompressorStreamFactory {
      * @param bzip2BlockSize                block-size multiple (of 100k) for BZip2 algorithm
      * @param xzPreset                      compression level for XZ algorithm
      * @param nameDetectionFallback         whether name detection should fall back to attempting signature detection
-     * @param transparentSignatureDetection whether signature detection should fall back to returning a no-op compressor.
+     * @param transparentSignatureDetection whether signature detection should fall back to returning a no-op
+     *                                      compressor.
      */
     private CompressorStreamFactory2(final boolean decompressConcatenated,
                                      final Pack200Strategy pack200Strategy,
@@ -273,6 +274,8 @@ public class CompressorStreamFactory2 extends CompressorStreamFactory {
         return transparentSignatureDetection;
     }
 
+    private static final int SIGNATURE_LENGTH = 12;
+
     /**
      * Create an compressor input stream from an input stream, auto-detecting the
      * compressor type from the first few bytes of the stream. The InputStream
@@ -292,7 +295,7 @@ public class CompressorStreamFactory2 extends CompressorStreamFactory {
         checkNotNull(inputStream, "inputStream");
         checkArgument(inputStream.markSupported(), "Mark is not supported.");
 
-        final byte[] signature = new byte[12];
+        final byte[] signature = new byte[SIGNATURE_LENGTH];
         inputStream.mark(signature.length);
         try {
             int signatureLength = inputStream.read(signature);

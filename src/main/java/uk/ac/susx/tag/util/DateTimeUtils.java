@@ -3,7 +3,6 @@ package uk.ac.susx.tag.util;
 import java.util.concurrent.TimeUnit;
 
 import static java.util.concurrent.TimeUnit.*;
-import static java.util.concurrent.TimeUnit.NANOSECONDS;
 
 /**
  * DateTimeUtils is a static utility class contains methods for manipulating dates and times.

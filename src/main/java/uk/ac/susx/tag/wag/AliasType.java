@@ -1,5 +1,6 @@
 package uk.ac.susx.tag.wag;
 
+import java.util.Collection;
 import java.util.EnumSet;
 
 /**
@@ -122,7 +123,7 @@ public enum AliasType {
      * Set of all types that where proposed in <em>Hackey et al. (2012) "Evaluating Entity Linking with
      * Wikipedia".</em>
      */
-    public static final EnumSet<AliasType> HACKEY = EnumSet.of(
+    public static final Collection<AliasType> HACKEY = EnumSet.of(
             TITLE, LOWERCASE_TITLE, LINK, REDIRECT, P1BOLD,
             DAB_TITLE, HAT_NOTE, TRUNCATED);
 
@@ -130,7 +131,7 @@ public enum AliasType {
      * Default types to use. (First section bold instead of paragraphs. Disable DAB_REDIRECT which doesn't work
      * anyway.)
      */
-    public static final EnumSet<AliasType> STANDARD = EnumSet.of(
+    public static final Collection<AliasType> STANDARD = EnumSet.of(
             TITLE, LOWERCASE_TITLE, LINK, REDIRECT, P1BOLD, S1BOLD,
             DAB_TITLE, HAT_NOTE, TRUNCATED, PERSON_ALT_NAME);
 

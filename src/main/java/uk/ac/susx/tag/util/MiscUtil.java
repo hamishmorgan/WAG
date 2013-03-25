@@ -47,14 +47,14 @@ public class MiscUtil {
      * up to max long 2^61
      */
     private static final String[] BYTE_UNITS_SUFFIX_SI = {
-        "", "k", "M", "G", "T", "P"};
+            "", "k", "M", "G", "T", "P"};
 
     /**
      * IEC unit multiples for Byte - increases by a factor of 2^10. Only
      * required up to max long 2^61
      */
     private static final String[] BYTE_UNITS_SUFFIX_IEC = {
-        "", "Ki", "Mi", "Gi", "Ti", "Pi"};
+            "", "Ki", "Mi", "Gi", "Ti", "Pi"};
 
     /**
      * Private constructor for static utility class.
@@ -83,8 +83,8 @@ public class MiscUtil {
      * For example using KiB for kilobyte instead of kB. </p>
      *
      * @param bytes The number to make a human readable units string from.
-     * @param si whether to not to use SI (1000) units, use 1024 otherwise
-     * @param iec whether or not use IEC units (e.g KiB)
+     * @param si    whether to not to use SI (1000) units, use 1024 otherwise
+     * @param iec   whether or not use IEC units (e.g KiB)
      * @return human readable string representation of the number of bytes
      */
     public static String humanReadableBytes(long bytes, boolean si, boolean iec) {
@@ -136,7 +136,7 @@ public class MiscUtil {
      * Java Virtual Machine will attempt to allocate.
      *
      * @return the maximum amount of memory that the virtual machine will
-     * attempt to use, measured in bytes
+     *         attempt to use, measured in bytes
      */
     public static long maxMemory() {
         return Runtime.getRuntime().maxMemory();
@@ -148,7 +148,7 @@ public class MiscUtil {
      * environment.
      *
      * @return total amount of memory currently available for current and future
-     * objects, measured in bytes.
+     *         objects, measured in bytes.
      */
     public static long allocatedMemory() {
         return Runtime.getRuntime().totalMemory();
@@ -160,7 +160,7 @@ public class MiscUtil {
      * returned by freeMemory.
      *
      * @return an approximation to the total amount of memory currently
-     * available for future allocated objects, measured in bytes.
+     *         available for future allocated objects, measured in bytes.
      */
     public static long freeAllocatedMemory() {
         return Runtime.getRuntime().freeMemory();
@@ -173,7 +173,7 @@ public class MiscUtil {
      * by usedMemory.
      *
      * @return an approximation to the amount of memory currently used by
-     * allocated objects, measured in bytes.
+     *         allocated objects, measured in bytes.
      */
     public static long usedMemory() {
         return allocatedMemory() - freeAllocatedMemory();
@@ -185,7 +185,7 @@ public class MiscUtil {
      * Machine. <p />
      *
      * @return an approximation to the amount of memory that is available for
-     * use by the Java program.
+     *         use by the Java program.
      */
     public static long freeMaxMemory() {
         return maxMemory() - usedMemory();
@@ -203,9 +203,9 @@ public class MiscUtil {
     public static String memoryInfoString() {
         return MessageFormat.format(
                 "Memory used={0}, allocated={1}, available={2}",
-                        humanReadableBytes(usedMemory()),
-                        humanReadableBytes(allocatedMemory()),
-                        humanReadableBytes(maxMemory()));
+                humanReadableBytes(usedMemory()),
+                humanReadableBytes(allocatedMemory()),
+                humanReadableBytes(maxMemory()));
     }
 
     /**
@@ -213,15 +213,15 @@ public class MiscUtil {
      * pseudonym exists, the formal abbreviation has been replaced..
      */
     private static final String[] UTF8_CHAR_NAMES = {
-        "Null", "SOH", "STX", "ETX",
-        "EOT", "ENQ", "ACK", "Bell",
-        "Backspace", "HT", "New-Line", "Tab",
-        "FF", "Carriage-Return", "SO", "SI",
-        "DLE", "DC1", "DC2", "DC3",
-        "DC4", "NAK", "SYN", "ETB",
-        "CAN", "EM", "SUB", "Escape",
-        "FS", "GS", "RS", "US",
-        "Space"};
+            "Null", "SOH", "STX", "ETX",
+            "EOT", "ENQ", "ACK", "Bell",
+            "Backspace", "HT", "New-Line", "Tab",
+            "FF", "Carriage-Return", "SO", "SI",
+            "DLE", "DC1", "DC2", "DC3",
+            "DC4", "NAK", "SYN", "ETB",
+            "CAN", "EM", "SUB", "Escape",
+            "FS", "GS", "RS", "US",
+            "Space"};
 
     /**
      * Produces a string representation of <tt>ch</tt> that should be printable,

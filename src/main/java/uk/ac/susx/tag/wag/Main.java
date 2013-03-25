@@ -1,9 +1,6 @@
 package uk.ac.susx.tag.wag;
 
-import com.beust.jcommander.JCommander;
-import com.beust.jcommander.Parameter;
-import com.beust.jcommander.Parameters;
-import com.beust.jcommander.ParametersDelegate;
+import com.beust.jcommander.*;
 import com.beust.jcommander.converters.BaseConverter;
 import com.beust.jcommander.internal.Lists;
 import com.google.common.collect.ImmutableList;
@@ -82,7 +79,7 @@ public class Main {
         return new Builder();
     }
 
-    private  AliasHandler newOutputHandler(
+    private AliasHandler newOutputHandler(
             PrintWriter outWriter) throws IOException {
         final AliasHandler handler;
         switch (outputFormat) {
@@ -150,7 +147,7 @@ public class Main {
 
         final Builder builder = Main.builder();
 
-        StringConverterFactory converter = StringConverterFactory.newInstance(true);
+        IStringConverterFactory converter = StringConverterFactory.newInstance(true);
 
 
         final JCommander jc = new JCommander();
@@ -193,6 +190,7 @@ public class Main {
          *
          */
         private static final Logger LOG = Logger.getLogger(Builder.class.getName());
+        private static final FileWriteMode[] FILE_WRITE_MODE_TRUNCATE = {};
         /**
          *
          */
@@ -298,7 +296,7 @@ public class Main {
          * @return this builder (for method chaining)
          * @throws NullPointerException of {@code inputFiles} is {@code null}
          */
-        public Builder addInputFiles(List<File> inputFiles) {
+        public Builder addInputFiles(Iterable<File> inputFiles) {
             for (File input : inputFiles)
                 this.inputs.add(input.toString());
             return this;
@@ -311,7 +309,7 @@ public class Main {
          * @return this builder (for method chaining)
          * @throws NullPointerException of {@code inputUrls} is {@code null}
          */
-        public Builder setInputUrls(List<URL> inputUrls) {
+        public Builder setInputUrls(Iterable<URL> inputUrls) {
             for (URL inputUrl : inputUrls)
                 this.inputs.add(inputUrl.toString());
             return this;
@@ -360,7 +358,7 @@ public class Main {
         public Main build() throws IOException {
 
             // Check the input file and setup the source
-            final ImmutableList.Builder<ByteSource> sources = ImmutableList.builder();
+            final ImmutableList.Builder<ByteSource> sourcesBuilder = ImmutableList.builder();
 
 
             for (final String input : inputs) {
@@ -368,7 +366,7 @@ public class Main {
                     final URL inputUrl = new URL(input);
 
                     LOG.log(Level.INFO, "Setting source to URL: " + inputUrl);
-                    sources.add(Resources.asByteSource(inputUrl));
+                    sourcesBuilder.add(Resources.asByteSource(inputUrl));
 
                 } catch (MalformedURLException ex) {
                     final File inputFile = new File(input);
@@ -381,7 +379,7 @@ public class Main {
                         throw new IllegalArgumentException("The input file is not readable: " + inputFile);
 
                     LOG.log(Level.INFO, "Setting source to file: " + inputFile);
-                    sources.add(Files.asByteSource(inputFile));
+                    sourcesBuilder.add(Files.asByteSource(inputFile));
                 }
             }
 
@@ -440,8 +438,7 @@ public class Main {
 
                 LOG.log(Level.INFO, "Setting sink to file: " + outputFile);
 
-                final FileWriteMode[] modes = {};
-                sink = Files.asCharSink(outputFile, outputCharset, modes);
+                sink = Files.asCharSink(outputFile, outputCharset, FILE_WRITE_MODE_TRUNCATE);
             }
 
 
@@ -450,7 +447,7 @@ public class Main {
             }
 
             return new Main(
-                    sources.build(),
+                    sourcesBuilder.build(),
                     sink,
                     EnumSet.copyOf(producedAliasTypes),
                     pageLimit,

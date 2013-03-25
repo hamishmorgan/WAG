@@ -43,7 +43,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * {@link CompressorInputStream} that doesn't really decompress anything.
  * Instead it wraps the given InputStream and delegates all calls to it,
  * returning the result unaltered.
- *
+ * <p/>
  * The purpose of this class is to improve compression detection, so an input
  * stream can automatically be adapted to decompress it's contents if a known
  * compression algorithm is used. If compression is not detected then the stream

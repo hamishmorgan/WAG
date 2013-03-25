@@ -14,6 +14,7 @@ import java.io.Flushable;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.EnumSet;
 
 /**
@@ -70,11 +71,11 @@ public class WriteTabulatedAliasHandler implements AliasHandler, Flushable, Clos
     }
 
 
-    private final EnumSet<Column> selectedColumns;// = EnumSet.allOf(Column.class);
+    private final Collection<Column> selectedColumns;// = EnumSet.allOf(Column.class);
 
     private final ICsvListWriter listWriter;
 
-    private WriteTabulatedAliasHandler(CsvListWriter listWriter, EnumSet<Column> selectedColumns, boolean writeHeaders)
+    private WriteTabulatedAliasHandler(ICsvListWriter listWriter, Collection<Column> selectedColumns, boolean writeHeaders)
             throws IOException {
         this.selectedColumns = selectedColumns;
         this.listWriter = listWriter;
@@ -84,7 +85,7 @@ public class WriteTabulatedAliasHandler implements AliasHandler, Flushable, Clos
 
     @Override
     public void flush() throws IOException {
-       listWriter.flush();
+        listWriter.flush();
     }
 
     @Override
@@ -94,25 +95,25 @@ public class WriteTabulatedAliasHandler implements AliasHandler, Flushable, Clos
     }
 
 
-    public static WriteTabulatedAliasHandler newCsvInstance(Writer writer)
+    public static AliasHandler newCsvInstance(Writer writer)
             throws IOException {
         return newCsvInstance(writer, EnumSet.allOf(Column.class));
     }
 
-    public static WriteTabulatedAliasHandler newTsvInstance(Writer writer)
+    public static AliasHandler newTsvInstance(Writer writer)
             throws IOException {
         return newTsvInstance(writer, EnumSet.allOf(Column.class));
     }
 
 
-    public static WriteTabulatedAliasHandler newCsvInstance(Writer writer, EnumSet<Column> selectedColumns)
+    public static AliasHandler newCsvInstance(Writer writer, EnumSet<Column> selectedColumns)
             throws IOException {
         CsvPreference csvPreferences = CsvPreference.STANDARD_PREFERENCE;
         final CsvListWriter listWriter = new CsvListWriter(writer, csvPreferences);
         return new WriteTabulatedAliasHandler(listWriter, selectedColumns, false);
     }
 
-    public static WriteTabulatedAliasHandler newTsvInstance(Writer writer, EnumSet<Column> selectedColumns)
+    public static AliasHandler newTsvInstance(Writer writer, EnumSet<Column> selectedColumns)
             throws IOException {
         CsvPreference csvPreferences = CsvPreference.TAB_PREFERENCE;
         final CsvListWriter listWriter = new CsvListWriter(writer, csvPreferences);
@@ -134,8 +135,10 @@ public class WriteTabulatedAliasHandler implements AliasHandler, Flushable, Clos
         final Column[] columnsOrdered = new Column[selectedColumns.size()];
         int i = 0, j = 0;
         while (j < columns.length) {
-            if (selectedColumns.contains(columns[j]))
-                columnsOrdered[i++] = columns[j];
+            if (selectedColumns.contains(columns[j])) {
+                columnsOrdered[i] = columns[j];
+                i++;
+            }
             j++;
         }
         return columnsOrdered;

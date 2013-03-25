@@ -4,6 +4,7 @@ import com.google.common.base.Stopwatch;
 import com.google.common.io.Closeables;
 import com.google.common.io.Closer;
 import com.google.common.io.CountingInputStream;
+import de.fau.cs.osr.ptk.common.AstVisitor;
 import edu.jhu.nlp.wikipedia.PageCallbackHandler;
 import edu.jhu.nlp.wikipedia.WikiPage;
 import edu.jhu.nlp.wikipedia.WikiXMLParser;
@@ -14,6 +15,7 @@ import org.sweble.wikitext.engine.utils.SimpleWikiConfiguration;
 import org.sweble.wikitext.lazy.LinkTargetException;
 import uk.ac.susx.tag.util.CompressorStreamFactory2;
 import uk.ac.susx.tag.util.DateTimeUtils;
+import uk.ac.susx.tag.util.IOUtils;
 import uk.ac.susx.tag.util.MiscUtil;
 
 import java.io.BufferedInputStream;
@@ -22,7 +24,6 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.EnumSet;
-import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -48,7 +49,7 @@ public class WikiAliasGenerator {
 
     public WikiAliasGenerator(AliasHandler handler, EnumSet<AliasType> producedTypes) {
         this.handler = checkNotNull(handler, "handler");
-        this.producedTypes = producedTypes;
+        this.producedTypes = EnumSet.copyOf(producedTypes);
     }
 
     public void setIdentityAliasesProduced(boolean identityAliasesProduced) {
@@ -102,7 +103,8 @@ public class WikiAliasGenerator {
 
         final org.sweble.wikitext.engine.Compiler swebleCompiler;
         SimpleWikiConfiguration config = new SimpleWikiConfiguration(
-                "classpath:/org/sweble/wikitext/engine/SimpleWikiConfiguration.xml");
+                "classpath:" + File.separator + IOUtils.combinePath(
+                        "org", "sweble", "wikitext", "engine", "SimpleWikiConfiguration.xml"));
         swebleCompiler = new Compiler(config);
 
         final CompressorStreamFactory2 compressorFactory = CompressorStreamFactory2.builder()
@@ -155,8 +157,8 @@ public class WikiAliasGenerator {
                     final PageId pageId = new PageId(pageTitle, -1);
                     final CompiledPage cp = swebleCompiler.postprocess(pageId, page.getWikiText(), null);
 
-                    final AliasAstVisitor visitor = new AliasAstVisitor(page.getTitle(), producedTypes);
-                    final List<Alias> aliases = (List<Alias>) visitor.go(cp.getPage());
+                    final AstVisitor visitor = new AliasAstVisitor(page.getTitle(), producedTypes);
+                    final Iterable<Alias> aliases = (Iterable<Alias>) visitor.go(cp.getPage());
 
                     for (Alias alias : aliases) {
 
@@ -195,8 +197,21 @@ public class WikiAliasGenerator {
      * because
      * it sometimes only the first K articles need to be processed.
      */
-    private final class WikiXMLParserHaltException extends RuntimeException {
+    private static final class WikiXMLParserHaltException extends RuntimeException {
+        private WikiXMLParserHaltException() {
+        }
 
+        private WikiXMLParserHaltException(String message) {
+            super(message);
+        }
+
+        private WikiXMLParserHaltException(String message, Throwable cause) {
+            super(message, cause);
+        }
+
+        private WikiXMLParserHaltException(Throwable cause) {
+            super(cause);
+        }
     }
 
 

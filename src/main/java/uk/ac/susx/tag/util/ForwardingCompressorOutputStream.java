@@ -41,7 +41,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 /**
  * ForwardingCompressorOutputStream is an implementation of {@link CompressorOutputStream} that doesn't
  * really compress anything. Instead it wraps the given OutputStream and delegates all calls to it.
- *
+ * <p/>
  * The purpose of this class is to improve compression detection, so an output stream can
  * automatically be adapted to compress data if a known compression algorithm is used. If
  * compression is not detected then the stream is simply adapted to match the

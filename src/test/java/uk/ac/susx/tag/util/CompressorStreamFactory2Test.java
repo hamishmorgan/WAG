@@ -63,9 +63,11 @@ public class CompressorStreamFactory2Test extends AbstractTest {
     private static final String JAR_EXT = ".jar";
     private static final String XZ_EXT = ".xz";
     private static final String PACK_EXT = ".pack";
-    // 
-    private static final File RESOURCE_PATH = new File("src/test/resources/uk/ac/susx/tag/util");
-    private static final File OUTPUT_PATH = new File("target/test/output/uk/ac/susx/tag/util");
+    //
+    private static final File RESOURCE_PATH = new File(IOUtils.combinePath(
+            "src", "test", "resources", "uk", "ac", "susx", "tag", "util"));
+    private static final File OUTPUT_PATH = new File(IOUtils.combinePath(
+            "target", "test", "output", "uk", "ac", "susx", "tag", "util"));
     //
     private static final File TEXT_FILE = new File(RESOURCE_PATH, "Wikipedia-Brighton.xml");
     private static final File BZIP2_FILE = new File(RESOURCE_PATH, TEXT_FILE.getName() + BZIP2_EXT);
@@ -77,6 +79,10 @@ public class CompressorStreamFactory2Test extends AbstractTest {
     private static final File JAR_FILE = new File(RESOURCE_PATH, CLASS_FILE.getName() + JAR_EXT);
     private static final File PACK_FILE = new File(RESOURCE_PATH, JAR_FILE.getName() + PACK_EXT);
 //    private static final File PACK_GZIP_FILE = new File(RESOURCE_PATH, PACK_FILE.getName() + GZIP_EXT);
+
+
+    public CompressorStreamFactory2Test() {
+    }
 
     @BeforeClass
     public static void setUpClass() throws IOException {
@@ -106,7 +112,7 @@ public class CompressorStreamFactory2Test extends AbstractTest {
 
             assertTrue(
                     MessageFormat.format(
-                            "The archive contents (after decompression) are not the same: \"{0}\" and \"{1}\"" ,
+                            "The archive contents (after decompression) are not the same: \"{0}\" and \"{1}\"",
                             inputFile1, inputFile2),
                     ByteStreams.equal(
                             new InputSupplier<InputStream>() {

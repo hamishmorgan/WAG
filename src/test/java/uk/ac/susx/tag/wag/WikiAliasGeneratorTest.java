@@ -22,6 +22,9 @@ public class WikiAliasGeneratorTest extends AbstractTest {
     //Wikipedia-AccessibleComputing.xml
 
 
+    public WikiAliasGeneratorTest() {
+    }
+
     @Test
     public void testRedirect() throws Exception {
         // This resource should contain exactly one alias of type redirect

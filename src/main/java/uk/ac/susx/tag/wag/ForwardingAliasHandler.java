@@ -76,13 +76,13 @@ public abstract class ForwardingAliasHandler implements AliasHandler, Flushable,
 
     @Override
     public void close() throws IOException {
-        if(delegate instanceof Closeable)
-            ((Closeable)delegate).close();
+        if (delegate instanceof Closeable)
+            ((Closeable) delegate).close();
     }
 
     @Override
     public void flush() throws IOException {
-        if(delegate instanceof Flushable)
-            ((Flushable)delegate).flush();
+        if (delegate instanceof Flushable)
+            ((Flushable) delegate).flush();
     }
 }

@@ -7,6 +7,7 @@ import de.fau.cs.osr.ptk.common.ast.AstNode;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.util.List;
 import java.util.Set;
 
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -19,6 +20,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  *
  * @author Hamish Morgan
  */
+@SuppressWarnings("NestedAssignment")
 public class AstUtils {
 
     /**
@@ -46,9 +48,9 @@ public class AstUtils {
      * @param node Abstract syntax tree to iterate and decent over
      * @return Concatenated contents of all text within the {@code node}.
      */
-    public static ImmutableList<AstNode> getLinks(final AstNode node) {
+    public static List<AstNode> getLinks(final AstNode node) {
         try {
-            return (ImmutableList<AstNode>) (new GetLinksAstVisitor().go(node));
+            return (ImmutableList<AstNode>) new GetLinksAstVisitor().go(node);
         } catch (ClassCastException e) {
             throw new AssertionError("Casting to ImmutableList<AstNode> should never fail: " + e);
         }
@@ -101,6 +103,8 @@ public class AstUtils {
     }
 
 
+    private static final char LINK_DELIMITER = '|';
+
     /**
      * Get the surface form from the text of the given node, which is assumed to be a link (although not necessarily
      * parsed as such.)
@@ -110,7 +114,7 @@ public class AstUtils {
      */
     public static String getLinkSurface(AstNode node) {
         final String text = getText(node);
-        final int i = text.lastIndexOf('|');
+        final int i = text.lastIndexOf(LINK_DELIMITER);
         return i == -1 ? text : text.substring(i + 1);
     }
 
@@ -156,10 +160,11 @@ public class AstUtils {
      * @return the title with the last disambiguation suffix stripped, if present.
      */
     public static String stripWikiTitleSuffix(String title) {
-        int i;
-        if (-1 != (i = title.lastIndexOf('(')))
+        int i = title.lastIndexOf('(');
+        if (-1 != i)
             return title.substring(0, i).trim();
-        if (-1 != (i = title.lastIndexOf(',')))
+        i = title.lastIndexOf(',');
+        if (-1 != i)
             return title.substring(0, i).trim();
         return title;
     }
@@ -175,11 +180,12 @@ public class AstUtils {
      * @param title Wiki page title
      * @return set of all title variants
      */
-    public static Set<String> wikiTitleVarients(String title) {
+    public static Set<String> wikiTitleVarients(final String title) {
+        String ttl = title;
         final Set<String> perms = Sets.newHashSet();
-        while (containsWikiTitleSuffix(title)) {
-            title = stripWikiTitleSuffix(title).trim();
-            perms.add(title);
+        while (containsWikiTitleSuffix(ttl)) {
+            ttl = stripWikiTitleSuffix(ttl).trim();
+            perms.add(ttl);
         }
         return perms;
     }
@@ -230,9 +236,11 @@ public class AstUtils {
         checkNotNull(pageTitle, "pageTitle");
         int start = 0;
         {
-            int i;
-            while (-1 != (i = pageTitle.indexOf(NAMESPACE_DELIMITER, start)))
+            int i = pageTitle.indexOf(NAMESPACE_DELIMITER, start);
+            while (-1 != i) {
                 start = i + 1;
+                i = pageTitle.indexOf(NAMESPACE_DELIMITER, start);
+            }
         }
         return (start > 0)
                 ? pageTitle.substring(start)

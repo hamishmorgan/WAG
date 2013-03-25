@@ -12,12 +12,12 @@ import javax.annotation.concurrent.NotThreadSafe;
 import java.util.logging.Logger;
 
 /**
-* Created with IntelliJ IDEA.
-* User: hiam20
-* Date: 20/02/2013
-* Time: 13:17
-* To change this template use File | Settings | File Templates.
-*/
+ * Created with IntelliJ IDEA.
+ * User: hiam20
+ * Date: 20/02/2013
+ * Time: 13:17
+ * To change this template use File | Settings | File Templates.
+ */
 @Nonnull
 @NotThreadSafe
 public final class GetLinksAstVisitor extends AstVisitor {

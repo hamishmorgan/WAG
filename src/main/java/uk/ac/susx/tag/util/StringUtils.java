@@ -2,11 +2,7 @@ package uk.ac.susx.tag.util;
 
 import javax.annotation.Nonnull;
 
-import java.util.concurrent.TimeUnit;
-
 import static com.google.common.base.Preconditions.checkNotNull;
-import static java.util.concurrent.TimeUnit.*;
-import static java.util.concurrent.TimeUnit.NANOSECONDS;
 
 /**
  * Static utility class contain method for string manipulation.
@@ -62,8 +58,6 @@ public class StringUtils {
             return "" + Character.toUpperCase(string.charAt(0))
                     + string.subSequence(1, string.length());
     }
-
-
 
 
 }

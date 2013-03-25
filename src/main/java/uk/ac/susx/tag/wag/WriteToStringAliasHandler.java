@@ -8,7 +8,6 @@ import java.io.PrintWriter;
 public class WriteToStringAliasHandler implements AliasHandler {
 
 
-
     private final PrintWriter out;
 
     public WriteToStringAliasHandler(final PrintWriter out) {

@@ -2,20 +2,11 @@ package uk.ac.susx.tag.util;
 
 import com.beust.jcommander.IStringConverter;
 import com.beust.jcommander.IStringConverterFactory;
-import com.beust.jcommander.ParameterException;
 import com.beust.jcommander.converters.BaseConverter;
 import com.beust.jcommander.internal.Maps;
 
-import javax.annotation.Nonnull;
-import javax.annotation.concurrent.Immutable;
 import java.nio.charset.Charset;
-import java.text.MessageFormat;
-import java.util.EnumSet;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
-import java.util.regex.Pattern;
-
-import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * @author Hamish I A Morgan &lt;hamish.morgan@sussex.ac.uk&gt;
@@ -27,7 +18,7 @@ public class StringConverterFactory implements IStringConverterFactory {
     private StringConverterFactory() {
     }
 
-    public static StringConverterFactory newInstance(final boolean loadDefaults) {
+    public static IStringConverterFactory newInstance(final boolean loadDefaults) {
         StringConverterFactory factory = new StringConverterFactory();
         if (loadDefaults) {
             factory.register(Charset.class, CharsetStringConverter.class);

@@ -11,6 +11,8 @@ import java.io.IOException;
  */
 public class IOUtils {
 
+    private IOUtils() {
+    }
 
 
     /**
@@ -25,6 +27,17 @@ public class IOUtils {
         while (f != null && !f.exists() && f.isDirectory()) {
             f = f.getParentFile();
         }
-        return f != null &&  f.canWrite();
+        return f != null && f.canWrite();
+    }
+
+
+    public static String combinePath(String part0, String... parts) {
+        final StringBuilder builder = new StringBuilder();
+        builder.append(part0);
+        for (String part : parts) {
+            builder.append(File.separatorChar);
+            builder.append(part);
+        }
+        return builder.toString();
     }
 }

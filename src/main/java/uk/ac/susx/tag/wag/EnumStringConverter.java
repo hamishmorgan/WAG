@@ -44,7 +44,7 @@ public abstract class EnumStringConverter<T extends Enum<T>>
     }
 
 
-    public static  final class TimeUnitConverter extends EnumStringConverter {
+    public static final class TimeUnitConverter extends EnumStringConverter<TimeUnit> {
         public TimeUnitConverter() {
             super(TimeUnit.class);
         }

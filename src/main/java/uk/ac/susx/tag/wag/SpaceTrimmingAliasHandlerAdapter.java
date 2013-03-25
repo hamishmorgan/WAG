@@ -31,7 +31,8 @@
 package uk.ac.susx.tag.wag;
 
 import com.google.common.base.CharMatcher;
-import static com.google.common.base.Preconditions.*;
+
+import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * An <tt>AliasHandler</tt> which cleans and simplifies the given alias by replacing all white-space tokens and
@@ -52,11 +53,11 @@ public class SpaceTrimmingAliasHandlerAdapter extends ForwardingAliasHandler {
         checkNotNull(alias, "alias");
 
         final String sourceStripped = strip(alias.getSource());
-        if(sourceStripped.isEmpty())
+        if (sourceStripped.isEmpty())
             return;
 
         final String targetStripped = strip(alias.getSource());
-        if(targetStripped.isEmpty())
+        if (targetStripped.isEmpty())
             return;
 
         super.handle(new Alias(
@@ -66,7 +67,7 @@ public class SpaceTrimmingAliasHandlerAdapter extends ForwardingAliasHandler {
                 targetStripped));
     }
 
-    private static String strip(String str) {
+    private static String strip(CharSequence str) {
         return CharMatcher.WHITESPACE.trimAndCollapseFrom(str, ' ').trim();
     }
 }
